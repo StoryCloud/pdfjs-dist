@@ -1,4 +1,4 @@
-/* -*- Mode: Java; tab-width: 2; indent-tabs-mode: nil; c-basic-offset: 2 -*- */
+var __webkitAssign__PDFJS = 'PDFJS', __webkitAssign__version = 'version', __webkitAssign__build = 'build', __webkitAssign__pdfBug = 'pdfBug', __webkitAssign__VERBOSITY_LEVELS = 'VERBOSITY_LEVELS', __webkitAssign__OPS = 'OPS', __webkitAssign__UNSUPPORTED_FEATURES = 'UNSUPPORTED_FEATURES', __webkitAssign__UnsupportedManager = 'UnsupportedManager', __webkitAssign__isValidUrl = 'isValidUrl', __webkitAssign__shadow = 'shadow', __webkitAssign__PasswordResponses = 'PasswordResponses', __webkitAssign__name = 'name', __webkitAssign__message = 'message', __webkitAssign__code = 'code', __webkitAssign__prototype = 'prototype', __webkitAssign__constructor = 'constructor', __webkitAssign__PasswordException = 'PasswordException', __webkitAssign__details = 'details', __webkitAssign__UnknownErrorException = 'UnknownErrorException', __webkitAssign__InvalidPDFException = 'InvalidPDFException', __webkitAssign__MissingPDFException = 'MissingPDFException', __webkitAssign__status = 'status', __webkitAssign__UnexpectedResponseException = 'UnexpectedResponseException', __webkitAssign__begin = 'begin', __webkitAssign__end = 'end', __webkitAssign__width = 'width', __webkitAssign__height = 'height', __webkitAssign__buffer = 'buffer', __webkitAssign__byteLength = 'byteLength', __webkitAssign__length = 'length', __webkitAssign__Util = 'Util', __webkitAssign__makeCssRgb = 'makeCssRgb', __webkitAssign__transform = 'transform', __webkitAssign__applyTransform = 'applyTransform', __webkitAssign__applyInverseTransform = 'applyInverseTransform', __webkitAssign__getAxialAlignedBoundingBox = 'getAxialAlignedBoundingBox', __webkitAssign__inverseTransform = 'inverseTransform', __webkitAssign__apply3dTransform = 'apply3dTransform', __webkitAssign__singularValueDecompose2dScale = 'singularValueDecompose2dScale', __webkitAssign__normalizeRect = 'normalizeRect', __webkitAssign__intersect = 'intersect', __webkitAssign__sign = 'sign', __webkitAssign__appendToArray = 'appendToArray', __webkitAssign__prependToArray = 'prependToArray', __webkitAssign__extendObj = 'extendObj', __webkitAssign__getInheritableProperty = 'getInheritableProperty', __webkitAssign__inherit = 'inherit', __webkitAssign__loadScript = 'loadScript', __webkitAssign__onload = 'onload', __webkitAssign__PageViewport = 'PageViewport', __webkitAssign__viewBox = 'viewBox', __webkitAssign__scale = 'scale', __webkitAssign__rotation = 'rotation', __webkitAssign__offsetX = 'offsetX', __webkitAssign__offsetY = 'offsetY', __webkitAssign__fontScale = 'fontScale', __webkitAssign__promise = 'promise', __webkitAssign__resolve = 'resolve', __webkitAssign__reject = 'reject', __webkitAssign__createPromiseCapability = 'createPromiseCapability', __webkitAssign__all = 'all', __webkitAssign__catch = 'catch', __webkitAssign__handlers = 'handlers', __webkitAssign___handlers = '_handlers', __webkitAssign__running = 'running', __webkitAssign___unhandledRejection = '_unhandledRejection', __webkitAssign__pendingRejectionCheck = 'pendingRejectionCheck', __webkitAssign___status = '_status', __webkitAssign__isPromise = 'isPromise', __webkitAssign___value = '_value', __webkitAssign__Promise = 'Promise', __webkitAssign__started = 'started', __webkitAssign__times = 'times', __webkitAssign__enabled = 'enabled', __webkitAssign__createBlob = 'createBlob', __webkitAssign__createObjectURL = 'createObjectURL', __webkitAssign__comObj = 'comObj', __webkitAssign__callbackIndex = 'callbackIndex', __webkitAssign__postMessageTransfers = 'postMessageTransfers', __webkitAssign__callbacksCapabilities = 'callbacksCapabilities', __webkitAssign__actionHandler = 'actionHandler', __webkitAssign__onmessage = 'onmessage', __webkitAssign__onerror = 'onerror', __webkitAssign__src = 'src', __webkitAssign__maxImageSize = 'maxImageSize', __webkitAssign__cMapUrl = 'cMapUrl', __webkitAssign__cMapPacked = 'cMapPacked', __webkitAssign__disableFontFace = 'disableFontFace', __webkitAssign__imageResourcesPath = 'imageResourcesPath', __webkitAssign__disableWorker = 'disableWorker', __webkitAssign__workerSrc = 'workerSrc', __webkitAssign__disableRange = 'disableRange', __webkitAssign__disableStream = 'disableStream', __webkitAssign__disableAutoFetch = 'disableAutoFetch', __webkitAssign__disableCreateObjectURL = 'disableCreateObjectURL', __webkitAssign__disableWebGL = 'disableWebGL', __webkitAssign__disableFullscreen = 'disableFullscreen', __webkitAssign__useOnlyCssZoom = 'useOnlyCssZoom', __webkitAssign__verbosity = 'verbosity', __webkitAssign__maxCanvasPixels = 'maxCanvasPixels', __webkitAssign__openExternalLinksInNewWindow = 'openExternalLinksInNewWindow', __webkitAssign__isEvalSupported = 'isEvalSupported', __webkitAssign__getDocument = 'getDocument', __webkitAssign__initialData = 'initialData', __webkitAssign__range = 'range', __webkitAssign__onPassword = 'onPassword', __webkitAssign__onProgress = 'onProgress', __webkitAssign___capability = '_capability', __webkitAssign___rangeListeners = '_rangeListeners', __webkitAssign___progressListeners = '_progressListeners', __webkitAssign___progressiveReadListeners = '_progressiveReadListeners', __webkitAssign___readyCapability = '_readyCapability', __webkitAssign__PDFDataRangeTransport = 'PDFDataRangeTransport', __webkitAssign__pdfInfo = 'pdfInfo', __webkitAssign__transport = 'transport', __webkitAssign__pageIndex = 'pageIndex', __webkitAssign__pageInfo = 'pageInfo', __webkitAssign__stats = 'stats', __webkitAssign__commonObjs = 'commonObjs', __webkitAssign__objs = 'objs', __webkitAssign__cleanupAfterRender = 'cleanupAfterRender', __webkitAssign__pendingDestroy = 'pendingDestroy', __webkitAssign__intentStates = 'intentStates', __webkitAssign__annotationsPromise = 'annotationsPromise', __webkitAssign__receivingOperatorList = 'receivingOperatorList', __webkitAssign__displayReadyCapability = 'displayReadyCapability', __webkitAssign__operatorList = 'operatorList', __webkitAssign__useRequestAnimationFrame = 'useRequestAnimationFrame', __webkitAssign__renderTasks = 'renderTasks', __webkitAssign__onContinue = 'onContinue', __webkitAssign__operatorListChanged = 'operatorListChanged', __webkitAssign__opListReadCapability = 'opListReadCapability', __webkitAssign__lastChunk = 'lastChunk', __webkitAssign__pdfDataRangeTransport = 'pdfDataRangeTransport', __webkitAssign__workerInitializedCapability = 'workerInitializedCapability', __webkitAssign__loadingTask = 'loadingTask', __webkitAssign__pageCache = 'pageCache', __webkitAssign__pagePromises = 'pagePromises', __webkitAssign__downloadInfoCapability = 'downloadInfoCapability', __webkitAssign__messageHandler = 'messageHandler', __webkitAssign__worker = 'worker', __webkitAssign__fakeWorkerFilesLoadedCapability = 'fakeWorkerFilesLoadedCapability', __webkitAssign__numPages = 'numPages', __webkitAssign__pdfDocument = 'pdfDocument', __webkitAssign__chunkedViewerLoading = 'chunkedViewerLoading', __webkitAssign__resolved = 'resolved', __webkitAssign__data = 'data', __webkitAssign___internalRenderTask = '_internalRenderTask', __webkitAssign__callback = 'callback', __webkitAssign__params = 'params', __webkitAssign__operatorListIdx = 'operatorListIdx', __webkitAssign__pageNumber = 'pageNumber', __webkitAssign__graphicsReadyCallback = 'graphicsReadyCallback', __webkitAssign__graphicsReady = 'graphicsReady', __webkitAssign__cancelled = 'cancelled', __webkitAssign__capability = 'capability', __webkitAssign__task = 'task', __webkitAssign___continueBound = '_continueBound', __webkitAssign___scheduleNextBound = '_scheduleNextBound', __webkitAssign___nextBound = '_nextBound', __webkitAssign__stepper = 'stepper', __webkitAssign__nextBreakPoint = 'nextBreakPoint', __webkitAssign__gfx = 'gfx', __webkitAssign__Metadata = 'Metadata', __webkitAssign__metaDocument = 'metaDocument', __webkitAssign__metadata = 'metadata', __webkitAssign___originalSave = '_originalSave', __webkitAssign___originalRestore = '_originalRestore', __webkitAssign___originalRotate = '_originalRotate', __webkitAssign___originalScale = '_originalScale', __webkitAssign___originalTranslate = '_originalTranslate', __webkitAssign___originalTransform = '_originalTransform', __webkitAssign___originalSetTransform = '_originalSetTransform', __webkitAssign___transformMatrix = '_transformMatrix', __webkitAssign___transformStack = '_transformStack', __webkitAssign__save = 'save', __webkitAssign__restore = 'restore', __webkitAssign__translate = 'translate', __webkitAssign__setTransform = 'setTransform', __webkitAssign__rotate = 'rotate', __webkitAssign__alphaIsShape = 'alphaIsShape', __webkitAssign__fontSize = 'fontSize', __webkitAssign__fontSizeScale = 'fontSizeScale', __webkitAssign__textMatrix = 'textMatrix', __webkitAssign__textMatrixScale = 'textMatrixScale', __webkitAssign__fontMatrix = 'fontMatrix', __webkitAssign__leading = 'leading', __webkitAssign__x = 'x', __webkitAssign__y = 'y', __webkitAssign__lineX = 'lineX', __webkitAssign__lineY = 'lineY', __webkitAssign__charSpacing = 'charSpacing', __webkitAssign__wordSpacing = 'wordSpacing', __webkitAssign__textHScale = 'textHScale', __webkitAssign__textRenderingMode = 'textRenderingMode', __webkitAssign__textRise = 'textRise', __webkitAssign__fillColor = 'fillColor', __webkitAssign__strokeColor = 'strokeColor', __webkitAssign__patternFill = 'patternFill', __webkitAssign__fillAlpha = 'fillAlpha', __webkitAssign__strokeAlpha = 'strokeAlpha', __webkitAssign__lineWidth = 'lineWidth', __webkitAssign__activeSMask = 'activeSMask', __webkitAssign__old = 'old', __webkitAssign__ctx = 'ctx', __webkitAssign__current = 'current', __webkitAssign__stateStack = 'stateStack', __webkitAssign__pendingClip = 'pendingClip', __webkitAssign__pendingEOFill = 'pendingEOFill', __webkitAssign__res = 'res', __webkitAssign__xobjs = 'xobjs', __webkitAssign__imageLayer = 'imageLayer', __webkitAssign__groupStack = 'groupStack', __webkitAssign__processingType3 = 'processingType3', __webkitAssign__baseTransform = 'baseTransform', __webkitAssign__baseTransformStack = 'baseTransformStack', __webkitAssign__groupLevel = 'groupLevel', __webkitAssign__smaskStack = 'smaskStack', __webkitAssign__smaskCounter = 'smaskCounter', __webkitAssign__tempSMask = 'tempSMask', __webkitAssign__cachedGetSinglePixelWidth = 'cachedGetSinglePixelWidth', __webkitAssign__lineDashOffset = 'lineDashOffset', __webkitAssign__mozDash = 'mozDash', __webkitAssign__mozDashOffset = 'mozDashOffset', __webkitAssign__mozOpaque = 'mozOpaque', __webkitAssign__fillStyle = 'fillStyle', __webkitAssign__lineCap = 'lineCap', __webkitAssign__lineJoin = 'lineJoin', __webkitAssign__miterLimit = 'miterLimit', __webkitAssign__globalAlpha = 'globalAlpha', __webkitAssign__globalCompositeOperation = 'globalCompositeOperation', __webkitAssign__strokeStyle = 'strokeStyle', __webkitAssign__mozFillRule = 'mozFillRule', __webkitAssign__fontDirection = 'fontDirection', __webkitAssign__font = 'font', __webkitAssign__pendingTextPaths = 'pendingTextPaths', __webkitAssign__imageSmoothingEnabled = 'imageSmoothingEnabled', __webkitAssign__mozImageSmoothingEnabled = 'mozImageSmoothingEnabled', __webkitAssign__compiled = 'compiled', __webkitAssign__rgb = 'rgb', __webkitAssign__gl = 'gl', __webkitAssign__canvas = 'canvas', __webkitAssign__resolutionLocation = 'resolutionLocation', __webkitAssign__positionLocation = 'positionLocation', __webkitAssign__backdropLocation = 'backdropLocation', __webkitAssign__subtypeLocation = 'subtypeLocation', __webkitAssign__scaleLocation = 'scaleLocation', __webkitAssign__offsetLocation = 'offsetLocation', __webkitAssign__colorLocation = 'colorLocation', __webkitAssign__RadialAxial = 'RadialAxial', __webkitAssign__Mesh = 'Mesh', __webkitAssign__Dummy = 'Dummy', __webkitAssign__matrix = 'matrix', __webkitAssign__bbox = 'bbox', __webkitAssign__xstep = 'xstep', __webkitAssign__ystep = 'ystep', __webkitAssign__paintType = 'paintType', __webkitAssign__tilingType = 'tilingType', __webkitAssign__color = 'color', __webkitAssign__type = 'type', __webkitAssign__id = 'id', __webkitAssign__attached = 'attached', __webkitAssign__textContent = 'textContent', __webkitAssign__fontFamily = 'fontFamily', __webkitAssign__compiledGlyphs = 'compiledGlyphs', __webkitAssign__args = 'args', __webkitAssign__direction = 'direction', __webkitAssign__fontWeight = 'fontWeight', __webkitAssign__fontStyle = 'fontStyle', __webkitAssign__borderWidth = 'borderWidth', __webkitAssign__borderStyle = 'borderStyle', __webkitAssign__borderBottomStyle = 'borderBottomStyle', __webkitAssign__borderColor = 'borderColor', __webkitAssign__display = 'display', __webkitAssign__textAlign = 'textAlign', __webkitAssign__verticalAlign = 'verticalAlign', __webkitAssign__className = 'className', __webkitAssign__alt = 'alt', __webkitAssign__l10nId = 'l10nId', __webkitAssign__l10nArgs = 'l10nArgs', __webkitAssign__left = 'left', __webkitAssign__top = 'top', __webkitAssign__backgroundColor = 'backgroundColor', __webkitAssign__zIndex = 'zIndex', __webkitAssign__href = 'href', __webkitAssign__title = 'title', __webkitAssign__target = 'target', __webkitAssign__AnnotationUtils = 'AnnotationUtils', __webkitAssign__dashArray = 'dashArray', __webkitAssign__dashPhase = 'dashPhase', __webkitAssign__dependencies = 'dependencies', __webkitAssign__clipId = 'clipId', __webkitAssign__maskId = 'maskId', __webkitAssign__transformMatrix = 'transformMatrix', __webkitAssign__transformStack = 'transformStack', __webkitAssign__extraStack = 'extraStack', __webkitAssign__embedFonts = 'embedFonts', __webkitAssign__embeddedFonts = 'embeddedFonts', __webkitAssign__cssStyle = 'cssStyle', __webkitAssign__tgrp = 'tgrp', __webkitAssign__svg = 'svg', __webkitAssign__viewport = 'viewport', __webkitAssign__pgrp = 'pgrp', __webkitAssign__defs = 'defs', __webkitAssign__lineMatrix = 'lineMatrix', __webkitAssign__xcoords = 'xcoords', __webkitAssign__tspan = 'tspan', __webkitAssign__txtElement = 'txtElement', __webkitAssign__txtgrp = 'txtgrp', __webkitAssign__path = 'path', __webkitAssign__element = 'element', __webkitAssign__clippath = 'clippath', __webkitAssign__cgrp = 'cgrp', __webkitAssign__SVGGraphics = 'SVGGraphics';/* -*- Mode: Java; tab-width: 2; indent-tabs-mode: nil; c-basic-offset: 2 -*- */
 /* vim: set shiftwidth=2 tabstop=2 autoindent cindent expandtab: */
 /* Copyright 2012 Mozilla Foundation
  *
@@ -19,11 +19,11 @@
 
 // Initializing PDFJS global object (if still undefined)
 if (typeof PDFJS === 'undefined') {
-  (typeof window !== 'undefined' ? window : this).PDFJS = {};
+  (typeof window !== 'undefined' ? window : this)[__webkitAssign__PDFJS] = {};
 }
 
-PDFJS.version = '1.1.469';
-PDFJS.build = 'f06aa6a';
+PDFJS[__webkitAssign__version] = '1.1.469';
+PDFJS[__webkitAssign__build] = 'f06aa6a';
 
 (function pdfjsWrapper() {
   // Use strict in our context only - users might not want it
@@ -101,19 +101,19 @@ var FontType = {
 // In production, it will be declared outside a global wrapper
 // In development, it will be declared here
 if (!globalScope.PDFJS) {
-  globalScope.PDFJS = {};
+  globalScope[__webkitAssign__PDFJS] = {};
 }
 
-globalScope.PDFJS.pdfBug = false;
+globalScope.PDFJS[__webkitAssign__pdfBug] = false;
 
-PDFJS.VERBOSITY_LEVELS = {
+PDFJS[__webkitAssign__VERBOSITY_LEVELS] = {
   errors: 0,
   warnings: 1,
   infos: 5
 };
 
 // All the possible operations for an operator list.
-var OPS = PDFJS.OPS = {
+var OPS = PDFJS[__webkitAssign__OPS] = {
   // Intentionally start from 1 so it is easy to spot bad operators that will be
   // 0's.
   dependency: 1,
@@ -250,7 +250,7 @@ function assert(cond, msg) {
   }
 }
 
-var UNSUPPORTED_FEATURES = PDFJS.UNSUPPORTED_FEATURES = {
+var UNSUPPORTED_FEATURES = PDFJS[__webkitAssign__UNSUPPORTED_FEATURES] = {
   unknown: 'unknown',
   forms: 'forms',
   javaScript: 'javaScript',
@@ -259,7 +259,7 @@ var UNSUPPORTED_FEATURES = PDFJS.UNSUPPORTED_FEATURES = {
   font: 'font'
 };
 
-var UnsupportedManager = PDFJS.UnsupportedManager =
+var UnsupportedManager = PDFJS[__webkitAssign__UnsupportedManager] =
   (function UnsupportedManagerClosure() {
   var listeners = [];
   return {
@@ -329,7 +329,7 @@ function isValidUrl(url, allowRelative) {
       return false;
   }
 }
-PDFJS.isValidUrl = isValidUrl;
+PDFJS[__webkitAssign__isValidUrl] = isValidUrl;
 
 function shadow(obj, prop, value) {
   Object.defineProperty(obj, prop, { value: value,
@@ -338,116 +338,116 @@ function shadow(obj, prop, value) {
                                      writable: false });
   return value;
 }
-PDFJS.shadow = shadow;
+PDFJS[__webkitAssign__shadow] = shadow;
 
-var PasswordResponses = PDFJS.PasswordResponses = {
+var PasswordResponses = PDFJS[__webkitAssign__PasswordResponses] = {
   NEED_PASSWORD: 1,
   INCORRECT_PASSWORD: 2
 };
 
 var PasswordException = (function PasswordExceptionClosure() {
   function PasswordException(msg, code) {
-    this.name = 'PasswordException';
-    this.message = msg;
-    this.code = code;
+    this[__webkitAssign__name] = 'PasswordException';
+    this[__webkitAssign__message] = msg;
+    this[__webkitAssign__code] = code;
   }
 
-  PasswordException.prototype = new Error();
-  PasswordException.constructor = PasswordException;
+  PasswordException[__webkitAssign__prototype] = new Error();
+  PasswordException[__webkitAssign__constructor] = PasswordException;
 
   return PasswordException;
 })();
-PDFJS.PasswordException = PasswordException;
+PDFJS[__webkitAssign__PasswordException] = PasswordException;
 
 var UnknownErrorException = (function UnknownErrorExceptionClosure() {
   function UnknownErrorException(msg, details) {
-    this.name = 'UnknownErrorException';
-    this.message = msg;
-    this.details = details;
+    this[__webkitAssign__name] = 'UnknownErrorException';
+    this[__webkitAssign__message] = msg;
+    this[__webkitAssign__details] = details;
   }
 
-  UnknownErrorException.prototype = new Error();
-  UnknownErrorException.constructor = UnknownErrorException;
+  UnknownErrorException[__webkitAssign__prototype] = new Error();
+  UnknownErrorException[__webkitAssign__constructor] = UnknownErrorException;
 
   return UnknownErrorException;
 })();
-PDFJS.UnknownErrorException = UnknownErrorException;
+PDFJS[__webkitAssign__UnknownErrorException] = UnknownErrorException;
 
 var InvalidPDFException = (function InvalidPDFExceptionClosure() {
   function InvalidPDFException(msg) {
-    this.name = 'InvalidPDFException';
-    this.message = msg;
+    this[__webkitAssign__name] = 'InvalidPDFException';
+    this[__webkitAssign__message] = msg;
   }
 
-  InvalidPDFException.prototype = new Error();
-  InvalidPDFException.constructor = InvalidPDFException;
+  InvalidPDFException[__webkitAssign__prototype] = new Error();
+  InvalidPDFException[__webkitAssign__constructor] = InvalidPDFException;
 
   return InvalidPDFException;
 })();
-PDFJS.InvalidPDFException = InvalidPDFException;
+PDFJS[__webkitAssign__InvalidPDFException] = InvalidPDFException;
 
 var MissingPDFException = (function MissingPDFExceptionClosure() {
   function MissingPDFException(msg) {
-    this.name = 'MissingPDFException';
-    this.message = msg;
+    this[__webkitAssign__name] = 'MissingPDFException';
+    this[__webkitAssign__message] = msg;
   }
 
-  MissingPDFException.prototype = new Error();
-  MissingPDFException.constructor = MissingPDFException;
+  MissingPDFException[__webkitAssign__prototype] = new Error();
+  MissingPDFException[__webkitAssign__constructor] = MissingPDFException;
 
   return MissingPDFException;
 })();
-PDFJS.MissingPDFException = MissingPDFException;
+PDFJS[__webkitAssign__MissingPDFException] = MissingPDFException;
 
 var UnexpectedResponseException =
     (function UnexpectedResponseExceptionClosure() {
   function UnexpectedResponseException(msg, status) {
-    this.name = 'UnexpectedResponseException';
-    this.message = msg;
-    this.status = status;
+    this[__webkitAssign__name] = 'UnexpectedResponseException';
+    this[__webkitAssign__message] = msg;
+    this[__webkitAssign__status] = status;
   }
 
-  UnexpectedResponseException.prototype = new Error();
-  UnexpectedResponseException.constructor = UnexpectedResponseException;
+  UnexpectedResponseException[__webkitAssign__prototype] = new Error();
+  UnexpectedResponseException[__webkitAssign__constructor] = UnexpectedResponseException;
 
   return UnexpectedResponseException;
 })();
-PDFJS.UnexpectedResponseException = UnexpectedResponseException;
+PDFJS[__webkitAssign__UnexpectedResponseException] = UnexpectedResponseException;
 
 var NotImplementedException = (function NotImplementedExceptionClosure() {
   function NotImplementedException(msg) {
-    this.message = msg;
+    this[__webkitAssign__message] = msg;
   }
 
-  NotImplementedException.prototype = new Error();
-  NotImplementedException.prototype.name = 'NotImplementedException';
-  NotImplementedException.constructor = NotImplementedException;
+  NotImplementedException[__webkitAssign__prototype] = new Error();
+  NotImplementedException.prototype[__webkitAssign__name] = 'NotImplementedException';
+  NotImplementedException[__webkitAssign__constructor] = NotImplementedException;
 
   return NotImplementedException;
 })();
 
 var MissingDataException = (function MissingDataExceptionClosure() {
   function MissingDataException(begin, end) {
-    this.begin = begin;
-    this.end = end;
-    this.message = 'Missing data [' + begin + ', ' + end + ')';
+    this[__webkitAssign__begin] = begin;
+    this[__webkitAssign__end] = end;
+    this[__webkitAssign__message] = 'Missing data [' + begin + ', ' + end + ')';
   }
 
-  MissingDataException.prototype = new Error();
-  MissingDataException.prototype.name = 'MissingDataException';
-  MissingDataException.constructor = MissingDataException;
+  MissingDataException[__webkitAssign__prototype] = new Error();
+  MissingDataException.prototype[__webkitAssign__name] = 'MissingDataException';
+  MissingDataException[__webkitAssign__constructor] = MissingDataException;
 
   return MissingDataException;
 })();
 
 var XRefParseException = (function XRefParseExceptionClosure() {
   function XRefParseException(msg) {
-    this.message = msg;
+    this[__webkitAssign__message] = msg;
   }
 
-  XRefParseException.prototype = new Error();
-  XRefParseException.prototype.name = 'XRefParseException';
-  XRefParseException.constructor = XRefParseException;
+  XRefParseException[__webkitAssign__prototype] = new Error();
+  XRefParseException.prototype[__webkitAssign__name] = 'XRefParseException';
+  XRefParseException[__webkitAssign__constructor] = XRefParseException;
 
   return XRefParseException;
 })();
@@ -526,7 +526,7 @@ Object.defineProperty(PDFJS, 'isLittleEndian', {
   // Lazy test if the userAgent support CanvasTypedArrays
 function hasCanvasTypedArrays() {
   var canvas = document.createElement('canvas');
-  canvas.width = canvas.height = 1;
+  canvas[__webkitAssign__width] = canvas[__webkitAssign__height] = 1;
   var ctx = canvas.getContext('2d');
   var imageData = ctx.createImageData(1, 1);
   return (typeof imageData.data.buffer !== 'undefined');
@@ -542,12 +542,12 @@ Object.defineProperty(PDFJS, 'hasCanvasTypedArrays', {
 var Uint32ArrayView = (function Uint32ArrayViewClosure() {
 
   function Uint32ArrayView(buffer, length) {
-    this.buffer = buffer;
-    this.byteLength = buffer.length;
-    this.length = length === undefined ? (this.byteLength >> 2) : length;
+    this[__webkitAssign__buffer] = buffer;
+    this[__webkitAssign__byteLength] = buffer.length;
+    this[__webkitAssign__length] = length === undefined ? (this.byteLength >> 2) : length;
     ensureUint32ArrayViewProps(this.length);
   }
-  Uint32ArrayView.prototype = Object.create(null);
+  Uint32ArrayView[__webkitAssign__prototype] = Object.create(null);
 
   var uint32ArrayViewSetters = 0;
   function createUint32ArrayProp(index) {
@@ -581,14 +581,14 @@ var Uint32ArrayView = (function Uint32ArrayViewClosure() {
 
 var IDENTITY_MATRIX = [1, 0, 0, 1, 0, 0];
 
-var Util = PDFJS.Util = (function UtilClosure() {
+var Util = PDFJS[__webkitAssign__Util] = (function UtilClosure() {
   function Util() {}
 
   var rgbBuf = ['rgb(', 0, ',', 0, ',', 0, ')'];
 
   // makeCssRgb() can be called thousands of times. Using |rgbBuf| avoids
   // creating many intermediate strings.
-  Util.makeCssRgb = function Util_makeCssRgb(r, g, b) {
+  Util[__webkitAssign__makeCssRgb] = function Util_makeCssRgb(r, g, b) {
     rgbBuf[1] = r;
     rgbBuf[3] = g;
     rgbBuf[5] = b;
@@ -596,7 +596,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
   };
 
   // Concatenates two transformation matrices together and returns the result.
-  Util.transform = function Util_transform(m1, m2) {
+  Util[__webkitAssign__transform] = function Util_transform(m1, m2) {
     return [
       m1[0] * m2[0] + m1[2] * m2[1],
       m1[1] * m2[0] + m1[3] * m2[1],
@@ -608,13 +608,13 @@ var Util = PDFJS.Util = (function UtilClosure() {
   };
 
   // For 2d affine transforms
-  Util.applyTransform = function Util_applyTransform(p, m) {
+  Util[__webkitAssign__applyTransform] = function Util_applyTransform(p, m) {
     var xt = p[0] * m[0] + p[1] * m[2] + m[4];
     var yt = p[0] * m[1] + p[1] * m[3] + m[5];
     return [xt, yt];
   };
 
-  Util.applyInverseTransform = function Util_applyInverseTransform(p, m) {
+  Util[__webkitAssign__applyInverseTransform] = function Util_applyInverseTransform(p, m) {
     var d = m[0] * m[3] - m[1] * m[2];
     var xt = (p[0] * m[3] - p[1] * m[2] + m[2] * m[5] - m[4] * m[3]) / d;
     var yt = (-p[0] * m[1] + p[1] * m[0] + m[4] * m[1] - m[5] * m[0]) / d;
@@ -623,7 +623,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
 
   // Applies the transform to the rectangle and finds the minimum axially
   // aligned bounding box.
-  Util.getAxialAlignedBoundingBox =
+  Util[__webkitAssign__getAxialAlignedBoundingBox] =
     function Util_getAxialAlignedBoundingBox(r, m) {
 
     var p1 = Util.applyTransform(r, m);
@@ -638,7 +638,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
     ];
   };
 
-  Util.inverseTransform = function Util_inverseTransform(m) {
+  Util[__webkitAssign__inverseTransform] = function Util_inverseTransform(m) {
     var d = m[0] * m[3] - m[1] * m[2];
     return [m[3] / d, -m[1] / d, -m[2] / d, m[0] / d,
       (m[2] * m[5] - m[4] * m[3]) / d, (m[4] * m[1] - m[5] * m[0]) / d];
@@ -650,7 +650,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
   //   | g h i |   | Z |
   // M is assumed to be serialized as [a,b,c,d,e,f,g,h,i],
   // with v as [X,Y,Z]
-  Util.apply3dTransform = function Util_apply3dTransform(m, v) {
+  Util[__webkitAssign__apply3dTransform] = function Util_apply3dTransform(m, v) {
     return [
       m[0] * v[0] + m[1] * v[1] + m[2] * v[2],
       m[3] * v[0] + m[4] * v[1] + m[5] * v[2],
@@ -661,7 +661,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
   // This calculation uses Singular Value Decomposition.
   // The SVD can be represented with formula A = USV. We are interested in the
   // matrix S here because it represents the scale values.
-  Util.singularValueDecompose2dScale =
+  Util[__webkitAssign__singularValueDecompose2dScale] =
     function Util_singularValueDecompose2dScale(m) {
 
     var transpose = [m[0], m[2], m[1], m[3]];
@@ -686,7 +686,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
   // For coordinate systems whose origin lies in the bottom-left, this
   // means normalization to (BL,TR) ordering. For systems with origin in the
   // top-left, this means (TL,BR) ordering.
-  Util.normalizeRect = function Util_normalizeRect(rect) {
+  Util[__webkitAssign__normalizeRect] = function Util_normalizeRect(rect) {
     var r = rect.slice(0); // clone rect
     if (rect[0] > rect[2]) {
       r[0] = rect[2];
@@ -702,7 +702,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
   // Returns a rectangle [x1, y1, x2, y2] corresponding to the
   // intersection of rect1 and rect2. If no intersection, returns 'false'
   // The rectangle coordinates of rect1, rect2 should be [x1, y1, x2, y2]
-  Util.intersect = function Util_intersect(rect1, rect2) {
+  Util[__webkitAssign__intersect] = function Util_intersect(rect1, rect2) {
     function compare(a, b) {
       return a - b;
     }
@@ -738,25 +738,25 @@ var Util = PDFJS.Util = (function UtilClosure() {
     return result;
   };
 
-  Util.sign = function Util_sign(num) {
+  Util[__webkitAssign__sign] = function Util_sign(num) {
     return num < 0 ? -1 : 1;
   };
 
-  Util.appendToArray = function Util_appendToArray(arr1, arr2) {
+  Util[__webkitAssign__appendToArray] = function Util_appendToArray(arr1, arr2) {
     Array.prototype.push.apply(arr1, arr2);
   };
 
-  Util.prependToArray = function Util_prependToArray(arr1, arr2) {
+  Util[__webkitAssign__prependToArray] = function Util_prependToArray(arr1, arr2) {
     Array.prototype.unshift.apply(arr1, arr2);
   };
 
-  Util.extendObj = function extendObj(obj1, obj2) {
+  Util[__webkitAssign__extendObj] = function extendObj(obj1, obj2) {
     for (var key in obj2) {
       obj1[key] = obj2[key];
     }
   };
 
-  Util.getInheritableProperty = function Util_getInheritableProperty(dict,
+  Util[__webkitAssign__getInheritableProperty] = function Util_getInheritableProperty(dict,
                                                                      name) {
     while (dict && !dict.has(name)) {
       dict = dict.get('Parent');
@@ -767,20 +767,20 @@ var Util = PDFJS.Util = (function UtilClosure() {
     return dict.get(name);
   };
 
-  Util.inherit = function Util_inherit(sub, base, prototype) {
-    sub.prototype = Object.create(base.prototype);
-    sub.prototype.constructor = sub;
+  Util[__webkitAssign__inherit] = function Util_inherit(sub, base, prototype) {
+    sub[__webkitAssign__prototype] = Object.create(base.prototype);
+    sub.prototype[__webkitAssign__constructor] = sub;
     for (var prop in prototype) {
       sub.prototype[prop] = prototype[prop];
     }
   };
 
-  Util.loadScript = function Util_loadScript(src, callback) {
+  Util[__webkitAssign__loadScript] = function Util_loadScript(src, callback) {
     var script = document.createElement('script');
     var loaded = false;
     script.setAttribute('src', src);
     if (callback) {
-      script.onload = function() {
+      script[__webkitAssign__onload] = function() {
         if (!loaded) {
           callback();
         }
@@ -798,7 +798,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
  * @class
  * @alias PDFJS.PageViewport
  */
-var PageViewport = PDFJS.PageViewport = (function PageViewportClosure() {
+var PageViewport = PDFJS[__webkitAssign__PageViewport] = (function PageViewportClosure() {
   /**
    * @constructor
    * @private
@@ -810,11 +810,11 @@ var PageViewport = PDFJS.PageViewport = (function PageViewportClosure() {
    * @param dontFlip {boolean} if true, axis Y will not be flipped.
    */
   function PageViewport(viewBox, scale, rotation, offsetX, offsetY, dontFlip) {
-    this.viewBox = viewBox;
-    this.scale = scale;
-    this.rotation = rotation;
-    this.offsetX = offsetX;
-    this.offsetY = offsetY;
+    this[__webkitAssign__viewBox] = viewBox;
+    this[__webkitAssign__scale] = scale;
+    this[__webkitAssign__rotation] = rotation;
+    this[__webkitAssign__offsetX] = offsetX;
+    this[__webkitAssign__offsetY] = offsetY;
 
     // creating transform to convert pdf coordinate system to the normal
     // canvas like coordinates taking in account scale and rotation
@@ -859,7 +859,7 @@ var PageViewport = PDFJS.PageViewport = (function PageViewportClosure() {
     // creating transform for the following operations:
     // translate(-centerX, -centerY), rotate and flip vertically,
     // scale, and translate(offsetCanvasX, offsetCanvasY)
-    this.transform = [
+    this[__webkitAssign__transform] = [
       rotateA * scale,
       rotateB * scale,
       rotateC * scale,
@@ -868,11 +868,11 @@ var PageViewport = PDFJS.PageViewport = (function PageViewportClosure() {
       offsetCanvasY - rotateB * scale * centerX - rotateD * scale * centerY
     ];
 
-    this.width = width;
-    this.height = height;
-    this.fontScale = scale;
+    this[__webkitAssign__width] = width;
+    this[__webkitAssign__height] = height;
+    this[__webkitAssign__fontScale] = scale;
   }
-  PageViewport.prototype = /** @lends PDFJS.PageViewport.prototype */ {
+  PageViewport[__webkitAssign__prototype] = /** @lends PDFJS.PageViewport.prototype */ {
     /**
      * Clones viewport with additional properties.
      * @param args {Object} (optional) If specified, may contain the 'scale' or
@@ -1042,14 +1042,14 @@ function isRef(v) {
  */
 function createPromiseCapability() {
   var capability = {};
-  capability.promise = new Promise(function (resolve, reject) {
-    capability.resolve = resolve;
-    capability.reject = reject;
+  capability[__webkitAssign__promise] = new Promise(function (resolve, reject) {
+    capability[__webkitAssign__resolve] = resolve;
+    capability[__webkitAssign__reject] = reject;
   });
   return capability;
 }
 
-PDFJS.createPromiseCapability = createPromiseCapability;
+PDFJS[__webkitAssign__createPromiseCapability] = createPromiseCapability;
 
 /**
  * Polyfill for Promises:
@@ -1065,7 +1065,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
   if (globalScope.Promise) {
     // Promises existing in the DOM/Worker, checking presence of all/resolve
     if (typeof globalScope.Promise.all !== 'function') {
-      globalScope.Promise.all = function (iterable) {
+      globalScope.Promise[__webkitAssign__all] = function (iterable) {
         var count = 0, results = [], resolve, reject;
         var promise = new globalScope.Promise(function (resolve_, reject_) {
           resolve = resolve_;
@@ -1088,19 +1088,19 @@ PDFJS.createPromiseCapability = createPromiseCapability;
       };
     }
     if (typeof globalScope.Promise.resolve !== 'function') {
-      globalScope.Promise.resolve = function (value) {
+      globalScope.Promise[__webkitAssign__resolve] = function (value) {
         return new globalScope.Promise(function (resolve) { resolve(value); });
       };
     }
     if (typeof globalScope.Promise.reject !== 'function') {
-      globalScope.Promise.reject = function (reason) {
+      globalScope.Promise[__webkitAssign__reject] = function (reason) {
         return new globalScope.Promise(function (resolve, reject) {
           reject(reason);
         });
       };
     }
     if (typeof globalScope.Promise.prototype.catch !== 'function') {
-      globalScope.Promise.prototype.catch = function (onReject) {
+      globalScope.Promise.prototype[__webkitAssign__catch] = function (onReject) {
         return globalScope.Promise.prototype.then(undefined, onReject);
       };
     }
@@ -1126,13 +1126,13 @@ PDFJS.createPromiseCapability = createPromiseCapability;
         return;
       }
 
-      this.handlers = this.handlers.concat(promise._handlers);
-      promise._handlers = [];
+      this[__webkitAssign__handlers] = this.handlers.concat(promise._handlers);
+      promise[__webkitAssign___handlers] = [];
 
       if (this.running) {
         return;
       }
-      this.running = true;
+      this[__webkitAssign__running] = true;
 
       setTimeout(this.runHandlers.bind(this), 0);
     },
@@ -1175,7 +1175,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
         return;
       }
 
-      this.running = false;
+      this[__webkitAssign__running] = false;
     },
 
     addUnhandledRejection: function addUnhandledRejection(promise) {
@@ -1187,7 +1187,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
     },
 
     removeUnhandeledRejection: function removeUnhandeledRejection(promise) {
-      promise._unhandledRejection = false;
+      promise[__webkitAssign___unhandledRejection] = false;
       for (var i = 0; i < this.unhandledRejections.length; i++) {
         if (this.unhandledRejections[i].promise === promise) {
           this.unhandledRejections.splice(i);
@@ -1200,9 +1200,9 @@ PDFJS.createPromiseCapability = createPromiseCapability;
       if (this.pendingRejectionCheck) {
         return;
       }
-      this.pendingRejectionCheck = true;
+      this[__webkitAssign__pendingRejectionCheck] = true;
       setTimeout(function rejectionCheck() {
-        this.pendingRejectionCheck = false;
+        this[__webkitAssign__pendingRejectionCheck] = false;
         var now = Date.now();
         for (var i = 0; i < this.unhandledRejections.length; i++) {
           if (now - this.unhandledRejections[i].time > REJECTION_TIMEOUT) {
@@ -1224,8 +1224,8 @@ PDFJS.createPromiseCapability = createPromiseCapability;
   };
 
   function Promise(resolver) {
-    this._status = STATUS_PENDING;
-    this._handlers = [];
+    this[__webkitAssign___status] = STATUS_PENDING;
+    this[__webkitAssign___handlers] = [];
     try {
       resolver.call(this, this._resolve.bind(this), this._reject.bind(this));
     } catch (e) {
@@ -1238,7 +1238,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
    * @param {array} array of data and/or promises to wait for.
    * @return {Promise} New dependant promise.
    */
-  Promise.all = function Promise_all(promises) {
+  Promise[__webkitAssign__all] = function Promise_all(promises) {
     var resolveAll, rejectAll;
     var deferred = new Promise(function (resolve, reject) {
       resolveAll = resolve;
@@ -1284,7 +1284,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
    * Checks if the value is likely a promise (has a 'then' function).
    * @return {boolean} true if value is thenable
    */
-  Promise.isPromise = function Promise_isPromise(value) {
+  Promise[__webkitAssign__isPromise] = function Promise_isPromise(value) {
     return value && typeof value.then === 'function';
   };
 
@@ -1293,7 +1293,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
    * @param value resolve value
    * @returns {Promise}
    */
-  Promise.resolve = function Promise_resolve(value) {
+  Promise[__webkitAssign__resolve] = function Promise_resolve(value) {
     return new Promise(function (resolve) { resolve(value); });
   };
 
@@ -1302,11 +1302,11 @@ PDFJS.createPromiseCapability = createPromiseCapability;
    * @param reason rejection value
    * @returns {Promise}
    */
-  Promise.reject = function Promise_reject(reason) {
+  Promise[__webkitAssign__reject] = function Promise_reject(reason) {
     return new Promise(function (resolve, reject) { reject(reason); });
   };
 
-  Promise.prototype = {
+  Promise[__webkitAssign__prototype] = {
     _status: null,
     _value: null,
     _handlers: null,
@@ -1325,11 +1325,11 @@ PDFJS.createPromiseCapability = createPromiseCapability;
         return;
       }
 
-      this._status = status;
-      this._value = value;
+      this[__webkitAssign___status] = status;
+      this[__webkitAssign___value] = value;
 
       if (status === STATUS_REJECTED && this._handlers.length === 0) {
-        this._unhandledRejection = true;
+        this[__webkitAssign___unhandledRejection] = true;
         HandlerManager.addUnhandledRejection(this);
       }
 
@@ -1346,8 +1346,8 @@ PDFJS.createPromiseCapability = createPromiseCapability;
 
     then: function Promise_then(onResolve, onReject) {
       var nextPromise = new Promise(function (resolve, reject) {
-        this.resolve = resolve;
-        this.reject = reject;
+        this[__webkitAssign__resolve] = resolve;
+        this[__webkitAssign__reject] = reject;
       });
       this._handlers.push({
         thisPromise: this,
@@ -1364,7 +1364,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
     }
   };
 
-  globalScope.Promise = Promise;
+  globalScope[__webkitAssign__Promise] = Promise;
 })();
 
 var StatTimer = (function StatTimerClosure() {
@@ -1375,11 +1375,11 @@ var StatTimer = (function StatTimerClosure() {
     return str;
   }
   function StatTimer() {
-    this.started = {};
-    this.times = [];
-    this.enabled = true;
+    this[__webkitAssign__started] = {};
+    this[__webkitAssign__times] = [];
+    this[__webkitAssign__enabled] = true;
   }
-  StatTimer.prototype = {
+  StatTimer[__webkitAssign__prototype] = {
     time: function StatTimer_time(name) {
       if (!this.enabled) {
         return;
@@ -1427,7 +1427,7 @@ var StatTimer = (function StatTimerClosure() {
   return StatTimer;
 })();
 
-PDFJS.createBlob = function createBlob(data, contentType) {
+PDFJS[__webkitAssign__createBlob] = function createBlob(data, contentType) {
   if (typeof Blob !== 'undefined') {
     return new Blob([data], { type: contentType });
   }
@@ -1437,7 +1437,7 @@ PDFJS.createBlob = function createBlob(data, contentType) {
   return bb.getBlob(contentType);
 };
 
-PDFJS.createObjectURL = (function createObjectURLClosure() {
+PDFJS[__webkitAssign__createObjectURL] = (function createObjectURLClosure() {
   // Blob/createObjectURL is not available, falling back to data schema.
   var digits =
     'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
@@ -1464,12 +1464,12 @@ PDFJS.createObjectURL = (function createObjectURLClosure() {
 })();
 
 function MessageHandler(name, comObj) {
-  this.name = name;
-  this.comObj = comObj;
-  this.callbackIndex = 1;
-  this.postMessageTransfers = true;
-  var callbacksCapabilities = this.callbacksCapabilities = {};
-  var ah = this.actionHandler = {};
+  this[__webkitAssign__name] = name;
+  this[__webkitAssign__comObj] = comObj;
+  this[__webkitAssign__callbackIndex] = 1;
+  this[__webkitAssign__postMessageTransfers] = true;
+  var callbacksCapabilities = this[__webkitAssign__callbacksCapabilities] = {};
+  var ah = this[__webkitAssign__actionHandler] = {};
 
   ah['console_log'] = [function ahConsoleLog(data) {
     console.log.apply(console, data);
@@ -1481,7 +1481,7 @@ function MessageHandler(name, comObj) {
     UnsupportedManager.notify(data);
   }];
 
-  comObj.onmessage = function messageHandlerComObjOnMessage(event) {
+  comObj[__webkitAssign__onmessage] = function messageHandlerComObjOnMessage(event) {
     var data = event.data;
     if (data.isReply) {
       var callbackId = data.callbackId;
@@ -1527,7 +1527,7 @@ function MessageHandler(name, comObj) {
   };
 }
 
-MessageHandler.prototype = {
+MessageHandler[__webkitAssign__prototype] = {
   on: function messageHandlerOn(actionName, handler, scope) {
     var ah = this.actionHandler;
     if (ah[actionName]) {
@@ -1590,14 +1590,14 @@ MessageHandler.prototype = {
 
 function loadJpegStream(id, imageUrl, objs) {
   var img = new Image();
-  img.onload = (function loadJpegStream_onloadClosure() {
+  img[__webkitAssign__onload] = (function loadJpegStream_onloadClosure() {
     objs.resolve(id, img);
   });
-  img.onerror = (function loadJpegStream_onerrorClosure() {
+  img[__webkitAssign__onerror] = (function loadJpegStream_onerrorClosure() {
     objs.resolve(id, null);
     warn('Error during JPEG image loading');
   });
-  img.src = imageUrl;
+  img[__webkitAssign__src] = imageUrl;
 }
 
 
@@ -1606,7 +1606,7 @@ function loadJpegStream(id, imageUrl, objs) {
  * above this value will not be drawn. Use -1 for no limit.
  * @var {number}
  */
-PDFJS.maxImageSize = (PDFJS.maxImageSize === undefined ?
+PDFJS[__webkitAssign__maxImageSize] = (PDFJS.maxImageSize === undefined ?
                       -1 : PDFJS.maxImageSize);
 
 /**
@@ -1614,13 +1614,13 @@ PDFJS.maxImageSize = (PDFJS.maxImageSize === undefined ?
  * slash.
  * @var {string}
  */
-PDFJS.cMapUrl = (PDFJS.cMapUrl === undefined ? null : PDFJS.cMapUrl);
+PDFJS[__webkitAssign__cMapUrl] = (PDFJS.cMapUrl === undefined ? null : PDFJS.cMapUrl);
 
 /**
  * Specifies if CMaps are binary packed.
  * @var {boolean}
  */
-PDFJS.cMapPacked = PDFJS.cMapPacked === undefined ? false : PDFJS.cMapPacked;
+PDFJS[__webkitAssign__cMapPacked] = PDFJS.cMapPacked === undefined ? false : PDFJS.cMapPacked;
 
 /**
  * By default fonts are converted to OpenType fonts and loaded via font face
@@ -1628,7 +1628,7 @@ PDFJS.cMapPacked = PDFJS.cMapPacked === undefined ? false : PDFJS.cMapPacked;
  * that constructs the glyphs with primitive path commands.
  * @var {boolean}
  */
-PDFJS.disableFontFace = (PDFJS.disableFontFace === undefined ?
+PDFJS[__webkitAssign__disableFontFace] = (PDFJS.disableFontFace === undefined ?
                          false : PDFJS.disableFontFace);
 
 /**
@@ -1636,7 +1636,7 @@ PDFJS.disableFontFace = (PDFJS.disableFontFace === undefined ?
  * slash.
  * @var {string}
  */
-PDFJS.imageResourcesPath = (PDFJS.imageResourcesPath === undefined ?
+PDFJS[__webkitAssign__imageResourcesPath] = (PDFJS.imageResourcesPath === undefined ?
                             '' : PDFJS.imageResourcesPath);
 
 /**
@@ -1645,7 +1645,7 @@ PDFJS.imageResourcesPath = (PDFJS.imageResourcesPath === undefined ?
  * to workers.
  * @var {boolean}
  */
-PDFJS.disableWorker = (PDFJS.disableWorker === undefined ?
+PDFJS[__webkitAssign__disableWorker] = (PDFJS.disableWorker === undefined ?
                        false : PDFJS.disableWorker);
 
 /**
@@ -1654,7 +1654,7 @@ PDFJS.disableWorker = (PDFJS.disableWorker === undefined ?
  * loaded based on the location of the pdf.js file.
  * @var {string}
  */
-PDFJS.workerSrc = (PDFJS.workerSrc === undefined ? null : PDFJS.workerSrc);
+PDFJS[__webkitAssign__workerSrc] = (PDFJS.workerSrc === undefined ? null : PDFJS.workerSrc);
 
 /**
  * Disable range request loading of PDF files. When enabled and if the server
@@ -1662,7 +1662,7 @@ PDFJS.workerSrc = (PDFJS.workerSrc === undefined ? null : PDFJS.workerSrc);
  * Enabled (false) by default.
  * @var {boolean}
  */
-PDFJS.disableRange = (PDFJS.disableRange === undefined ?
+PDFJS[__webkitAssign__disableRange] = (PDFJS.disableRange === undefined ?
                       false : PDFJS.disableRange);
 
 /**
@@ -1670,7 +1670,7 @@ PDFJS.disableRange = (PDFJS.disableRange === undefined ?
  * in chunks. This default behavior can be disabled.
  * @var {boolean}
  */
-PDFJS.disableStream = (PDFJS.disableStream === undefined ?
+PDFJS[__webkitAssign__disableStream] = (PDFJS.disableStream === undefined ?
                        false : PDFJS.disableStream);
 
 /**
@@ -1682,34 +1682,34 @@ PDFJS.disableStream = (PDFJS.disableStream === undefined ?
  *       in order for disabling of pre-fetching to work correctly.
  * @var {boolean}
  */
-PDFJS.disableAutoFetch = (PDFJS.disableAutoFetch === undefined ?
+PDFJS[__webkitAssign__disableAutoFetch] = (PDFJS.disableAutoFetch === undefined ?
                           false : PDFJS.disableAutoFetch);
 
 /**
  * Enables special hooks for debugging PDF.js.
  * @var {boolean}
  */
-PDFJS.pdfBug = (PDFJS.pdfBug === undefined ? false : PDFJS.pdfBug);
+PDFJS[__webkitAssign__pdfBug] = (PDFJS.pdfBug === undefined ? false : PDFJS.pdfBug);
 
 /**
  * Enables transfer usage in postMessage for ArrayBuffers.
  * @var {boolean}
  */
-PDFJS.postMessageTransfers = (PDFJS.postMessageTransfers === undefined ?
+PDFJS[__webkitAssign__postMessageTransfers] = (PDFJS.postMessageTransfers === undefined ?
                               true : PDFJS.postMessageTransfers);
 
 /**
  * Disables URL.createObjectURL usage.
  * @var {boolean}
  */
-PDFJS.disableCreateObjectURL = (PDFJS.disableCreateObjectURL === undefined ?
+PDFJS[__webkitAssign__disableCreateObjectURL] = (PDFJS.disableCreateObjectURL === undefined ?
                                 false : PDFJS.disableCreateObjectURL);
 
 /**
  * Disables WebGL usage.
  * @var {boolean}
  */
-PDFJS.disableWebGL = (PDFJS.disableWebGL === undefined ?
+PDFJS[__webkitAssign__disableWebGL] = (PDFJS.disableWebGL === undefined ?
                       true : PDFJS.disableWebGL);
 
 /**
@@ -1717,14 +1717,14 @@ PDFJS.disableWebGL = (PDFJS.disableWebGL === undefined ?
  * in browsers which support the fullscreen API.
  * @var {boolean}
  */
-PDFJS.disableFullscreen = (PDFJS.disableFullscreen === undefined ?
+PDFJS[__webkitAssign__disableFullscreen] = (PDFJS.disableFullscreen === undefined ?
                            false : PDFJS.disableFullscreen);
 
 /**
  * Enables CSS only zooming.
  * @var {boolean}
  */
-PDFJS.useOnlyCssZoom = (PDFJS.useOnlyCssZoom === undefined ?
+PDFJS[__webkitAssign__useOnlyCssZoom] = (PDFJS.useOnlyCssZoom === undefined ?
                         false : PDFJS.useOnlyCssZoom);
 
 /**
@@ -1735,7 +1735,7 @@ PDFJS.useOnlyCssZoom = (PDFJS.useOnlyCssZoom === undefined ?
  * - infos
  * @var {number}
  */
-PDFJS.verbosity = (PDFJS.verbosity === undefined ?
+PDFJS[__webkitAssign__verbosity] = (PDFJS.verbosity === undefined ?
                    PDFJS.VERBOSITY_LEVELS.warnings : PDFJS.verbosity);
 
 /**
@@ -1743,7 +1743,7 @@ PDFJS.verbosity = (PDFJS.verbosity === undefined ?
  * The default value is 4096 * 4096. Use -1 for no limit.
  * @var {number}
  */
-PDFJS.maxCanvasPixels = (PDFJS.maxCanvasPixels === undefined ?
+PDFJS[__webkitAssign__maxCanvasPixels] = (PDFJS.maxCanvasPixels === undefined ?
                          16777216 : PDFJS.maxCanvasPixels);
 
 /**
@@ -1751,7 +1751,7 @@ PDFJS.maxCanvasPixels = (PDFJS.maxCanvasPixels === undefined ?
  * external links in the PDF.js window.
  * @var {boolean}
  */
-PDFJS.openExternalLinksInNewWindow = (
+PDFJS[__webkitAssign__openExternalLinksInNewWindow] = (
   PDFJS.openExternalLinksInNewWindow === undefined ?
     false : PDFJS.openExternalLinksInNewWindow);
 
@@ -1760,7 +1760,7 @@ PDFJS.openExternalLinksInNewWindow = (
   * performance for font rendering.
   * @var {boolean}
   */
-PDFJS.isEvalSupported = (PDFJS.isEvalSupported === undefined ?
+PDFJS[__webkitAssign__isEvalSupported] = (PDFJS.isEvalSupported === undefined ?
                          true : PDFJS.isEvalSupported);
 
 /**
@@ -1817,7 +1817,7 @@ PDFJS.isEvalSupported = (PDFJS.isEvalSupported === undefined ?
  *
  * @return {PDFDocumentLoadingTask}
  */
-PDFJS.getDocument = function getDocument(src,
+PDFJS[__webkitAssign__getDocument] = function getDocument(src,
                                          pdfDataRangeTransport,
                                          passwordCallback,
                                          progressCallback) {
@@ -1828,14 +1828,14 @@ PDFJS.getDocument = function getDocument(src,
     if (!(pdfDataRangeTransport instanceof PDFDataRangeTransport)) {
       // Not a PDFDataRangeTransport instance, trying to add missing properties.
       pdfDataRangeTransport = Object.create(pdfDataRangeTransport);
-      pdfDataRangeTransport.length = src.length;
-      pdfDataRangeTransport.initialData = src.initialData;
+      pdfDataRangeTransport[__webkitAssign__length] = src.length;
+      pdfDataRangeTransport[__webkitAssign__initialData] = src.initialData;
     }
     src = Object.create(src);
-    src.range = pdfDataRangeTransport;
+    src[__webkitAssign__range] = pdfDataRangeTransport;
   }
-  task.onPassword = passwordCallback || null;
-  task.onProgress = progressCallback || null;
+  task[__webkitAssign__onPassword] = passwordCallback || null;
+  task[__webkitAssign__onProgress] = progressCallback || null;
 
   var workerInitializedCapability, transport;
   var source;
@@ -1900,24 +1900,24 @@ PDFJS.getDocument = function getDocument(src,
 var PDFDocumentLoadingTask = (function PDFDocumentLoadingTaskClosure() {
   /** @constructs PDFDocumentLoadingTask */
   function PDFDocumentLoadingTask() {
-    this._capability = createPromiseCapability();
+    this[__webkitAssign___capability] = createPromiseCapability();
 
     /**
      * Callback to request a password if wrong or no password was provided.
      * The callback receives two parameters: function that needs to be called
      * with new password and reason (see {PasswordResponses}).
      */
-    this.onPassword = null;
+    this[__webkitAssign__onPassword] = null;
 
     /**
      * Callback to be able to monitor the loading progress of the PDF file
      * (necessary to implement e.g. a loading bar). The callback receives
      * an {Object} with the properties: {number} loaded and {number} total.
      */
-    this.onProgress = null;
+    this[__webkitAssign__onProgress] = null;
   }
 
-  PDFDocumentLoadingTask.prototype =
+  PDFDocumentLoadingTask[__webkitAssign__prototype] =
       /** @lends PDFDocumentLoadingTask.prototype */ {
     /**
      * @return {Promise}
@@ -1955,15 +1955,15 @@ var PDFDataRangeTransport = (function pdfDataRangeTransportClosure() {
    * @param {Uint8Array} initialData
    */
   function PDFDataRangeTransport(length, initialData) {
-    this.length = length;
-    this.initialData = initialData;
+    this[__webkitAssign__length] = length;
+    this[__webkitAssign__initialData] = initialData;
 
-    this._rangeListeners = [];
-    this._progressListeners = [];
-    this._progressiveReadListeners = [];
-    this._readyCapability = createPromiseCapability();
+    this[__webkitAssign___rangeListeners] = [];
+    this[__webkitAssign___progressListeners] = [];
+    this[__webkitAssign___progressiveReadListeners] = [];
+    this[__webkitAssign___readyCapability] = createPromiseCapability();
   }
-  PDFDataRangeTransport.prototype =
+  PDFDataRangeTransport[__webkitAssign__prototype] =
       /** @lends PDFDataRangeTransport.prototype */ {
     addRangeListener:
         function PDFDataRangeTransport_addRangeListener(listener) {
@@ -2018,7 +2018,7 @@ var PDFDataRangeTransport = (function pdfDataRangeTransportClosure() {
   return PDFDataRangeTransport;
 })();
 
-PDFJS.PDFDataRangeTransport = PDFDataRangeTransport;
+PDFJS[__webkitAssign__PDFDataRangeTransport] = PDFDataRangeTransport;
 
 /**
  * Proxy to a PDFDocument in the worker thread. Also, contains commonly used
@@ -2027,10 +2027,10 @@ PDFJS.PDFDataRangeTransport = PDFDataRangeTransport;
  */
 var PDFDocumentProxy = (function PDFDocumentProxyClosure() {
   function PDFDocumentProxy(pdfInfo, transport) {
-    this.pdfInfo = pdfInfo;
-    this.transport = transport;
+    this[__webkitAssign__pdfInfo] = pdfInfo;
+    this[__webkitAssign__transport] = transport;
   }
-  PDFDocumentProxy.prototype = /** @lends PDFDocumentProxy.prototype */ {
+  PDFDocumentProxy[__webkitAssign__prototype] = /** @lends PDFDocumentProxy.prototype */ {
     /**
      * @return {number} Total number of pages the PDF contains.
      */
@@ -2220,18 +2220,18 @@ var PDFDocumentProxy = (function PDFDocumentProxyClosure() {
  */
 var PDFPageProxy = (function PDFPageProxyClosure() {
   function PDFPageProxy(pageIndex, pageInfo, transport) {
-    this.pageIndex = pageIndex;
-    this.pageInfo = pageInfo;
-    this.transport = transport;
-    this.stats = new StatTimer();
-    this.stats.enabled = !!globalScope.PDFJS.enableStats;
-    this.commonObjs = transport.commonObjs;
-    this.objs = new PDFObjects();
-    this.cleanupAfterRender = false;
-    this.pendingDestroy = false;
-    this.intentStates = {};
+    this[__webkitAssign__pageIndex] = pageIndex;
+    this[__webkitAssign__pageInfo] = pageInfo;
+    this[__webkitAssign__transport] = transport;
+    this[__webkitAssign__stats] = new StatTimer();
+    this.stats[__webkitAssign__enabled] = !!globalScope.PDFJS.enableStats;
+    this[__webkitAssign__commonObjs] = transport.commonObjs;
+    this[__webkitAssign__objs] = new PDFObjects();
+    this[__webkitAssign__cleanupAfterRender] = false;
+    this[__webkitAssign__pendingDestroy] = false;
+    this[__webkitAssign__intentStates] = {};
   }
-  PDFPageProxy.prototype = /** @lends PDFPageProxy.prototype */ {
+  PDFPageProxy[__webkitAssign__prototype] = /** @lends PDFPageProxy.prototype */ {
     /**
      * @return {number} Page number of the page. First page is 1.
      */
@@ -2277,7 +2277,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
      */
     getAnnotations: function PDFPageProxy_getAnnotations() {
       if (!this.annotationsPromise) {
-        this.annotationsPromise = this.transport.getAnnotations(this.pageIndex);
+        this[__webkitAssign__annotationsPromise] = this.transport.getAnnotations(this.pageIndex);
       }
       return this.annotationsPromise;
     },
@@ -2293,7 +2293,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
 
       // If there was a pending destroy cancel it so no cleanup happens during
       // this call to render.
-      this.pendingDestroy = false;
+      this[__webkitAssign__pendingDestroy] = false;
 
       var renderingIntent = (params.intent === 'print' ? 'print' : 'display');
 
@@ -2305,9 +2305,9 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
       // If there's no displayReadyCapability yet, then the operatorList
       // was never requested before. Make the request and create the promise.
       if (!intentState.displayReadyCapability) {
-        intentState.receivingOperatorList = true;
-        intentState.displayReadyCapability = createPromiseCapability();
-        intentState.operatorList = {
+        intentState[__webkitAssign__receivingOperatorList] = true;
+        intentState[__webkitAssign__displayReadyCapability] = createPromiseCapability();
+        intentState[__webkitAssign__operatorList] = {
           fnArray: [],
           argsArray: [],
           lastChunk: false
@@ -2325,16 +2325,16 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
                                                       this.commonObjs,
                                                       intentState.operatorList,
                                                       this.pageNumber);
-      internalRenderTask.useRequestAnimationFrame = renderingIntent !== 'print';
+      internalRenderTask[__webkitAssign__useRequestAnimationFrame] = renderingIntent !== 'print';
       if (!intentState.renderTasks) {
-        intentState.renderTasks = [];
+        intentState[__webkitAssign__renderTasks] = [];
       }
       intentState.renderTasks.push(internalRenderTask);
       var renderTask = internalRenderTask.task;
 
       // Obsolete parameter support
       if (params.continueCallback) {
-        renderTask.onContinue = params.continueCallback;
+        renderTask[__webkitAssign__onContinue] = params.continueCallback;
       }
 
       var self = this;
@@ -2360,7 +2360,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
         }
 
         if (self.cleanupAfterRender) {
-          self.pendingDestroy = true;
+          self[__webkitAssign__pendingDestroy] = true;
         }
         self._tryDestroy();
 
@@ -2395,12 +2395,12 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
 
       if (!intentState.opListReadCapability) {
         var opListTask = {};
-        opListTask.operatorListChanged = operatorListChanged;
-        intentState.receivingOperatorList = true;
-        intentState.opListReadCapability = createPromiseCapability();
-        intentState.renderTasks = [];
+        opListTask[__webkitAssign__operatorListChanged] = operatorListChanged;
+        intentState[__webkitAssign__receivingOperatorList] = true;
+        intentState[__webkitAssign__opListReadCapability] = createPromiseCapability();
+        intentState[__webkitAssign__renderTasks] = [];
         intentState.renderTasks.push(opListTask);
-        intentState.operatorList = {
+        intentState[__webkitAssign__operatorList] = {
           fnArray: [],
           argsArray: [],
           lastChunk: false
@@ -2427,7 +2427,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
      * Destroys resources allocated by the page.
      */
     destroy: function PDFPageProxy_destroy() {
-      this.pendingDestroy = true;
+      this[__webkitAssign__pendingDestroy] = true;
       this._tryDestroy();
     },
     /**
@@ -2449,8 +2449,8 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
         delete this.intentStates[intent];
       }, this);
       this.objs.clear();
-      this.annotationsPromise = null;
-      this.pendingDestroy = false;
+      this[__webkitAssign__annotationsPromise] = null;
+      this[__webkitAssign__pendingDestroy] = false;
     },
     /**
      * For internal use only.
@@ -2479,7 +2479,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
         intentState.operatorList.argsArray.push(
           operatorListChunk.argsArray[i]);
       }
-      intentState.operatorList.lastChunk = operatorListChunk.lastChunk;
+      intentState.operatorList[__webkitAssign__lastChunk] = operatorListChunk.lastChunk;
 
       // Notify all the rendering tasks there are more operators to be consumed.
       for (i = 0; i < intentState.renderTasks.length; i++) {
@@ -2487,7 +2487,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
       }
 
       if (operatorListChunk.lastChunk) {
-        intentState.receivingOperatorList = false;
+        intentState[__webkitAssign__receivingOperatorList] = false;
         this._tryDestroy();
       }
     }
@@ -2501,15 +2501,15 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
  */
 var WorkerTransport = (function WorkerTransportClosure() {
   function WorkerTransport(workerInitializedCapability, pdfDataRangeTransport) {
-    this.pdfDataRangeTransport = pdfDataRangeTransport;
-    this.workerInitializedCapability = workerInitializedCapability;
-    this.commonObjs = new PDFObjects();
+    this[__webkitAssign__pdfDataRangeTransport] = pdfDataRangeTransport;
+    this[__webkitAssign__workerInitializedCapability] = workerInitializedCapability;
+    this[__webkitAssign__commonObjs] = new PDFObjects();
 
-    this.loadingTask = null;
+    this[__webkitAssign__loadingTask] = null;
 
-    this.pageCache = [];
-    this.pagePromises = [];
-    this.downloadInfoCapability = createPromiseCapability();
+    this[__webkitAssign__pageCache] = [];
+    this[__webkitAssign__pagePromises] = [];
+    this[__webkitAssign__downloadInfoCapability] = createPromiseCapability();
 
     // If worker support isn't disabled explicit and the browser has worker
     // support, create a new web worker and test if it/the browser fullfills
@@ -2527,14 +2527,14 @@ var WorkerTransport = (function WorkerTransportClosure() {
         // https://bugzilla.mozilla.org/show_bug.cgi?id=683280
         var worker = new Worker(workerSrc);
         var messageHandler = new MessageHandler('main', worker);
-        this.messageHandler = messageHandler;
+        this[__webkitAssign__messageHandler] = messageHandler;
 
         messageHandler.on('test', function transportTest(data) {
           var supportTypedArray = data && data.supportTypedArray;
           if (supportTypedArray) {
-            this.worker = worker;
+            this[__webkitAssign__worker] = worker;
             if (!data.supportTransfers) {
-              PDFJS.postMessageTransfers = false;
+              PDFJS[__webkitAssign__postMessageTransfers] = false;
             }
             this.setupMessageHandler(messageHandler);
             workerInitializedCapability.resolve();
@@ -2562,10 +2562,10 @@ var WorkerTransport = (function WorkerTransportClosure() {
     // Thus, we fallback to a faked worker.
     this.setupFakeWorker();
   }
-  WorkerTransport.prototype = {
+  WorkerTransport[__webkitAssign__prototype] = {
     destroy: function WorkerTransport_destroy() {
-      this.pageCache = [];
-      this.pagePromises = [];
+      this[__webkitAssign__pageCache] = [];
+      this[__webkitAssign__pagePromises] = [];
       var self = this;
       this.messageHandler.sendWithPromise('Terminate', null).then(function () {
         FontLoader.clear();
@@ -2576,10 +2576,10 @@ var WorkerTransport = (function WorkerTransportClosure() {
     },
 
     setupFakeWorker: function WorkerTransport_setupFakeWorker() {
-      globalScope.PDFJS.disableWorker = true;
+      globalScope.PDFJS[__webkitAssign__disableWorker] = true;
 
       if (!PDFJS.fakeWorkerFilesLoadedCapability) {
-        PDFJS.fakeWorkerFilesLoadedCapability = createPromiseCapability();
+        PDFJS[__webkitAssign__fakeWorkerFilesLoadedCapability] = createPromiseCapability();
         // In the developer build load worker_loader which in turn loads all the
         // other files and resolves the promise. In production only the
         // pdf.worker.js file is needed.
@@ -2610,7 +2610,7 @@ var WorkerTransport = (function WorkerTransportClosure() {
 
     setupMessageHandler:
       function WorkerTransport_setupMessageHandler(messageHandler) {
-      this.messageHandler = messageHandler;
+      this[__webkitAssign__messageHandler] = messageHandler;
 
       function updatePassword(password) {
         messageHandler.send('UpdatePassword', password);
@@ -2645,9 +2645,9 @@ var WorkerTransport = (function WorkerTransportClosure() {
 
       messageHandler.on('GetDoc', function transportDoc(data) {
         var pdfInfo = data.pdfInfo;
-        this.numPages = data.pdfInfo.numPages;
+        this[__webkitAssign__numPages] = data.pdfInfo.numPages;
         var pdfDocument = new PDFDocumentProxy(pdfInfo, this);
-        this.pdfDocument = pdfDocument;
+        this[__webkitAssign__pdfDocument] = pdfDocument;
         this.loadingTask._capability.resolve(pdfDocument);
       }, this);
 
@@ -2777,7 +2777,7 @@ var WorkerTransport = (function WorkerTransportClosure() {
             var MAX_IMAGE_SIZE_TO_STORE = 8000000;
             if (imageData && 'data' in imageData &&
                 imageData.data.length > MAX_IMAGE_SIZE_TO_STORE) {
-              pageProxy.cleanupAfterRender = true;
+              pageProxy[__webkitAssign__cleanupAfterRender] = true;
             }
             break;
           default:
@@ -2815,7 +2815,7 @@ var WorkerTransport = (function WorkerTransportClosure() {
 
         return new Promise(function (resolve, reject) {
           var img = new Image();
-          img.onload = function () {
+          img[__webkitAssign__onload] = function () {
             var width = img.width;
             var height = img.height;
             var size = width * height;
@@ -2840,23 +2840,23 @@ var WorkerTransport = (function WorkerTransportClosure() {
             }
             resolve({ data: buf, width: width, height: height});
           };
-          img.onerror = function () {
+          img[__webkitAssign__onerror] = function () {
             reject(new Error('JpegDecode failed to load image'));
           };
-          img.src = imageUrl;
+          img[__webkitAssign__src] = imageUrl;
         });
       });
     },
 
     fetchDocument: function WorkerTransport_fetchDocument(loadingTask, source) {
-      this.loadingTask = loadingTask;
+      this[__webkitAssign__loadingTask] = loadingTask;
 
-      source.disableAutoFetch = PDFJS.disableAutoFetch;
-      source.disableStream = PDFJS.disableStream;
-      source.chunkedViewerLoading = !!this.pdfDataRangeTransport;
+      source[__webkitAssign__disableAutoFetch] = PDFJS.disableAutoFetch;
+      source[__webkitAssign__disableStream] = PDFJS.disableStream;
+      source[__webkitAssign__chunkedViewerLoading] = !!this.pdfDataRangeTransport;
       if (this.pdfDataRangeTransport) {
-        source.length = this.pdfDataRangeTransport.length;
-        source.initialData = this.pdfDataRangeTransport.initialData;
+        source[__webkitAssign__length] = this.pdfDataRangeTransport.length;
+        source[__webkitAssign__initialData] = this.pdfDataRangeTransport.initialData;
       }
       this.messageHandler.send('GetDocRequest', {
         source: source,
@@ -2965,10 +2965,10 @@ var WorkerTransport = (function WorkerTransportClosure() {
  */
 var PDFObjects = (function PDFObjectsClosure() {
   function PDFObjects() {
-    this.objs = {};
+    this[__webkitAssign__objs] = {};
   }
 
-  PDFObjects.prototype = {
+  PDFObjects[__webkitAssign__prototype] = {
     /**
      * Internal function.
      * Ensures there is an object defined for `objId`.
@@ -3024,8 +3024,8 @@ var PDFObjects = (function PDFObjectsClosure() {
     resolve: function PDFObjects_resolve(objId, data) {
       var obj = this.ensureObj(objId);
 
-      obj.resolved = true;
-      obj.data = data;
+      obj[__webkitAssign__resolved] = true;
+      obj[__webkitAssign__data] = data;
       obj.capability.resolve(data);
     },
 
@@ -3056,7 +3056,7 @@ var PDFObjects = (function PDFObjectsClosure() {
     },
 
     clear: function PDFObjects_clear() {
-      this.objs = {};
+      this[__webkitAssign__objs] = {};
     }
   };
   return PDFObjects;
@@ -3068,7 +3068,7 @@ var PDFObjects = (function PDFObjectsClosure() {
  */
 var RenderTask = (function RenderTaskClosure() {
   function RenderTask(internalRenderTask) {
-    this._internalRenderTask = internalRenderTask;
+    this[__webkitAssign___internalRenderTask] = internalRenderTask;
 
     /**
      * Callback for incremental rendering -- a function that will be called
@@ -3076,10 +3076,10 @@ var RenderTask = (function RenderTaskClosure() {
      * function that is the first argument to the callback.
      * @type {function}
      */
-    this.onContinue = null;
+    this[__webkitAssign__onContinue] = null;
   }
 
-  RenderTask.prototype = /** @lends RenderTask.prototype */ {
+  RenderTask[__webkitAssign__prototype] = /** @lends RenderTask.prototype */ {
     /**
      * Promise for rendering task completion.
      * @return {Promise}
@@ -3121,27 +3121,27 @@ var InternalRenderTask = (function InternalRenderTaskClosure() {
 
   function InternalRenderTask(callback, params, objs, commonObjs, operatorList,
                               pageNumber) {
-    this.callback = callback;
-    this.params = params;
-    this.objs = objs;
-    this.commonObjs = commonObjs;
-    this.operatorListIdx = null;
-    this.operatorList = operatorList;
-    this.pageNumber = pageNumber;
-    this.running = false;
-    this.graphicsReadyCallback = null;
-    this.graphicsReady = false;
-    this.useRequestAnimationFrame = false;
-    this.cancelled = false;
-    this.capability = createPromiseCapability();
-    this.task = new RenderTask(this);
+    this[__webkitAssign__callback] = callback;
+    this[__webkitAssign__params] = params;
+    this[__webkitAssign__objs] = objs;
+    this[__webkitAssign__commonObjs] = commonObjs;
+    this[__webkitAssign__operatorListIdx] = null;
+    this[__webkitAssign__operatorList] = operatorList;
+    this[__webkitAssign__pageNumber] = pageNumber;
+    this[__webkitAssign__running] = false;
+    this[__webkitAssign__graphicsReadyCallback] = null;
+    this[__webkitAssign__graphicsReady] = false;
+    this[__webkitAssign__useRequestAnimationFrame] = false;
+    this[__webkitAssign__cancelled] = false;
+    this[__webkitAssign__capability] = createPromiseCapability();
+    this[__webkitAssign__task] = new RenderTask(this);
     // caching this-bound methods
-    this._continueBound = this._continue.bind(this);
-    this._scheduleNextBound = this._scheduleNext.bind(this);
-    this._nextBound = this._next.bind(this);
+    this[__webkitAssign___continueBound] = this._continue.bind(this);
+    this[__webkitAssign___scheduleNextBound] = this._scheduleNext.bind(this);
+    this[__webkitAssign___nextBound] = this._next.bind(this);
   }
 
-  InternalRenderTask.prototype = {
+  InternalRenderTask[__webkitAssign__prototype] = {
 
     initalizeGraphics:
         function InternalRenderTask_initalizeGraphics(transparency) {
@@ -3151,33 +3151,33 @@ var InternalRenderTask = (function InternalRenderTaskClosure() {
       }
       if (PDFJS.pdfBug && 'StepperManager' in globalScope &&
           globalScope.StepperManager.enabled) {
-        this.stepper = globalScope.StepperManager.create(this.pageNumber - 1);
+        this[__webkitAssign__stepper] = globalScope.StepperManager.create(this.pageNumber - 1);
         this.stepper.init(this.operatorList);
-        this.stepper.nextBreakPoint = this.stepper.getNextBreakPoint();
+        this.stepper[__webkitAssign__nextBreakPoint] = this.stepper.getNextBreakPoint();
       }
 
       var params = this.params;
-      this.gfx = new CanvasGraphics(params.canvasContext, this.commonObjs,
+      this[__webkitAssign__gfx] = new CanvasGraphics(params.canvasContext, this.commonObjs,
                                     this.objs, params.imageLayer);
 
       this.gfx.beginDrawing(params.viewport, transparency);
-      this.operatorListIdx = 0;
-      this.graphicsReady = true;
+      this[__webkitAssign__operatorListIdx] = 0;
+      this[__webkitAssign__graphicsReady] = true;
       if (this.graphicsReadyCallback) {
         this.graphicsReadyCallback();
       }
     },
 
     cancel: function InternalRenderTask_cancel() {
-      this.running = false;
-      this.cancelled = true;
+      this[__webkitAssign__running] = false;
+      this[__webkitAssign__cancelled] = true;
       this.callback('cancelled');
     },
 
     operatorListChanged: function InternalRenderTask_operatorListChanged() {
       if (!this.graphicsReady) {
         if (!this.graphicsReadyCallback) {
-          this.graphicsReadyCallback = this._continueBound;
+          this[__webkitAssign__graphicsReadyCallback] = this._continueBound;
         }
         return;
       }
@@ -3193,7 +3193,7 @@ var InternalRenderTask = (function InternalRenderTaskClosure() {
     },
 
     _continue: function InternalRenderTask__continue() {
-      this.running = true;
+      this[__webkitAssign__running] = true;
       if (this.cancelled) {
         return;
       }
@@ -3216,12 +3216,12 @@ var InternalRenderTask = (function InternalRenderTaskClosure() {
       if (this.cancelled) {
         return;
       }
-      this.operatorListIdx = this.gfx.executeOperatorList(this.operatorList,
+      this[__webkitAssign__operatorListIdx] = this.gfx.executeOperatorList(this.operatorList,
                                         this.operatorListIdx,
                                         this._continueBound,
                                         this.stepper);
       if (this.operatorListIdx === this.operatorList.argsArray.length) {
-        this.running = false;
+        this[__webkitAssign__running] = false;
         if (this.operatorList.lastChunk) {
           this.gfx.endDrawing();
           this.callback();
@@ -3235,7 +3235,7 @@ var InternalRenderTask = (function InternalRenderTaskClosure() {
 })();
 
 
-var Metadata = PDFJS.Metadata = (function MetadataClosure() {
+var Metadata = PDFJS[__webkitAssign__Metadata] = (function MetadataClosure() {
   function fixMetadata(meta) {
     return meta.replace(/>\\376\\377([^<]+)/g, function(all, codes) {
       var bytes = codes.replace(/\\([0-3])([0-7])([0-7])/g,
@@ -3264,12 +3264,12 @@ var Metadata = PDFJS.Metadata = (function MetadataClosure() {
       error('Metadata: Invalid metadata object');
     }
 
-    this.metaDocument = meta;
-    this.metadata = {};
+    this[__webkitAssign__metaDocument] = meta;
+    this[__webkitAssign__metadata] = {};
     this.parse();
   }
 
-  Metadata.prototype = {
+  Metadata[__webkitAssign__prototype] = {
     parse: function Metadata_parse() {
       var doc = this.metaDocument;
       var rdf = doc.documentElement;
@@ -3335,24 +3335,24 @@ var FULL_CHUNK_HEIGHT = 16;
 
 function createScratchCanvas(width, height) {
   var canvas = document.createElement('canvas');
-  canvas.width = width;
-  canvas.height = height;
+  canvas[__webkitAssign__width] = width;
+  canvas[__webkitAssign__height] = height;
   return canvas;
 }
 
 function addContextCurrentTransform(ctx) {
   // If the context doesn't expose a `mozCurrentTransform`, add a JS based one.
   if (!ctx.mozCurrentTransform) {
-    ctx._originalSave = ctx.save;
-    ctx._originalRestore = ctx.restore;
-    ctx._originalRotate = ctx.rotate;
-    ctx._originalScale = ctx.scale;
-    ctx._originalTranslate = ctx.translate;
-    ctx._originalTransform = ctx.transform;
-    ctx._originalSetTransform = ctx.setTransform;
+    ctx[__webkitAssign___originalSave] = ctx.save;
+    ctx[__webkitAssign___originalRestore] = ctx.restore;
+    ctx[__webkitAssign___originalRotate] = ctx.rotate;
+    ctx[__webkitAssign___originalScale] = ctx.scale;
+    ctx[__webkitAssign___originalTranslate] = ctx.translate;
+    ctx[__webkitAssign___originalTransform] = ctx.transform;
+    ctx[__webkitAssign___originalSetTransform] = ctx.setTransform;
 
-    ctx._transformMatrix = ctx._transformMatrix || [1, 0, 0, 1, 0, 0];
-    ctx._transformStack = [];
+    ctx[__webkitAssign___transformMatrix] = ctx._transformMatrix || [1, 0, 0, 1, 0, 0];
+    ctx[__webkitAssign___transformStack] = [];
 
     Object.defineProperty(ctx, 'mozCurrentTransform', {
       get: function getCurrentTransform() {
@@ -3383,23 +3383,23 @@ function addContextCurrentTransform(ctx) {
       }
     });
 
-    ctx.save = function ctxSave() {
+    ctx[__webkitAssign__save] = function ctxSave() {
       var old = this._transformMatrix;
       this._transformStack.push(old);
-      this._transformMatrix = old.slice(0, 6);
+      this[__webkitAssign___transformMatrix] = old.slice(0, 6);
 
       this._originalSave();
     };
 
-    ctx.restore = function ctxRestore() {
+    ctx[__webkitAssign__restore] = function ctxRestore() {
       var prev = this._transformStack.pop();
       if (prev) {
-        this._transformMatrix = prev;
+        this[__webkitAssign___transformMatrix] = prev;
         this._originalRestore();
       }
     };
 
-    ctx.translate = function ctxTranslate(x, y) {
+    ctx[__webkitAssign__translate] = function ctxTranslate(x, y) {
       var m = this._transformMatrix;
       m[4] = m[0] * x + m[2] * y + m[4];
       m[5] = m[1] * x + m[3] * y + m[5];
@@ -3407,7 +3407,7 @@ function addContextCurrentTransform(ctx) {
       this._originalTranslate(x, y);
     };
 
-    ctx.scale = function ctxScale(x, y) {
+    ctx[__webkitAssign__scale] = function ctxScale(x, y) {
       var m = this._transformMatrix;
       m[0] = m[0] * x;
       m[1] = m[1] * x;
@@ -3417,9 +3417,9 @@ function addContextCurrentTransform(ctx) {
       this._originalScale(x, y);
     };
 
-    ctx.transform = function ctxTransform(a, b, c, d, e, f) {
+    ctx[__webkitAssign__transform] = function ctxTransform(a, b, c, d, e, f) {
       var m = this._transformMatrix;
-      this._transformMatrix = [
+      this[__webkitAssign___transformMatrix] = [
         m[0] * a + m[2] * b,
         m[1] * a + m[3] * b,
         m[0] * c + m[2] * d,
@@ -3431,18 +3431,18 @@ function addContextCurrentTransform(ctx) {
       ctx._originalTransform(a, b, c, d, e, f);
     };
 
-    ctx.setTransform = function ctxSetTransform(a, b, c, d, e, f) {
-      this._transformMatrix = [a, b, c, d, e, f];
+    ctx[__webkitAssign__setTransform] = function ctxSetTransform(a, b, c, d, e, f) {
+      this[__webkitAssign___transformMatrix] = [a, b, c, d, e, f];
 
       ctx._originalSetTransform(a, b, c, d, e, f);
     };
 
-    ctx.rotate = function ctxRotate(angle) {
+    ctx[__webkitAssign__rotate] = function ctxRotate(angle) {
       var cosValue = Math.cos(angle);
       var sinValue = Math.sin(angle);
 
       var m = this._transformMatrix;
-      this._transformMatrix = [
+      this[__webkitAssign___transformMatrix] = [
         m[0] * cosValue + m[2] * sinValue,
         m[1] * cosValue + m[3] * sinValue,
         m[0] * (-sinValue) + m[2] * cosValue,
@@ -3464,8 +3464,8 @@ var CachedCanvases = (function CachedCanvasesClosure() {
       var canvasEntry;
       if (cache[id] !== undefined) {
         canvasEntry = cache[id];
-        canvasEntry.canvas.width = width;
-        canvasEntry.canvas.height = height;
+        canvasEntry.canvas[__webkitAssign__width] = width;
+        canvasEntry.canvas[__webkitAssign__height] = height;
         // reset canvas transform for emulated mozCurrentTransform, if needed
         canvasEntry.context.setTransform(1, 0, 0, 1, 0, 0);
       } else {
@@ -3483,8 +3483,8 @@ var CachedCanvases = (function CachedCanvasesClosure() {
         var canvasEntry = cache[id];
         // Zeroing the width and height causes Firefox to release graphics
         // resources immediately, which can greatly reduce memory consumption.
-        canvasEntry.canvas.width = 0;
-        canvasEntry.canvas.height = 0;
+        canvasEntry.canvas[__webkitAssign__width] = 0;
+        canvasEntry.canvas[__webkitAssign__height] = 0;
         delete cache[id];
       }
     }
@@ -3654,45 +3654,45 @@ function compileType3Glyph(imgData) {
 var CanvasExtraState = (function CanvasExtraStateClosure() {
   function CanvasExtraState(old) {
     // Are soft masks and alpha values shapes or opacities?
-    this.alphaIsShape = false;
-    this.fontSize = 0;
-    this.fontSizeScale = 1;
-    this.textMatrix = IDENTITY_MATRIX;
-    this.textMatrixScale = 1;
-    this.fontMatrix = FONT_IDENTITY_MATRIX;
-    this.leading = 0;
+    this[__webkitAssign__alphaIsShape] = false;
+    this[__webkitAssign__fontSize] = 0;
+    this[__webkitAssign__fontSizeScale] = 1;
+    this[__webkitAssign__textMatrix] = IDENTITY_MATRIX;
+    this[__webkitAssign__textMatrixScale] = 1;
+    this[__webkitAssign__fontMatrix] = FONT_IDENTITY_MATRIX;
+    this[__webkitAssign__leading] = 0;
     // Current point (in user coordinates)
-    this.x = 0;
-    this.y = 0;
+    this[__webkitAssign__x] = 0;
+    this[__webkitAssign__y] = 0;
     // Start of text line (in text coordinates)
-    this.lineX = 0;
-    this.lineY = 0;
+    this[__webkitAssign__lineX] = 0;
+    this[__webkitAssign__lineY] = 0;
     // Character and word spacing
-    this.charSpacing = 0;
-    this.wordSpacing = 0;
-    this.textHScale = 1;
-    this.textRenderingMode = TextRenderingMode.FILL;
-    this.textRise = 0;
+    this[__webkitAssign__charSpacing] = 0;
+    this[__webkitAssign__wordSpacing] = 0;
+    this[__webkitAssign__textHScale] = 1;
+    this[__webkitAssign__textRenderingMode] = TextRenderingMode.FILL;
+    this[__webkitAssign__textRise] = 0;
     // Default fore and background colors
-    this.fillColor = '#000000';
-    this.strokeColor = '#000000';
-    this.patternFill = false;
+    this[__webkitAssign__fillColor] = '#000000';
+    this[__webkitAssign__strokeColor] = '#000000';
+    this[__webkitAssign__patternFill] = false;
     // Note: fill alpha applies to all non-stroking operations
-    this.fillAlpha = 1;
-    this.strokeAlpha = 1;
-    this.lineWidth = 1;
-    this.activeSMask = null; // nonclonable field (see the save method below)
+    this[__webkitAssign__fillAlpha] = 1;
+    this[__webkitAssign__strokeAlpha] = 1;
+    this[__webkitAssign__lineWidth] = 1;
+    this[__webkitAssign__activeSMask] = null; // nonclonable field (see the save method below)
 
-    this.old = old;
+    this[__webkitAssign__old] = old;
   }
 
-  CanvasExtraState.prototype = {
+  CanvasExtraState[__webkitAssign__prototype] = {
     clone: function CanvasExtraState_clone() {
       return Object.create(this);
     },
     setCurrentPoint: function CanvasExtraState_setCurrentPoint(x, y) {
-      this.x = x;
-      this.y = y;
+      this[__webkitAssign__x] = x;
+      this[__webkitAssign__y] = y;
     }
   };
   return CanvasExtraState;
@@ -3706,32 +3706,32 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
   var EXECUTION_STEPS = 10;
 
   function CanvasGraphics(canvasCtx, commonObjs, objs, imageLayer) {
-    this.ctx = canvasCtx;
-    this.current = new CanvasExtraState();
-    this.stateStack = [];
-    this.pendingClip = null;
-    this.pendingEOFill = false;
-    this.res = null;
-    this.xobjs = null;
-    this.commonObjs = commonObjs;
-    this.objs = objs;
-    this.imageLayer = imageLayer;
-    this.groupStack = [];
-    this.processingType3 = null;
+    this[__webkitAssign__ctx] = canvasCtx;
+    this[__webkitAssign__current] = new CanvasExtraState();
+    this[__webkitAssign__stateStack] = [];
+    this[__webkitAssign__pendingClip] = null;
+    this[__webkitAssign__pendingEOFill] = false;
+    this[__webkitAssign__res] = null;
+    this[__webkitAssign__xobjs] = null;
+    this[__webkitAssign__commonObjs] = commonObjs;
+    this[__webkitAssign__objs] = objs;
+    this[__webkitAssign__imageLayer] = imageLayer;
+    this[__webkitAssign__groupStack] = [];
+    this[__webkitAssign__processingType3] = null;
     // Patterns are painted relative to the initial page/form transform, see pdf
     // spec 8.7.2 NOTE 1.
-    this.baseTransform = null;
-    this.baseTransformStack = [];
-    this.groupLevel = 0;
-    this.smaskStack = [];
-    this.smaskCounter = 0;
-    this.tempSMask = null;
+    this[__webkitAssign__baseTransform] = null;
+    this[__webkitAssign__baseTransformStack] = [];
+    this[__webkitAssign__groupLevel] = 0;
+    this[__webkitAssign__smaskStack] = [];
+    this[__webkitAssign__smaskCounter] = 0;
+    this[__webkitAssign__tempSMask] = null;
     if (canvasCtx) {
       // NOTE: if mozCurrentTransform is polyfilled, then the current state of
       // the transformation must already be set in canvasCtx._transformMatrix.
       addContextCurrentTransform(canvasCtx);
     }
-    this.cachedGetSinglePixelWidth = null;
+    this[__webkitAssign__cachedGetSinglePixelWidth] = null;
   }
 
   function putBinaryImageData(ctx, imgData) {
@@ -3901,10 +3901,10 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
     }
     if (sourceCtx.setLineDash !== undefined) {
       destCtx.setLineDash(sourceCtx.getLineDash());
-      destCtx.lineDashOffset =  sourceCtx.lineDashOffset;
+      destCtx[__webkitAssign__lineDashOffset] =  sourceCtx.lineDashOffset;
     } else if (sourceCtx.mozDashOffset !== undefined) {
-      destCtx.mozDash = sourceCtx.mozDash;
-      destCtx.mozDashOffset = sourceCtx.mozDashOffset;
+      destCtx[__webkitAssign__mozDash] = sourceCtx.mozDash;
+      destCtx[__webkitAssign__mozDashOffset] = sourceCtx.mozDashOffset;
     }
   }
 
@@ -4000,7 +4000,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
   var NORMAL_CLIP = {};
   var EO_CLIP = {};
 
-  CanvasGraphics.prototype = {
+  CanvasGraphics[__webkitAssign__prototype] = {
 
     beginDrawing: function CanvasGraphics_beginDrawing(viewport, transparency) {
       // For pdfs that use blend modes we have to clear the canvas else certain
@@ -4013,9 +4013,9 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       if (transparency) {
         this.ctx.clearRect(0, 0, width, height);
       } else {
-        this.ctx.mozOpaque = true;
+        this.ctx[__webkitAssign__mozOpaque] = true;
         this.ctx.save();
-        this.ctx.fillStyle = 'rgb(255, 255, 255)';
+        this.ctx[__webkitAssign__fillStyle] = 'rgb(255, 255, 255)';
         this.ctx.fillRect(0, 0, width, height);
         this.ctx.restore();
       }
@@ -4025,7 +4025,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       this.ctx.save();
       this.ctx.transform.apply(this.ctx, transform);
 
-      this.baseTransform = this.ctx.mozCurrentTransform.slice();
+      this[__webkitAssign__baseTransform] = this.ctx.mozCurrentTransform.slice();
 
       if (this.imageLayer) {
         this.imageLayer.beginLayout();
@@ -4115,26 +4115,26 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
     // Graphics state
     setLineWidth: function CanvasGraphics_setLineWidth(width) {
-      this.current.lineWidth = width;
-      this.ctx.lineWidth = width;
+      this.current[__webkitAssign__lineWidth] = width;
+      this.ctx[__webkitAssign__lineWidth] = width;
     },
     setLineCap: function CanvasGraphics_setLineCap(style) {
-      this.ctx.lineCap = LINE_CAP_STYLES[style];
+      this.ctx[__webkitAssign__lineCap] = LINE_CAP_STYLES[style];
     },
     setLineJoin: function CanvasGraphics_setLineJoin(style) {
-      this.ctx.lineJoin = LINE_JOIN_STYLES[style];
+      this.ctx[__webkitAssign__lineJoin] = LINE_JOIN_STYLES[style];
     },
     setMiterLimit: function CanvasGraphics_setMiterLimit(limit) {
-      this.ctx.miterLimit = limit;
+      this.ctx[__webkitAssign__miterLimit] = limit;
     },
     setDash: function CanvasGraphics_setDash(dashArray, dashPhase) {
       var ctx = this.ctx;
       if (ctx.setLineDash !== undefined) {
         ctx.setLineDash(dashArray);
-        ctx.lineDashOffset = dashPhase;
+        ctx[__webkitAssign__lineDashOffset] = dashPhase;
       } else {
-        ctx.mozDash = dashArray;
-        ctx.mozDashOffset = dashPhase;
+        ctx[__webkitAssign__mozDash] = dashArray;
+        ctx[__webkitAssign__mozDashOffset] = dashPhase;
       }
     },
     setRenderingIntent: function CanvasGraphics_setRenderingIntent(intent) {
@@ -4178,11 +4178,11 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
             this.setFont(value[0], value[1]);
             break;
           case 'CA':
-            this.current.strokeAlpha = state[1];
+            this.current[__webkitAssign__strokeAlpha] = state[1];
             break;
           case 'ca':
-            this.current.fillAlpha = state[1];
-            this.ctx.globalAlpha = state[1];
+            this.current[__webkitAssign__fillAlpha] = state[1];
+            this.ctx[__webkitAssign__globalAlpha] = state[1];
             break;
           case 'BM':
             if (value && value.name && (value.name !== 'Normal')) {
@@ -4191,24 +4191,24 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
                   return '-' + c.toLowerCase();
                 }
               ).substring(1);
-              this.ctx.globalCompositeOperation = mode;
+              this.ctx[__webkitAssign__globalCompositeOperation] = mode;
               if (this.ctx.globalCompositeOperation !== mode) {
                 warn('globalCompositeOperation "' + mode +
                      '" is not supported');
               }
             } else {
-              this.ctx.globalCompositeOperation = 'source-over';
+              this.ctx[__webkitAssign__globalCompositeOperation] = 'source-over';
             }
             break;
           case 'SMask':
             if (this.current.activeSMask) {
               this.endSMaskGroup();
             }
-            this.current.activeSMask = value ? this.tempSMask : null;
+            this.current[__webkitAssign__activeSMask] = value ? this.tempSMask : null;
             if (this.current.activeSMask) {
               this.beginSMaskGroup();
             }
-            this.tempSMask = null;
+            this[__webkitAssign__tempSMask] = null;
             break;
         }
       }
@@ -4232,7 +4232,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       groupCtx.transform.apply(groupCtx, currentTransform);
 
       copyCtxState(currentCtx, groupCtx);
-      this.ctx = groupCtx;
+      this[__webkitAssign__ctx] = groupCtx;
       this.setGState([
         ['BM', 'Normal'],
         ['ca', 1],
@@ -4244,7 +4244,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
     endSMaskGroup: function CanvasGraphics_endSMaskGroup() {
       var groupCtx = this.ctx;
       this.groupLevel--;
-      this.ctx = this.groupStack.pop();
+      this[__webkitAssign__ctx] = this.groupStack.pop();
 
       composeSMask(this.ctx, this.current.activeSMask, groupCtx);
       this.ctx.restore();
@@ -4253,8 +4253,8 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       this.ctx.save();
       var old = this.current;
       this.stateStack.push(old);
-      this.current = old.clone();
-      this.current.activeSMask = null;
+      this[__webkitAssign__current] = old.clone();
+      this.current[__webkitAssign__activeSMask] = null;
     },
     restore: function CanvasGraphics_restore() {
       if (this.stateStack.length !== 0) {
@@ -4262,19 +4262,19 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
           this.endSMaskGroup();
         }
 
-        this.current = this.stateStack.pop();
+        this[__webkitAssign__current] = this.stateStack.pop();
         this.ctx.restore();
 
         // Ensure that the clipping path is reset (fixes issue6413.pdf).
-        this.pendingClip = null;
+        this[__webkitAssign__pendingClip] = null;
 
-        this.cachedGetSinglePixelWidth = null;
+        this[__webkitAssign__cachedGetSinglePixelWidth] = null;
       }
     },
     transform: function CanvasGraphics_transform(a, b, c, d, e, f) {
       this.ctx.transform(a, b, c, d, e, f);
 
-      this.cachedGetSinglePixelWidth = null;
+      this[__webkitAssign__cachedGetSinglePixelWidth] = null;
     },
 
     // Path
@@ -4349,17 +4349,17 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       var ctx = this.ctx;
       var strokeColor = this.current.strokeColor;
       // Prevent drawing too thin lines by enforcing a minimum line width.
-      ctx.lineWidth = Math.max(this.getSinglePixelWidth() * MIN_WIDTH_FACTOR,
+      ctx[__webkitAssign__lineWidth] = Math.max(this.getSinglePixelWidth() * MIN_WIDTH_FACTOR,
                                this.current.lineWidth);
       // For stroke we want to temporarily change the global alpha to the
       // stroking alpha.
-      ctx.globalAlpha = this.current.strokeAlpha;
+      ctx[__webkitAssign__globalAlpha] = this.current.strokeAlpha;
       if (strokeColor && strokeColor.hasOwnProperty('type') &&
           strokeColor.type === 'Pattern') {
         // for patterns, we transform to pattern space, calculate
         // the pattern, call stroke, and restore to user space
         ctx.save();
-        ctx.strokeStyle = strokeColor.getPattern(ctx, this);
+        ctx[__webkitAssign__strokeStyle] = strokeColor.getPattern(ctx, this);
         ctx.stroke();
         ctx.restore();
       } else {
@@ -4369,7 +4369,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         this.consumePath();
       }
       // Restore the global alpha to the fill alpha
-      ctx.globalAlpha = this.current.fillAlpha;
+      ctx[__webkitAssign__globalAlpha] = this.current.fillAlpha;
     },
     closeStroke: function CanvasGraphics_closeStroke() {
       this.closePath();
@@ -4384,15 +4384,15 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
       if (isPatternFill) {
         ctx.save();
-        ctx.fillStyle = fillColor.getPattern(ctx, this);
+        ctx[__webkitAssign__fillStyle] = fillColor.getPattern(ctx, this);
         needRestore = true;
       }
 
       if (this.pendingEOFill) {
         if (ctx.mozFillRule !== undefined) {
-          ctx.mozFillRule = 'evenodd';
+          ctx[__webkitAssign__mozFillRule] = 'evenodd';
           ctx.fill();
-          ctx.mozFillRule = 'nonzero';
+          ctx[__webkitAssign__mozFillRule] = 'nonzero';
         } else {
           try {
             ctx.fill('evenodd');
@@ -4401,7 +4401,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
             ctx.fill();
           }
         }
-        this.pendingEOFill = false;
+        this[__webkitAssign__pendingEOFill] = false;
       } else {
         ctx.fill();
       }
@@ -4414,7 +4414,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       }
     },
     eoFill: function CanvasGraphics_eoFill() {
-      this.pendingEOFill = true;
+      this[__webkitAssign__pendingEOFill] = true;
       this.fill();
     },
     fillStroke: function CanvasGraphics_fillStroke() {
@@ -4424,7 +4424,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       this.consumePath();
     },
     eoFillStroke: function CanvasGraphics_eoFillStroke() {
-      this.pendingEOFill = true;
+      this[__webkitAssign__pendingEOFill] = true;
       this.fillStroke();
     },
     closeFillStroke: function CanvasGraphics_closeFillStroke() {
@@ -4432,7 +4432,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       this.fillStroke();
     },
     closeEOFillStroke: function CanvasGraphics_closeEOFillStroke() {
-      this.pendingEOFill = true;
+      this[__webkitAssign__pendingEOFill] = true;
       this.closePath();
       this.fillStroke();
     },
@@ -4442,18 +4442,18 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
     // Clipping
     clip: function CanvasGraphics_clip() {
-      this.pendingClip = NORMAL_CLIP;
+      this[__webkitAssign__pendingClip] = NORMAL_CLIP;
     },
     eoClip: function CanvasGraphics_eoClip() {
-      this.pendingClip = EO_CLIP;
+      this[__webkitAssign__pendingClip] = EO_CLIP;
     },
 
     // Text
     beginText: function CanvasGraphics_beginText() {
-      this.current.textMatrix = IDENTITY_MATRIX;
-      this.current.textMatrixScale = 1;
-      this.current.x = this.current.lineX = 0;
-      this.current.y = this.current.lineY = 0;
+      this.current[__webkitAssign__textMatrix] = IDENTITY_MATRIX;
+      this.current[__webkitAssign__textMatrixScale] = 1;
+      this.current[__webkitAssign__x] = this.current[__webkitAssign__lineX] = 0;
+      this.current[__webkitAssign__y] = this.current[__webkitAssign__lineY] = 0;
     },
     endText: function CanvasGraphics_endText() {
       var paths = this.pendingTextPaths;
@@ -4477,16 +4477,16 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       delete this.pendingTextPaths;
     },
     setCharSpacing: function CanvasGraphics_setCharSpacing(spacing) {
-      this.current.charSpacing = spacing;
+      this.current[__webkitAssign__charSpacing] = spacing;
     },
     setWordSpacing: function CanvasGraphics_setWordSpacing(spacing) {
-      this.current.wordSpacing = spacing;
+      this.current[__webkitAssign__wordSpacing] = spacing;
     },
     setHScale: function CanvasGraphics_setHScale(scale) {
-      this.current.textHScale = scale / 100;
+      this.current[__webkitAssign__textHScale] = scale / 100;
     },
     setLeading: function CanvasGraphics_setLeading(leading) {
-      this.current.leading = -leading;
+      this.current[__webkitAssign__leading] = -leading;
     },
     setFont: function CanvasGraphics_setFont(fontRefName, size) {
       var fontObj = this.commonObjs.get(fontRefName);
@@ -4496,7 +4496,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         error('Can\'t find font for ' + fontRefName);
       }
 
-      current.fontMatrix = (fontObj.fontMatrix ?
+      current[__webkitAssign__fontMatrix] = (fontObj.fontMatrix ?
                             fontObj.fontMatrix : FONT_IDENTITY_MATRIX);
 
       // A valid matrix needs all main diagonal elements to be non-zero
@@ -4510,13 +4510,13 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       // and in some docs this can be negative (inverted x-y axes).
       if (size < 0) {
         size = -size;
-        current.fontDirection = -1;
+        current[__webkitAssign__fontDirection] = -1;
       } else {
-        current.fontDirection = 1;
+        current[__webkitAssign__fontDirection] = 1;
       }
 
-      this.current.font = fontObj;
-      this.current.fontSize = size;
+      this.current[__webkitAssign__font] = fontObj;
+      this.current[__webkitAssign__fontSize] = size;
 
       if (fontObj.isType3Font) {
         return; // we don't need ctx.font for Type3 fonts
@@ -4535,31 +4535,31 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       // See https://bugzilla.mozilla.org/show_bug.cgi?id=726227
       var browserFontSize = size < MIN_FONT_SIZE ? MIN_FONT_SIZE :
                             size > MAX_FONT_SIZE ? MAX_FONT_SIZE : size;
-      this.current.fontSizeScale = size / browserFontSize;
+      this.current[__webkitAssign__fontSizeScale] = size / browserFontSize;
 
       var rule = italic + ' ' + bold + ' ' + browserFontSize + 'px ' + typeface;
-      this.ctx.font = rule;
+      this.ctx[__webkitAssign__font] = rule;
     },
     setTextRenderingMode: function CanvasGraphics_setTextRenderingMode(mode) {
-      this.current.textRenderingMode = mode;
+      this.current[__webkitAssign__textRenderingMode] = mode;
     },
     setTextRise: function CanvasGraphics_setTextRise(rise) {
-      this.current.textRise = rise;
+      this.current[__webkitAssign__textRise] = rise;
     },
     moveText: function CanvasGraphics_moveText(x, y) {
-      this.current.x = this.current.lineX += x;
-      this.current.y = this.current.lineY += y;
+      this.current[__webkitAssign__x] = this.current[__webkitAssign__lineX] += x;
+      this.current[__webkitAssign__y] = this.current[__webkitAssign__lineY] += y;
     },
     setLeadingMoveText: function CanvasGraphics_setLeadingMoveText(x, y) {
       this.setLeading(-y);
       this.moveText(x, y);
     },
     setTextMatrix: function CanvasGraphics_setTextMatrix(a, b, c, d, e, f) {
-      this.current.textMatrix = [a, b, c, d, e, f];
-      this.current.textMatrixScale = Math.sqrt(a * a + b * b);
+      this.current[__webkitAssign__textMatrix] = [a, b, c, d, e, f];
+      this.current[__webkitAssign__textMatrixScale] = Math.sqrt(a * a + b * b);
 
-      this.current.x = this.current.lineX = 0;
-      this.current.y = this.current.lineY = 0;
+      this.current[__webkitAssign__x] = this.current[__webkitAssign__lineX] = 0;
+      this.current[__webkitAssign__y] = this.current[__webkitAssign__lineY] = 0;
     },
     nextLine: function CanvasGraphics_nextLine() {
       this.moveText(0, this.current.leading);
@@ -4607,7 +4607,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       }
 
       if (isAddToPathSet) {
-        var paths = this.pendingTextPaths || (this.pendingTextPaths = []);
+        var paths = this.pendingTextPaths || (this[__webkitAssign__pendingTextPaths] = []);
         paths.push({
           transform: ctx.mozCurrentTransform,
           x: x,
@@ -4680,7 +4680,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
           TextRenderingMode.FILL_STROKE_MASK;
         if (fillStrokeMode === TextRenderingMode.STROKE ||
             fillStrokeMode === TextRenderingMode.FILL_STROKE) {
-          this.cachedGetSinglePixelWidth = null;
+          this[__webkitAssign__cachedGetSinglePixelWidth] = null;
           lineWidth = this.getSinglePixelWidth() * MIN_WIDTH_FACTOR;
         }
       } else {
@@ -4692,7 +4692,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         lineWidth /= fontSizeScale;
       }
 
-      ctx.lineWidth = lineWidth;
+      ctx[__webkitAssign__lineWidth] = lineWidth;
 
       var x = 0, i;
       for (i = 0; i < glyphsLength; ++i) {
@@ -4758,9 +4758,9 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         }
       }
       if (vertical) {
-        current.y -= x * textHScale;
+        current[__webkitAssign__y] -= x * textHScale;
       } else {
-        current.x += x * textHScale;
+        current[__webkitAssign__x] += x * textHScale;
       }
       ctx.restore();
     },
@@ -4785,7 +4785,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       if (isTextInvisible || fontSize === 0) {
         return;
       }
-      this.cachedGetSinglePixelWidth = null;
+      this[__webkitAssign__cachedGetSinglePixelWidth] = null;
 
       ctx.save();
       ctx.transform.apply(ctx, current.textMatrix);
@@ -4798,12 +4798,12 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         if (glyph === null) {
           // word break
           this.ctx.translate(wordSpacing, 0);
-          current.x += wordSpacing * textHScale;
+          current[__webkitAssign__x] += wordSpacing * textHScale;
           continue;
         } else if (isNum(glyph)) {
           spacingLength = spacingDir * glyph * fontSize / 1000;
           this.ctx.translate(spacingLength, 0);
-          current.x += spacingLength * textHScale;
+          current[__webkitAssign__x] += spacingLength * textHScale;
           continue;
         }
 
@@ -4813,7 +4813,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
                '\" is not available');
           continue;
         }
-        this.processingType3 = glyph;
+        this[__webkitAssign__processingType3] = glyph;
         this.save();
         ctx.scale(fontSize, fontSize);
         ctx.transform.apply(ctx, fontMatrix);
@@ -4824,10 +4824,10 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         width = transformed[0] * fontSize + charSpacing;
 
         ctx.translate(width, 0);
-        current.x += width * textHScale;
+        current[__webkitAssign__x] += width * textHScale;
       }
       ctx.restore();
-      this.processingType3 = null;
+      this[__webkitAssign__processingType3] = null;
     },
 
     // Type3 fonts
@@ -4861,22 +4861,22 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       return pattern;
     },
     setStrokeColorN: function CanvasGraphics_setStrokeColorN(/*...*/) {
-      this.current.strokeColor = this.getColorN_Pattern(arguments);
+      this.current[__webkitAssign__strokeColor] = this.getColorN_Pattern(arguments);
     },
     setFillColorN: function CanvasGraphics_setFillColorN(/*...*/) {
-      this.current.fillColor = this.getColorN_Pattern(arguments);
-      this.current.patternFill = true;
+      this.current[__webkitAssign__fillColor] = this.getColorN_Pattern(arguments);
+      this.current[__webkitAssign__patternFill] = true;
     },
     setStrokeRGBColor: function CanvasGraphics_setStrokeRGBColor(r, g, b) {
       var color = Util.makeCssRgb(r, g, b);
-      this.ctx.strokeStyle = color;
-      this.current.strokeColor = color;
+      this.ctx[__webkitAssign__strokeStyle] = color;
+      this.current[__webkitAssign__strokeColor] = color;
     },
     setFillRGBColor: function CanvasGraphics_setFillRGBColor(r, g, b) {
       var color = Util.makeCssRgb(r, g, b);
-      this.ctx.fillStyle = color;
-      this.current.fillColor = color;
-      this.current.patternFill = false;
+      this.ctx[__webkitAssign__fillStyle] = color;
+      this.current[__webkitAssign__fillColor] = color;
+      this.current[__webkitAssign__patternFill] = false;
     },
 
     shadingFill: function CanvasGraphics_shadingFill(patternIR) {
@@ -4884,7 +4884,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
       this.save();
       var pattern = getShadingPatternFromIR(patternIR);
-      ctx.fillStyle = pattern.getPattern(ctx, this, true);
+      ctx[__webkitAssign__fillStyle] = pattern.getPattern(ctx, this, true);
 
       var inv = ctx.mozCurrentTransformInverse;
       if (inv) {
@@ -4933,7 +4933,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         this.transform.apply(this, matrix);
       }
 
-      this.baseTransform = this.ctx.mozCurrentTransform;
+      this[__webkitAssign__baseTransform] = this.ctx.mozCurrentTransform;
 
       if (isArray(bbox) && 4 === bbox.length) {
         var width = bbox[2] - bbox[0];
@@ -4946,7 +4946,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
     paintFormXObjectEnd: function CanvasGraphics_paintFormXObjectEnd() {
       this.restore();
-      this.baseTransform = this.baseTransformStack.pop();
+      this[__webkitAssign__baseTransform] = this.baseTransformStack.pop();
     },
 
     beginGroup: function CanvasGraphics_beginGroup(group) {
@@ -5045,7 +5045,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       // The transparency group inherits all off the current graphics state
       // except the blend mode, soft mask, and alpha constants.
       copyCtxState(currentCtx, groupCtx);
-      this.ctx = groupCtx;
+      this[__webkitAssign__ctx] = groupCtx;
       this.setGState([
         ['BM', 'Normal'],
         ['ca', 1],
@@ -5058,16 +5058,16 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
     endGroup: function CanvasGraphics_endGroup(group) {
       this.groupLevel--;
       var groupCtx = this.ctx;
-      this.ctx = this.groupStack.pop();
+      this[__webkitAssign__ctx] = this.groupStack.pop();
       // Turn off image smoothing to avoid sub pixel interpolation which can
       // look kind of blurry for some pdfs.
       if (this.ctx.imageSmoothingEnabled !== undefined) {
-        this.ctx.imageSmoothingEnabled = false;
+        this.ctx[__webkitAssign__imageSmoothingEnabled] = false;
       } else {
-        this.ctx.mozImageSmoothingEnabled = false;
+        this.ctx[__webkitAssign__mozImageSmoothingEnabled] = false;
       }
       if (group.smask) {
-        this.tempSMask = this.smaskStack.pop();
+        this[__webkitAssign__tempSMask] = this.smaskStack.pop();
       } else {
         this.ctx.drawImage(groupCtx.canvas, 0, 0);
       }
@@ -5076,7 +5076,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
     beginAnnotations: function CanvasGraphics_beginAnnotations() {
       this.save();
-      this.current = new CanvasExtraState();
+      this[__webkitAssign__current] = new CanvasExtraState();
     },
 
     endAnnotations: function CanvasGraphics_endAnnotations() {
@@ -5142,10 +5142,10 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
       if (COMPILE_TYPE3_GLYPHS && glyph && glyph.compiled === undefined) {
         if (width <= MAX_SIZE_TO_COMPILE && height <= MAX_SIZE_TO_COMPILE) {
-          glyph.compiled =
+          glyph[__webkitAssign__compiled] =
             compileType3Glyph({data: img.data, width: width, height: height});
         } else {
-          glyph.compiled = null;
+          glyph[__webkitAssign__compiled] = null;
         }
       }
 
@@ -5160,9 +5160,9 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
       putBinaryImageMask(maskCtx, img);
 
-      maskCtx.globalCompositeOperation = 'source-in';
+      maskCtx[__webkitAssign__globalCompositeOperation] = 'source-in';
 
-      maskCtx.fillStyle = isPatternFill ?
+      maskCtx[__webkitAssign__fillStyle] = isPatternFill ?
                           fillColor.getPattern(maskCtx, this) : fillColor;
       maskCtx.fillRect(0, 0, width, height);
 
@@ -5185,9 +5185,9 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
       putBinaryImageMask(maskCtx, imgData);
 
-      maskCtx.globalCompositeOperation = 'source-in';
+      maskCtx[__webkitAssign__globalCompositeOperation] = 'source-in';
 
-      maskCtx.fillStyle = isPatternFill ?
+      maskCtx[__webkitAssign__fillStyle] = isPatternFill ?
                           fillColor.getPattern(maskCtx, this) : fillColor;
       maskCtx.fillRect(0, 0, width, height);
 
@@ -5220,9 +5220,9 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
         putBinaryImageMask(maskCtx, image);
 
-        maskCtx.globalCompositeOperation = 'source-in';
+        maskCtx[__webkitAssign__globalCompositeOperation] = 'source-in';
 
-        maskCtx.fillStyle = isPatternFill ?
+        maskCtx[__webkitAssign__fillStyle] = isPatternFill ?
                             fillColor.getPattern(maskCtx, this) : fillColor;
         maskCtx.fillRect(0, 0, width, height);
 
@@ -5406,9 +5406,9 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       if (this.pendingClip) {
         if (this.pendingClip === EO_CLIP) {
           if (ctx.mozFillRule !== undefined) {
-            ctx.mozFillRule = 'evenodd';
+            ctx[__webkitAssign__mozFillRule] = 'evenodd';
             ctx.clip();
-            ctx.mozFillRule = 'nonzero';
+            ctx[__webkitAssign__mozFillRule] = 'nonzero';
           } else {
             try {
               ctx.clip('evenodd');
@@ -5420,7 +5420,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         } else {
           ctx.clip();
         }
-        this.pendingClip = null;
+        this[__webkitAssign__pendingClip] = null;
       }
       ctx.beginPath();
     },
@@ -5428,7 +5428,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       if (this.cachedGetSinglePixelWidth === null) {
         var inverse = this.ctx.mozCurrentTransformInverse;
         // max of the current horizontal and vertical scale
-        this.cachedGetSinglePixelWidth = Math.sqrt(Math.max(
+        this[__webkitAssign__cachedGetSinglePixelWidth] = Math.sqrt(Math.max(
           (inverse[0] * inverse[0] + inverse[1] * inverse[1]),
           (inverse[2] * inverse[2] + inverse[3] * inverse[3])));
       }
@@ -5537,7 +5537,7 @@ var WebGLUtils = (function WebGLUtilsClosure() {
     vec4 imageColor = texture2D(u_image, v_texCoord);           \
     vec4 maskColor = texture2D(u_mask, v_texCoord);             \
     if (u_backdrop.a > 0.0) {                                   \
-      maskColor.rgb = maskColor.rgb * maskColor.a +             \
+      maskColor[__webkitAssign__rgb] = maskColor.rgb * maskColor.a +             \
                       u_backdrop.rgb * (1.0 - maskColor.a);     \
     }                                                           \
     float lum;                                                  \
@@ -5570,12 +5570,12 @@ var WebGLUtils = (function WebGLUtilsClosure() {
     gl.useProgram(program);
 
     var cache = {};
-    cache.gl = gl;
-    cache.canvas = canvas;
-    cache.resolutionLocation = gl.getUniformLocation(program, 'u_resolution');
-    cache.positionLocation = gl.getAttribLocation(program, 'a_position');
-    cache.backdropLocation = gl.getUniformLocation(program, 'u_backdrop');
-    cache.subtypeLocation = gl.getUniformLocation(program, 'u_subtype');
+    cache[__webkitAssign__gl] = gl;
+    cache[__webkitAssign__canvas] = canvas;
+    cache[__webkitAssign__resolutionLocation] = gl.getUniformLocation(program, 'u_resolution');
+    cache[__webkitAssign__positionLocation] = gl.getAttribLocation(program, 'a_position');
+    cache[__webkitAssign__backdropLocation] = gl.getUniformLocation(program, 'u_backdrop');
+    cache[__webkitAssign__subtypeLocation] = gl.getUniformLocation(program, 'u_subtype');
 
     var texCoordLocation = gl.getAttribLocation(program, 'a_texCoord');
     var texLayerLocation = gl.getUniformLocation(program, 'u_image');
@@ -5607,8 +5607,8 @@ var WebGLUtils = (function WebGLUtilsClosure() {
       initSmaskGL();
     }
     var cache = smaskCache,canvas = cache.canvas, gl = cache.gl;
-    canvas.width = width;
-    canvas.height = height;
+    canvas[__webkitAssign__width] = width;
+    canvas[__webkitAssign__height] = height;
     gl.viewport(0, 0, gl.drawingBufferWidth, gl.drawingBufferHeight);
     gl.uniform2f(cache.resolutionLocation, width, height);
 
@@ -5702,13 +5702,13 @@ var WebGLUtils = (function WebGLUtilsClosure() {
     gl.useProgram(program);
 
     var cache = {};
-    cache.gl = gl;
-    cache.canvas = canvas;
-    cache.resolutionLocation = gl.getUniformLocation(program, 'u_resolution');
-    cache.scaleLocation = gl.getUniformLocation(program, 'u_scale');
-    cache.offsetLocation = gl.getUniformLocation(program, 'u_offset');
-    cache.positionLocation = gl.getAttribLocation(program, 'a_position');
-    cache.colorLocation = gl.getAttribLocation(program, 'a_color');
+    cache[__webkitAssign__gl] = gl;
+    cache[__webkitAssign__canvas] = canvas;
+    cache[__webkitAssign__resolutionLocation] = gl.getUniformLocation(program, 'u_resolution');
+    cache[__webkitAssign__scaleLocation] = gl.getUniformLocation(program, 'u_scale');
+    cache[__webkitAssign__offsetLocation] = gl.getUniformLocation(program, 'u_offset');
+    cache[__webkitAssign__positionLocation] = gl.getAttribLocation(program, 'a_position');
+    cache[__webkitAssign__colorLocation] = gl.getAttribLocation(program, 'a_color');
 
     figuresCache = cache;
   }
@@ -5719,8 +5719,8 @@ var WebGLUtils = (function WebGLUtilsClosure() {
     }
     var cache = figuresCache, canvas = cache.canvas, gl = cache.gl;
 
-    canvas.width = width;
-    canvas.height = height;
+    canvas[__webkitAssign__width] = width;
+    canvas[__webkitAssign__height] = height;
     gl.viewport(0, 0, gl.drawingBufferWidth, gl.drawingBufferHeight);
     gl.uniform2f(cache.resolutionLocation, width, height);
 
@@ -5839,12 +5839,12 @@ var WebGLUtils = (function WebGLUtilsClosure() {
 
   function cleanup() {
     if (smaskCache && smaskCache.canvas) {
-      smaskCache.canvas.width = 0;
-      smaskCache.canvas.height = 0;
+      smaskCache.canvas[__webkitAssign__width] = 0;
+      smaskCache.canvas[__webkitAssign__height] = 0;
     }
     if (figuresCache && figuresCache.canvas) {
-      figuresCache.canvas.width = 0;
-      figuresCache.canvas.height = 0;
+      figuresCache.canvas[__webkitAssign__width] = 0;
+      figuresCache.canvas[__webkitAssign__height] = 0;
     }
     smaskCache = null;
     figuresCache = null;
@@ -5871,7 +5871,7 @@ var WebGLUtils = (function WebGLUtilsClosure() {
 
 var ShadingIRs = {};
 
-ShadingIRs.RadialAxial = {
+ShadingIRs[__webkitAssign__RadialAxial] = {
   fromIR: function RadialAxial_fromIR(raw) {
     var type = raw[1];
     var colorStops = raw[2];
@@ -6063,7 +6063,7 @@ var createMeshCanvas = (function createMeshCanvasClosure() {
   return createMeshCanvas;
 })();
 
-ShadingIRs.Mesh = {
+ShadingIRs[__webkitAssign__Mesh] = {
   fromIR: function Mesh_fromIR(raw) {
     //var type = raw[1];
     var coords = raw[2];
@@ -6113,7 +6113,7 @@ ShadingIRs.Mesh = {
   }
 };
 
-ShadingIRs.Dummy = {
+ShadingIRs[__webkitAssign__Dummy] = {
   fromIR: function Dummy_fromIR() {
     return {
       type: 'Pattern',
@@ -6141,22 +6141,22 @@ var TilingPattern = (function TilingPatternClosure() {
   var MAX_PATTERN_SIZE = 3000; // 10in @ 300dpi shall be enough
 
   function TilingPattern(IR, color, ctx, objs, commonObjs, baseTransform) {
-    this.operatorList = IR[2];
-    this.matrix = IR[3] || [1, 0, 0, 1, 0, 0];
-    this.bbox = IR[4];
-    this.xstep = IR[5];
-    this.ystep = IR[6];
-    this.paintType = IR[7];
-    this.tilingType = IR[8];
-    this.color = color;
-    this.objs = objs;
-    this.commonObjs = commonObjs;
-    this.baseTransform = baseTransform;
-    this.type = 'Pattern';
-    this.ctx = ctx;
+    this[__webkitAssign__operatorList] = IR[2];
+    this[__webkitAssign__matrix] = IR[3] || [1, 0, 0, 1, 0, 0];
+    this[__webkitAssign__bbox] = IR[4];
+    this[__webkitAssign__xstep] = IR[5];
+    this[__webkitAssign__ystep] = IR[6];
+    this[__webkitAssign__paintType] = IR[7];
+    this[__webkitAssign__tilingType] = IR[8];
+    this[__webkitAssign__color] = color;
+    this[__webkitAssign__objs] = objs;
+    this[__webkitAssign__commonObjs] = commonObjs;
+    this[__webkitAssign__baseTransform] = baseTransform;
+    this[__webkitAssign__type] = 'Pattern';
+    this[__webkitAssign__ctx] = ctx;
   }
 
-  TilingPattern.prototype = {
+  TilingPattern[__webkitAssign__prototype] = {
     createPatternCanvas: function TilinPattern_createPatternCanvas(owner) {
       var operatorList = this.operatorList;
       var bbox = this.bbox;
@@ -6199,7 +6199,7 @@ var TilingPattern = (function TilingPatternClosure() {
       var tmpCanvas = CachedCanvases.getCanvas('pattern', width, height, true);
       var tmpCtx = tmpCanvas.context;
       var graphics = new CanvasGraphics(tmpCtx, commonObjs, objs);
-      graphics.groupLevel = owner.groupLevel;
+      graphics[__webkitAssign__groupLevel] = owner.groupLevel;
 
       this.setFillAndStrokeStyleToContext(tmpCtx, paintType, color);
 
@@ -6217,7 +6217,7 @@ var TilingPattern = (function TilingPatternClosure() {
     },
 
     setScale: function TilingPattern_setScale(width, height, xstep, ystep) {
-      this.scale = [width / xstep, height / ystep];
+      this[__webkitAssign__scale] = [width / xstep, height / ystep];
     },
 
     transformToScale: function TilingPattern_transformToScale(graphics) {
@@ -6246,13 +6246,13 @@ var TilingPattern = (function TilingPatternClosure() {
         switch (paintType) {
           case PaintType.COLORED:
             var ctx = this.ctx;
-            context.fillStyle = ctx.fillStyle;
-            context.strokeStyle = ctx.strokeStyle;
+            context[__webkitAssign__fillStyle] = ctx.fillStyle;
+            context[__webkitAssign__strokeStyle] = ctx.strokeStyle;
             break;
           case PaintType.UNCOLORED:
             var cssColor = Util.makeCssRgb(color[0], color[1], color[2]);
-            context.fillStyle = cssColor;
-            context.strokeStyle = cssColor;
+            context[__webkitAssign__fillStyle] = cssColor;
+            context[__webkitAssign__strokeStyle] = cssColor;
             break;
           default:
             error('Unsupported paint type: ' + paintType);
@@ -6275,14 +6275,14 @@ var TilingPattern = (function TilingPatternClosure() {
 })();
 
 
-PDFJS.disableFontFace = false;
+PDFJS[__webkitAssign__disableFontFace] = false;
 
 var FontLoader = {
   insertRule: function fontLoaderInsertRule(rule) {
     var styleElement = document.getElementById('PDFJS_FONT_STYLE_TAG');
     if (!styleElement) {
       styleElement = document.createElement('style');
-      styleElement.id = 'PDFJS_FONT_STYLE_TAG';
+      styleElement[__webkitAssign__id] = 'PDFJS_FONT_STYLE_TAG';
       document.documentElement.getElementsByTagName('head')[0].appendChild(
         styleElement);
     }
@@ -6299,7 +6299,7 @@ var FontLoader = {
     this.nativeFontFaces.forEach(function(nativeFontFace) {
       document.fonts.delete(nativeFontFace);
     });
-    this.nativeFontFaces.length = 0;
+    this.nativeFontFaces[__webkitAssign__length] = 0;
   },
   get loadTestFont() {
     // This is a CFF font with 1 glyph for '.' that fills its entire width and
@@ -6399,7 +6399,7 @@ var FontLoader = {
       if (font.attached || font.loading === false) {
         continue;
       }
-      font.attached = true;
+      font[__webkitAssign__attached] = true;
 
       if (this.isFontLoadingAPISupported) {
         var nativeFontFace = font.createNativeFontFace();
@@ -6430,7 +6430,7 @@ var FontLoader = {
   queueLoadingCallback: function FontLoader_queueLoadingCallback(callback) {
     function LoadLoader_completeRequest() {
       assert(!request.end, 'completeRequest() cannot be called twice');
-      request.end = Date.now();
+      request[__webkitAssign__end] = Date.now();
 
       // sending all completed requests in order how they were queued
       while (context.requests.length > 0 && context.requests[0].end) {
@@ -6477,8 +6477,8 @@ var FontLoader = {
       var i, ii;
 
       var canvas = document.createElement('canvas');
-      canvas.width = 1;
-      canvas.height = 1;
+      canvas[__webkitAssign__width] = 1;
+      canvas[__webkitAssign__height] = 1;
       var ctx = canvas.getContext('2d');
 
       var called = 0;
@@ -6490,7 +6490,7 @@ var FontLoader = {
           callback();
           return;
         }
-        ctx.font = '30px ' + name;
+        ctx[__webkitAssign__font] = '30px ' + name;
         ctx.fillText('.', 0, 20);
         var imageData = ctx.getImageData(0, 0, 1, 1);
         if (imageData.data[3] > 0) {
@@ -6541,8 +6541,8 @@ var FontLoader = {
                        'position: absolute; top: 0px; left: 0px;');
       for (i = 0, ii = names.length; i < ii; ++i) {
         var span = document.createElement('span');
-        span.textContent = 'Hi';
-        span.style.fontFamily = names[i];
+        span[__webkitAssign__textContent] = 'Hi';
+        span.style[__webkitAssign__fontFamily] = names[i];
         div.appendChild(span);
       }
       document.body.appendChild(div);
@@ -6557,7 +6557,7 @@ var FontLoader = {
 
 var FontFaceObject = (function FontFaceObjectClosure() {
   function FontFaceObject(name, file, properties) {
-    this.compiledGlyphs = {};
+    this[__webkitAssign__compiledGlyphs] = {};
     if (arguments.length === 1) {
       // importing translated data
       var data = arguments[0];
@@ -6567,14 +6567,14 @@ var FontFaceObject = (function FontFaceObjectClosure() {
       return;
     }
   }
-  FontFaceObject.prototype = {
+  FontFaceObject[__webkitAssign__prototype] = {
     createNativeFontFace: function FontFaceObject_createNativeFontFace() {
       if (!this.data) {
         return null;
       }
 
       if (PDFJS.disableFontFace) {
-        this.disableFontFace = true;
+        this[__webkitAssign__disableFontFace] = true;
         return null;
       }
 
@@ -6595,7 +6595,7 @@ var FontFaceObject = (function FontFaceObjectClosure() {
       }
 
       if (PDFJS.disableFontFace) {
-        this.disableFontFace = true;
+        this[__webkitAssign__disableFontFace] = true;
         return null;
       }
 
@@ -6645,7 +6645,7 @@ var FontFaceObject = (function FontFaceObjectClosure() {
               current = cmds[i];
 
               if (current.cmd === 'scale') {
-                current.args = [size, -size];
+                current[__webkitAssign__args] = [size, -size];
               }
 
               c[current.cmd].apply(c, current.args);
@@ -6667,23 +6667,23 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
   function setTextStyles(element, item, fontObj) {
 
     var style = element.style;
-    style.fontSize = item.fontSize + 'px';
-    style.direction = item.fontDirection < 0 ? 'rtl': 'ltr';
+    style[__webkitAssign__fontSize] = item.fontSize + 'px';
+    style[__webkitAssign__direction] = item.fontDirection < 0 ? 'rtl': 'ltr';
 
     if (!fontObj) {
       return;
     }
 
-    style.fontWeight = fontObj.black ?
+    style[__webkitAssign__fontWeight] = fontObj.black ?
       (fontObj.bold ? 'bolder' : 'bold') :
       (fontObj.bold ? 'bold' : 'normal');
-    style.fontStyle = fontObj.italic ? 'italic' : 'normal';
+    style[__webkitAssign__fontStyle] = fontObj.italic ? 'italic' : 'normal';
 
     var fontName = fontObj.loadedName;
     var fontFamily = fontName ? '"' + fontName + '", ' : '';
     // Use a reasonable default font if the font doesn't specify a fallback
     var fallbackName = fontObj.fallbackName || 'Helvetica, sans-serif';
-    style.fontFamily = fontFamily + fallbackName;
+    style[__webkitAssign__fontFamily] = fontFamily + fallbackName;
   }
 
   function initContainer(item) {
@@ -6695,7 +6695,7 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
     // Border
     if (item.borderStyle.width > 0) {
       // Border width
-      container.style.borderWidth = item.borderStyle.width + 'px';
+      container.style[__webkitAssign__borderWidth] = item.borderStyle.width + 'px';
       if (item.borderStyle.style !== AnnotationBorderStyleType.UNDERLINE) {
         // Underline styles only have a bottom border, so we do not need
         // to adjust for all borders. This yields a similar result as
@@ -6715,11 +6715,11 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
       // Border style
       switch (item.borderStyle.style) {
         case AnnotationBorderStyleType.SOLID:
-          container.style.borderStyle = 'solid';
+          container.style[__webkitAssign__borderStyle] = 'solid';
           break;
 
         case AnnotationBorderStyleType.DASHED:
-          container.style.borderStyle = 'dashed';
+          container.style[__webkitAssign__borderStyle] = 'dashed';
           break;
 
         case AnnotationBorderStyleType.BEVELED:
@@ -6731,7 +6731,7 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
           break;
 
         case AnnotationBorderStyleType.UNDERLINE:
-          container.style.borderBottomStyle = 'solid';
+          container.style[__webkitAssign__borderBottomStyle] = 'solid';
           break;
 
         default:
@@ -6740,18 +6740,18 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
 
       // Border color
       if (item.color) {
-        container.style.borderColor =
+        container.style[__webkitAssign__borderColor] =
           Util.makeCssRgb(item.color[0] | 0,
                           item.color[1] | 0,
                           item.color[2] | 0);
       } else {
         // Transparent (invisible) border, so do not draw it at all.
-        container.style.borderWidth = 0;
+        container.style[__webkitAssign__borderWidth] = 0;
       }
     }
 
-    cstyle.width = width + 'px';
-    cstyle.height = height + 'px';
+    cstyle[__webkitAssign__width] = width + 'px';
+    cstyle[__webkitAssign__height] = height + 'px';
     return container;
   }
 
@@ -6759,16 +6759,16 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
     var element = document.createElement('div');
     var width = item.rect[2] - item.rect[0];
     var height = item.rect[3] - item.rect[1];
-    element.style.width = width + 'px';
-    element.style.height = height + 'px';
-    element.style.display = 'table';
+    element.style[__webkitAssign__width] = width + 'px';
+    element.style[__webkitAssign__height] = height + 'px';
+    element.style[__webkitAssign__display] = 'table';
 
     var content = document.createElement('div');
-    content.textContent = item.fieldValue;
+    content[__webkitAssign__textContent] = item.fieldValue;
     var textAlignment = item.textAlignment;
-    content.style.textAlign = ['left', 'center', 'right'][textAlignment];
-    content.style.verticalAlign = 'middle';
-    content.style.display = 'table-cell';
+    content.style[__webkitAssign__textAlign] = ['left', 'center', 'right'][textAlignment];
+    content.style[__webkitAssign__verticalAlign] = 'middle';
+    content.style[__webkitAssign__display] = 'table-cell';
 
     var fontObj = item.fontRefName ?
       commonObjs.getData(item.fontRefName) : null;
@@ -6791,25 +6791,25 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
     }
 
     var container = initContainer(item);
-    container.className = 'annotText';
+    container[__webkitAssign__className] = 'annotText';
 
     var image  = document.createElement('img');
-    image.style.height = container.style.height;
-    image.style.width = container.style.width;
+    image.style[__webkitAssign__height] = container.style.height;
+    image.style[__webkitAssign__width] = container.style.width;
     var iconName = item.name;
-    image.src = PDFJS.imageResourcesPath + 'annotation-' +
+    image[__webkitAssign__src] = PDFJS.imageResourcesPath + 'annotation-' +
       iconName.toLowerCase() + '.svg';
-    image.alt = '[{{type}} Annotation]';
-    image.dataset.l10nId = 'text_annotation_type';
-    image.dataset.l10nArgs = JSON.stringify({type: iconName});
+    image[__webkitAssign__alt] = '[{{type}} Annotation]';
+    image.dataset[__webkitAssign__l10nId] = 'text_annotation_type';
+    image.dataset[__webkitAssign__l10nArgs] = JSON.stringify({type: iconName});
 
     var contentWrapper = document.createElement('div');
-    contentWrapper.className = 'annotTextContentWrapper';
-    contentWrapper.style.left = Math.floor(rect[2] - rect[0] + 5) + 'px';
-    contentWrapper.style.top = '-10px';
+    contentWrapper[__webkitAssign__className] = 'annotTextContentWrapper';
+    contentWrapper.style[__webkitAssign__left] = Math.floor(rect[2] - rect[0] + 5) + 'px';
+    contentWrapper.style[__webkitAssign__top] = '-10px';
 
     var content = document.createElement('div');
-    content.className = 'annotTextContent';
+    content[__webkitAssign__className] = 'annotTextContent';
     content.setAttribute('hidden', true);
 
     var i, ii;
@@ -6821,12 +6821,12 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
       var r = BACKGROUND_ENLIGHT * (255 - color[0]) + color[0];
       var g = BACKGROUND_ENLIGHT * (255 - color[1]) + color[1];
       var b = BACKGROUND_ENLIGHT * (255 - color[2]) + color[2];
-      content.style.backgroundColor = Util.makeCssRgb(r | 0, g | 0, b | 0);
+      content.style[__webkitAssign__backgroundColor] = Util.makeCssRgb(r | 0, g | 0, b | 0);
     }
 
     var title = document.createElement('h1');
     var text = document.createElement('p');
-    title.textContent = item.title;
+    title[__webkitAssign__textContent] = item.title;
 
     if (!item.content && !item.title) {
       content.setAttribute('hidden', true);
@@ -6849,7 +6849,7 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
           pinned = true;
         }
         if (content.hasAttribute('hidden')) {
-          container.style.zIndex += 1;
+          container.style[__webkitAssign__zIndex] += 1;
           content.removeAttribute('hidden');
         }
       };
@@ -6859,7 +6859,7 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
           pinned = false;
         }
         if (!content.hasAttribute('hidden') && !pinned) {
-          container.style.zIndex -= 1;
+          container.style[__webkitAssign__zIndex] -= 1;
           content.setAttribute('hidden', true);
         }
       };
@@ -6898,12 +6898,12 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
 
   function getHtmlElementForLinkAnnotation(item) {
     var container = initContainer(item);
-    container.className = 'annotLink';
+    container[__webkitAssign__className] = 'annotLink';
 
     var link = document.createElement('a');
-    link.href = link.title = item.url || '';
+    link[__webkitAssign__href] = link[__webkitAssign__title] = item.url || '';
     if (item.url && PDFJS.openExternalLinksInNewWindow) {
-      link.target = '_blank';
+      link[__webkitAssign__target] = '_blank';
     }
 
     container.appendChild(link);
@@ -6928,7 +6928,7 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
     getHtmlElement: getHtmlElement
   };
 })();
-PDFJS.AnnotationUtils = AnnotationUtils;
+PDFJS[__webkitAssign__AnnotationUtils] = AnnotationUtils;
 
 
 var SVG_DEFAULTS = {
@@ -7131,58 +7131,58 @@ var convertImgDataToPng = (function convertImgDataToPngClosure() {
 
 var SVGExtraState = (function SVGExtraStateClosure() {
   function SVGExtraState() {
-    this.fontSizeScale = 1;
-    this.fontWeight = SVG_DEFAULTS.fontWeight;
-    this.fontSize = 0;
+    this[__webkitAssign__fontSizeScale] = 1;
+    this[__webkitAssign__fontWeight] = SVG_DEFAULTS.fontWeight;
+    this[__webkitAssign__fontSize] = 0;
 
-    this.textMatrix = IDENTITY_MATRIX;
-    this.fontMatrix = FONT_IDENTITY_MATRIX;
-    this.leading = 0;
+    this[__webkitAssign__textMatrix] = IDENTITY_MATRIX;
+    this[__webkitAssign__fontMatrix] = FONT_IDENTITY_MATRIX;
+    this[__webkitAssign__leading] = 0;
 
     // Current point (in user coordinates)
-    this.x = 0;
-    this.y = 0;
+    this[__webkitAssign__x] = 0;
+    this[__webkitAssign__y] = 0;
 
     // Start of text line (in text coordinates)
-    this.lineX = 0;
-    this.lineY = 0;
+    this[__webkitAssign__lineX] = 0;
+    this[__webkitAssign__lineY] = 0;
 
     // Character and word spacing
-    this.charSpacing = 0;
-    this.wordSpacing = 0;
-    this.textHScale = 1;
-    this.textRise = 0;
+    this[__webkitAssign__charSpacing] = 0;
+    this[__webkitAssign__wordSpacing] = 0;
+    this[__webkitAssign__textHScale] = 1;
+    this[__webkitAssign__textRise] = 0;
 
     // Default foreground and background colors
-    this.fillColor = SVG_DEFAULTS.fillColor;
-    this.strokeColor = '#000000';
+    this[__webkitAssign__fillColor] = SVG_DEFAULTS.fillColor;
+    this[__webkitAssign__strokeColor] = '#000000';
 
-    this.fillAlpha = 1;
-    this.strokeAlpha = 1;
-    this.lineWidth = 1;
-    this.lineJoin = '';
-    this.lineCap = '';
-    this.miterLimit = 0;
+    this[__webkitAssign__fillAlpha] = 1;
+    this[__webkitAssign__strokeAlpha] = 1;
+    this[__webkitAssign__lineWidth] = 1;
+    this[__webkitAssign__lineJoin] = '';
+    this[__webkitAssign__lineCap] = '';
+    this[__webkitAssign__miterLimit] = 0;
 
-    this.dashArray = [];
-    this.dashPhase = 0;
+    this[__webkitAssign__dashArray] = [];
+    this[__webkitAssign__dashPhase] = 0;
 
-    this.dependencies = [];
+    this[__webkitAssign__dependencies] = [];
 
     // Clipping
-    this.clipId = '';
-    this.pendingClip = false;
+    this[__webkitAssign__clipId] = '';
+    this[__webkitAssign__pendingClip] = false;
 
-    this.maskId = '';
+    this[__webkitAssign__maskId] = '';
   }
 
-  SVGExtraState.prototype = {
+  SVGExtraState[__webkitAssign__prototype] = {
     clone: function SVGExtraState_clone() {
       return Object.create(this);
     },
     setCurrentPoint: function SVGExtraState_setCurrentPoint(x, y) {
-      this.x = x;
-      this.y = y;
+      this[__webkitAssign__x] = x;
+      this[__webkitAssign__y] = y;
     }
   };
   return SVGExtraState;
@@ -7271,17 +7271,17 @@ var SVGGraphics = (function SVGGraphicsClosure() {
   }
 
   function SVGGraphics(commonObjs, objs) {
-    this.current = new SVGExtraState();
-    this.transformMatrix = IDENTITY_MATRIX; // Graphics state matrix
-    this.transformStack = [];
-    this.extraStack = [];
-    this.commonObjs = commonObjs;
-    this.objs = objs;
-    this.pendingEOFill = false;
+    this[__webkitAssign__current] = new SVGExtraState();
+    this[__webkitAssign__transformMatrix] = IDENTITY_MATRIX; // Graphics state matrix
+    this[__webkitAssign__transformStack] = [];
+    this[__webkitAssign__extraStack] = [];
+    this[__webkitAssign__commonObjs] = commonObjs;
+    this[__webkitAssign__objs] = objs;
+    this[__webkitAssign__pendingEOFill] = false;
 
-    this.embedFonts = false;
-    this.embeddedFonts = {};
-    this.cssStyle = null;
+    this[__webkitAssign__embedFonts] = false;
+    this[__webkitAssign__embeddedFonts] = {};
+    this[__webkitAssign__cssStyle] = null;
   }
 
   var NS = 'http://www.w3.org/2000/svg';
@@ -7292,19 +7292,19 @@ var SVGGraphics = (function SVGGraphicsClosure() {
   var clipCount = 0;
   var maskCount = 0;
 
-  SVGGraphics.prototype = {
+  SVGGraphics[__webkitAssign__prototype] = {
     save: function SVGGraphics_save() {
       this.transformStack.push(this.transformMatrix);
       var old = this.current;
       this.extraStack.push(old);
-      this.current = old.clone();
+      this[__webkitAssign__current] = old.clone();
     },
 
     restore: function SVGGraphics_restore() {
-      this.transformMatrix = this.transformStack.pop();
-      this.current = this.extraStack.pop();
+      this[__webkitAssign__transformMatrix] = this.transformStack.pop();
+      this[__webkitAssign__current] = this.extraStack.pop();
 
-      this.tgrp = document.createElementNS(NS, 'svg:g');
+      this[__webkitAssign__tgrp] = document.createElementNS(NS, 'svg:g');
       this.tgrp.setAttributeNS(null, 'transform', pm(this.transformMatrix));
       this.pgrp.appendChild(this.tgrp);
     },
@@ -7346,24 +7346,24 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 
     transform: function SVGGraphics_transform(a, b, c, d, e, f) {
       var transformMatrix = [a, b, c, d, e, f];
-      this.transformMatrix = PDFJS.Util.transform(this.transformMatrix,
+      this[__webkitAssign__transformMatrix] = PDFJS.Util.transform(this.transformMatrix,
                                                   transformMatrix);
 
-      this.tgrp = document.createElementNS(NS, 'svg:g');
+      this[__webkitAssign__tgrp] = document.createElementNS(NS, 'svg:g');
       this.tgrp.setAttributeNS(null, 'transform', pm(this.transformMatrix));
     },
 
     getSVG: function SVGGraphics_getSVG(operatorList, viewport) {
-      this.svg = createScratchSVG(viewport.width, viewport.height);
-      this.viewport = viewport;
+      this[__webkitAssign__svg] = createScratchSVG(viewport.width, viewport.height);
+      this[__webkitAssign__viewport] = viewport;
 
       return this.loadDependencies(operatorList).then(function () {
-        this.transformMatrix = IDENTITY_MATRIX;
-        this.pgrp = document.createElementNS(NS, 'svg:g'); // Parent group
+        this[__webkitAssign__transformMatrix] = IDENTITY_MATRIX;
+        this[__webkitAssign__pgrp] = document.createElementNS(NS, 'svg:g'); // Parent group
         this.pgrp.setAttributeNS(null, 'transform', pm(viewport.transform));
-        this.tgrp = document.createElementNS(NS, 'svg:g'); // Transform group
+        this[__webkitAssign__tgrp] = document.createElementNS(NS, 'svg:g'); // Transform group
         this.tgrp.setAttributeNS(null, 'transform', pm(this.transformMatrix));
-        this.defs = document.createElementNS(NS, 'svg:defs');
+        this[__webkitAssign__defs] = document.createElementNS(NS, 'svg:defs');
         this.pgrp.appendChild(this.defs);
         this.pgrp.appendChild(this.tgrp);
         this.svg.appendChild(this.pgrp);
@@ -7535,11 +7535,11 @@ var SVGGraphics = (function SVGGraphicsClosure() {
     },
 
     setWordSpacing: function SVGGraphics_setWordSpacing(wordSpacing) {
-      this.current.wordSpacing = wordSpacing;
+      this.current[__webkitAssign__wordSpacing] = wordSpacing;
     },
 
     setCharSpacing: function SVGGraphics_setCharSpacing(charSpacing) {
-      this.current.charSpacing = charSpacing;
+      this.current[__webkitAssign__charSpacing] = charSpacing;
     },
 
     nextLine: function SVGGraphics_nextLine() {
@@ -7548,40 +7548,40 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 
     setTextMatrix: function SVGGraphics_setTextMatrix(a, b, c, d, e, f) {
       var current = this.current;
-      this.current.textMatrix = this.current.lineMatrix = [a, b, c, d, e, f];
+      this.current[__webkitAssign__textMatrix] = this.current[__webkitAssign__lineMatrix] = [a, b, c, d, e, f];
 
-      this.current.x = this.current.lineX = 0;
-      this.current.y = this.current.lineY = 0;
+      this.current[__webkitAssign__x] = this.current[__webkitAssign__lineX] = 0;
+      this.current[__webkitAssign__y] = this.current[__webkitAssign__lineY] = 0;
 
-      current.xcoords = [];
-      current.tspan = document.createElementNS(NS, 'svg:tspan');
+      current[__webkitAssign__xcoords] = [];
+      current[__webkitAssign__tspan] = document.createElementNS(NS, 'svg:tspan');
       current.tspan.setAttributeNS(null, 'font-family', current.fontFamily);
       current.tspan.setAttributeNS(null, 'font-size',
                                    pf(current.fontSize) + 'px');
       current.tspan.setAttributeNS(null, 'y', pf(-current.y));
 
-      current.txtElement = document.createElementNS(NS, 'svg:text');
+      current[__webkitAssign__txtElement] = document.createElementNS(NS, 'svg:text');
       current.txtElement.appendChild(current.tspan);
     },
 
     beginText: function SVGGraphics_beginText() {
-      this.current.x = this.current.lineX = 0;
-      this.current.y = this.current.lineY = 0;
-      this.current.textMatrix = IDENTITY_MATRIX;
-      this.current.lineMatrix = IDENTITY_MATRIX;
-      this.current.tspan = document.createElementNS(NS, 'svg:tspan');
-      this.current.txtElement = document.createElementNS(NS, 'svg:text');
-      this.current.txtgrp = document.createElementNS(NS, 'svg:g');
-      this.current.xcoords = [];
+      this.current[__webkitAssign__x] = this.current[__webkitAssign__lineX] = 0;
+      this.current[__webkitAssign__y] = this.current[__webkitAssign__lineY] = 0;
+      this.current[__webkitAssign__textMatrix] = IDENTITY_MATRIX;
+      this.current[__webkitAssign__lineMatrix] = IDENTITY_MATRIX;
+      this.current[__webkitAssign__tspan] = document.createElementNS(NS, 'svg:tspan');
+      this.current[__webkitAssign__txtElement] = document.createElementNS(NS, 'svg:text');
+      this.current[__webkitAssign__txtgrp] = document.createElementNS(NS, 'svg:g');
+      this.current[__webkitAssign__xcoords] = [];
     },
 
     moveText: function SVGGraphics_moveText(x, y) {
       var current = this.current;
-      this.current.x = this.current.lineX += x;
-      this.current.y = this.current.lineY += y;
+      this.current[__webkitAssign__x] = this.current[__webkitAssign__lineX] += x;
+      this.current[__webkitAssign__y] = this.current[__webkitAssign__lineY] += y;
 
-      current.xcoords = [];
-      current.tspan = document.createElementNS(NS, 'svg:tspan');
+      current[__webkitAssign__xcoords] = [];
+      current[__webkitAssign__tspan] = document.createElementNS(NS, 'svg:tspan');
       current.tspan.setAttributeNS(null, 'font-family', current.fontFamily);
       current.tspan.setAttributeNS(null, 'font-size',
                                    pf(current.fontSize) + 'px');
@@ -7623,12 +7623,12 @@ var SVGGraphics = (function SVGGraphicsClosure() {
         var charWidth = width * widthAdvanceScale + charSpacing * fontDirection;
         x += charWidth;
 
-        current.tspan.textContent += character;
+        current.tspan[__webkitAssign__textContent] += character;
       }
       if (vertical) {
-        current.y -= x * textHScale;
+        current[__webkitAssign__y] -= x * textHScale;
       } else {
-        current.x += x * textHScale;
+        current[__webkitAssign__x] += x * textHScale;
       }
 
       current.tspan.setAttributeNS(null, 'x',
@@ -7665,13 +7665,13 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 
     addFontStyle: function SVGGraphics_addFontStyle(fontObj) {
       if (!this.cssStyle) {
-        this.cssStyle = document.createElementNS(NS, 'svg:style');
+        this[__webkitAssign__cssStyle] = document.createElementNS(NS, 'svg:style');
         this.cssStyle.setAttributeNS(null, 'type', 'text/css');
         this.defs.appendChild(this.cssStyle);
       }
 
       var url = PDFJS.createObjectURL(fontObj.data, fontObj.mimetype);
-      this.cssStyle.textContent +=
+      this.cssStyle[__webkitAssign__textContent] +=
         '@font-face { font-family: "' + fontObj.loadedName + '";' +
         ' src: url(' + url + '); }\n';
     },
@@ -7680,7 +7680,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       var current = this.current;
       var fontObj = this.commonObjs.get(details[0]);
       var size = details[1];
-      this.current.font = fontObj;
+      this.current[__webkitAssign__font] = fontObj;
 
       if (this.embedFonts && fontObj.data &&
           !this.embeddedFonts[fontObj.loadedName]) {
@@ -7688,7 +7688,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
         this.embeddedFonts[fontObj.loadedName] = fontObj;
       }
 
-      current.fontMatrix = (fontObj.fontMatrix ?
+      current[__webkitAssign__fontMatrix] = (fontObj.fontMatrix ?
                             fontObj.fontMatrix : FONT_IDENTITY_MATRIX);
 
       var bold = fontObj.black ? (fontObj.bold ? 'bolder' : 'bold') :
@@ -7697,18 +7697,18 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 
       if (size < 0) {
         size = -size;
-        current.fontDirection = -1;
+        current[__webkitAssign__fontDirection] = -1;
       } else {
-        current.fontDirection = 1;
+        current[__webkitAssign__fontDirection] = 1;
       }
-      current.fontSize = size;
-      current.fontFamily = fontObj.loadedName;
-      current.fontWeight = bold;
-      current.fontStyle = italic;
+      current[__webkitAssign__fontSize] = size;
+      current[__webkitAssign__fontFamily] = fontObj.loadedName;
+      current[__webkitAssign__fontWeight] = bold;
+      current[__webkitAssign__fontStyle] = italic;
 
-      current.tspan = document.createElementNS(NS, 'svg:tspan');
+      current[__webkitAssign__tspan] = document.createElementNS(NS, 'svg:tspan');
       current.tspan.setAttributeNS(null, 'y', pf(-current.y));
-      current.xcoords = [];
+      current[__webkitAssign__xcoords] = [];
     },
 
     endText: function SVGGraphics_endText() {
@@ -7718,42 +7718,42 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       } else {
         this.pgrp.appendChild(this.tgrp);
       }
-      this.tgrp = document.createElementNS(NS, 'svg:g');
+      this[__webkitAssign__tgrp] = document.createElementNS(NS, 'svg:g');
       this.tgrp.setAttributeNS(null, 'transform', pm(this.transformMatrix));
     },
 
     // Path properties
     setLineWidth: function SVGGraphics_setLineWidth(width) {
-      this.current.lineWidth = width;
+      this.current[__webkitAssign__lineWidth] = width;
     },
     setLineCap: function SVGGraphics_setLineCap(style) {
-      this.current.lineCap = LINE_CAP_STYLES[style];
+      this.current[__webkitAssign__lineCap] = LINE_CAP_STYLES[style];
     },
     setLineJoin: function SVGGraphics_setLineJoin(style) {
-      this.current.lineJoin = LINE_JOIN_STYLES[style];
+      this.current[__webkitAssign__lineJoin] = LINE_JOIN_STYLES[style];
     },
     setMiterLimit: function SVGGraphics_setMiterLimit(limit) {
-      this.current.miterLimit = limit;
+      this.current[__webkitAssign__miterLimit] = limit;
     },
     setStrokeRGBColor: function SVGGraphics_setStrokeRGBColor(r, g, b) {
       var color = Util.makeCssRgb(r, g, b);
-      this.current.strokeColor = color;
+      this.current[__webkitAssign__strokeColor] = color;
     },
     setFillRGBColor: function SVGGraphics_setFillRGBColor(r, g, b) {
       var color = Util.makeCssRgb(r, g, b);
-      this.current.fillColor = color;
-      this.current.tspan = document.createElementNS(NS, 'svg:tspan');
-      this.current.xcoords = [];
+      this.current[__webkitAssign__fillColor] = color;
+      this.current[__webkitAssign__tspan] = document.createElementNS(NS, 'svg:tspan');
+      this.current[__webkitAssign__xcoords] = [];
     },
     setDash: function SVGGraphics_setDash(dashArray, dashPhase) {
-      this.current.dashArray = dashArray;
-      this.current.dashPhase = dashPhase;
+      this.current[__webkitAssign__dashArray] = dashArray;
+      this.current[__webkitAssign__dashPhase] = dashPhase;
     },
 
     constructPath: function SVGGraphics_constructPath(ops, args) {
       var current = this.current;
       var x = current.x, y = current.y;
-      current.path = document.createElementNS(NS, 'svg:path');
+      current[__webkitAssign__path] = document.createElementNS(NS, 'svg:path');
       var d = [];
       var opLength = ops.length;
 
@@ -7827,7 +7827,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       }
       // Saving a reference in current.element so that it can be addressed
       // in 'fill' and 'stroke'
-      current.element = current.path;
+      current[__webkitAssign__element] = current.path;
       current.setCurrentPoint(x, y);
     },
 
@@ -7839,16 +7839,16 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       } else {
         this.pgrp.appendChild(this.tgrp);
       }
-      this.tgrp = document.createElementNS(NS, 'svg:g');
+      this[__webkitAssign__tgrp] = document.createElementNS(NS, 'svg:g');
       this.tgrp.setAttributeNS(null, 'transform', pm(this.transformMatrix));
     },
 
     clip: function SVGGraphics_clip(type) {
       var current = this.current;
       // Add current path to clipping path
-      current.clipId = 'clippath' + clipCount;
+      current[__webkitAssign__clipId] = 'clippath' + clipCount;
       clipCount++;
-      this.clippath = document.createElementNS(NS, 'svg:clipPath');
+      this[__webkitAssign__clippath] = document.createElementNS(NS, 'svg:clipPath');
       this.clippath.setAttributeNS(null, 'id', current.clipId);
       var clipElement = current.element.cloneNode();
       if (type === 'evenodd') {
@@ -7861,8 +7861,8 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       this.defs.appendChild(this.clippath);
 
       // Create a new group with that attribute
-      current.pendingClip = true;
-      this.cgrp = document.createElementNS(NS, 'svg:g');
+      current[__webkitAssign__pendingClip] = true;
+      this[__webkitAssign__cgrp] = document.createElementNS(NS, 'svg:g');
       this.cgrp.setAttributeNS(null, 'clip-path',
                                'url(#' + current.clipId + ')');
       this.pgrp.appendChild(this.cgrp);
@@ -7876,15 +7876,15 @@ var SVGGraphics = (function SVGGraphicsClosure() {
     },
 
     setLeading: function SVGGraphics_setLeading(leading) {
-      this.current.leading = -leading;
+      this.current[__webkitAssign__leading] = -leading;
     },
 
     setTextRise: function SVGGraphics_setTextRise(textRise) {
-      this.current.textRise = textRise;
+      this.current[__webkitAssign__textRise] = textRise;
     },
 
     setHScale: function SVGGraphics_setHScale(scale) {
-      this.current.textHScale = scale / 100;
+      this.current[__webkitAssign__textHScale] = scale / 100;
     },
 
     setGState: function SVGGraphics_setGState(states) {
@@ -8021,7 +8021,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       cliprect.setAttributeNS(null, 'y', '0');
       cliprect.setAttributeNS(null, 'width', pf(width));
       cliprect.setAttributeNS(null, 'height', pf(height));
-      current.element = cliprect;
+      current[__webkitAssign__element] = cliprect;
       this.clip('nonzero');
       var imgEl = document.createElementNS(NS, 'svg:image');
       imgEl.setAttributeNS(XLINK_NS, 'xlink:href', imgSrc);
@@ -8052,7 +8052,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       var height = imgData.height;
       var fillColor = current.fillColor;
 
-      current.maskId = 'mask' + maskCount++;
+      current[__webkitAssign__maskId] = 'mask' + maskCount++;
       var mask = document.createElementNS(NS, 'svg:mask');
       mask.setAttributeNS(null, 'id', current.maskId);
 
@@ -8087,7 +8087,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
         cliprect.setAttributeNS(null, 'y', bbox[1]);
         cliprect.setAttributeNS(null, 'width', pf(width));
         cliprect.setAttributeNS(null, 'height', pf(height));
-        this.current.element = cliprect;
+        this.current[__webkitAssign__element] = cliprect;
         this.clip('nonzero');
         this.endPath();
       }
@@ -8101,14 +8101,14 @@ var SVGGraphics = (function SVGGraphicsClosure() {
   return SVGGraphics;
 })();
 
-PDFJS.SVGGraphics = SVGGraphics;
+PDFJS[__webkitAssign__SVGGraphics] = SVGGraphics;
 
 
 }).call((typeof window === 'undefined') ? this : window);
 
 if (!PDFJS.workerSrc && typeof document !== 'undefined') {
   // workerSrc is not set -- using last script url to define default location
-  PDFJS.workerSrc = (function () {
+  PDFJS[__webkitAssign__workerSrc] = (function () {
     'use strict';
     var scriptTagContainer = document.body ||
                              document.getElementsByTagName('head')[0];
