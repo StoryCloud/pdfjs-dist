@@ -1,4 +1,4 @@
-var __webkitAssign__PDFJS = 'PDFJS', __webkitAssign__subarray = 'subarray', __webkitAssign__Float64Array = 'Float64Array', __webkitAssign__buffer = 'buffer', __webkitAssign__byteLength = 'byteLength', __webkitAssign__set = 'set', __webkitAssign__Uint8Array = 'Uint8Array', __webkitAssign__Int8Array = 'Int8Array', __webkitAssign__Uint32Array = 'Uint32Array', __webkitAssign__Int32Array = 'Int32Array', __webkitAssign__Uint16Array = 'Uint16Array', __webkitAssign__Float32Array = 'Float32Array', __webkitAssign__URL = 'URL', __webkitAssign__prototype = 'prototype', __webkitAssign__defineProperty = 'defineProperty', __webkitAssign__disableWorker = 'disableWorker', __webkitAssign___responseType = '_responseType', __webkitAssign__btoa = 'btoa', __webkitAssign__atob = 'atob', __webkitAssign__bind = 'bind', __webkitAssign__className = 'className', __webkitAssign__console = 'console', __webkitAssign__log = 'log', __webkitAssign__error = 'error', __webkitAssign__warn = 'warn', __webkitAssign__disableCreateObjectURL = 'disableCreateObjectURL', __webkitAssign__locale = 'locale', __webkitAssign__disableRange = 'disableRange', __webkitAssign__disableStream = 'disableStream', __webkitAssign__disableHistory = 'disableHistory', __webkitAssign___createImageData = '_createImageData', __webkitAssign__createImageData = 'createImageData', __webkitAssign__requestAnimationFrame = 'requestAnimationFrame', __webkitAssign__maxCanvasPixels = 'maxCanvasPixels', __webkitAssign__disableFullscreen = 'disableFullscreen';/* -*- Mode: Java; tab-width: 2; indent-tabs-mode: nil; c-basic-offset: 2 -*- */
+/* -*- Mode: Java; tab-width: 2; indent-tabs-mode: nil; c-basic-offset: 2 -*- */
 /* vim: set shiftwidth=2 tabstop=2 autoindent cindent expandtab: */
 /* Copyright 2012 Mozilla Foundation
  *
@@ -17,11 +17,12 @@ var __webkitAssign__PDFJS = 'PDFJS', __webkitAssign__subarray = 'subarray', __we
 /* globals VBArray, PDFJS */
 
 'use strict';
+var __webkitAssign__PDFJS = "PDFJS", __webkitAssign__subarray = "subarray", __webkitAssign__Float64Array = "Float64Array", __webkitAssign__buffer = "buffer", __webkitAssign__byteLength = "byteLength", __webkitAssign__set = "set", __webkitAssign__Uint8Array = "Uint8Array", __webkitAssign__Int8Array = "Int8Array", __webkitAssign__Uint32Array = "Uint32Array", __webkitAssign__Int32Array = "Int32Array", __webkitAssign__Uint16Array = "Uint16Array", __webkitAssign__Float32Array = "Float32Array", __webkitAssign__URL = "URL", __webkitAssign__prototype = "prototype", __webkitAssign__defineProperty = "defineProperty", __webkitAssign__disableWorker = "disableWorker", __webkitAssign___responseType = "_responseType", __webkitAssign__btoa = "btoa", __webkitAssign__atob = "atob", __webkitAssign__bind = "bind", __webkitAssign__className = "className", __webkitAssign__console = "console", __webkitAssign__log = "log", __webkitAssign__error = "error", __webkitAssign__warn = "warn", __webkitAssign__disableCreateObjectURL = "disableCreateObjectURL", __webkitAssign__locale = "locale", __webkitAssign__disableRange = "disableRange", __webkitAssign__disableStream = "disableStream", __webkitAssign__disableHistory = "disableHistory", __webkitAssign___createImageData = "_createImageData", __webkitAssign__createImageData = "createImageData", __webkitAssign__requestAnimationFrame = "requestAnimationFrame", __webkitAssign__maxCanvasPixels = "maxCanvasPixels", __webkitAssign__disableFullscreen = "disableFullscreen";
 
 // Initializing PDFJS global object here, it case if we need to change/disable
 // some PDF.js features, e.g. range requests
 if (typeof PDFJS === 'undefined') {
-  (typeof window !== 'undefined' ? window : this)[__webkitAssign__PDFJS] = {};
+  ((typeof window !== 'undefined' ? window : this))[__webkitAssign__PDFJS] = {};
 }
 
 // Checking if the typed arrays are supported
