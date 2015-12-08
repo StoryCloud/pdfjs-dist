@@ -15,11 +15,12 @@
 /* globals VBArray, PDFJS */
 
 'use strict';
+var __webkitAssign__PDFJS = "PDFJS", __webkitAssign__subarray = "subarray", __webkitAssign__Float64Array = "Float64Array", __webkitAssign__buffer = "buffer", __webkitAssign__byteLength = "byteLength", __webkitAssign__set = "set", __webkitAssign__Uint8Array = "Uint8Array", __webkitAssign__Int8Array = "Int8Array", __webkitAssign__Uint32Array = "Uint32Array", __webkitAssign__Int32Array = "Int32Array", __webkitAssign__Uint16Array = "Uint16Array", __webkitAssign__Float32Array = "Float32Array", __webkitAssign__URL = "URL", __webkitAssign__prototype = "prototype", __webkitAssign__defineProperty = "defineProperty", __webkitAssign__disableWorker = "disableWorker", __webkitAssign___responseType = "_responseType", __webkitAssign__btoa = "btoa", __webkitAssign__atob = "atob", __webkitAssign__bind = "bind", __webkitAssign__className = "className", __webkitAssign__console = "console", __webkitAssign__log = "log", __webkitAssign__error = "error", __webkitAssign__warn = "warn", __webkitAssign__disableCreateObjectURL = "disableCreateObjectURL", __webkitAssign__locale = "locale", __webkitAssign__disableRange = "disableRange", __webkitAssign__disableStream = "disableStream", __webkitAssign__disableHistory = "disableHistory", __webkitAssign__createImageData = "createImageData", __webkitAssign__requestAnimationFrame = "requestAnimationFrame", __webkitAssign__maxCanvasPixels = "maxCanvasPixels", __webkitAssign__disableFullscreen = "disableFullscreen";
 
 // Initializing PDFJS global object here, it case if we need to change/disable
 // some PDF.js features, e.g. range requests
 if (typeof PDFJS === 'undefined') {
-  (typeof window !== 'undefined' ? window : this).PDFJS = {};
+  ((typeof window !== 'undefined' ? window : this))[__webkitAssign__PDFJS] = {};
 }
 
 // Checking if the typed arrays are supported
@@ -28,17 +29,17 @@ if (typeof PDFJS === 'undefined') {
   if (typeof Uint8Array !== 'undefined') {
     // Support: iOS<6.0
     if (typeof Uint8Array.prototype.subarray === 'undefined') {
-        Uint8Array.prototype.subarray = function subarray(start, end) {
+        Uint8Array.prototype[__webkitAssign__subarray] = function subarray(start, end) {
           return new Uint8Array(this.slice(start, end));
         };
-        Float32Array.prototype.subarray = function subarray(start, end) {
+        Float32Array.prototype[__webkitAssign__subarray] = function subarray(start, end) {
           return new Float32Array(this.slice(start, end));
         };
     }
 
     // Support: Android<4.1
     if (typeof Float64Array === 'undefined') {
-      window.Float64Array = Float32Array;
+      window[__webkitAssign__Float64Array] = Float32Array;
     }
     return;
   }
@@ -72,34 +73,34 @@ if (typeof PDFJS === 'undefined') {
       }
     }
 
-    result.subarray = subarray;
-    result.buffer = result;
-    result.byteLength = result.length;
-    result.set = setArrayOffset;
+    result[__webkitAssign__subarray] = subarray;
+    result[__webkitAssign__buffer] = result;
+    result[__webkitAssign__byteLength] = result.length;
+    result[__webkitAssign__set] = setArrayOffset;
 
     if (typeof arg1 === 'object' && arg1.buffer) {
-      result.buffer = arg1.buffer;
+      result[__webkitAssign__buffer] = arg1.buffer;
     }
     return result;
   }
 
-  window.Uint8Array = TypedArray;
-  window.Int8Array = TypedArray;
+  window[__webkitAssign__Uint8Array] = TypedArray;
+  window[__webkitAssign__Int8Array] = TypedArray;
 
   // we don't need support for set, byteLength for 32-bit array
   // so we can use the TypedArray as well
-  window.Uint32Array = TypedArray;
-  window.Int32Array = TypedArray;
-  window.Uint16Array = TypedArray;
-  window.Float32Array = TypedArray;
-  window.Float64Array = TypedArray;
+  window[__webkitAssign__Uint32Array] = TypedArray;
+  window[__webkitAssign__Int32Array] = TypedArray;
+  window[__webkitAssign__Uint16Array] = TypedArray;
+  window[__webkitAssign__Float32Array] = TypedArray;
+  window[__webkitAssign__Float64Array] = TypedArray;
 })();
 
 // URL = URL || webkitURL
 // Support: Safari<7, Android 4.2+
 (function normalizeURLObject() {
   if (!window.URL) {
-    window.URL = window.webkitURL;
+    window[__webkitAssign__URL] = window.webkitURL;
   }
 })();
 
@@ -114,7 +115,7 @@ if (typeof PDFJS === 'undefined') {
       Object.defineProperty(new Image(), 'id', { value: 'test' });
       // ... another test for android gb browser for non-DOM objects
       var Test = function Test() {};
-      Test.prototype = { get id() { } };
+      Test[__webkitAssign__prototype] = { get id() { } };
       Object.defineProperty(new Test(), 'id',
         { value: '', configurable: true, enumerable: true, writable: false });
     } catch (e) {
@@ -125,7 +126,7 @@ if (typeof PDFJS === 'undefined') {
     }
   }
 
-  Object.defineProperty = function objectDefineProperty(obj, name, def) {
+  Object[__webkitAssign__defineProperty] = function objectDefineProperty(obj, name, def) {
     delete obj[name];
     if ('get' in def) {
       obj.__defineGetter__(name, def['get']);
@@ -163,7 +164,7 @@ if (typeof PDFJS === 'undefined') {
   }
 
   // The worker will be using XHR, so we can save time and disable worker.
-  PDFJS.disableWorker = true;
+  PDFJS[__webkitAssign__disableWorker] = true;
 
   Object.defineProperty(xhrPrototype, 'responseType', {
     get: function xmlHttpRequestGetResponseType() {
@@ -171,7 +172,7 @@ if (typeof PDFJS === 'undefined') {
     },
     set: function xmlHttpRequestSetResponseType(value) {
       if (value === 'text' || value === 'arraybuffer') {
-        this._responseType = value;
+        this[__webkitAssign___responseType] = value;
         if (value === 'arraybuffer' &&
             typeof this.overrideMimeType === 'function') {
           this.overrideMimeType('text/plain; charset=x-user-defined');
@@ -220,7 +221,7 @@ if (typeof PDFJS === 'undefined') {
   var digits =
     'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
 
-  window.btoa = function windowBtoa(chars) {
+  window[__webkitAssign__btoa] = function windowBtoa(chars) {
     var buffer = '';
     var i, n;
     for (i = 0, n = chars.length; i < n; i += 3) {
@@ -247,7 +248,7 @@ if (typeof PDFJS === 'undefined') {
   // https://github.com/davidchambers/Base64.js
   var digits =
     'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
-  window.atob = function (input) {
+  window[__webkitAssign__atob] = function (input) {
     input = input.replace(/=+$/, '');
     if (input.length % 4 === 1) {
       throw new Error('bad atob input');
@@ -278,7 +279,7 @@ if (typeof PDFJS === 'undefined') {
     return;
   }
 
-  Function.prototype.bind = function functionPrototypeBind(obj) {
+  Function.prototype[__webkitAssign__bind] = function functionPrototypeBind(obj) {
     var fn = this, headArgs = Array.prototype.slice.call(arguments, 1);
     var bound = function functionPrototypeBindBound() {
       var args = headArgs.concat(Array.prototype.slice.call(arguments));
@@ -347,7 +348,7 @@ if (typeof PDFJS === 'undefined') {
     if (index >= 0 && remove) {
       list.splice(index, 1);
     }
-    element.className = list.join(' ');
+    element[__webkitAssign__className] = list.join(' ');
     return (index >= 0);
   }
 
@@ -396,20 +397,20 @@ if (typeof PDFJS === 'undefined') {
 // Support: IE<10
 (function checkConsoleCompatibility() {
   if (!('console' in window)) {
-    window.console = {
+    window[__webkitAssign__console] = {
       log: function() {},
       error: function() {},
       warn: function() {}
     };
   } else if (!('bind' in console.log)) {
     // native functions in IE9 might not have bind
-    console.log = (function(fn) {
+    console[__webkitAssign__log] = (function(fn) {
       return function(msg) { return fn(msg); };
     })(console.log);
-    console.error = (function(fn) {
+    console[__webkitAssign__error] = (function(fn) {
       return function(msg) { return fn(msg); };
     })(console.error);
-    console.warn = (function(fn) {
+    console[__webkitAssign__warn] = (function(fn) {
       return function(msg) { return fn(msg); };
     })(console.warn);
   }
@@ -439,7 +440,7 @@ if (typeof PDFJS === 'undefined') {
 (function checkOnBlobSupport() {
   // sometimes IE loosing the data created with createObjectURL(), see #3977
   if (navigator.userAgent.indexOf('Trident') >= 0) {
-    PDFJS.disableCreateObjectURL = true;
+    PDFJS[__webkitAssign__disableCreateObjectURL] = true;
   }
 })();
 
@@ -448,7 +449,7 @@ if (typeof PDFJS === 'undefined') {
   if ('language' in navigator) {
     return;
   }
-  PDFJS.locale = navigator.userLanguage || 'en-US';
+  PDFJS[__webkitAssign__locale] = navigator.userLanguage || 'en-US';
 })();
 
 (function checkRangeRequests() {
@@ -471,8 +472,8 @@ if (typeof PDFJS === 'undefined') {
   var isChromeWithRangeBug = /Chrome\/(39|40)\./.test(navigator.userAgent);
 
   if (isSafari || isOldAndroid || isChromeWithRangeBug) {
-    PDFJS.disableRange = true;
-    PDFJS.disableStream = true;
+    PDFJS[__webkitAssign__disableRange] = true;
+    PDFJS[__webkitAssign__disableStream] = true;
   }
 })();
 
@@ -483,7 +484,7 @@ if (typeof PDFJS === 'undefined') {
   // Android 3.0 and restored as late as in Android 4.2.
   // Support: Android 2.x
   if (!history.pushState || navigator.userAgent.indexOf('Android 2.') >= 0) {
-    PDFJS.disableHistory = true;
+    PDFJS[__webkitAssign__disableHistory] = true;
   }
 })();
 
@@ -492,7 +493,7 @@ if (typeof PDFJS === 'undefined') {
   // IE < 11 will use window.CanvasPixelArray which lacks set function.
   if (window.CanvasPixelArray) {
     if (typeof window.CanvasPixelArray.prototype.set !== 'function') {
-      window.CanvasPixelArray.prototype.set = function(arr) {
+      window.CanvasPixelArray.prototype[__webkitAssign__set] = function(arr) {
         for (var i = 0, ii = this.length; i < ii; i++) {
           this[i] = arr[i];
         }
@@ -521,9 +522,9 @@ if (typeof PDFJS === 'undefined') {
     if (polyfill) {
       var contextPrototype = window.CanvasRenderingContext2D.prototype;
       var createImageData = contextPrototype.createImageData;
-      contextPrototype.createImageData = function(w, h) {
+      contextPrototype[__webkitAssign__createImageData] = function(w, h) {
         var imageData = createImageData.call(this, w, h);
-        imageData.data.set = function(arr) {
+        imageData.data[__webkitAssign__set] = function(arr) {
           for (var i = 0, ii = this.length; i < ii; i++) {
             this[i] = arr[i];
           }
@@ -545,13 +546,13 @@ if (typeof PDFJS === 'undefined') {
   var isIOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
   if (isIOS) {
     // requestAnimationFrame on iOS is broken, replacing with fake one.
-    window.requestAnimationFrame = fakeRequestAnimationFrame;
+    window[__webkitAssign__requestAnimationFrame] = fakeRequestAnimationFrame;
     return;
   }
   if ('requestAnimationFrame' in window) {
     return;
   }
-  window.requestAnimationFrame =
+  window[__webkitAssign__requestAnimationFrame] =
     window.mozRequestAnimationFrame ||
     window.webkitRequestAnimationFrame ||
     fakeRequestAnimationFrame;
@@ -562,7 +563,7 @@ if (typeof PDFJS === 'undefined') {
   var isAndroid = /Android/g.test(navigator.userAgent);
   if (isIOS || isAndroid) {
     // 5MP
-    PDFJS.maxCanvasPixels = 5242880;
+    PDFJS[__webkitAssign__maxCanvasPixels] = 5242880;
   }
 })();
 
@@ -572,7 +573,7 @@ if (typeof PDFJS === 'undefined') {
   var isEmbeddedIE = (navigator.userAgent.indexOf('Trident') >= 0 &&
                       window.parent !== window);
   if (isEmbeddedIE) {
-    PDFJS.disableFullscreen = true;
+    PDFJS[__webkitAssign__disableFullscreen] = true;
   }
 })();
 

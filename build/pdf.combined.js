@@ -1,4 +1,4 @@
-/* Copyright 2012 Mozilla Foundation
+var __webkitAssign__PDFJS = "PDFJS", __webkitAssign__version = "version", __webkitAssign__build = "build", __webkitAssign__pdfBug = "pdfBug", __webkitAssign__VERBOSITY_LEVELS = "VERBOSITY_LEVELS", __webkitAssign__OPS = "OPS", __webkitAssign__UNSUPPORTED_FEATURES = "UNSUPPORTED_FEATURES", __webkitAssign__isValidUrl = "isValidUrl", __webkitAssign__shadow = "shadow", __webkitAssign__LinkTarget = "LinkTarget", __webkitAssign__externalLinkTarget = "externalLinkTarget", __webkitAssign__openExternalLinksInNewWindow = "openExternalLinksInNewWindow", __webkitAssign__isExternalLinkTargetSet = "isExternalLinkTargetSet", __webkitAssign__PasswordResponses = "PasswordResponses", __webkitAssign__name = "name", __webkitAssign__message = "message", __webkitAssign__code = "code", __webkitAssign__prototype = "prototype", __webkitAssign__constructor = "constructor", __webkitAssign__PasswordException = "PasswordException", __webkitAssign__details = "details", __webkitAssign__UnknownErrorException = "UnknownErrorException", __webkitAssign__InvalidPDFException = "InvalidPDFException", __webkitAssign__MissingPDFException = "MissingPDFException", __webkitAssign__status = "status", __webkitAssign__UnexpectedResponseException = "UnexpectedResponseException", __webkitAssign__begin = "begin", __webkitAssign__end = "end", __webkitAssign__width = "width", __webkitAssign__height = "height", __webkitAssign__buffer = "buffer", __webkitAssign__byteLength = "byteLength", __webkitAssign__length = "length", __webkitAssign__Util = "Util", __webkitAssign__makeCssRgb = "makeCssRgb", __webkitAssign__transform = "transform", __webkitAssign__applyTransform = "applyTransform", __webkitAssign__applyInverseTransform = "applyInverseTransform", __webkitAssign__getAxialAlignedBoundingBox = "getAxialAlignedBoundingBox", __webkitAssign__inverseTransform = "inverseTransform", __webkitAssign__apply3dTransform = "apply3dTransform", __webkitAssign__singularValueDecompose2dScale = "singularValueDecompose2dScale", __webkitAssign__normalizeRect = "normalizeRect", __webkitAssign__intersect = "intersect", __webkitAssign__sign = "sign", __webkitAssign__appendToArray = "appendToArray", __webkitAssign__prependToArray = "prependToArray", __webkitAssign__extendObj = "extendObj", __webkitAssign__getInheritableProperty = "getInheritableProperty", __webkitAssign__inherit = "inherit", __webkitAssign__loadScript = "loadScript", __webkitAssign__onload = "onload", __webkitAssign__PageViewport = "PageViewport", __webkitAssign__viewBox = "viewBox", __webkitAssign__scale = "scale", __webkitAssign__rotation = "rotation", __webkitAssign__offsetX = "offsetX", __webkitAssign__offsetY = "offsetY", __webkitAssign__fontScale = "fontScale", __webkitAssign__promise = "promise", __webkitAssign__resolve = "resolve", __webkitAssign__reject = "reject", __webkitAssign__createPromiseCapability = "createPromiseCapability", __webkitAssign__all = "all", __webkitAssign__catch = "catch", __webkitAssign__handlers = "handlers", __webkitAssign___handlers = "_handlers", __webkitAssign__running = "running", __webkitAssign___unhandledRejection = "_unhandledRejection", __webkitAssign__pendingRejectionCheck = "pendingRejectionCheck", __webkitAssign___status = "_status", __webkitAssign__isPromise = "isPromise", __webkitAssign___value = "_value", __webkitAssign__Promise = "Promise", __webkitAssign__started = "started", __webkitAssign__times = "times", __webkitAssign__enabled = "enabled", __webkitAssign__createBlob = "createBlob", __webkitAssign__createObjectURL = "createObjectURL", __webkitAssign__sourceName = "sourceName", __webkitAssign__targetName = "targetName", __webkitAssign__comObj = "comObj", __webkitAssign__callbackIndex = "callbackIndex", __webkitAssign__postMessageTransfers = "postMessageTransfers", __webkitAssign__callbacksCapabilities = "callbacksCapabilities", __webkitAssign__actionHandler = "actionHandler", __webkitAssign___onComObjOnMessage = "_onComObjOnMessage", __webkitAssign__onerror = "onerror", __webkitAssign__src = "src", __webkitAssign__maxImageSize = "maxImageSize", __webkitAssign__cMapUrl = "cMapUrl", __webkitAssign__cMapPacked = "cMapPacked", __webkitAssign__disableFontFace = "disableFontFace", __webkitAssign__imageResourcesPath = "imageResourcesPath", __webkitAssign__disableWorker = "disableWorker", __webkitAssign__workerSrc = "workerSrc", __webkitAssign__disableRange = "disableRange", __webkitAssign__disableStream = "disableStream", __webkitAssign__disableAutoFetch = "disableAutoFetch", __webkitAssign__disableCreateObjectURL = "disableCreateObjectURL", __webkitAssign__disableWebGL = "disableWebGL", __webkitAssign__disableFullscreen = "disableFullscreen", __webkitAssign__useOnlyCssZoom = "useOnlyCssZoom", __webkitAssign__verbosity = "verbosity", __webkitAssign__maxCanvasPixels = "maxCanvasPixels", __webkitAssign__isEvalSupported = "isEvalSupported", __webkitAssign__getDocument = "getDocument", __webkitAssign__initialData = "initialData", __webkitAssign__abort = "abort", __webkitAssign__range = "range", __webkitAssign__onPassword = "onPassword", __webkitAssign__onProgress = "onProgress", __webkitAssign__rangeChunkSize = "rangeChunkSize", __webkitAssign___worker = "_worker", __webkitAssign___transport = "_transport", __webkitAssign__chunkedViewerLoading = "chunkedViewerLoading", __webkitAssign___capability = "_capability", __webkitAssign__docId = "docId", __webkitAssign__destroyed = "destroyed", __webkitAssign__onUnsupportedFeature = "onUnsupportedFeature", __webkitAssign___rangeListeners = "_rangeListeners", __webkitAssign___progressListeners = "_progressListeners", __webkitAssign___progressiveReadListeners = "_progressiveReadListeners", __webkitAssign___readyCapability = "_readyCapability", __webkitAssign__PDFDataRangeTransport = "PDFDataRangeTransport", __webkitAssign__pdfInfo = "pdfInfo", __webkitAssign__transport = "transport", __webkitAssign__loadingTask = "loadingTask", __webkitAssign__pageIndex = "pageIndex", __webkitAssign__pageInfo = "pageInfo", __webkitAssign__stats = "stats", __webkitAssign__commonObjs = "commonObjs", __webkitAssign__objs = "objs", __webkitAssign__cleanupAfterRender = "cleanupAfterRender", __webkitAssign__pendingCleanup = "pendingCleanup", __webkitAssign__intentStates = "intentStates", __webkitAssign__annotationsPromise = "annotationsPromise", __webkitAssign__annotationsIntent = "annotationsIntent", __webkitAssign__receivingOperatorList = "receivingOperatorList", __webkitAssign__displayReadyCapability = "displayReadyCapability", __webkitAssign__operatorList = "operatorList", __webkitAssign__useRequestAnimationFrame = "useRequestAnimationFrame", __webkitAssign__renderTasks = "renderTasks", __webkitAssign__onContinue = "onContinue", __webkitAssign__operatorListChanged = "operatorListChanged", __webkitAssign__opListReadCapability = "opListReadCapability", __webkitAssign__lastChunk = "lastChunk", __webkitAssign__fakeWorkerFilesLoadedCapability = "fakeWorkerFilesLoadedCapability", __webkitAssign___port = "_port", __webkitAssign___webWorker = "_webWorker", __webkitAssign___messageHandler = "_messageHandler", __webkitAssign__PDFWorker = "PDFWorker", __webkitAssign__messageHandler = "messageHandler", __webkitAssign__pdfDataRangeTransport = "pdfDataRangeTransport", __webkitAssign__fontLoader = "fontLoader", __webkitAssign__destroyCapability = "destroyCapability", __webkitAssign__pageCache = "pageCache", __webkitAssign__pagePromises = "pagePromises", __webkitAssign__downloadInfoCapability = "downloadInfoCapability", __webkitAssign__numPages = "numPages", __webkitAssign__pdfDocument = "pdfDocument", __webkitAssign__resolved = "resolved", __webkitAssign__data = "data", __webkitAssign___internalRenderTask = "_internalRenderTask", __webkitAssign__callback = "callback", __webkitAssign__params = "params", __webkitAssign__operatorListIdx = "operatorListIdx", __webkitAssign__pageNumber = "pageNumber", __webkitAssign__graphicsReadyCallback = "graphicsReadyCallback", __webkitAssign__graphicsReady = "graphicsReady", __webkitAssign__cancelled = "cancelled", __webkitAssign__capability = "capability", __webkitAssign__task = "task", __webkitAssign___continueBound = "_continueBound", __webkitAssign___scheduleNextBound = "_scheduleNextBound", __webkitAssign___nextBound = "_nextBound", __webkitAssign__stepper = "stepper", __webkitAssign__nextBreakPoint = "nextBreakPoint", __webkitAssign__gfx = "gfx", __webkitAssign__UnsupportedManager = "UnsupportedManager", __webkitAssign__Metadata = "Metadata", __webkitAssign__metaDocument = "metaDocument", __webkitAssign__metadata = "metadata", __webkitAssign___originalSave = "_originalSave", __webkitAssign___originalRestore = "_originalRestore", __webkitAssign___originalRotate = "_originalRotate", __webkitAssign___originalScale = "_originalScale", __webkitAssign___originalTranslate = "_originalTranslate", __webkitAssign___originalTransform = "_originalTransform", __webkitAssign___originalSetTransform = "_originalSetTransform", __webkitAssign___transformMatrix = "_transformMatrix", __webkitAssign___transformStack = "_transformStack", __webkitAssign__save = "save", __webkitAssign__restore = "restore", __webkitAssign__translate = "translate", __webkitAssign__setTransform = "setTransform", __webkitAssign__rotate = "rotate", __webkitAssign__cache = "cache", __webkitAssign__alphaIsShape = "alphaIsShape", __webkitAssign__fontSize = "fontSize", __webkitAssign__fontSizeScale = "fontSizeScale", __webkitAssign__textMatrix = "textMatrix", __webkitAssign__textMatrixScale = "textMatrixScale", __webkitAssign__fontMatrix = "fontMatrix", __webkitAssign__leading = "leading", __webkitAssign__x = "x", __webkitAssign__y = "y", __webkitAssign__lineX = "lineX", __webkitAssign__lineY = "lineY", __webkitAssign__charSpacing = "charSpacing", __webkitAssign__wordSpacing = "wordSpacing", __webkitAssign__textHScale = "textHScale", __webkitAssign__textRenderingMode = "textRenderingMode", __webkitAssign__textRise = "textRise", __webkitAssign__fillColor = "fillColor", __webkitAssign__strokeColor = "strokeColor", __webkitAssign__patternFill = "patternFill", __webkitAssign__fillAlpha = "fillAlpha", __webkitAssign__strokeAlpha = "strokeAlpha", __webkitAssign__lineWidth = "lineWidth", __webkitAssign__activeSMask = "activeSMask", __webkitAssign__old = "old", __webkitAssign__ctx = "ctx", __webkitAssign__current = "current", __webkitAssign__stateStack = "stateStack", __webkitAssign__pendingClip = "pendingClip", __webkitAssign__pendingEOFill = "pendingEOFill", __webkitAssign__res = "res", __webkitAssign__xobjs = "xobjs", __webkitAssign__imageLayer = "imageLayer", __webkitAssign__groupStack = "groupStack", __webkitAssign__processingType3 = "processingType3", __webkitAssign__baseTransform = "baseTransform", __webkitAssign__baseTransformStack = "baseTransformStack", __webkitAssign__groupLevel = "groupLevel", __webkitAssign__smaskStack = "smaskStack", __webkitAssign__smaskCounter = "smaskCounter", __webkitAssign__tempSMask = "tempSMask", __webkitAssign__cachedCanvases = "cachedCanvases", __webkitAssign__cachedGetSinglePixelWidth = "cachedGetSinglePixelWidth", __webkitAssign__lineDashOffset = "lineDashOffset", __webkitAssign__mozDash = "mozDash", __webkitAssign__mozDashOffset = "mozDashOffset", __webkitAssign__fillStyle = "fillStyle", __webkitAssign__compositeCtx = "compositeCtx", __webkitAssign__transparentCanvas = "transparentCanvas", __webkitAssign__lineCap = "lineCap", __webkitAssign__lineJoin = "lineJoin", __webkitAssign__miterLimit = "miterLimit", __webkitAssign__globalAlpha = "globalAlpha", __webkitAssign__globalCompositeOperation = "globalCompositeOperation", __webkitAssign__strokeStyle = "strokeStyle", __webkitAssign__mozFillRule = "mozFillRule", __webkitAssign__fontDirection = "fontDirection", __webkitAssign__font = "font", __webkitAssign__pendingTextPaths = "pendingTextPaths", __webkitAssign__imageSmoothingEnabled = "imageSmoothingEnabled", __webkitAssign__mozImageSmoothingEnabled = "mozImageSmoothingEnabled", __webkitAssign__compiled = "compiled", __webkitAssign__gl = "gl", __webkitAssign__canvas = "canvas", __webkitAssign__resolutionLocation = "resolutionLocation", __webkitAssign__positionLocation = "positionLocation", __webkitAssign__backdropLocation = "backdropLocation", __webkitAssign__subtypeLocation = "subtypeLocation", __webkitAssign__scaleLocation = "scaleLocation", __webkitAssign__offsetLocation = "offsetLocation", __webkitAssign__colorLocation = "colorLocation", __webkitAssign__RadialAxial = "RadialAxial", __webkitAssign__Mesh = "Mesh", __webkitAssign__Dummy = "Dummy", __webkitAssign__matrix = "matrix", __webkitAssign__bbox = "bbox", __webkitAssign__xstep = "xstep", __webkitAssign__ystep = "ystep", __webkitAssign__paintType = "paintType", __webkitAssign__tilingType = "tilingType", __webkitAssign__color = "color", __webkitAssign__type = "type", __webkitAssign__styleElement = "styleElement", __webkitAssign__nativeFontFaces = "nativeFontFaces", __webkitAssign__loadTestFontId = "loadTestFontId", __webkitAssign__loadingContext = "loadingContext", __webkitAssign__id = "id", __webkitAssign__attached = "attached", __webkitAssign__textContent = "textContent", __webkitAssign__fontFamily = "fontFamily", __webkitAssign__isFontLoadingAPISupported = "isFontLoadingAPISupported", __webkitAssign__compiledGlyphs = "compiledGlyphs", __webkitAssign__args = "args", __webkitAssign__getProp = "getProp", __webkitAssign__setProp = "setProp", __webkitAssign__CustomStyle = "CustomStyle", __webkitAssign__direction = "direction", __webkitAssign__fontWeight = "fontWeight", __webkitAssign__fontStyle = "fontStyle", __webkitAssign__borderWidth = "borderWidth", __webkitAssign__borderStyle = "borderStyle", __webkitAssign__borderBottomStyle = "borderBottomStyle", __webkitAssign__borderColor = "borderColor", __webkitAssign__display = "display", __webkitAssign__textAlign = "textAlign", __webkitAssign__verticalAlign = "verticalAlign", __webkitAssign__className = "className", __webkitAssign__alt = "alt", __webkitAssign__l10nId = "l10nId", __webkitAssign__l10nArgs = "l10nArgs", __webkitAssign__left = "left", __webkitAssign__top = "top", __webkitAssign__backgroundColor = "backgroundColor", __webkitAssign__zIndex = "zIndex", __webkitAssign__href = "href", __webkitAssign__title = "title", __webkitAssign__target = "target", __webkitAssign__AnnotationUtils = "AnnotationUtils", __webkitAssign__isWhitespace = "isWhitespace", __webkitAssign__fontName = "fontName", __webkitAssign__angle = "angle", __webkitAssign__canvasWidth = "canvasWidth", __webkitAssign___textContent = "_textContent", __webkitAssign___container = "_container", __webkitAssign___viewport = "_viewport", __webkitAssign___textDivs = "_textDivs", __webkitAssign___canceled = "_canceled", __webkitAssign___renderTimer = "_renderTimer", __webkitAssign__renderTextLayer = "renderTextLayer", __webkitAssign__dashArray = "dashArray", __webkitAssign__dashPhase = "dashPhase", __webkitAssign__dependencies = "dependencies", __webkitAssign__clipId = "clipId", __webkitAssign__maskId = "maskId", __webkitAssign__transformMatrix = "transformMatrix", __webkitAssign__transformStack = "transformStack", __webkitAssign__extraStack = "extraStack", __webkitAssign__embedFonts = "embedFonts", __webkitAssign__embeddedFonts = "embeddedFonts", __webkitAssign__cssStyle = "cssStyle", __webkitAssign__tgrp = "tgrp", __webkitAssign__svg = "svg", __webkitAssign__viewport = "viewport", __webkitAssign__pgrp = "pgrp", __webkitAssign__defs = "defs", __webkitAssign__lineMatrix = "lineMatrix", __webkitAssign__xcoords = "xcoords", __webkitAssign__tspan = "tspan", __webkitAssign__txtElement = "txtElement", __webkitAssign__txtgrp = "txtgrp", __webkitAssign__path = "path", __webkitAssign__element = "element", __webkitAssign__clippath = "clippath", __webkitAssign__cgrp = "cgrp", __webkitAssign__SVGGraphics = "SVGGraphics", __webkitAssign__url = "url", __webkitAssign__isHttp = "isHttp", __webkitAssign__httpHeaders = "httpHeaders", __webkitAssign__withCredentials = "withCredentials", __webkitAssign__getXhr = "getXhr", __webkitAssign__currXhrId = "currXhrId", __webkitAssign__pendingRequests = "pendingRequests", __webkitAssign__loadedRequests = "loadedRequests", __webkitAssign__responseType = "responseType", __webkitAssign__expectedStatus = "expectedStatus", __webkitAssign__onProgressiveData = "onProgressiveData", __webkitAssign__mozChunked = "mozChunked", __webkitAssign__onreadystatechange = "onreadystatechange", __webkitAssign__onprogress = "onprogress", __webkitAssign__onHeadersReceived = "onHeadersReceived", __webkitAssign__onDone = "onDone", __webkitAssign__onError = "onError", __webkitAssign__bytes = "bytes", __webkitAssign__start = "start", __webkitAssign__pos = "pos", __webkitAssign__chunkSize = "chunkSize", __webkitAssign__loadedChunks = "loadedChunks", __webkitAssign__numChunksLoaded = "numChunksLoaded", __webkitAssign__numChunks = "numChunks", __webkitAssign__manager = "manager", __webkitAssign__progressiveDataLength = "progressiveDataLength", __webkitAssign__lastSuccessfulEnsureByteChunk = "lastSuccessfulEnsureByteChunk", __webkitAssign__getMissingChunks = "getMissingChunks", __webkitAssign__dict = "dict", __webkitAssign__stream = "stream", __webkitAssign__msgHandler = "msgHandler", __webkitAssign__sendRequest = "sendRequest", __webkitAssign__networkManager = "networkManager", __webkitAssign__currRequestId = "currRequestId", __webkitAssign__chunksNeededByRequest = "chunksNeededByRequest", __webkitAssign__requestsByChunk = "requestsByChunk", __webkitAssign__promisesByRequest = "promisesByRequest", __webkitAssign___loadedStreamCapability = "_loadedStreamCapability", __webkitAssign__password = "password", __webkitAssign___passwordChangedCapability = "_passwordChangedCapability", __webkitAssign___docId = "_docId", __webkitAssign__streamManager = "streamManager", __webkitAssign__pdfManager = "pdfManager", __webkitAssign__pageDict = "pageDict", __webkitAssign__xref = "xref", __webkitAssign__ref = "ref", __webkitAssign__fontCache = "fontCache", __webkitAssign__idCounters = "idCounters", __webkitAssign__resourcesPromise = "resourcesPromise", __webkitAssign__pdfFormatVersion = "pdfFormatVersion", __webkitAssign__acroForm = "acroForm", __webkitAssign__xfa = "xfa", __webkitAssign__catalog = "catalog", __webkitAssign__get = "get", __webkitAssign__cmd = "cmd", __webkitAssign__map = "map", __webkitAssign__objId = "objId", __webkitAssign____nonSerializable__ = "__nonSerializable__", __webkitAssign__empty = "empty", __webkitAssign__merge = "merge", __webkitAssign__num = "num", __webkitAssign__gen = "gen", __webkitAssign__catDict = "catDict", __webkitAssign__entries = "entries", __webkitAssign__xrefstms = "xrefstms", __webkitAssign__startXRefQueue = "startXRefQueue", __webkitAssign__trailer = "trailer", __webkitAssign__encrypt = "encrypt", __webkitAssign__root = "root", __webkitAssign__tableState = "tableState", __webkitAssign__buf1 = "buf1", __webkitAssign__buf2 = "buf2", __webkitAssign__firstEntryNum = "firstEntryNum", __webkitAssign__entryCount = "entryCount", __webkitAssign__streamPos = "streamPos", __webkitAssign__entryNum = "entryNum", __webkitAssign__parserBuf1 = "parserBuf1", __webkitAssign__parserBuf2 = "parserBuf2", __webkitAssign__offset = "offset", __webkitAssign__free = "free", __webkitAssign__uncompressed = "uncompressed", __webkitAssign__streamState = "streamState", __webkitAssign__topDict = "topDict", __webkitAssign__allowStreams = "allowStreams", __webkitAssign__fs = "fs", __webkitAssign__description = "description", __webkitAssign__contentAvailable = "contentAvailable", __webkitAssign___filename = "_filename", __webkitAssign__contentRef = "contentRef", __webkitAssign__obj = "obj", __webkitAssign__keys = "keys", __webkitAssign__refSet = "refSet", __webkitAssign__appearance = "appearance", __webkitAssign__subtype = "subtype", __webkitAssign__annotationFlags = "annotationFlags", __webkitAssign__rect = "rect", __webkitAssign__hasAppearance = "hasAppearance", __webkitAssign__flags = "flags", __webkitAssign__rectangle = "rectangle", __webkitAssign__appendToOperatorList = "appendToOperatorList", __webkitAssign__style = "style", __webkitAssign__horizontalCornerRadius = "horizontalCornerRadius", __webkitAssign__verticalCornerRadius = "verticalCornerRadius", __webkitAssign__fieldValue = "fieldValue", __webkitAssign__alternativeText = "alternativeText", __webkitAssign__defaultAppearance = "defaultAppearance", __webkitAssign__fieldType = "fieldType", __webkitAssign__fieldFlags = "fieldFlags", __webkitAssign__fieldResources = "fieldResources", __webkitAssign__fullName = "fullName", __webkitAssign__textAlignment = "textAlignment", __webkitAssign__annotationType = "annotationType", __webkitAssign__hasHtml = "hasHtml", __webkitAssign__content = "content", __webkitAssign__hasBgColor = "hasBgColor", __webkitAssign__dest = "dest", __webkitAssign__action = "action", __webkitAssign__stack = "stack", __webkitAssign__operators = "operators", __webkitAssign__visit = "visit", __webkitAssign__index = "index", __webkitAssign__min = "min", __webkitAssign__max = "max", __webkitAssign__number = "number", __webkitAssign__op = "op", __webkitAssign__arg1 = "arg1", __webkitAssign__arg2 = "arg2", __webkitAssign__arg = "arg", __webkitAssign__variable = "variable", __webkitAssign__parts = "parts", __webkitAssign__parse = "parse", __webkitAssign__fromIR = "fromIR", __webkitAssign__parseToIR = "parseToIR", __webkitAssign__mode = "mode", __webkitAssign__isDefaultDecode = "isDefaultDecode", __webkitAssign__singletons = "singletons", __webkitAssign__numComps = "numComps", __webkitAssign__defaultColor = "defaultColor", __webkitAssign__base = "base", __webkitAssign__tintFn = "tintFn", __webkitAssign__tmpBuf = "tmpBuf", __webkitAssign__highVal = "highVal", __webkitAssign__lookup = "lookup", __webkitAssign__XW = "XW", __webkitAssign__YW = "YW", __webkitAssign__ZW = "ZW", __webkitAssign__XB = "XB", __webkitAssign__YB = "YB", __webkitAssign__ZB = "ZB", __webkitAssign__G = "G", __webkitAssign__whitePoint = "whitePoint", __webkitAssign__blackPoint = "blackPoint", __webkitAssign__GR = "GR", __webkitAssign__GG = "GG", __webkitAssign__GB = "GB", __webkitAssign__MXA = "MXA", __webkitAssign__MYA = "MYA", __webkitAssign__MZA = "MZA", __webkitAssign__MXB = "MXB", __webkitAssign__MYB = "MYB", __webkitAssign__MZB = "MZB", __webkitAssign__MXC = "MXC", __webkitAssign__MYC = "MYC", __webkitAssign__MZC = "MZC", __webkitAssign__amin = "amin", __webkitAssign__amax = "amax", __webkitAssign__bmin = "bmin", __webkitAssign__bmax = "bmax", __webkitAssign__a = "a", __webkitAssign__b = "b", __webkitAssign__s = "s", __webkitAssign__decryptBlock = "decryptBlock", __webkitAssign__high = "high", __webkitAssign__low = "low", __webkitAssign__key = "key", __webkitAssign__bufferPosition = "bufferPosition", __webkitAssign__bufferLength = "bufferLength", __webkitAssign__iv = "iv", __webkitAssign__stringCipherConstructor = "stringCipherConstructor", __webkitAssign__streamCipherConstructor = "streamCipherConstructor", __webkitAssign__algorithm = "algorithm", __webkitAssign__encryptMetadata = "encryptMetadata", __webkitAssign__encryptionKey = "encryptionKey", __webkitAssign__cf = "cf", __webkitAssign__stmf = "stmf", __webkitAssign__strf = "strf", __webkitAssign__eff = "eff", __webkitAssign__parseShading = "parseShading", __webkitAssign__SMALL_NUMBER = "SMALL_NUMBER", __webkitAssign__coordsArr = "coordsArr", __webkitAssign__shadingType = "shadingType", __webkitAssign__cs = "cs", __webkitAssign__extendStart = "extendStart", __webkitAssign__extendEnd = "extendEnd", __webkitAssign__colorStops = "colorStops", __webkitAssign__context = "context", __webkitAssign__tmpCompsBuf = "tmpCompsBuf", __webkitAssign__tmpCsCompsBuf = "tmpCsCompsBuf", __webkitAssign__bounds = "bounds", __webkitAssign__coords = "coords", __webkitAssign__colors = "colors", __webkitAssign__background = "background", __webkitAssign__figures = "figures", __webkitAssign__handler = "handler", __webkitAssign__uniquePrefix = "uniquePrefix", __webkitAssign__checked = "checked", __webkitAssign__endTime = "endTime", __webkitAssign__isolated = "isolated", __webkitAssign__knockout = "knockout", __webkitAssign__backdrop = "backdrop", __webkitAssign__cached = "cached", __webkitAssign__transferMap = "transferMap", __webkitAssign__fontAliases = "fontAliases", __webkitAssign__aliasRef = "aliasRef", __webkitAssign__loadedName = "loadedName", __webkitAssign__translated = "translated", __webkitAssign__fillColorSpace = "fillColorSpace", __webkitAssign__strokeColorSpace = "strokeColorSpace", __webkitAssign__vertical = "vertical", __webkitAssign__textAdvanceScale = "textAdvanceScale", __webkitAssign__lastAdvanceWidth = "lastAdvanceWidth", __webkitAssign__lastAdvanceHeight = "lastAdvanceHeight", __webkitAssign__spaceWidth = "spaceWidth", __webkitAssign__fakeSpaceMin = "fakeSpaceMin", __webkitAssign__fakeMultiSpaceMin = "fakeMultiSpaceMin", __webkitAssign__fakeMultiSpaceMax = "fakeMultiSpaceMax", __webkitAssign__textRunBreakAllowed = "textRunBreakAllowed", __webkitAssign__initialized = "initialized", __webkitAssign__textLineMatrix = "textLineMatrix", __webkitAssign__texts = "texts", __webkitAssign__toUnicode = "toUnicode", __webkitAssign__cidSystemInfo = "cidSystemInfo", __webkitAssign__cidToGidMap = "cidToGidMap", __webkitAssign__defaultEncoding = "defaultEncoding", __webkitAssign__differences = "differences", __webkitAssign__baseEncodingName = "baseEncodingName", __webkitAssign__defaultWidth = "defaultWidth", __webkitAssign__widths = "widths", __webkitAssign__defaultVMetrics = "defaultVMetrics", __webkitAssign__vmetrics = "vmetrics", __webkitAssign__cidEncoding = "cidEncoding", __webkitAssign__cMap = "cMap", __webkitAssign__isType3Font = "isType3Font", __webkitAssign__type3Loaded = "type3Loaded", __webkitAssign__sent = "sent", __webkitAssign__charProcOperatorList = "charProcOperatorList", __webkitAssign__fnArray = "fnArray", __webkitAssign__argsArray = "argsArray", __webkitAssign___totalLength = "_totalLength", __webkitAssign__intent = "intent", __webkitAssign__state = "state", __webkitAssign__ctm = "ctm", __webkitAssign__parser = "parser", __webkitAssign__stateManager = "stateManager", __webkitAssign__nonProcessedArgs = "nonProcessedArgs", __webkitAssign__fn = "fn", __webkitAssign__iCurr = "iCurr", __webkitAssign__codespaceRanges = "codespaceRanges", __webkitAssign__numCodespaceRanges = "numCodespaceRanges", __webkitAssign___map = "_map", __webkitAssign__useCMap = "useCMap", __webkitAssign__builtInCMap = "builtInCMap", __webkitAssign__charcode = "charcode", __webkitAssign__fontChar = "fontChar", __webkitAssign__unicode = "unicode", __webkitAssign__accent = "accent", __webkitAssign__vmetric = "vmetric", __webkitAssign__operatorListId = "operatorListId", __webkitAssign__isSpace = "isSpace", __webkitAssign__matchesForCache = "matchesForCache", __webkitAssign__firstChar = "firstChar", __webkitAssign__lastChar = "lastChar", __webkitAssign__sfnt = "sfnt", __webkitAssign__tables = "tables", __webkitAssign__getSearchParams = "getSearchParams", __webkitAssign__sizes = "sizes", __webkitAssign__glyphCache = "glyphCache", __webkitAssign__isSerifFont = "isSerifFont", __webkitAssign__isSymbolicFont = "isSymbolicFont", __webkitAssign__isMonospace = "isMonospace", __webkitAssign__fallbackName = "fallbackName", __webkitAssign__composite = "composite", __webkitAssign__wideChars = "wideChars", __webkitAssign__ascent = "ascent", __webkitAssign__descent = "descent", __webkitAssign__toFontChar = "toFontChar", __webkitAssign__fontType = "fontType", __webkitAssign__missingFile = "missingFile", __webkitAssign__bold = "bold", __webkitAssign__italic = "italic", __webkitAssign__black = "black", __webkitAssign__remeasure = "remeasure", __webkitAssign__loading = "loading", __webkitAssign__mimetype = "mimetype", __webkitAssign__encoding = "encoding", __webkitAssign__seacMap = "seacMap", __webkitAssign__getFontID = "getFontID", __webkitAssign__delta = "delta", __webkitAssign__offsetIndex = "offsetIndex", __webkitAssign__glyphNames = "glyphNames", __webkitAssign__hintsValid = "hintsValid", __webkitAssign__tooComplexToFollowFunctions = "tooComplexToFollowFunctions", __webkitAssign__isOpenType = "isOpenType", __webkitAssign__post = "post", __webkitAssign__cmap = "cmap", __webkitAssign__fixedPitch = "fixedPitch", __webkitAssign___shadowWidth = "_shadowWidth", __webkitAssign__charsCache = "charsCache", __webkitAssign__error = "error", __webkitAssign__lsb = "lsb", __webkitAssign__flexing = "flexing", __webkitAssign__output = "output", __webkitAssign__seac = "seac", __webkitAssign__currentChar = "currentChar", __webkitAssign__builtInEncoding = "builtInEncoding", __webkitAssign__ascentScaled = "ascentScaled", __webkitAssign__charstrings = "charstrings", __webkitAssign__seacs = "seacs", __webkitAssign__header = "header", __webkitAssign__names = "names", __webkitAssign__strings = "strings", __webkitAssign__globalSubrIndex = "globalSubrIndex", __webkitAssign__charset = "charset", __webkitAssign__charStrings = "charStrings", __webkitAssign__privateDict = "privateDict", __webkitAssign__subrsIndex = "subrsIndex", __webkitAssign__properties = "properties", __webkitAssign__cff = "cff", __webkitAssign__isCIDFont = "isCIDFont", __webkitAssign__fdSelect = "fdSelect", __webkitAssign__fdArray = "fdArray", __webkitAssign__major = "major", __webkitAssign__minor = "minor", __webkitAssign__hdrSize = "hdrSize", __webkitAssign__offSize = "offSize", __webkitAssign__objects = "objects", __webkitAssign__keyToNameMap = "keyToNameMap", __webkitAssign__nameToKeyMap = "nameToKeyMap", __webkitAssign__defaults = "defaults", __webkitAssign__types = "types", __webkitAssign__opcodes = "opcodes", __webkitAssign__order = "order", __webkitAssign__values = "values", __webkitAssign__createTables = "createTables", __webkitAssign__predefined = "predefined", __webkitAssign__format = "format", __webkitAssign__raw = "raw", __webkitAssign__offsets = "offsets", __webkitAssign__idDelta = "idDelta", __webkitAssign__ids = "ids", __webkitAssign__glyphs = "glyphs", __webkitAssign__gsubrs = "gsubrs", __webkitAssign__subrs = "subrs", __webkitAssign__glyphNameMap = "glyphNameMap", __webkitAssign__gsubrsBias = "gsubrsBias", __webkitAssign__subrsBias = "subrsBias", __webkitAssign__image = "image", __webkitAssign__bitsPerComponent = "bitsPerComponent", __webkitAssign__interpolate = "interpolate", __webkitAssign__imageMask = "imageMask", __webkitAssign__matte = "matte", __webkitAssign__bpc = "bpc", __webkitAssign__colorSpace = "colorSpace", __webkitAssign__decode = "decode", __webkitAssign__needsDecode = "needsDecode", __webkitAssign__decodeCoefficients = "decodeCoefficients", __webkitAssign__decodeAddends = "decodeAddends", __webkitAssign__smask = "smask", __webkitAssign__mask = "mask", __webkitAssign__buildImage = "buildImage", __webkitAssign__resize = "resize", __webkitAssign__createMask = "createMask", __webkitAssign__kind = "kind", __webkitAssign__drawWidth = "drawWidth", __webkitAssign__drawHeight = "drawHeight", __webkitAssign__forceRGB = "forceRGB", __webkitAssign__lexer = "lexer", __webkitAssign__imageCache = "imageCache", __webkitAssign__cacheKey = "cacheKey", __webkitAssign__strBuf = "strBuf", __webkitAssign__knownCommands = "knownCommands", __webkitAssign__token = "token", __webkitAssign__prev = "prev", __webkitAssign__value = "value", __webkitAssign__getOperator = "getOperator", __webkitAssign__LBRACE = "LBRACE", __webkitAssign__RBRACE = "RBRACE", __webkitAssign__IF = "IF", __webkitAssign__IFELSE = "IFELSE", __webkitAssign__eof = "eof", __webkitAssign__minBufferLength = "minBufferLength", __webkitAssign__streams = "streams", __webkitAssign__readBlock = "readBlock", __webkitAssign__getBaseStreams = "getBaseStreams", __webkitAssign__str = "str", __webkitAssign__codeSize = "codeSize", __webkitAssign__codeBuf = "codeBuf", __webkitAssign__getBits = "getBits", __webkitAssign__getCode = "getCode", __webkitAssign__generateHuffmanTable = "generateHuffmanTable", __webkitAssign__predictor = "predictor", __webkitAssign__bits = "bits", __webkitAssign__columns = "columns", __webkitAssign__pixBytes = "pixBytes", __webkitAssign__rowBytes = "rowBytes", __webkitAssign__readBlockTiff = "readBlockTiff", __webkitAssign__readBlockPng = "readBlockPng", __webkitAssign__maybeLength = "maybeLength", __webkitAssign__ensureBuffer = "ensureBuffer", __webkitAssign__decodeTransform = "decodeTransform", __webkitAssign__getBytes = "getBytes", __webkitAssign__getIR = "getIR", __webkitAssign__isNativelySupported = "isNativelySupported", __webkitAssign__isNativelyDecodable = "isNativelyDecodable", __webkitAssign__decrypt = "decrypt", __webkitAssign__nextChunk = "nextChunk", __webkitAssign__input = "input", __webkitAssign__firstDigit = "firstDigit", __webkitAssign__eoline = "eoline", __webkitAssign__byteAlign = "byteAlign", __webkitAssign__rows = "rows", __webkitAssign__eoblock = "eoblock", __webkitAssign__codingLine = "codingLine", __webkitAssign__refLine = "refLine", __webkitAssign__codingPos = "codingPos", __webkitAssign__row = "row", __webkitAssign__nextLine2D = "nextLine2D", __webkitAssign__inputBits = "inputBits", __webkitAssign__inputBuf = "inputBuf", __webkitAssign__outputBits = "outputBits", __webkitAssign__addPixels = "addPixels", __webkitAssign__err = "err", __webkitAssign__addPixelsNeg = "addPixelsNeg", __webkitAssign__lookChar = "lookChar", __webkitAssign__findTableCode = "findTableCode", __webkitAssign__getTwoDimCode = "getTwoDimCode", __webkitAssign__getWhiteCode = "getWhiteCode", __webkitAssign__getBlackCode = "getBlackCode", __webkitAssign__lookBits = "lookBits", __webkitAssign__eatBits = "eatBits", __webkitAssign__cachedData = "cachedData", __webkitAssign__bitsCached = "bitsCached", __webkitAssign__lzwState = "lzwState", __webkitAssign__readBits = "readBits", __webkitAssign__lastCode = "lastCode", __webkitAssign__nextCode = "nextCode", __webkitAssign__codeLength = "codeLength", __webkitAssign__prevCode = "prevCode", __webkitAssign__currentSequenceLength = "currentSequenceLength", __webkitAssign__terminated = "terminated", __webkitAssign__WorkerMessageHandler = "WorkerMessageHandler", __webkitAssign__console = "console", __webkitAssign__bp = "bp", __webkitAssign__dataEnd = "dataEnd", __webkitAssign__chigh = "chigh", __webkitAssign__clow = "clow", __webkitAssign__ct = "ct", __webkitAssign__pred = "pred", __webkitAssign__blockData = "blockData", __webkitAssign__blocksPerLine = "blocksPerLine", __webkitAssign__blocksPerColumn = "blocksPerColumn", __webkitAssign__mcusPerLine = "mcusPerLine", __webkitAssign__mcusPerColumn = "mcusPerColumn", __webkitAssign__extended = "extended", __webkitAssign__progressive = "progressive", __webkitAssign__precision = "precision", __webkitAssign__scanLines = "scanLines", __webkitAssign__samplesPerLine = "samplesPerLine", __webkitAssign__components = "components", __webkitAssign__componentIds = "componentIds", __webkitAssign__maxH = "maxH", __webkitAssign__maxV = "maxV", __webkitAssign__huffmanTableDC = "huffmanTableDC", __webkitAssign__huffmanTableAC = "huffmanTableAC", __webkitAssign__jfif = "jfif", __webkitAssign__adobe = "adobe", __webkitAssign__numComponents = "numComponents", __webkitAssign__failOnCorruptedImage = "failOnCorruptedImage", __webkitAssign__componentsCount = "componentsCount", __webkitAssign__mainHeader = "mainHeader", __webkitAssign__Xsiz = "Xsiz", __webkitAssign__Ysiz = "Ysiz", __webkitAssign__XOsiz = "XOsiz", __webkitAssign__YOsiz = "YOsiz", __webkitAssign__XTsiz = "XTsiz", __webkitAssign__YTsiz = "YTsiz", __webkitAssign__XTOsiz = "XTOsiz", __webkitAssign__YTOsiz = "YTOsiz", __webkitAssign__Csiz = "Csiz", __webkitAssign__SIZ = "SIZ", __webkitAssign__QCC = "QCC", __webkitAssign__COC = "COC", __webkitAssign__noQuantization = "noQuantization", __webkitAssign__scalarExpounded = "scalarExpounded", __webkitAssign__guardBits = "guardBits", __webkitAssign__epsilon = "epsilon", __webkitAssign__mu = "mu", __webkitAssign__SPqcds = "SPqcds", __webkitAssign__QCD = "QCD", __webkitAssign__entropyCoderWithCustomPrecincts = "entropyCoderWithCustomPrecincts", __webkitAssign__sopMarkerUsed = "sopMarkerUsed", __webkitAssign__ephMarkerUsed = "ephMarkerUsed", __webkitAssign__progressionOrder = "progressionOrder", __webkitAssign__layersCount = "layersCount", __webkitAssign__multipleComponentTransform = "multipleComponentTransform", __webkitAssign__decompositionLevelsCount = "decompositionLevelsCount", __webkitAssign__xcb = "xcb", __webkitAssign__ycb = "ycb", __webkitAssign__selectiveArithmeticCodingBypass = "selectiveArithmeticCodingBypass", __webkitAssign__resetContextProbabilities = "resetContextProbabilities", __webkitAssign__terminationOnEachCodingPass = "terminationOnEachCodingPass", __webkitAssign__verticalyStripe = "verticalyStripe", __webkitAssign__predictableTermination = "predictableTermination", __webkitAssign__segmentationSymbolUsed = "segmentationSymbolUsed", __webkitAssign__reversibleTransformation = "reversibleTransformation", __webkitAssign__precinctsSizes = "precinctsSizes", __webkitAssign__COD = "COD", __webkitAssign__partIndex = "partIndex", __webkitAssign__partsCount = "partsCount", __webkitAssign__currentTile = "currentTile", __webkitAssign__tiles = "tiles", __webkitAssign__x0 = "x0", __webkitAssign__x1 = "x1", __webkitAssign__y0 = "y0", __webkitAssign__y1 = "y1", __webkitAssign__tx0 = "tx0", __webkitAssign__ty0 = "ty0", __webkitAssign__tx1 = "tx1", __webkitAssign__ty1 = "ty1", __webkitAssign__tcx0 = "tcx0", __webkitAssign__tcy0 = "tcy0", __webkitAssign__tcx1 = "tcx1", __webkitAssign__tcy1 = "tcy1", __webkitAssign__PPx = "PPx", __webkitAssign__PPy = "PPy", __webkitAssign__xcb_ = "xcb_", __webkitAssign__ycb_ = "ycb_", __webkitAssign__precinctParameters = "precinctParameters", __webkitAssign__tbx0_ = "tbx0_", __webkitAssign__tby0_ = "tby0_", __webkitAssign__tbx1_ = "tbx1_", __webkitAssign__tby1_ = "tby1_", __webkitAssign__precinctNumber = "precinctNumber", __webkitAssign__subbandType = "subbandType", __webkitAssign__Lblock = "Lblock", __webkitAssign__cbxMin = "cbxMin", __webkitAssign__cbxMax = "cbxMax", __webkitAssign__cbyMax = "cbyMax", __webkitAssign__precinct = "precinct", __webkitAssign__codeblockParameters = "codeblockParameters", __webkitAssign__codeblocks = "codeblocks", __webkitAssign__precincts = "precincts", __webkitAssign__nextPacket = "nextPacket", __webkitAssign__trx0 = "trx0", __webkitAssign__try0 = "try0", __webkitAssign__trx1 = "trx1", __webkitAssign__try1 = "try1", __webkitAssign__resLevel = "resLevel", __webkitAssign__tbx0 = "tbx0", __webkitAssign__tby0 = "tby0", __webkitAssign__tbx1 = "tbx1", __webkitAssign__tby1 = "tby1", __webkitAssign__resolution = "resolution", __webkitAssign__subbands = "subbands", __webkitAssign__resolutions = "resolutions", __webkitAssign__packetsIterator = "packetsIterator", __webkitAssign__inclusionTree = "inclusionTree", __webkitAssign__zeroBitPlanesTree = "zeroBitPlanesTree", __webkitAssign__included = "included", __webkitAssign__zeroBitPlanes = "zeroBitPlanes", __webkitAssign__quantizationParameters = "quantizationParameters", __webkitAssign__codingStyleParameters = "codingStyleParameters", __webkitAssign__codingStyleDefaultParameters = "codingStyleDefaultParameters", __webkitAssign__levels = "levels", __webkitAssign__currentLevel = "currentLevel", __webkitAssign__contextLabelTable = "contextLabelTable", __webkitAssign__neighborsSignificance = "neighborsSignificance", __webkitAssign__coefficentsSign = "coefficentsSign", __webkitAssign__coefficentsMagnitude = "coefficentsMagnitude", __webkitAssign__processingFlags = "processingFlags", __webkitAssign__bitsDecoded = "bitsDecoded", __webkitAssign__decoder = "decoder", __webkitAssign__contexts = "contexts", __webkitAssign__calculate = "calculate", __webkitAssign__extend = "extend", __webkitAssign__iterate = "iterate", __webkitAssign__items = "items", __webkitAssign__filter = "filter", __webkitAssign__typeName = "typeName", __webkitAssign__deferredNonRetain = "deferredNonRetain", __webkitAssign__retainBits = "retainBits", __webkitAssign__referredTo = "referredTo", __webkitAssign__pageAssociation = "pageAssociation", __webkitAssign__headerEnd = "headerEnd", __webkitAssign__huffman = "huffman", __webkitAssign__refinement = "refinement", __webkitAssign__huffmanDHSelector = "huffmanDHSelector", __webkitAssign__huffmanDWSelector = "huffmanDWSelector", __webkitAssign__bitmapSizeSelector = "bitmapSizeSelector", __webkitAssign__aggregationInstancesSelector = "aggregationInstancesSelector", __webkitAssign__bitmapCodingContextUsed = "bitmapCodingContextUsed", __webkitAssign__bitmapCodingContextRetained = "bitmapCodingContextRetained", __webkitAssign__template = "template", __webkitAssign__refinementTemplate = "refinementTemplate", __webkitAssign__at = "at", __webkitAssign__refinementAt = "refinementAt", __webkitAssign__numberOfExportedSymbols = "numberOfExportedSymbols", __webkitAssign__numberOfNewSymbols = "numberOfNewSymbols", __webkitAssign__info = "info", __webkitAssign__stripSize = "stripSize", __webkitAssign__referenceCorner = "referenceCorner", __webkitAssign__transposed = "transposed", __webkitAssign__combinationOperator = "combinationOperator", __webkitAssign__defaultPixelValue = "defaultPixelValue", __webkitAssign__dsOffset = "dsOffset", __webkitAssign__huffmanFS = "huffmanFS", __webkitAssign__huffmanDS = "huffmanDS", __webkitAssign__huffmanDT = "huffmanDT", __webkitAssign__huffmanRefinementDW = "huffmanRefinementDW", __webkitAssign__huffmanRefinementDH = "huffmanRefinementDH", __webkitAssign__huffmanRefinementDX = "huffmanRefinementDX", __webkitAssign__huffmanRefinementDY = "huffmanRefinementDY", __webkitAssign__huffmanRefinementSizeSelector = "huffmanRefinementSizeSelector", __webkitAssign__numberOfSymbolInstances = "numberOfSymbolInstances", __webkitAssign__mmr = "mmr", __webkitAssign__prediction = "prediction", __webkitAssign__lossless = "lossless", __webkitAssign__requiresBuffer = "requiresBuffer", __webkitAssign__combinationOperatorOverride = "combinationOperatorOverride", __webkitAssign__randomAccess = "randomAccess", __webkitAssign__numberOfPages = "numberOfPages", __webkitAssign__currentPageInfo = "currentPageInfo", __webkitAssign__symbols = "symbols", __webkitAssign__bidi = "bidi", __webkitAssign__h1 = "h1", __webkitAssign__h2 = "h2";/* Copyright 2012 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,11 +17,11 @@
 
 // Initializing PDFJS global object (if still undefined)
 if (typeof PDFJS === 'undefined') {
-  (typeof window !== 'undefined' ? window : this).PDFJS = {};
+  ((typeof window !== 'undefined' ? window : this))[__webkitAssign__PDFJS] = {};
 }
 
-PDFJS.version = '1.3.64';
-PDFJS.build = 'a966022';
+PDFJS[__webkitAssign__version] = '1.3.64';
+PDFJS[__webkitAssign__build] = 'a966022';
 
 (function pdfjsWrapper() {
   // Use strict in our context only - users might not want it
@@ -112,19 +112,19 @@ var FontType = {
 // In production, it will be declared outside a global wrapper
 // In development, it will be declared here
 if (!globalScope.PDFJS) {
-  globalScope.PDFJS = {};
+  globalScope[__webkitAssign__PDFJS] = {};
 }
 
-globalScope.PDFJS.pdfBug = false;
+globalScope.PDFJS[__webkitAssign__pdfBug] = false;
 
-PDFJS.VERBOSITY_LEVELS = {
+PDFJS[__webkitAssign__VERBOSITY_LEVELS] = {
   errors: 0,
   warnings: 1,
   infos: 5
 };
 
 // All the possible operations for an operator list.
-var OPS = PDFJS.OPS = {
+var OPS = PDFJS[__webkitAssign__OPS] = {
   // Intentionally start from 1 so it is easy to spot bad operators that will be
   // 0's.
   dependency: 1,
@@ -265,7 +265,7 @@ function assert(cond, msg) {
   }
 }
 
-var UNSUPPORTED_FEATURES = PDFJS.UNSUPPORTED_FEATURES = {
+var UNSUPPORTED_FEATURES = PDFJS[__webkitAssign__UNSUPPORTED_FEATURES] = {
   unknown: 'unknown',
   forms: 'forms',
   javaScript: 'javaScript',
@@ -328,7 +328,7 @@ function isValidUrl(url, allowRelative) {
       return false;
   }
 }
-PDFJS.isValidUrl = isValidUrl;
+PDFJS[__webkitAssign__isValidUrl] = isValidUrl;
 
 function shadow(obj, prop, value) {
   Object.defineProperty(obj, prop, { value: value,
@@ -337,9 +337,9 @@ function shadow(obj, prop, value) {
                                      writable: false });
   return value;
 }
-PDFJS.shadow = shadow;
+PDFJS[__webkitAssign__shadow] = shadow;
 
-var LinkTarget = PDFJS.LinkTarget = {
+var LinkTarget = PDFJS[__webkitAssign__LinkTarget] = {
   NONE: 0, // Default value.
   SELF: 1,
   BLANK: 2,
@@ -359,10 +359,10 @@ function isExternalLinkTargetSet() {
     deprecated('PDFJS.openExternalLinksInNewWindow, please use ' +
                '"PDFJS.externalLinkTarget = PDFJS.LinkTarget.BLANK" instead.');
     if (PDFJS.externalLinkTarget === LinkTarget.NONE) {
-      PDFJS.externalLinkTarget = LinkTarget.BLANK;
+      PDFJS[__webkitAssign__externalLinkTarget] = LinkTarget.BLANK;
     }
     // Reset the deprecated parameter, to suppress further warnings.
-    PDFJS.openExternalLinksInNewWindow = false;
+    PDFJS[__webkitAssign__openExternalLinksInNewWindow] = false;
   }
   switch (PDFJS.externalLinkTarget) {
     case LinkTarget.NONE:
@@ -375,119 +375,119 @@ function isExternalLinkTargetSet() {
   }
   warn('PDFJS.externalLinkTarget is invalid: ' + PDFJS.externalLinkTarget);
   // Reset the external link target, to suppress further warnings.
-  PDFJS.externalLinkTarget = LinkTarget.NONE;
+  PDFJS[__webkitAssign__externalLinkTarget] = LinkTarget.NONE;
   return false;
 }
-PDFJS.isExternalLinkTargetSet = isExternalLinkTargetSet;
+PDFJS[__webkitAssign__isExternalLinkTargetSet] = isExternalLinkTargetSet;
 
-var PasswordResponses = PDFJS.PasswordResponses = {
+var PasswordResponses = PDFJS[__webkitAssign__PasswordResponses] = {
   NEED_PASSWORD: 1,
   INCORRECT_PASSWORD: 2
 };
 
 var PasswordException = (function PasswordExceptionClosure() {
   function PasswordException(msg, code) {
-    this.name = 'PasswordException';
-    this.message = msg;
-    this.code = code;
+    this[__webkitAssign__name] = 'PasswordException';
+    this[__webkitAssign__message] = msg;
+    this[__webkitAssign__code] = code;
   }
 
-  PasswordException.prototype = new Error();
-  PasswordException.constructor = PasswordException;
+  PasswordException[__webkitAssign__prototype] = new Error();
+  PasswordException[__webkitAssign__constructor] = PasswordException;
 
   return PasswordException;
 })();
-PDFJS.PasswordException = PasswordException;
+PDFJS[__webkitAssign__PasswordException] = PasswordException;
 
 var UnknownErrorException = (function UnknownErrorExceptionClosure() {
   function UnknownErrorException(msg, details) {
-    this.name = 'UnknownErrorException';
-    this.message = msg;
-    this.details = details;
+    this[__webkitAssign__name] = 'UnknownErrorException';
+    this[__webkitAssign__message] = msg;
+    this[__webkitAssign__details] = details;
   }
 
-  UnknownErrorException.prototype = new Error();
-  UnknownErrorException.constructor = UnknownErrorException;
+  UnknownErrorException[__webkitAssign__prototype] = new Error();
+  UnknownErrorException[__webkitAssign__constructor] = UnknownErrorException;
 
   return UnknownErrorException;
 })();
-PDFJS.UnknownErrorException = UnknownErrorException;
+PDFJS[__webkitAssign__UnknownErrorException] = UnknownErrorException;
 
 var InvalidPDFException = (function InvalidPDFExceptionClosure() {
   function InvalidPDFException(msg) {
-    this.name = 'InvalidPDFException';
-    this.message = msg;
+    this[__webkitAssign__name] = 'InvalidPDFException';
+    this[__webkitAssign__message] = msg;
   }
 
-  InvalidPDFException.prototype = new Error();
-  InvalidPDFException.constructor = InvalidPDFException;
+  InvalidPDFException[__webkitAssign__prototype] = new Error();
+  InvalidPDFException[__webkitAssign__constructor] = InvalidPDFException;
 
   return InvalidPDFException;
 })();
-PDFJS.InvalidPDFException = InvalidPDFException;
+PDFJS[__webkitAssign__InvalidPDFException] = InvalidPDFException;
 
 var MissingPDFException = (function MissingPDFExceptionClosure() {
   function MissingPDFException(msg) {
-    this.name = 'MissingPDFException';
-    this.message = msg;
+    this[__webkitAssign__name] = 'MissingPDFException';
+    this[__webkitAssign__message] = msg;
   }
 
-  MissingPDFException.prototype = new Error();
-  MissingPDFException.constructor = MissingPDFException;
+  MissingPDFException[__webkitAssign__prototype] = new Error();
+  MissingPDFException[__webkitAssign__constructor] = MissingPDFException;
 
   return MissingPDFException;
 })();
-PDFJS.MissingPDFException = MissingPDFException;
+PDFJS[__webkitAssign__MissingPDFException] = MissingPDFException;
 
 var UnexpectedResponseException =
     (function UnexpectedResponseExceptionClosure() {
   function UnexpectedResponseException(msg, status) {
-    this.name = 'UnexpectedResponseException';
-    this.message = msg;
-    this.status = status;
+    this[__webkitAssign__name] = 'UnexpectedResponseException';
+    this[__webkitAssign__message] = msg;
+    this[__webkitAssign__status] = status;
   }
 
-  UnexpectedResponseException.prototype = new Error();
-  UnexpectedResponseException.constructor = UnexpectedResponseException;
+  UnexpectedResponseException[__webkitAssign__prototype] = new Error();
+  UnexpectedResponseException[__webkitAssign__constructor] = UnexpectedResponseException;
 
   return UnexpectedResponseException;
 })();
-PDFJS.UnexpectedResponseException = UnexpectedResponseException;
+PDFJS[__webkitAssign__UnexpectedResponseException] = UnexpectedResponseException;
 
 var NotImplementedException = (function NotImplementedExceptionClosure() {
   function NotImplementedException(msg) {
-    this.message = msg;
+    this[__webkitAssign__message] = msg;
   }
 
-  NotImplementedException.prototype = new Error();
-  NotImplementedException.prototype.name = 'NotImplementedException';
-  NotImplementedException.constructor = NotImplementedException;
+  NotImplementedException[__webkitAssign__prototype] = new Error();
+  NotImplementedException.prototype[__webkitAssign__name] = 'NotImplementedException';
+  NotImplementedException[__webkitAssign__constructor] = NotImplementedException;
 
   return NotImplementedException;
 })();
 
 var MissingDataException = (function MissingDataExceptionClosure() {
   function MissingDataException(begin, end) {
-    this.begin = begin;
-    this.end = end;
-    this.message = 'Missing data [' + begin + ', ' + end + ')';
+    this[__webkitAssign__begin] = begin;
+    this[__webkitAssign__end] = end;
+    this[__webkitAssign__message] = 'Missing data [' + begin + ', ' + end + ')';
   }
 
-  MissingDataException.prototype = new Error();
-  MissingDataException.prototype.name = 'MissingDataException';
-  MissingDataException.constructor = MissingDataException;
+  MissingDataException[__webkitAssign__prototype] = new Error();
+  MissingDataException.prototype[__webkitAssign__name] = 'MissingDataException';
+  MissingDataException[__webkitAssign__constructor] = MissingDataException;
 
   return MissingDataException;
 })();
 
 var XRefParseException = (function XRefParseExceptionClosure() {
   function XRefParseException(msg) {
-    this.message = msg;
+    this[__webkitAssign__message] = msg;
   }
 
-  XRefParseException.prototype = new Error();
-  XRefParseException.prototype.name = 'XRefParseException';
-  XRefParseException.constructor = XRefParseException;
+  XRefParseException[__webkitAssign__prototype] = new Error();
+  XRefParseException.prototype[__webkitAssign__name] = 'XRefParseException';
+  XRefParseException[__webkitAssign__constructor] = XRefParseException;
 
   return XRefParseException;
 })();
@@ -566,7 +566,7 @@ Object.defineProperty(PDFJS, 'isLittleEndian', {
   // Lazy test if the userAgent support CanvasTypedArrays
 function hasCanvasTypedArrays() {
   var canvas = document.createElement('canvas');
-  canvas.width = canvas.height = 1;
+  canvas[__webkitAssign__width] = canvas[__webkitAssign__height] = 1;
   var ctx = canvas.getContext('2d');
   var imageData = ctx.createImageData(1, 1);
   return (typeof imageData.data.buffer !== 'undefined');
@@ -582,12 +582,12 @@ Object.defineProperty(PDFJS, 'hasCanvasTypedArrays', {
 var Uint32ArrayView = (function Uint32ArrayViewClosure() {
 
   function Uint32ArrayView(buffer, length) {
-    this.buffer = buffer;
-    this.byteLength = buffer.length;
-    this.length = length === undefined ? (this.byteLength >> 2) : length;
+    this[__webkitAssign__buffer] = buffer;
+    this[__webkitAssign__byteLength] = buffer.length;
+    this[__webkitAssign__length] = length === undefined ? (this.byteLength >> 2) : length;
     ensureUint32ArrayViewProps(this.length);
   }
-  Uint32ArrayView.prototype = Object.create(null);
+  Uint32ArrayView[__webkitAssign__prototype] = Object.create(null);
 
   var uint32ArrayViewSetters = 0;
   function createUint32ArrayProp(index) {
@@ -621,14 +621,14 @@ var Uint32ArrayView = (function Uint32ArrayViewClosure() {
 
 var IDENTITY_MATRIX = [1, 0, 0, 1, 0, 0];
 
-var Util = PDFJS.Util = (function UtilClosure() {
+var Util = PDFJS[__webkitAssign__Util] = (function UtilClosure() {
   function Util() {}
 
   var rgbBuf = ['rgb(', 0, ',', 0, ',', 0, ')'];
 
   // makeCssRgb() can be called thousands of times. Using |rgbBuf| avoids
   // creating many intermediate strings.
-  Util.makeCssRgb = function Util_makeCssRgb(r, g, b) {
+  Util[__webkitAssign__makeCssRgb] = function Util_makeCssRgb(r, g, b) {
     rgbBuf[1] = r;
     rgbBuf[3] = g;
     rgbBuf[5] = b;
@@ -636,7 +636,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
   };
 
   // Concatenates two transformation matrices together and returns the result.
-  Util.transform = function Util_transform(m1, m2) {
+  Util[__webkitAssign__transform] = function Util_transform(m1, m2) {
     return [
       m1[0] * m2[0] + m1[2] * m2[1],
       m1[1] * m2[0] + m1[3] * m2[1],
@@ -648,13 +648,13 @@ var Util = PDFJS.Util = (function UtilClosure() {
   };
 
   // For 2d affine transforms
-  Util.applyTransform = function Util_applyTransform(p, m) {
+  Util[__webkitAssign__applyTransform] = function Util_applyTransform(p, m) {
     var xt = p[0] * m[0] + p[1] * m[2] + m[4];
     var yt = p[0] * m[1] + p[1] * m[3] + m[5];
     return [xt, yt];
   };
 
-  Util.applyInverseTransform = function Util_applyInverseTransform(p, m) {
+  Util[__webkitAssign__applyInverseTransform] = function Util_applyInverseTransform(p, m) {
     var d = m[0] * m[3] - m[1] * m[2];
     var xt = (p[0] * m[3] - p[1] * m[2] + m[2] * m[5] - m[4] * m[3]) / d;
     var yt = (-p[0] * m[1] + p[1] * m[0] + m[4] * m[1] - m[5] * m[0]) / d;
@@ -663,7 +663,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
 
   // Applies the transform to the rectangle and finds the minimum axially
   // aligned bounding box.
-  Util.getAxialAlignedBoundingBox =
+  Util[__webkitAssign__getAxialAlignedBoundingBox] =
     function Util_getAxialAlignedBoundingBox(r, m) {
 
     var p1 = Util.applyTransform(r, m);
@@ -678,7 +678,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
     ];
   };
 
-  Util.inverseTransform = function Util_inverseTransform(m) {
+  Util[__webkitAssign__inverseTransform] = function Util_inverseTransform(m) {
     var d = m[0] * m[3] - m[1] * m[2];
     return [m[3] / d, -m[1] / d, -m[2] / d, m[0] / d,
       (m[2] * m[5] - m[4] * m[3]) / d, (m[4] * m[1] - m[5] * m[0]) / d];
@@ -690,7 +690,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
   //   | g h i |   | Z |
   // M is assumed to be serialized as [a,b,c,d,e,f,g,h,i],
   // with v as [X,Y,Z]
-  Util.apply3dTransform = function Util_apply3dTransform(m, v) {
+  Util[__webkitAssign__apply3dTransform] = function Util_apply3dTransform(m, v) {
     return [
       m[0] * v[0] + m[1] * v[1] + m[2] * v[2],
       m[3] * v[0] + m[4] * v[1] + m[5] * v[2],
@@ -701,7 +701,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
   // This calculation uses Singular Value Decomposition.
   // The SVD can be represented with formula A = USV. We are interested in the
   // matrix S here because it represents the scale values.
-  Util.singularValueDecompose2dScale =
+  Util[__webkitAssign__singularValueDecompose2dScale] =
     function Util_singularValueDecompose2dScale(m) {
 
     var transpose = [m[0], m[2], m[1], m[3]];
@@ -726,7 +726,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
   // For coordinate systems whose origin lies in the bottom-left, this
   // means normalization to (BL,TR) ordering. For systems with origin in the
   // top-left, this means (TL,BR) ordering.
-  Util.normalizeRect = function Util_normalizeRect(rect) {
+  Util[__webkitAssign__normalizeRect] = function Util_normalizeRect(rect) {
     var r = rect.slice(0); // clone rect
     if (rect[0] > rect[2]) {
       r[0] = rect[2];
@@ -742,7 +742,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
   // Returns a rectangle [x1, y1, x2, y2] corresponding to the
   // intersection of rect1 and rect2. If no intersection, returns 'false'
   // The rectangle coordinates of rect1, rect2 should be [x1, y1, x2, y2]
-  Util.intersect = function Util_intersect(rect1, rect2) {
+  Util[__webkitAssign__intersect] = function Util_intersect(rect1, rect2) {
     function compare(a, b) {
       return a - b;
     }
@@ -778,25 +778,25 @@ var Util = PDFJS.Util = (function UtilClosure() {
     return result;
   };
 
-  Util.sign = function Util_sign(num) {
+  Util[__webkitAssign__sign] = function Util_sign(num) {
     return num < 0 ? -1 : 1;
   };
 
-  Util.appendToArray = function Util_appendToArray(arr1, arr2) {
+  Util[__webkitAssign__appendToArray] = function Util_appendToArray(arr1, arr2) {
     Array.prototype.push.apply(arr1, arr2);
   };
 
-  Util.prependToArray = function Util_prependToArray(arr1, arr2) {
+  Util[__webkitAssign__prependToArray] = function Util_prependToArray(arr1, arr2) {
     Array.prototype.unshift.apply(arr1, arr2);
   };
 
-  Util.extendObj = function extendObj(obj1, obj2) {
+  Util[__webkitAssign__extendObj] = function extendObj(obj1, obj2) {
     for (var key in obj2) {
       obj1[key] = obj2[key];
     }
   };
 
-  Util.getInheritableProperty = function Util_getInheritableProperty(dict,
+  Util[__webkitAssign__getInheritableProperty] = function Util_getInheritableProperty(dict,
                                                                      name) {
     while (dict && !dict.has(name)) {
       dict = dict.get('Parent');
@@ -807,20 +807,20 @@ var Util = PDFJS.Util = (function UtilClosure() {
     return dict.get(name);
   };
 
-  Util.inherit = function Util_inherit(sub, base, prototype) {
-    sub.prototype = Object.create(base.prototype);
-    sub.prototype.constructor = sub;
+  Util[__webkitAssign__inherit] = function Util_inherit(sub, base, prototype) {
+    sub[__webkitAssign__prototype] = Object.create(base.prototype);
+    sub.prototype[__webkitAssign__constructor] = sub;
     for (var prop in prototype) {
       sub.prototype[prop] = prototype[prop];
     }
   };
 
-  Util.loadScript = function Util_loadScript(src, callback) {
+  Util[__webkitAssign__loadScript] = function Util_loadScript(src, callback) {
     var script = document.createElement('script');
     var loaded = false;
     script.setAttribute('src', src);
     if (callback) {
-      script.onload = function() {
+      script[__webkitAssign__onload] = function() {
         if (!loaded) {
           callback();
         }
@@ -838,7 +838,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
  * @class
  * @alias PDFJS.PageViewport
  */
-var PageViewport = PDFJS.PageViewport = (function PageViewportClosure() {
+var PageViewport = PDFJS[__webkitAssign__PageViewport] = (function PageViewportClosure() {
   /**
    * @constructor
    * @private
@@ -850,11 +850,11 @@ var PageViewport = PDFJS.PageViewport = (function PageViewportClosure() {
    * @param dontFlip {boolean} if true, axis Y will not be flipped.
    */
   function PageViewport(viewBox, scale, rotation, offsetX, offsetY, dontFlip) {
-    this.viewBox = viewBox;
-    this.scale = scale;
-    this.rotation = rotation;
-    this.offsetX = offsetX;
-    this.offsetY = offsetY;
+    this[__webkitAssign__viewBox] = viewBox;
+    this[__webkitAssign__scale] = scale;
+    this[__webkitAssign__rotation] = rotation;
+    this[__webkitAssign__offsetX] = offsetX;
+    this[__webkitAssign__offsetY] = offsetY;
 
     // creating transform to convert pdf coordinate system to the normal
     // canvas like coordinates taking in account scale and rotation
@@ -899,7 +899,7 @@ var PageViewport = PDFJS.PageViewport = (function PageViewportClosure() {
     // creating transform for the following operations:
     // translate(-centerX, -centerY), rotate and flip vertically,
     // scale, and translate(offsetCanvasX, offsetCanvasY)
-    this.transform = [
+    this[__webkitAssign__transform] = [
       rotateA * scale,
       rotateB * scale,
       rotateC * scale,
@@ -908,11 +908,11 @@ var PageViewport = PDFJS.PageViewport = (function PageViewportClosure() {
       offsetCanvasY - rotateB * scale * centerX - rotateD * scale * centerY
     ];
 
-    this.width = width;
-    this.height = height;
-    this.fontScale = scale;
+    this[__webkitAssign__width] = width;
+    this[__webkitAssign__height] = height;
+    this[__webkitAssign__fontScale] = scale;
   }
-  PageViewport.prototype = /** @lends PDFJS.PageViewport.prototype */ {
+  PageViewport[__webkitAssign__prototype] = /** @lends PDFJS.PageViewport.prototype */ {
     /**
      * Clones viewport with additional properties.
      * @param args {Object} (optional) If specified, may contain the 'scale' or
@@ -1082,14 +1082,14 @@ function isRef(v) {
  */
 function createPromiseCapability() {
   var capability = {};
-  capability.promise = new Promise(function (resolve, reject) {
-    capability.resolve = resolve;
-    capability.reject = reject;
+  capability[__webkitAssign__promise] = new Promise(function (resolve, reject) {
+    capability[__webkitAssign__resolve] = resolve;
+    capability[__webkitAssign__reject] = reject;
   });
   return capability;
 }
 
-PDFJS.createPromiseCapability = createPromiseCapability;
+PDFJS[__webkitAssign__createPromiseCapability] = createPromiseCapability;
 
 /**
  * Polyfill for Promises:
@@ -1105,7 +1105,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
   if (globalScope.Promise) {
     // Promises existing in the DOM/Worker, checking presence of all/resolve
     if (typeof globalScope.Promise.all !== 'function') {
-      globalScope.Promise.all = function (iterable) {
+      globalScope.Promise[__webkitAssign__all] = function (iterable) {
         var count = 0, results = [], resolve, reject;
         var promise = new globalScope.Promise(function (resolve_, reject_) {
           resolve = resolve_;
@@ -1128,19 +1128,19 @@ PDFJS.createPromiseCapability = createPromiseCapability;
       };
     }
     if (typeof globalScope.Promise.resolve !== 'function') {
-      globalScope.Promise.resolve = function (value) {
+      globalScope.Promise[__webkitAssign__resolve] = function (value) {
         return new globalScope.Promise(function (resolve) { resolve(value); });
       };
     }
     if (typeof globalScope.Promise.reject !== 'function') {
-      globalScope.Promise.reject = function (reason) {
+      globalScope.Promise[__webkitAssign__reject] = function (reason) {
         return new globalScope.Promise(function (resolve, reject) {
           reject(reason);
         });
       };
     }
     if (typeof globalScope.Promise.prototype.catch !== 'function') {
-      globalScope.Promise.prototype.catch = function (onReject) {
+      globalScope.Promise.prototype[__webkitAssign__catch] = function (onReject) {
         return globalScope.Promise.prototype.then(undefined, onReject);
       };
     }
@@ -1166,13 +1166,13 @@ PDFJS.createPromiseCapability = createPromiseCapability;
         return;
       }
 
-      this.handlers = this.handlers.concat(promise._handlers);
-      promise._handlers = [];
+      this[__webkitAssign__handlers] = this.handlers.concat(promise._handlers);
+      promise[__webkitAssign___handlers] = [];
 
       if (this.running) {
         return;
       }
-      this.running = true;
+      this[__webkitAssign__running] = true;
 
       setTimeout(this.runHandlers.bind(this), 0);
     },
@@ -1215,7 +1215,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
         return;
       }
 
-      this.running = false;
+      this[__webkitAssign__running] = false;
     },
 
     addUnhandledRejection: function addUnhandledRejection(promise) {
@@ -1227,7 +1227,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
     },
 
     removeUnhandeledRejection: function removeUnhandeledRejection(promise) {
-      promise._unhandledRejection = false;
+      promise[__webkitAssign___unhandledRejection] = false;
       for (var i = 0; i < this.unhandledRejections.length; i++) {
         if (this.unhandledRejections[i].promise === promise) {
           this.unhandledRejections.splice(i);
@@ -1240,9 +1240,9 @@ PDFJS.createPromiseCapability = createPromiseCapability;
       if (this.pendingRejectionCheck) {
         return;
       }
-      this.pendingRejectionCheck = true;
+      this[__webkitAssign__pendingRejectionCheck] = true;
       setTimeout(function rejectionCheck() {
-        this.pendingRejectionCheck = false;
+        this[__webkitAssign__pendingRejectionCheck] = false;
         var now = Date.now();
         for (var i = 0; i < this.unhandledRejections.length; i++) {
           if (now - this.unhandledRejections[i].time > REJECTION_TIMEOUT) {
@@ -1264,8 +1264,8 @@ PDFJS.createPromiseCapability = createPromiseCapability;
   };
 
   function Promise(resolver) {
-    this._status = STATUS_PENDING;
-    this._handlers = [];
+    this[__webkitAssign___status] = STATUS_PENDING;
+    this[__webkitAssign___handlers] = [];
     try {
       resolver.call(this, this._resolve.bind(this), this._reject.bind(this));
     } catch (e) {
@@ -1278,7 +1278,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
    * @param {array} array of data and/or promises to wait for.
    * @return {Promise} New dependant promise.
    */
-  Promise.all = function Promise_all(promises) {
+  Promise[__webkitAssign__all] = function Promise_all(promises) {
     var resolveAll, rejectAll;
     var deferred = new Promise(function (resolve, reject) {
       resolveAll = resolve;
@@ -1324,7 +1324,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
    * Checks if the value is likely a promise (has a 'then' function).
    * @return {boolean} true if value is thenable
    */
-  Promise.isPromise = function Promise_isPromise(value) {
+  Promise[__webkitAssign__isPromise] = function Promise_isPromise(value) {
     return value && typeof value.then === 'function';
   };
 
@@ -1333,7 +1333,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
    * @param value resolve value
    * @returns {Promise}
    */
-  Promise.resolve = function Promise_resolve(value) {
+  Promise[__webkitAssign__resolve] = function Promise_resolve(value) {
     return new Promise(function (resolve) { resolve(value); });
   };
 
@@ -1342,11 +1342,11 @@ PDFJS.createPromiseCapability = createPromiseCapability;
    * @param reason rejection value
    * @returns {Promise}
    */
-  Promise.reject = function Promise_reject(reason) {
+  Promise[__webkitAssign__reject] = function Promise_reject(reason) {
     return new Promise(function (resolve, reject) { reject(reason); });
   };
 
-  Promise.prototype = {
+  Promise[__webkitAssign__prototype] = {
     _status: null,
     _value: null,
     _handlers: null,
@@ -1365,11 +1365,11 @@ PDFJS.createPromiseCapability = createPromiseCapability;
         return;
       }
 
-      this._status = status;
-      this._value = value;
+      this[__webkitAssign___status] = status;
+      this[__webkitAssign___value] = value;
 
       if (status === STATUS_REJECTED && this._handlers.length === 0) {
-        this._unhandledRejection = true;
+        this[__webkitAssign___unhandledRejection] = true;
         HandlerManager.addUnhandledRejection(this);
       }
 
@@ -1386,8 +1386,8 @@ PDFJS.createPromiseCapability = createPromiseCapability;
 
     then: function Promise_then(onResolve, onReject) {
       var nextPromise = new Promise(function (resolve, reject) {
-        this.resolve = resolve;
-        this.reject = reject;
+        this[__webkitAssign__resolve] = resolve;
+        this[__webkitAssign__reject] = reject;
       });
       this._handlers.push({
         thisPromise: this,
@@ -1404,7 +1404,7 @@ PDFJS.createPromiseCapability = createPromiseCapability;
     }
   };
 
-  globalScope.Promise = Promise;
+  globalScope[__webkitAssign__Promise] = Promise;
 })();
 
 var StatTimer = (function StatTimerClosure() {
@@ -1415,11 +1415,11 @@ var StatTimer = (function StatTimerClosure() {
     return str;
   }
   function StatTimer() {
-    this.started = {};
-    this.times = [];
-    this.enabled = true;
+    this[__webkitAssign__started] = {};
+    this[__webkitAssign__times] = [];
+    this[__webkitAssign__enabled] = true;
   }
-  StatTimer.prototype = {
+  StatTimer[__webkitAssign__prototype] = {
     time: function StatTimer_time(name) {
       if (!this.enabled) {
         return;
@@ -1467,7 +1467,7 @@ var StatTimer = (function StatTimerClosure() {
   return StatTimer;
 })();
 
-PDFJS.createBlob = function createBlob(data, contentType) {
+PDFJS[__webkitAssign__createBlob] = function createBlob(data, contentType) {
   if (typeof Blob !== 'undefined') {
     return new Blob([data], { type: contentType });
   }
@@ -1477,7 +1477,7 @@ PDFJS.createBlob = function createBlob(data, contentType) {
   return bb.getBlob(contentType);
 };
 
-PDFJS.createObjectURL = (function createObjectURLClosure() {
+PDFJS[__webkitAssign__createObjectURL] = (function createObjectURLClosure() {
   // Blob/createObjectURL is not available, falling back to data schema.
   var digits =
     'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
@@ -1504,15 +1504,15 @@ PDFJS.createObjectURL = (function createObjectURLClosure() {
 })();
 
 function MessageHandler(sourceName, targetName, comObj) {
-  this.sourceName = sourceName;
-  this.targetName = targetName;
-  this.comObj = comObj;
-  this.callbackIndex = 1;
-  this.postMessageTransfers = true;
-  var callbacksCapabilities = this.callbacksCapabilities = {};
-  var ah = this.actionHandler = {};
+  this[__webkitAssign__sourceName] = sourceName;
+  this[__webkitAssign__targetName] = targetName;
+  this[__webkitAssign__comObj] = comObj;
+  this[__webkitAssign__callbackIndex] = 1;
+  this[__webkitAssign__postMessageTransfers] = true;
+  var callbacksCapabilities = this[__webkitAssign__callbacksCapabilities] = {};
+  var ah = this[__webkitAssign__actionHandler] = {};
 
-  this._onComObjOnMessage = function messageHandlerComObjOnMessage(event) {
+  this[__webkitAssign___onComObjOnMessage] = function messageHandlerComObjOnMessage(event) {
     var data = event.data;
     if (data.targetName !== this.sourceName) {
       return;
@@ -1568,7 +1568,7 @@ function MessageHandler(sourceName, targetName, comObj) {
   comObj.addEventListener('message', this._onComObjOnMessage);
 }
 
-MessageHandler.prototype = {
+MessageHandler[__webkitAssign__prototype] = {
   on: function messageHandlerOn(actionName, handler, scope) {
     var ah = this.actionHandler;
     if (ah[actionName]) {
@@ -1639,14 +1639,14 @@ MessageHandler.prototype = {
 
 function loadJpegStream(id, imageUrl, objs) {
   var img = new Image();
-  img.onload = (function loadJpegStream_onloadClosure() {
+  img[__webkitAssign__onload] = (function loadJpegStream_onloadClosure() {
     objs.resolve(id, img);
   });
-  img.onerror = (function loadJpegStream_onerrorClosure() {
+  img[__webkitAssign__onerror] = (function loadJpegStream_onerrorClosure() {
     objs.resolve(id, null);
     warn('Error during JPEG image loading');
   });
-  img.src = imageUrl;
+  img[__webkitAssign__src] = imageUrl;
 }
 
 
@@ -1657,7 +1657,7 @@ var DEFAULT_RANGE_CHUNK_SIZE = 65536; // 2^16 = 65536
  * above this value will not be drawn. Use -1 for no limit.
  * @var {number}
  */
-PDFJS.maxImageSize = (PDFJS.maxImageSize === undefined ?
+PDFJS[__webkitAssign__maxImageSize] = (PDFJS.maxImageSize === undefined ?
                       -1 : PDFJS.maxImageSize);
 
 /**
@@ -1665,13 +1665,13 @@ PDFJS.maxImageSize = (PDFJS.maxImageSize === undefined ?
  * slash.
  * @var {string}
  */
-PDFJS.cMapUrl = (PDFJS.cMapUrl === undefined ? null : PDFJS.cMapUrl);
+PDFJS[__webkitAssign__cMapUrl] = (PDFJS.cMapUrl === undefined ? null : PDFJS.cMapUrl);
 
 /**
  * Specifies if CMaps are binary packed.
  * @var {boolean}
  */
-PDFJS.cMapPacked = PDFJS.cMapPacked === undefined ? false : PDFJS.cMapPacked;
+PDFJS[__webkitAssign__cMapPacked] = PDFJS.cMapPacked === undefined ? false : PDFJS.cMapPacked;
 
 /**
  * By default fonts are converted to OpenType fonts and loaded via font face
@@ -1679,7 +1679,7 @@ PDFJS.cMapPacked = PDFJS.cMapPacked === undefined ? false : PDFJS.cMapPacked;
  * that constructs the glyphs with primitive path commands.
  * @var {boolean}
  */
-PDFJS.disableFontFace = (PDFJS.disableFontFace === undefined ?
+PDFJS[__webkitAssign__disableFontFace] = (PDFJS.disableFontFace === undefined ?
                          false : PDFJS.disableFontFace);
 
 /**
@@ -1687,7 +1687,7 @@ PDFJS.disableFontFace = (PDFJS.disableFontFace === undefined ?
  * slash.
  * @var {string}
  */
-PDFJS.imageResourcesPath = (PDFJS.imageResourcesPath === undefined ?
+PDFJS[__webkitAssign__imageResourcesPath] = (PDFJS.imageResourcesPath === undefined ?
                             '' : PDFJS.imageResourcesPath);
 
 /**
@@ -1696,7 +1696,7 @@ PDFJS.imageResourcesPath = (PDFJS.imageResourcesPath === undefined ?
  * to workers.
  * @var {boolean}
  */
-PDFJS.disableWorker = (PDFJS.disableWorker === undefined ?
+PDFJS[__webkitAssign__disableWorker] = (PDFJS.disableWorker === undefined ?
                        false : PDFJS.disableWorker);
 
 /**
@@ -1707,7 +1707,7 @@ PDFJS.disableWorker = (PDFJS.disableWorker === undefined ?
  * third-party frameworks and libraries.
  * @var {string}
  */
-PDFJS.workerSrc = (PDFJS.workerSrc === undefined ? null : PDFJS.workerSrc);
+PDFJS[__webkitAssign__workerSrc] = (PDFJS.workerSrc === undefined ? null : PDFJS.workerSrc);
 
 /**
  * Disable range request loading of PDF files. When enabled and if the server
@@ -1715,7 +1715,7 @@ PDFJS.workerSrc = (PDFJS.workerSrc === undefined ? null : PDFJS.workerSrc);
  * Enabled (false) by default.
  * @var {boolean}
  */
-PDFJS.disableRange = (PDFJS.disableRange === undefined ?
+PDFJS[__webkitAssign__disableRange] = (PDFJS.disableRange === undefined ?
                       false : PDFJS.disableRange);
 
 /**
@@ -1723,7 +1723,7 @@ PDFJS.disableRange = (PDFJS.disableRange === undefined ?
  * in chunks. This default behavior can be disabled.
  * @var {boolean}
  */
-PDFJS.disableStream = (PDFJS.disableStream === undefined ?
+PDFJS[__webkitAssign__disableStream] = (PDFJS.disableStream === undefined ?
                        false : PDFJS.disableStream);
 
 /**
@@ -1735,34 +1735,34 @@ PDFJS.disableStream = (PDFJS.disableStream === undefined ?
  *       in order for disabling of pre-fetching to work correctly.
  * @var {boolean}
  */
-PDFJS.disableAutoFetch = (PDFJS.disableAutoFetch === undefined ?
+PDFJS[__webkitAssign__disableAutoFetch] = (PDFJS.disableAutoFetch === undefined ?
                           false : PDFJS.disableAutoFetch);
 
 /**
  * Enables special hooks for debugging PDF.js.
  * @var {boolean}
  */
-PDFJS.pdfBug = (PDFJS.pdfBug === undefined ? false : PDFJS.pdfBug);
+PDFJS[__webkitAssign__pdfBug] = (PDFJS.pdfBug === undefined ? false : PDFJS.pdfBug);
 
 /**
  * Enables transfer usage in postMessage for ArrayBuffers.
  * @var {boolean}
  */
-PDFJS.postMessageTransfers = (PDFJS.postMessageTransfers === undefined ?
+PDFJS[__webkitAssign__postMessageTransfers] = (PDFJS.postMessageTransfers === undefined ?
                               true : PDFJS.postMessageTransfers);
 
 /**
  * Disables URL.createObjectURL usage.
  * @var {boolean}
  */
-PDFJS.disableCreateObjectURL = (PDFJS.disableCreateObjectURL === undefined ?
+PDFJS[__webkitAssign__disableCreateObjectURL] = (PDFJS.disableCreateObjectURL === undefined ?
                                 false : PDFJS.disableCreateObjectURL);
 
 /**
  * Disables WebGL usage.
  * @var {boolean}
  */
-PDFJS.disableWebGL = (PDFJS.disableWebGL === undefined ?
+PDFJS[__webkitAssign__disableWebGL] = (PDFJS.disableWebGL === undefined ?
                       true : PDFJS.disableWebGL);
 
 /**
@@ -1770,14 +1770,14 @@ PDFJS.disableWebGL = (PDFJS.disableWebGL === undefined ?
  * in browsers which support the fullscreen API.
  * @var {boolean}
  */
-PDFJS.disableFullscreen = (PDFJS.disableFullscreen === undefined ?
+PDFJS[__webkitAssign__disableFullscreen] = (PDFJS.disableFullscreen === undefined ?
                            false : PDFJS.disableFullscreen);
 
 /**
  * Enables CSS only zooming.
  * @var {boolean}
  */
-PDFJS.useOnlyCssZoom = (PDFJS.useOnlyCssZoom === undefined ?
+PDFJS[__webkitAssign__useOnlyCssZoom] = (PDFJS.useOnlyCssZoom === undefined ?
                         false : PDFJS.useOnlyCssZoom);
 
 /**
@@ -1788,7 +1788,7 @@ PDFJS.useOnlyCssZoom = (PDFJS.useOnlyCssZoom === undefined ?
  * - infos
  * @var {number}
  */
-PDFJS.verbosity = (PDFJS.verbosity === undefined ?
+PDFJS[__webkitAssign__verbosity] = (PDFJS.verbosity === undefined ?
                    PDFJS.VERBOSITY_LEVELS.warnings : PDFJS.verbosity);
 
 /**
@@ -1796,7 +1796,7 @@ PDFJS.verbosity = (PDFJS.verbosity === undefined ?
  * The default value is 4096 * 4096. Use -1 for no limit.
  * @var {number}
  */
-PDFJS.maxCanvasPixels = (PDFJS.maxCanvasPixels === undefined ?
+PDFJS[__webkitAssign__maxCanvasPixels] = (PDFJS.maxCanvasPixels === undefined ?
                          16777216 : PDFJS.maxCanvasPixels);
 
 /**
@@ -1807,7 +1807,7 @@ PDFJS.maxCanvasPixels = (PDFJS.maxCanvasPixels === undefined ?
  *       `PDFJS.externalLinkTarget = PDFJS.LinkTarget.BLANK` instead.
  * @var {boolean}
  */
-PDFJS.openExternalLinksInNewWindow = (
+PDFJS[__webkitAssign__openExternalLinksInNewWindow] = (
   PDFJS.openExternalLinksInNewWindow === undefined ?
     false : PDFJS.openExternalLinksInNewWindow);
 
@@ -1821,7 +1821,7 @@ PDFJS.openExternalLinksInNewWindow = (
  *  - TOP
  * @var {number}
  */
-PDFJS.externalLinkTarget = (PDFJS.externalLinkTarget === undefined ?
+PDFJS[__webkitAssign__externalLinkTarget] = (PDFJS.externalLinkTarget === undefined ?
                             PDFJS.LinkTarget.NONE : PDFJS.externalLinkTarget);
 
 /**
@@ -1829,7 +1829,7 @@ PDFJS.externalLinkTarget = (PDFJS.externalLinkTarget === undefined ?
   * performance for font rendering.
   * @var {boolean}
   */
-PDFJS.isEvalSupported = (PDFJS.isEvalSupported === undefined ?
+PDFJS[__webkitAssign__isEvalSupported] = (PDFJS.isEvalSupported === undefined ?
                          true : PDFJS.isEvalSupported);
 
 /**
@@ -1891,7 +1891,7 @@ PDFJS.isEvalSupported = (PDFJS.isEvalSupported === undefined ?
  *
  * @return {PDFDocumentLoadingTask}
  */
-PDFJS.getDocument = function getDocument(src,
+PDFJS[__webkitAssign__getDocument] = function getDocument(src,
                                          pdfDataRangeTransport,
                                          passwordCallback,
                                          progressCallback) {
@@ -1906,17 +1906,17 @@ PDFJS.getDocument = function getDocument(src,
     if (!(pdfDataRangeTransport instanceof PDFDataRangeTransport)) {
       // Not a PDFDataRangeTransport instance, trying to add missing properties.
       pdfDataRangeTransport = Object.create(pdfDataRangeTransport);
-      pdfDataRangeTransport.length = src.length;
-      pdfDataRangeTransport.initialData = src.initialData;
+      pdfDataRangeTransport[__webkitAssign__length] = src.length;
+      pdfDataRangeTransport[__webkitAssign__initialData] = src.initialData;
       if (!pdfDataRangeTransport.abort) {
-        pdfDataRangeTransport.abort = function () {};
+        pdfDataRangeTransport[__webkitAssign__abort] = function () {};
       }
     }
     src = Object.create(src);
-    src.range = pdfDataRangeTransport;
+    src[__webkitAssign__range] = pdfDataRangeTransport;
   }
-  task.onPassword = passwordCallback || null;
-  task.onProgress = progressCallback || null;
+  task[__webkitAssign__onPassword] = passwordCallback || null;
+  task[__webkitAssign__onProgress] = progressCallback || null;
 
   var source;
   if (typeof src === 'string') {
@@ -1970,12 +1970,12 @@ PDFJS.getDocument = function getDocument(src,
     params[key] = source[key];
   }
 
-  params.rangeChunkSize = params.rangeChunkSize || DEFAULT_RANGE_CHUNK_SIZE;
+  params[__webkitAssign__rangeChunkSize] = params.rangeChunkSize || DEFAULT_RANGE_CHUNK_SIZE;
 
   if (!worker) {
     // Worker was not provided -- creating and owning our own.
     worker = new PDFWorker();
-    task._worker = worker;
+    task[__webkitAssign___worker] = worker;
   }
   var docId = task.docId;
   worker.promise.then(function () {
@@ -1990,7 +1990,7 @@ PDFJS.getDocument = function getDocument(src,
       var messageHandler = new MessageHandler(docId, workerId, worker.port);
       messageHandler.send('Ready', null);
       var transport = new WorkerTransport(messageHandler, task, rangeTransport);
-      task._transport = transport;
+      task[__webkitAssign___transport] = transport;
     });
   }, task._capability.reject);
 
@@ -2012,12 +2012,12 @@ function _fetchDocument(worker, source, pdfDataRangeTransport, docId) {
     return Promise.reject(new Error('Worker was destroyed'));
   }
 
-  source.disableAutoFetch = PDFJS.disableAutoFetch;
-  source.disableStream = PDFJS.disableStream;
-  source.chunkedViewerLoading = !!pdfDataRangeTransport;
+  source[__webkitAssign__disableAutoFetch] = PDFJS.disableAutoFetch;
+  source[__webkitAssign__disableStream] = PDFJS.disableStream;
+  source[__webkitAssign__chunkedViewerLoading] = !!pdfDataRangeTransport;
   if (pdfDataRangeTransport) {
-    source.length = pdfDataRangeTransport.length;
-    source.initialData = pdfDataRangeTransport.initialData;
+    source[__webkitAssign__length] = pdfDataRangeTransport.length;
+    source[__webkitAssign__initialData] = pdfDataRangeTransport.initialData;
   }
   return worker.messageHandler.sendWithPromise('GetDocRequest', {
     docId: docId,
@@ -2047,44 +2047,44 @@ var PDFDocumentLoadingTask = (function PDFDocumentLoadingTaskClosure() {
 
   /** @constructs PDFDocumentLoadingTask */
   function PDFDocumentLoadingTask() {
-    this._capability = createPromiseCapability();
-    this._transport = null;
-    this._worker = null;
+    this[__webkitAssign___capability] = createPromiseCapability();
+    this[__webkitAssign___transport] = null;
+    this[__webkitAssign___worker] = null;
 
     /**
      * Unique document loading task id -- used in MessageHandlers.
      * @type {string}
      */
-    this.docId = 'd' + (nextDocumentId++);
+    this[__webkitAssign__docId] = 'd' + (nextDocumentId++);
 
     /**
      * Shows if loading task is destroyed.
      * @type {boolean}
      */
-    this.destroyed = false;
+    this[__webkitAssign__destroyed] = false;
 
     /**
      * Callback to request a password if wrong or no password was provided.
      * The callback receives two parameters: function that needs to be called
      * with new password and reason (see {PasswordResponses}).
      */
-    this.onPassword = null;
+    this[__webkitAssign__onPassword] = null;
 
     /**
      * Callback to be able to monitor the loading progress of the PDF file
      * (necessary to implement e.g. a loading bar). The callback receives
      * an {Object} with the properties: {number} loaded and {number} total.
      */
-    this.onProgress = null;
+    this[__webkitAssign__onProgress] = null;
 
     /**
      * Callback to when unsupported feature is used. The callback receives
      * an {PDFJS.UNSUPPORTED_FEATURES} argument.
      */
-    this.onUnsupportedFeature = null;
+    this[__webkitAssign__onUnsupportedFeature] = null;
   }
 
-  PDFDocumentLoadingTask.prototype =
+  PDFDocumentLoadingTask[__webkitAssign__prototype] =
       /** @lends PDFDocumentLoadingTask.prototype */ {
     /**
      * @return {Promise}
@@ -2099,15 +2099,15 @@ var PDFDocumentLoadingTask = (function PDFDocumentLoadingTaskClosure() {
      *                   is completed.
      */
     destroy: function () {
-      this.destroyed = true;
+      this[__webkitAssign__destroyed] = true;
 
       var transportDestroyed = !this._transport ? Promise.resolve() :
         this._transport.destroy();
       return transportDestroyed.then(function () {
-        this._transport = null;
+        this[__webkitAssign___transport] = null;
         if (this._worker) {
           this._worker.destroy();
-          this._worker = null;
+          this[__webkitAssign___worker] = null;
         }
       }.bind(this));
     },
@@ -2137,15 +2137,15 @@ var PDFDocumentLoadingTask = (function PDFDocumentLoadingTaskClosure() {
  */
 var PDFDataRangeTransport = (function pdfDataRangeTransportClosure() {
   function PDFDataRangeTransport(length, initialData) {
-    this.length = length;
-    this.initialData = initialData;
+    this[__webkitAssign__length] = length;
+    this[__webkitAssign__initialData] = initialData;
 
-    this._rangeListeners = [];
-    this._progressListeners = [];
-    this._progressiveReadListeners = [];
-    this._readyCapability = createPromiseCapability();
+    this[__webkitAssign___rangeListeners] = [];
+    this[__webkitAssign___progressListeners] = [];
+    this[__webkitAssign___progressiveReadListeners] = [];
+    this[__webkitAssign___readyCapability] = createPromiseCapability();
   }
-  PDFDataRangeTransport.prototype =
+  PDFDataRangeTransport[__webkitAssign__prototype] =
       /** @lends PDFDataRangeTransport.prototype */ {
     addRangeListener:
         function PDFDataRangeTransport_addRangeListener(listener) {
@@ -2203,7 +2203,7 @@ var PDFDataRangeTransport = (function pdfDataRangeTransportClosure() {
   return PDFDataRangeTransport;
 })();
 
-PDFJS.PDFDataRangeTransport = PDFDataRangeTransport;
+PDFJS[__webkitAssign__PDFDataRangeTransport] = PDFDataRangeTransport;
 
 /**
  * Proxy to a PDFDocument in the worker thread. Also, contains commonly used
@@ -2213,11 +2213,11 @@ PDFJS.PDFDataRangeTransport = PDFDataRangeTransport;
  */
 var PDFDocumentProxy = (function PDFDocumentProxyClosure() {
   function PDFDocumentProxy(pdfInfo, transport, loadingTask) {
-    this.pdfInfo = pdfInfo;
-    this.transport = transport;
-    this.loadingTask = loadingTask;
+    this[__webkitAssign__pdfInfo] = pdfInfo;
+    this[__webkitAssign__transport] = transport;
+    this[__webkitAssign__loadingTask] = loadingTask;
   }
-  PDFDocumentProxy.prototype = /** @lends PDFDocumentProxy.prototype */ {
+  PDFDocumentProxy[__webkitAssign__prototype] = /** @lends PDFDocumentProxy.prototype */ {
     /**
      * @return {number} Total number of pages the PDF contains.
      */
@@ -2428,19 +2428,19 @@ var PDFDocumentProxy = (function PDFDocumentProxyClosure() {
  */
 var PDFPageProxy = (function PDFPageProxyClosure() {
   function PDFPageProxy(pageIndex, pageInfo, transport) {
-    this.pageIndex = pageIndex;
-    this.pageInfo = pageInfo;
-    this.transport = transport;
-    this.stats = new StatTimer();
-    this.stats.enabled = !!globalScope.PDFJS.enableStats;
-    this.commonObjs = transport.commonObjs;
-    this.objs = new PDFObjects();
-    this.cleanupAfterRender = false;
-    this.pendingCleanup = false;
-    this.intentStates = {};
-    this.destroyed = false;
+    this[__webkitAssign__pageIndex] = pageIndex;
+    this[__webkitAssign__pageInfo] = pageInfo;
+    this[__webkitAssign__transport] = transport;
+    this[__webkitAssign__stats] = new StatTimer();
+    this.stats[__webkitAssign__enabled] = !!globalScope.PDFJS.enableStats;
+    this[__webkitAssign__commonObjs] = transport.commonObjs;
+    this[__webkitAssign__objs] = new PDFObjects();
+    this[__webkitAssign__cleanupAfterRender] = false;
+    this[__webkitAssign__pendingCleanup] = false;
+    this[__webkitAssign__intentStates] = {};
+    this[__webkitAssign__destroyed] = false;
   }
-  PDFPageProxy.prototype = /** @lends PDFPageProxy.prototype */ {
+  PDFPageProxy[__webkitAssign__prototype] = /** @lends PDFPageProxy.prototype */ {
     /**
      * @return {number} Page number of the page. First page is 1.
      */
@@ -2489,9 +2489,9 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
       var intent = (params && params.intent) || null;
 
       if (!this.annotationsPromise || this.annotationsIntent !== intent) {
-        this.annotationsPromise = this.transport.getAnnotations(this.pageIndex,
+        this[__webkitAssign__annotationsPromise] = this.transport.getAnnotations(this.pageIndex,
                                                                 intent);
-        this.annotationsIntent = intent;
+        this[__webkitAssign__annotationsIntent] = intent;
       }
       return this.annotationsPromise;
     },
@@ -2507,7 +2507,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
 
       // If there was a pending destroy cancel it so no cleanup happens during
       // this call to render.
-      this.pendingCleanup = false;
+      this[__webkitAssign__pendingCleanup] = false;
 
       var renderingIntent = (params.intent === 'print' ? 'print' : 'display');
 
@@ -2519,9 +2519,9 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
       // If there's no displayReadyCapability yet, then the operatorList
       // was never requested before. Make the request and create the promise.
       if (!intentState.displayReadyCapability) {
-        intentState.receivingOperatorList = true;
-        intentState.displayReadyCapability = createPromiseCapability();
-        intentState.operatorList = {
+        intentState[__webkitAssign__receivingOperatorList] = true;
+        intentState[__webkitAssign__displayReadyCapability] = createPromiseCapability();
+        intentState[__webkitAssign__operatorList] = {
           fnArray: [],
           argsArray: [],
           lastChunk: false
@@ -2539,9 +2539,9 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
                                                       this.commonObjs,
                                                       intentState.operatorList,
                                                       this.pageNumber);
-      internalRenderTask.useRequestAnimationFrame = renderingIntent !== 'print';
+      internalRenderTask[__webkitAssign__useRequestAnimationFrame] = renderingIntent !== 'print';
       if (!intentState.renderTasks) {
-        intentState.renderTasks = [];
+        intentState[__webkitAssign__renderTasks] = [];
       }
       intentState.renderTasks.push(internalRenderTask);
       var renderTask = internalRenderTask.task;
@@ -2549,7 +2549,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
       // Obsolete parameter support
       if (params.continueCallback) {
         deprecated('render is used with continueCallback parameter');
-        renderTask.onContinue = params.continueCallback;
+        renderTask[__webkitAssign__onContinue] = params.continueCallback;
       }
 
       var self = this;
@@ -2575,7 +2575,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
         }
 
         if (self.cleanupAfterRender) {
-          self.pendingCleanup = true;
+          self[__webkitAssign__pendingCleanup] = true;
         }
         self._tryCleanup();
 
@@ -2610,12 +2610,12 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
 
       if (!intentState.opListReadCapability) {
         var opListTask = {};
-        opListTask.operatorListChanged = operatorListChanged;
-        intentState.receivingOperatorList = true;
-        intentState.opListReadCapability = createPromiseCapability();
-        intentState.renderTasks = [];
+        opListTask[__webkitAssign__operatorListChanged] = operatorListChanged;
+        intentState[__webkitAssign__receivingOperatorList] = true;
+        intentState[__webkitAssign__opListReadCapability] = createPromiseCapability();
+        intentState[__webkitAssign__renderTasks] = [];
         intentState.renderTasks.push(opListTask);
-        intentState.operatorList = {
+        intentState[__webkitAssign__operatorList] = {
           fnArray: [],
           argsArray: [],
           lastChunk: false
@@ -2647,7 +2647,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
      * Destroys page object.
      */
     _destroy: function PDFPageProxy_destroy() {
-      this.destroyed = true;
+      this[__webkitAssign__destroyed] = true;
       this.transport.pageCache[this.pageIndex] = null;
 
       var waitOn = [];
@@ -2661,8 +2661,8 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
         });
       }, this);
       this.objs.clear();
-      this.annotationsPromise = null;
-      this.pendingCleanup = false;
+      this[__webkitAssign__annotationsPromise] = null;
+      this[__webkitAssign__pendingCleanup] = false;
       return Promise.all(waitOn);
     },
 
@@ -2678,7 +2678,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
      * Cleans up resources allocated by the page.
      */
     cleanup: function PDFPageProxy_cleanup() {
-      this.pendingCleanup = true;
+      this[__webkitAssign__pendingCleanup] = true;
       this._tryCleanup();
     },
     /**
@@ -2700,8 +2700,8 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
         delete this.intentStates[intent];
       }, this);
       this.objs.clear();
-      this.annotationsPromise = null;
-      this.pendingCleanup = false;
+      this[__webkitAssign__annotationsPromise] = null;
+      this[__webkitAssign__pendingCleanup] = false;
     },
     /**
      * For internal use only.
@@ -2730,7 +2730,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
         intentState.operatorList.argsArray.push(
           operatorListChunk.argsArray[i]);
       }
-      intentState.operatorList.lastChunk = operatorListChunk.lastChunk;
+      intentState.operatorList[__webkitAssign__lastChunk] = operatorListChunk.lastChunk;
 
       // Notify all the rendering tasks there are more operators to be consumed.
       for (i = 0; i < intentState.renderTasks.length; i++) {
@@ -2738,7 +2738,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
       }
 
       if (operatorListChunk.lastChunk) {
-        intentState.receivingOperatorList = false;
+        intentState[__webkitAssign__receivingOperatorList] = false;
         this._tryCleanup();
       }
     }
@@ -2758,7 +2758,7 @@ var PDFWorker = (function PDFWorkerClosure() {
   // Loads worker code into main thread.
   function setupFakeWorkerGlobal() {
     if (!PDFJS.fakeWorkerFilesLoadedCapability) {
-      PDFJS.fakeWorkerFilesLoadedCapability = createPromiseCapability();
+      PDFJS[__webkitAssign__fakeWorkerFilesLoadedCapability] = createPromiseCapability();
       // In the developer build load worker_loader which in turn loads all the
       // other files and resolves the promise. In production only the
       // pdf.worker.js file is needed.
@@ -2768,17 +2768,17 @@ var PDFWorker = (function PDFWorkerClosure() {
   }
 
   function PDFWorker(name) {
-    this.name = name;
-    this.destroyed = false;
+    this[__webkitAssign__name] = name;
+    this[__webkitAssign__destroyed] = false;
 
-    this._readyCapability = createPromiseCapability();
-    this._port = null;
-    this._webWorker = null;
-    this._messageHandler = null;
+    this[__webkitAssign___readyCapability] = createPromiseCapability();
+    this[__webkitAssign___port] = null;
+    this[__webkitAssign___webWorker] = null;
+    this[__webkitAssign___messageHandler] = null;
     this._initialize();
   }
 
-  PDFWorker.prototype =  /** @lends PDFWorker.prototype */ {
+  PDFWorker[__webkitAssign__prototype] =  /** @lends PDFWorker.prototype */ {
     get promise() {
       return this._readyCapability.promise;
     },
@@ -2804,7 +2804,7 @@ var PDFWorker = (function PDFWorkerClosure() {
 
     _setupFakeWorker: function PDFWorker_setupFakeWorker() {
       warn('Setting up fake worker.');
-      globalScope.PDFJS.disableWorker = true;
+      globalScope.PDFJS[__webkitAssign__disableWorker] = true;
 
       setupFakeWorkerGlobal().then(function () {
         if (this.destroyed) {
@@ -2830,7 +2830,7 @@ var PDFWorker = (function PDFWorkerClosure() {
           },
           terminate: function () {}
         };
-        this._port = port;
+        this[__webkitAssign___port] = port;
 
         // All fake workers use the same port, making id unique.
         var id = 'fake' + (nextFakeWorkerId++);
@@ -2841,7 +2841,7 @@ var PDFWorker = (function PDFWorkerClosure() {
         PDFJS.WorkerMessageHandler.setup(workerHandler, port);
 
         var messageHandler = new MessageHandler(id, id + '_worker', port);
-        this._messageHandler = messageHandler;
+        this[__webkitAssign___messageHandler] = messageHandler;
         this._readyCapability.resolve();
       }.bind(this));
     },
@@ -2850,23 +2850,23 @@ var PDFWorker = (function PDFWorkerClosure() {
      * Destroys the worker instance.
      */
     destroy: function PDFWorker_destroy() {
-      this.destroyed = true;
+      this[__webkitAssign__destroyed] = true;
       if (this._webWorker) {
         // We need to terminate only web worker created resource.
         this._webWorker.terminate();
-        this._webWorker = null;
+        this[__webkitAssign___webWorker] = null;
       }
-      this._port = null;
+      this[__webkitAssign___port] = null;
       if (this._messageHandler) {
         this._messageHandler.destroy();
-        this._messageHandler = null;
+        this[__webkitAssign___messageHandler] = null;
       }
     }
   };
 
   return PDFWorker;
 })();
-PDFJS.PDFWorker = PDFWorker;
+PDFJS[__webkitAssign__PDFWorker] = PDFWorker;
 
 /**
  * For internal use only.
@@ -2874,29 +2874,29 @@ PDFJS.PDFWorker = PDFWorker;
  */
 var WorkerTransport = (function WorkerTransportClosure() {
   function WorkerTransport(messageHandler, loadingTask, pdfDataRangeTransport) {
-    this.messageHandler = messageHandler;
-    this.loadingTask = loadingTask;
-    this.pdfDataRangeTransport = pdfDataRangeTransport;
-    this.commonObjs = new PDFObjects();
-    this.fontLoader = new FontLoader(loadingTask.docId);
+    this[__webkitAssign__messageHandler] = messageHandler;
+    this[__webkitAssign__loadingTask] = loadingTask;
+    this[__webkitAssign__pdfDataRangeTransport] = pdfDataRangeTransport;
+    this[__webkitAssign__commonObjs] = new PDFObjects();
+    this[__webkitAssign__fontLoader] = new FontLoader(loadingTask.docId);
 
-    this.destroyed = false;
-    this.destroyCapability = null;
+    this[__webkitAssign__destroyed] = false;
+    this[__webkitAssign__destroyCapability] = null;
 
-    this.pageCache = [];
-    this.pagePromises = [];
-    this.downloadInfoCapability = createPromiseCapability();
+    this[__webkitAssign__pageCache] = [];
+    this[__webkitAssign__pagePromises] = [];
+    this[__webkitAssign__downloadInfoCapability] = createPromiseCapability();
 
     this.setupMessageHandler();
   }
-  WorkerTransport.prototype = {
+  WorkerTransport[__webkitAssign__prototype] = {
     destroy: function WorkerTransport_destroy() {
       if (this.destroyCapability) {
         return this.destroyCapability.promise;
       }
 
-      this.destroyed = true;
-      this.destroyCapability = createPromiseCapability();
+      this[__webkitAssign__destroyed] = true;
+      this[__webkitAssign__destroyCapability] = createPromiseCapability();
 
       var waitOn = [];
       // We need to wait for all renderings to be completed, e.g.
@@ -2906,8 +2906,8 @@ var WorkerTransport = (function WorkerTransportClosure() {
           waitOn.push(page._destroy());
         }
       });
-      this.pageCache = [];
-      this.pagePromises = [];
+      this[__webkitAssign__pageCache] = [];
+      this[__webkitAssign__pagePromises] = [];
       var self = this;
       // We also need to wait for the worker to finish its long running tasks.
       var terminated = this.messageHandler.sendWithPromise('Terminate', null);
@@ -2916,11 +2916,11 @@ var WorkerTransport = (function WorkerTransportClosure() {
         self.fontLoader.clear();
         if (self.pdfDataRangeTransport) {
           self.pdfDataRangeTransport.abort();
-          self.pdfDataRangeTransport = null;
+          self[__webkitAssign__pdfDataRangeTransport] = null;
         }
         if (self.messageHandler) {
           self.messageHandler.destroy();
-          self.messageHandler = null;
+          self[__webkitAssign__messageHandler] = null;
         }
         self.destroyCapability.resolve();
       }, this.destroyCapability.reject);
@@ -2964,10 +2964,10 @@ var WorkerTransport = (function WorkerTransportClosure() {
 
       messageHandler.on('GetDoc', function transportDoc(data) {
         var pdfInfo = data.pdfInfo;
-        this.numPages = data.pdfInfo.numPages;
+        this[__webkitAssign__numPages] = data.pdfInfo.numPages;
         var loadingTask = this.loadingTask;
         var pdfDocument = new PDFDocumentProxy(pdfInfo, this, loadingTask);
-        this.pdfDocument = pdfDocument;
+        this[__webkitAssign__pdfDocument] = pdfDocument;
         loadingTask._capability.resolve(pdfDocument);
       }, this);
 
@@ -3111,7 +3111,7 @@ var WorkerTransport = (function WorkerTransportClosure() {
             var MAX_IMAGE_SIZE_TO_STORE = 8000000;
             if (imageData && 'data' in imageData &&
                 imageData.data.length > MAX_IMAGE_SIZE_TO_STORE) {
-              pageProxy.cleanupAfterRender = true;
+              pageProxy[__webkitAssign__cleanupAfterRender] = true;
             }
             break;
           default:
@@ -3174,7 +3174,7 @@ var WorkerTransport = (function WorkerTransportClosure() {
 
         return new Promise(function (resolve, reject) {
           var img = new Image();
-          img.onload = function () {
+          img[__webkitAssign__onload] = function () {
             var width = img.width;
             var height = img.height;
             var size = width * height;
@@ -3199,10 +3199,10 @@ var WorkerTransport = (function WorkerTransportClosure() {
             }
             resolve({ data: buf, width: width, height: height});
           };
-          img.onerror = function () {
+          img[__webkitAssign__onerror] = function () {
             reject(new Error('JpegDecode failed to load image'));
           };
-          img.src = imageUrl;
+          img[__webkitAssign__src] = imageUrl;
         });
       }, this);
     },
@@ -3307,10 +3307,10 @@ var WorkerTransport = (function WorkerTransportClosure() {
  */
 var PDFObjects = (function PDFObjectsClosure() {
   function PDFObjects() {
-    this.objs = {};
+    this[__webkitAssign__objs] = {};
   }
 
-  PDFObjects.prototype = {
+  PDFObjects[__webkitAssign__prototype] = {
     /**
      * Internal function.
      * Ensures there is an object defined for `objId`.
@@ -3366,8 +3366,8 @@ var PDFObjects = (function PDFObjectsClosure() {
     resolve: function PDFObjects_resolve(objId, data) {
       var obj = this.ensureObj(objId);
 
-      obj.resolved = true;
-      obj.data = data;
+      obj[__webkitAssign__resolved] = true;
+      obj[__webkitAssign__data] = data;
       obj.capability.resolve(data);
     },
 
@@ -3398,7 +3398,7 @@ var PDFObjects = (function PDFObjectsClosure() {
     },
 
     clear: function PDFObjects_clear() {
-      this.objs = {};
+      this[__webkitAssign__objs] = {};
     }
   };
   return PDFObjects;
@@ -3411,7 +3411,7 @@ var PDFObjects = (function PDFObjectsClosure() {
  */
 var RenderTask = (function RenderTaskClosure() {
   function RenderTask(internalRenderTask) {
-    this._internalRenderTask = internalRenderTask;
+    this[__webkitAssign___internalRenderTask] = internalRenderTask;
 
     /**
      * Callback for incremental rendering -- a function that will be called
@@ -3419,10 +3419,10 @@ var RenderTask = (function RenderTaskClosure() {
      * function that is the first argument to the callback.
      * @type {function}
      */
-    this.onContinue = null;
+    this[__webkitAssign__onContinue] = null;
   }
 
-  RenderTask.prototype = /** @lends RenderTask.prototype */ {
+  RenderTask[__webkitAssign__prototype] = /** @lends RenderTask.prototype */ {
     /**
      * Promise for rendering task completion.
      * @return {Promise}
@@ -3464,27 +3464,27 @@ var InternalRenderTask = (function InternalRenderTaskClosure() {
 
   function InternalRenderTask(callback, params, objs, commonObjs, operatorList,
                               pageNumber) {
-    this.callback = callback;
-    this.params = params;
-    this.objs = objs;
-    this.commonObjs = commonObjs;
-    this.operatorListIdx = null;
-    this.operatorList = operatorList;
-    this.pageNumber = pageNumber;
-    this.running = false;
-    this.graphicsReadyCallback = null;
-    this.graphicsReady = false;
-    this.useRequestAnimationFrame = false;
-    this.cancelled = false;
-    this.capability = createPromiseCapability();
-    this.task = new RenderTask(this);
+    this[__webkitAssign__callback] = callback;
+    this[__webkitAssign__params] = params;
+    this[__webkitAssign__objs] = objs;
+    this[__webkitAssign__commonObjs] = commonObjs;
+    this[__webkitAssign__operatorListIdx] = null;
+    this[__webkitAssign__operatorList] = operatorList;
+    this[__webkitAssign__pageNumber] = pageNumber;
+    this[__webkitAssign__running] = false;
+    this[__webkitAssign__graphicsReadyCallback] = null;
+    this[__webkitAssign__graphicsReady] = false;
+    this[__webkitAssign__useRequestAnimationFrame] = false;
+    this[__webkitAssign__cancelled] = false;
+    this[__webkitAssign__capability] = createPromiseCapability();
+    this[__webkitAssign__task] = new RenderTask(this);
     // caching this-bound methods
-    this._continueBound = this._continue.bind(this);
-    this._scheduleNextBound = this._scheduleNext.bind(this);
-    this._nextBound = this._next.bind(this);
+    this[__webkitAssign___continueBound] = this._continue.bind(this);
+    this[__webkitAssign___scheduleNextBound] = this._scheduleNext.bind(this);
+    this[__webkitAssign___nextBound] = this._next.bind(this);
   }
 
-  InternalRenderTask.prototype = {
+  InternalRenderTask[__webkitAssign__prototype] = {
 
     initalizeGraphics:
         function InternalRenderTask_initalizeGraphics(transparency) {
@@ -3494,33 +3494,33 @@ var InternalRenderTask = (function InternalRenderTaskClosure() {
       }
       if (PDFJS.pdfBug && 'StepperManager' in globalScope &&
           globalScope.StepperManager.enabled) {
-        this.stepper = globalScope.StepperManager.create(this.pageNumber - 1);
+        this[__webkitAssign__stepper] = globalScope.StepperManager.create(this.pageNumber - 1);
         this.stepper.init(this.operatorList);
-        this.stepper.nextBreakPoint = this.stepper.getNextBreakPoint();
+        this.stepper[__webkitAssign__nextBreakPoint] = this.stepper.getNextBreakPoint();
       }
 
       var params = this.params;
-      this.gfx = new CanvasGraphics(params.canvasContext, this.commonObjs,
+      this[__webkitAssign__gfx] = new CanvasGraphics(params.canvasContext, this.commonObjs,
                                     this.objs, params.imageLayer);
 
       this.gfx.beginDrawing(params.transform, params.viewport, transparency);
-      this.operatorListIdx = 0;
-      this.graphicsReady = true;
+      this[__webkitAssign__operatorListIdx] = 0;
+      this[__webkitAssign__graphicsReady] = true;
       if (this.graphicsReadyCallback) {
         this.graphicsReadyCallback();
       }
     },
 
     cancel: function InternalRenderTask_cancel() {
-      this.running = false;
-      this.cancelled = true;
+      this[__webkitAssign__running] = false;
+      this[__webkitAssign__cancelled] = true;
       this.callback('cancelled');
     },
 
     operatorListChanged: function InternalRenderTask_operatorListChanged() {
       if (!this.graphicsReady) {
         if (!this.graphicsReadyCallback) {
-          this.graphicsReadyCallback = this._continueBound;
+          this[__webkitAssign__graphicsReadyCallback] = this._continueBound;
         }
         return;
       }
@@ -3536,7 +3536,7 @@ var InternalRenderTask = (function InternalRenderTaskClosure() {
     },
 
     _continue: function InternalRenderTask__continue() {
-      this.running = true;
+      this[__webkitAssign__running] = true;
       if (this.cancelled) {
         return;
       }
@@ -3559,12 +3559,12 @@ var InternalRenderTask = (function InternalRenderTaskClosure() {
       if (this.cancelled) {
         return;
       }
-      this.operatorListIdx = this.gfx.executeOperatorList(this.operatorList,
+      this[__webkitAssign__operatorListIdx] = this.gfx.executeOperatorList(this.operatorList,
                                         this.operatorListIdx,
                                         this._continueBound,
                                         this.stepper);
       if (this.operatorListIdx === this.operatorList.argsArray.length) {
-        this.running = false;
+        this[__webkitAssign__running] = false;
         if (this.operatorList.lastChunk) {
           this.gfx.endDrawing();
           this.callback();
@@ -3581,7 +3581,7 @@ var InternalRenderTask = (function InternalRenderTaskClosure() {
  * (Deprecated) Global observer of unsupported feature usages. Use
  * onUnsupportedFeature callback of the {PDFDocumentLoadingTask} instance.
  */
-PDFJS.UnsupportedManager = (function UnsupportedManagerClosure() {
+PDFJS[__webkitAssign__UnsupportedManager] = (function UnsupportedManagerClosure() {
   var listeners = [];
   return {
     listen: function (cb) {
@@ -3598,7 +3598,7 @@ PDFJS.UnsupportedManager = (function UnsupportedManagerClosure() {
 })();
 
 
-var Metadata = PDFJS.Metadata = (function MetadataClosure() {
+var Metadata = PDFJS[__webkitAssign__Metadata] = (function MetadataClosure() {
   function fixMetadata(meta) {
     return meta.replace(/>\\376\\377([^<]+)/g, function(all, codes) {
       var bytes = codes.replace(/\\([0-3])([0-7])([0-7])/g,
@@ -3627,12 +3627,12 @@ var Metadata = PDFJS.Metadata = (function MetadataClosure() {
       error('Metadata: Invalid metadata object');
     }
 
-    this.metaDocument = meta;
-    this.metadata = {};
+    this[__webkitAssign__metaDocument] = meta;
+    this[__webkitAssign__metadata] = {};
     this.parse();
   }
 
-  Metadata.prototype = {
+  Metadata[__webkitAssign__prototype] = {
     parse: function Metadata_parse() {
       var doc = this.metaDocument;
       var rdf = doc.documentElement;
@@ -3698,24 +3698,24 @@ var FULL_CHUNK_HEIGHT = 16;
 
 function createScratchCanvas(width, height) {
   var canvas = document.createElement('canvas');
-  canvas.width = width;
-  canvas.height = height;
+  canvas[__webkitAssign__width] = width;
+  canvas[__webkitAssign__height] = height;
   return canvas;
 }
 
 function addContextCurrentTransform(ctx) {
   // If the context doesn't expose a `mozCurrentTransform`, add a JS based one.
   if (!ctx.mozCurrentTransform) {
-    ctx._originalSave = ctx.save;
-    ctx._originalRestore = ctx.restore;
-    ctx._originalRotate = ctx.rotate;
-    ctx._originalScale = ctx.scale;
-    ctx._originalTranslate = ctx.translate;
-    ctx._originalTransform = ctx.transform;
-    ctx._originalSetTransform = ctx.setTransform;
+    ctx[__webkitAssign___originalSave] = ctx.save;
+    ctx[__webkitAssign___originalRestore] = ctx.restore;
+    ctx[__webkitAssign___originalRotate] = ctx.rotate;
+    ctx[__webkitAssign___originalScale] = ctx.scale;
+    ctx[__webkitAssign___originalTranslate] = ctx.translate;
+    ctx[__webkitAssign___originalTransform] = ctx.transform;
+    ctx[__webkitAssign___originalSetTransform] = ctx.setTransform;
 
-    ctx._transformMatrix = ctx._transformMatrix || [1, 0, 0, 1, 0, 0];
-    ctx._transformStack = [];
+    ctx[__webkitAssign___transformMatrix] = ctx._transformMatrix || [1, 0, 0, 1, 0, 0];
+    ctx[__webkitAssign___transformStack] = [];
 
     Object.defineProperty(ctx, 'mozCurrentTransform', {
       get: function getCurrentTransform() {
@@ -3746,23 +3746,23 @@ function addContextCurrentTransform(ctx) {
       }
     });
 
-    ctx.save = function ctxSave() {
+    ctx[__webkitAssign__save] = function ctxSave() {
       var old = this._transformMatrix;
       this._transformStack.push(old);
-      this._transformMatrix = old.slice(0, 6);
+      this[__webkitAssign___transformMatrix] = old.slice(0, 6);
 
       this._originalSave();
     };
 
-    ctx.restore = function ctxRestore() {
+    ctx[__webkitAssign__restore] = function ctxRestore() {
       var prev = this._transformStack.pop();
       if (prev) {
-        this._transformMatrix = prev;
+        this[__webkitAssign___transformMatrix] = prev;
         this._originalRestore();
       }
     };
 
-    ctx.translate = function ctxTranslate(x, y) {
+    ctx[__webkitAssign__translate] = function ctxTranslate(x, y) {
       var m = this._transformMatrix;
       m[4] = m[0] * x + m[2] * y + m[4];
       m[5] = m[1] * x + m[3] * y + m[5];
@@ -3770,7 +3770,7 @@ function addContextCurrentTransform(ctx) {
       this._originalTranslate(x, y);
     };
 
-    ctx.scale = function ctxScale(x, y) {
+    ctx[__webkitAssign__scale] = function ctxScale(x, y) {
       var m = this._transformMatrix;
       m[0] = m[0] * x;
       m[1] = m[1] * x;
@@ -3780,9 +3780,9 @@ function addContextCurrentTransform(ctx) {
       this._originalScale(x, y);
     };
 
-    ctx.transform = function ctxTransform(a, b, c, d, e, f) {
+    ctx[__webkitAssign__transform] = function ctxTransform(a, b, c, d, e, f) {
       var m = this._transformMatrix;
-      this._transformMatrix = [
+      this[__webkitAssign___transformMatrix] = [
         m[0] * a + m[2] * b,
         m[1] * a + m[3] * b,
         m[0] * c + m[2] * d,
@@ -3794,18 +3794,18 @@ function addContextCurrentTransform(ctx) {
       ctx._originalTransform(a, b, c, d, e, f);
     };
 
-    ctx.setTransform = function ctxSetTransform(a, b, c, d, e, f) {
-      this._transformMatrix = [a, b, c, d, e, f];
+    ctx[__webkitAssign__setTransform] = function ctxSetTransform(a, b, c, d, e, f) {
+      this[__webkitAssign___transformMatrix] = [a, b, c, d, e, f];
 
       ctx._originalSetTransform(a, b, c, d, e, f);
     };
 
-    ctx.rotate = function ctxRotate(angle) {
+    ctx[__webkitAssign__rotate] = function ctxRotate(angle) {
       var cosValue = Math.cos(angle);
       var sinValue = Math.sin(angle);
 
       var m = this._transformMatrix;
-      this._transformMatrix = [
+      this[__webkitAssign___transformMatrix] = [
         m[0] * cosValue + m[2] * sinValue,
         m[1] * cosValue + m[3] * sinValue,
         m[0] * (-sinValue) + m[2] * cosValue,
@@ -3821,16 +3821,16 @@ function addContextCurrentTransform(ctx) {
 
 var CachedCanvases = (function CachedCanvasesClosure() {
   function CachedCanvases() {
-    this.cache = Object.create(null);
+    this[__webkitAssign__cache] = Object.create(null);
   }
-  CachedCanvases.prototype = {
+  CachedCanvases[__webkitAssign__prototype] = {
     getCanvas: function CachedCanvases_getCanvas(id, width, height,
                                                  trackTransform) {
       var canvasEntry;
       if (this.cache[id] !== undefined) {
         canvasEntry = this.cache[id];
-        canvasEntry.canvas.width = width;
-        canvasEntry.canvas.height = height;
+        canvasEntry.canvas[__webkitAssign__width] = width;
+        canvasEntry.canvas[__webkitAssign__height] = height;
         // reset canvas transform for emulated mozCurrentTransform, if needed
         canvasEntry.context.setTransform(1, 0, 0, 1, 0, 0);
       } else {
@@ -3848,8 +3848,8 @@ var CachedCanvases = (function CachedCanvasesClosure() {
         var canvasEntry = this.cache[id];
         // Zeroing the width and height causes Firefox to release graphics
         // resources immediately, which can greatly reduce memory consumption.
-        canvasEntry.canvas.width = 0;
-        canvasEntry.canvas.height = 0;
+        canvasEntry.canvas[__webkitAssign__width] = 0;
+        canvasEntry.canvas[__webkitAssign__height] = 0;
         delete this.cache[id];
       }
     }
@@ -4020,45 +4020,45 @@ function compileType3Glyph(imgData) {
 var CanvasExtraState = (function CanvasExtraStateClosure() {
   function CanvasExtraState(old) {
     // Are soft masks and alpha values shapes or opacities?
-    this.alphaIsShape = false;
-    this.fontSize = 0;
-    this.fontSizeScale = 1;
-    this.textMatrix = IDENTITY_MATRIX;
-    this.textMatrixScale = 1;
-    this.fontMatrix = FONT_IDENTITY_MATRIX;
-    this.leading = 0;
+    this[__webkitAssign__alphaIsShape] = false;
+    this[__webkitAssign__fontSize] = 0;
+    this[__webkitAssign__fontSizeScale] = 1;
+    this[__webkitAssign__textMatrix] = IDENTITY_MATRIX;
+    this[__webkitAssign__textMatrixScale] = 1;
+    this[__webkitAssign__fontMatrix] = FONT_IDENTITY_MATRIX;
+    this[__webkitAssign__leading] = 0;
     // Current point (in user coordinates)
-    this.x = 0;
-    this.y = 0;
+    this[__webkitAssign__x] = 0;
+    this[__webkitAssign__y] = 0;
     // Start of text line (in text coordinates)
-    this.lineX = 0;
-    this.lineY = 0;
+    this[__webkitAssign__lineX] = 0;
+    this[__webkitAssign__lineY] = 0;
     // Character and word spacing
-    this.charSpacing = 0;
-    this.wordSpacing = 0;
-    this.textHScale = 1;
-    this.textRenderingMode = TextRenderingMode.FILL;
-    this.textRise = 0;
+    this[__webkitAssign__charSpacing] = 0;
+    this[__webkitAssign__wordSpacing] = 0;
+    this[__webkitAssign__textHScale] = 1;
+    this[__webkitAssign__textRenderingMode] = TextRenderingMode.FILL;
+    this[__webkitAssign__textRise] = 0;
     // Default fore and background colors
-    this.fillColor = '#000000';
-    this.strokeColor = '#000000';
-    this.patternFill = false;
+    this[__webkitAssign__fillColor] = '#000000';
+    this[__webkitAssign__strokeColor] = '#000000';
+    this[__webkitAssign__patternFill] = false;
     // Note: fill alpha applies to all non-stroking operations
-    this.fillAlpha = 1;
-    this.strokeAlpha = 1;
-    this.lineWidth = 1;
-    this.activeSMask = null; // nonclonable field (see the save method below)
+    this[__webkitAssign__fillAlpha] = 1;
+    this[__webkitAssign__strokeAlpha] = 1;
+    this[__webkitAssign__lineWidth] = 1;
+    this[__webkitAssign__activeSMask] = null; // nonclonable field (see the save method below)
 
-    this.old = old;
+    this[__webkitAssign__old] = old;
   }
 
-  CanvasExtraState.prototype = {
+  CanvasExtraState[__webkitAssign__prototype] = {
     clone: function CanvasExtraState_clone() {
       return Object.create(this);
     },
     setCurrentPoint: function CanvasExtraState_setCurrentPoint(x, y) {
-      this.x = x;
-      this.y = y;
+      this[__webkitAssign__x] = x;
+      this[__webkitAssign__y] = y;
     }
   };
   return CanvasExtraState;
@@ -4072,33 +4072,33 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
   var EXECUTION_STEPS = 10;
 
   function CanvasGraphics(canvasCtx, commonObjs, objs, imageLayer) {
-    this.ctx = canvasCtx;
-    this.current = new CanvasExtraState();
-    this.stateStack = [];
-    this.pendingClip = null;
-    this.pendingEOFill = false;
-    this.res = null;
-    this.xobjs = null;
-    this.commonObjs = commonObjs;
-    this.objs = objs;
-    this.imageLayer = imageLayer;
-    this.groupStack = [];
-    this.processingType3 = null;
+    this[__webkitAssign__ctx] = canvasCtx;
+    this[__webkitAssign__current] = new CanvasExtraState();
+    this[__webkitAssign__stateStack] = [];
+    this[__webkitAssign__pendingClip] = null;
+    this[__webkitAssign__pendingEOFill] = false;
+    this[__webkitAssign__res] = null;
+    this[__webkitAssign__xobjs] = null;
+    this[__webkitAssign__commonObjs] = commonObjs;
+    this[__webkitAssign__objs] = objs;
+    this[__webkitAssign__imageLayer] = imageLayer;
+    this[__webkitAssign__groupStack] = [];
+    this[__webkitAssign__processingType3] = null;
     // Patterns are painted relative to the initial page/form transform, see pdf
     // spec 8.7.2 NOTE 1.
-    this.baseTransform = null;
-    this.baseTransformStack = [];
-    this.groupLevel = 0;
-    this.smaskStack = [];
-    this.smaskCounter = 0;
-    this.tempSMask = null;
-    this.cachedCanvases = new CachedCanvases();
+    this[__webkitAssign__baseTransform] = null;
+    this[__webkitAssign__baseTransformStack] = [];
+    this[__webkitAssign__groupLevel] = 0;
+    this[__webkitAssign__smaskStack] = [];
+    this[__webkitAssign__smaskCounter] = 0;
+    this[__webkitAssign__tempSMask] = null;
+    this[__webkitAssign__cachedCanvases] = new CachedCanvases();
     if (canvasCtx) {
       // NOTE: if mozCurrentTransform is polyfilled, then the current state of
       // the transformation must already be set in canvasCtx._transformMatrix.
       addContextCurrentTransform(canvasCtx);
     }
-    this.cachedGetSinglePixelWidth = null;
+    this[__webkitAssign__cachedGetSinglePixelWidth] = null;
   }
 
   function putBinaryImageData(ctx, imgData) {
@@ -4268,10 +4268,10 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
     }
     if (sourceCtx.setLineDash !== undefined) {
       destCtx.setLineDash(sourceCtx.getLineDash());
-      destCtx.lineDashOffset =  sourceCtx.lineDashOffset;
+      destCtx[__webkitAssign__lineDashOffset] =  sourceCtx.lineDashOffset;
     } else if (sourceCtx.mozDashOffset !== undefined) {
-      destCtx.mozDash = sourceCtx.mozDash;
-      destCtx.mozDashOffset = sourceCtx.mozDashOffset;
+      destCtx[__webkitAssign__mozDash] = sourceCtx.mozDash;
+      destCtx[__webkitAssign__mozDashOffset] = sourceCtx.mozDashOffset;
     }
   }
 
@@ -4369,7 +4369,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
   var NORMAL_CLIP = {};
   var EO_CLIP = {};
 
-  CanvasGraphics.prototype = {
+  CanvasGraphics[__webkitAssign__prototype] = {
 
     beginDrawing: function CanvasGraphics_beginDrawing(transform, viewport,
                                                        transparency) {
@@ -4382,16 +4382,16 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       var height = this.ctx.canvas.height;
 
       this.ctx.save();
-      this.ctx.fillStyle = 'rgb(255, 255, 255)';
+      this.ctx[__webkitAssign__fillStyle] = 'rgb(255, 255, 255)';
       this.ctx.fillRect(0, 0, width, height);
       this.ctx.restore();
 
       if (transparency) {
         var transparentCanvas = this.cachedCanvases.getCanvas(
           'transparent', width, height, true);
-        this.compositeCtx = this.ctx;
-        this.transparentCanvas = transparentCanvas.canvas;
-        this.ctx = transparentCanvas.context;
+        this[__webkitAssign__compositeCtx] = this.ctx;
+        this[__webkitAssign__transparentCanvas] = transparentCanvas.canvas;
+        this[__webkitAssign__ctx] = transparentCanvas.context;
         this.ctx.save();
         // The transform can be applied before rendering, transferring it to
         // the new canvas.
@@ -4405,7 +4405,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       }
       this.ctx.transform.apply(this.ctx, viewport.transform);
 
-      this.baseTransform = this.ctx.mozCurrentTransform.slice();
+      this[__webkitAssign__baseTransform] = this.ctx.mozCurrentTransform.slice();
 
       if (this.imageLayer) {
         this.imageLayer.beginLayout();
@@ -4487,9 +4487,9 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       this.ctx.restore();
 
       if (this.transparentCanvas) {
-        this.ctx = this.compositeCtx;
+        this[__webkitAssign__ctx] = this.compositeCtx;
         this.ctx.drawImage(this.transparentCanvas, 0, 0);
-        this.transparentCanvas = null;
+        this[__webkitAssign__transparentCanvas] = null;
       }
 
       this.cachedCanvases.clear();
@@ -4502,26 +4502,26 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
     // Graphics state
     setLineWidth: function CanvasGraphics_setLineWidth(width) {
-      this.current.lineWidth = width;
-      this.ctx.lineWidth = width;
+      this.current[__webkitAssign__lineWidth] = width;
+      this.ctx[__webkitAssign__lineWidth] = width;
     },
     setLineCap: function CanvasGraphics_setLineCap(style) {
-      this.ctx.lineCap = LINE_CAP_STYLES[style];
+      this.ctx[__webkitAssign__lineCap] = LINE_CAP_STYLES[style];
     },
     setLineJoin: function CanvasGraphics_setLineJoin(style) {
-      this.ctx.lineJoin = LINE_JOIN_STYLES[style];
+      this.ctx[__webkitAssign__lineJoin] = LINE_JOIN_STYLES[style];
     },
     setMiterLimit: function CanvasGraphics_setMiterLimit(limit) {
-      this.ctx.miterLimit = limit;
+      this.ctx[__webkitAssign__miterLimit] = limit;
     },
     setDash: function CanvasGraphics_setDash(dashArray, dashPhase) {
       var ctx = this.ctx;
       if (ctx.setLineDash !== undefined) {
         ctx.setLineDash(dashArray);
-        ctx.lineDashOffset = dashPhase;
+        ctx[__webkitAssign__lineDashOffset] = dashPhase;
       } else {
-        ctx.mozDash = dashArray;
-        ctx.mozDashOffset = dashPhase;
+        ctx[__webkitAssign__mozDash] = dashArray;
+        ctx[__webkitAssign__mozDashOffset] = dashPhase;
       }
     },
     setRenderingIntent: function CanvasGraphics_setRenderingIntent(intent) {
@@ -4565,11 +4565,11 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
             this.setFont(value[0], value[1]);
             break;
           case 'CA':
-            this.current.strokeAlpha = state[1];
+            this.current[__webkitAssign__strokeAlpha] = state[1];
             break;
           case 'ca':
-            this.current.fillAlpha = state[1];
-            this.ctx.globalAlpha = state[1];
+            this.current[__webkitAssign__fillAlpha] = state[1];
+            this.ctx[__webkitAssign__globalAlpha] = state[1];
             break;
           case 'BM':
             if (value && value.name && (value.name !== 'Normal')) {
@@ -4578,24 +4578,24 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
                   return '-' + c.toLowerCase();
                 }
               ).substring(1);
-              this.ctx.globalCompositeOperation = mode;
+              this.ctx[__webkitAssign__globalCompositeOperation] = mode;
               if (this.ctx.globalCompositeOperation !== mode) {
                 warn('globalCompositeOperation "' + mode +
                      '" is not supported');
               }
             } else {
-              this.ctx.globalCompositeOperation = 'source-over';
+              this.ctx[__webkitAssign__globalCompositeOperation] = 'source-over';
             }
             break;
           case 'SMask':
             if (this.current.activeSMask) {
               this.endSMaskGroup();
             }
-            this.current.activeSMask = value ? this.tempSMask : null;
+            this.current[__webkitAssign__activeSMask] = value ? this.tempSMask : null;
             if (this.current.activeSMask) {
               this.beginSMaskGroup();
             }
-            this.tempSMask = null;
+            this[__webkitAssign__tempSMask] = null;
             break;
         }
       }
@@ -4619,7 +4619,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       groupCtx.transform.apply(groupCtx, currentTransform);
 
       copyCtxState(currentCtx, groupCtx);
-      this.ctx = groupCtx;
+      this[__webkitAssign__ctx] = groupCtx;
       this.setGState([
         ['BM', 'Normal'],
         ['ca', 1],
@@ -4631,7 +4631,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
     endSMaskGroup: function CanvasGraphics_endSMaskGroup() {
       var groupCtx = this.ctx;
       this.groupLevel--;
-      this.ctx = this.groupStack.pop();
+      this[__webkitAssign__ctx] = this.groupStack.pop();
 
       composeSMask(this.ctx, this.current.activeSMask, groupCtx);
       this.ctx.restore();
@@ -4641,8 +4641,8 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       this.ctx.save();
       var old = this.current;
       this.stateStack.push(old);
-      this.current = old.clone();
-      this.current.activeSMask = null;
+      this[__webkitAssign__current] = old.clone();
+      this.current[__webkitAssign__activeSMask] = null;
     },
     restore: function CanvasGraphics_restore() {
       if (this.stateStack.length !== 0) {
@@ -4650,19 +4650,19 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
           this.endSMaskGroup();
         }
 
-        this.current = this.stateStack.pop();
+        this[__webkitAssign__current] = this.stateStack.pop();
         this.ctx.restore();
 
         // Ensure that the clipping path is reset (fixes issue6413.pdf).
-        this.pendingClip = null;
+        this[__webkitAssign__pendingClip] = null;
 
-        this.cachedGetSinglePixelWidth = null;
+        this[__webkitAssign__cachedGetSinglePixelWidth] = null;
       }
     },
     transform: function CanvasGraphics_transform(a, b, c, d, e, f) {
       this.ctx.transform(a, b, c, d, e, f);
 
-      this.cachedGetSinglePixelWidth = null;
+      this[__webkitAssign__cachedGetSinglePixelWidth] = null;
     },
 
     // Path
@@ -4737,17 +4737,17 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       var ctx = this.ctx;
       var strokeColor = this.current.strokeColor;
       // Prevent drawing too thin lines by enforcing a minimum line width.
-      ctx.lineWidth = Math.max(this.getSinglePixelWidth() * MIN_WIDTH_FACTOR,
+      ctx[__webkitAssign__lineWidth] = Math.max(this.getSinglePixelWidth() * MIN_WIDTH_FACTOR,
                                this.current.lineWidth);
       // For stroke we want to temporarily change the global alpha to the
       // stroking alpha.
-      ctx.globalAlpha = this.current.strokeAlpha;
+      ctx[__webkitAssign__globalAlpha] = this.current.strokeAlpha;
       if (strokeColor && strokeColor.hasOwnProperty('type') &&
           strokeColor.type === 'Pattern') {
         // for patterns, we transform to pattern space, calculate
         // the pattern, call stroke, and restore to user space
         ctx.save();
-        ctx.strokeStyle = strokeColor.getPattern(ctx, this);
+        ctx[__webkitAssign__strokeStyle] = strokeColor.getPattern(ctx, this);
         ctx.stroke();
         ctx.restore();
       } else {
@@ -4757,7 +4757,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         this.consumePath();
       }
       // Restore the global alpha to the fill alpha
-      ctx.globalAlpha = this.current.fillAlpha;
+      ctx[__webkitAssign__globalAlpha] = this.current.fillAlpha;
     },
     closeStroke: function CanvasGraphics_closeStroke() {
       this.closePath();
@@ -4772,19 +4772,19 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
       if (isPatternFill) {
         ctx.save();
-        ctx.fillStyle = fillColor.getPattern(ctx, this);
+        ctx[__webkitAssign__fillStyle] = fillColor.getPattern(ctx, this);
         needRestore = true;
       }
 
       if (this.pendingEOFill) {
         if (ctx.mozFillRule !== undefined) {
-          ctx.mozFillRule = 'evenodd';
+          ctx[__webkitAssign__mozFillRule] = 'evenodd';
           ctx.fill();
-          ctx.mozFillRule = 'nonzero';
+          ctx[__webkitAssign__mozFillRule] = 'nonzero';
         } else {
           ctx.fill('evenodd');
         }
-        this.pendingEOFill = false;
+        this[__webkitAssign__pendingEOFill] = false;
       } else {
         ctx.fill();
       }
@@ -4797,7 +4797,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       }
     },
     eoFill: function CanvasGraphics_eoFill() {
-      this.pendingEOFill = true;
+      this[__webkitAssign__pendingEOFill] = true;
       this.fill();
     },
     fillStroke: function CanvasGraphics_fillStroke() {
@@ -4807,7 +4807,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       this.consumePath();
     },
     eoFillStroke: function CanvasGraphics_eoFillStroke() {
-      this.pendingEOFill = true;
+      this[__webkitAssign__pendingEOFill] = true;
       this.fillStroke();
     },
     closeFillStroke: function CanvasGraphics_closeFillStroke() {
@@ -4815,7 +4815,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       this.fillStroke();
     },
     closeEOFillStroke: function CanvasGraphics_closeEOFillStroke() {
-      this.pendingEOFill = true;
+      this[__webkitAssign__pendingEOFill] = true;
       this.closePath();
       this.fillStroke();
     },
@@ -4825,18 +4825,18 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
     // Clipping
     clip: function CanvasGraphics_clip() {
-      this.pendingClip = NORMAL_CLIP;
+      this[__webkitAssign__pendingClip] = NORMAL_CLIP;
     },
     eoClip: function CanvasGraphics_eoClip() {
-      this.pendingClip = EO_CLIP;
+      this[__webkitAssign__pendingClip] = EO_CLIP;
     },
 
     // Text
     beginText: function CanvasGraphics_beginText() {
-      this.current.textMatrix = IDENTITY_MATRIX;
-      this.current.textMatrixScale = 1;
-      this.current.x = this.current.lineX = 0;
-      this.current.y = this.current.lineY = 0;
+      this.current[__webkitAssign__textMatrix] = IDENTITY_MATRIX;
+      this.current[__webkitAssign__textMatrixScale] = 1;
+      this.current[__webkitAssign__x] = this.current[__webkitAssign__lineX] = 0;
+      this.current[__webkitAssign__y] = this.current[__webkitAssign__lineY] = 0;
     },
     endText: function CanvasGraphics_endText() {
       var paths = this.pendingTextPaths;
@@ -4860,16 +4860,16 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       delete this.pendingTextPaths;
     },
     setCharSpacing: function CanvasGraphics_setCharSpacing(spacing) {
-      this.current.charSpacing = spacing;
+      this.current[__webkitAssign__charSpacing] = spacing;
     },
     setWordSpacing: function CanvasGraphics_setWordSpacing(spacing) {
-      this.current.wordSpacing = spacing;
+      this.current[__webkitAssign__wordSpacing] = spacing;
     },
     setHScale: function CanvasGraphics_setHScale(scale) {
-      this.current.textHScale = scale / 100;
+      this.current[__webkitAssign__textHScale] = scale / 100;
     },
     setLeading: function CanvasGraphics_setLeading(leading) {
-      this.current.leading = -leading;
+      this.current[__webkitAssign__leading] = -leading;
     },
     setFont: function CanvasGraphics_setFont(fontRefName, size) {
       var fontObj = this.commonObjs.get(fontRefName);
@@ -4879,7 +4879,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         error('Can\'t find font for ' + fontRefName);
       }
 
-      current.fontMatrix = (fontObj.fontMatrix ?
+      current[__webkitAssign__fontMatrix] = (fontObj.fontMatrix ?
                             fontObj.fontMatrix : FONT_IDENTITY_MATRIX);
 
       // A valid matrix needs all main diagonal elements to be non-zero
@@ -4893,13 +4893,13 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       // and in some docs this can be negative (inverted x-y axes).
       if (size < 0) {
         size = -size;
-        current.fontDirection = -1;
+        current[__webkitAssign__fontDirection] = -1;
       } else {
-        current.fontDirection = 1;
+        current[__webkitAssign__fontDirection] = 1;
       }
 
-      this.current.font = fontObj;
-      this.current.fontSize = size;
+      this.current[__webkitAssign__font] = fontObj;
+      this.current[__webkitAssign__fontSize] = size;
 
       if (fontObj.isType3Font) {
         return; // we don't need ctx.font for Type3 fonts
@@ -4918,31 +4918,31 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       // See https://bugzilla.mozilla.org/show_bug.cgi?id=726227
       var browserFontSize = size < MIN_FONT_SIZE ? MIN_FONT_SIZE :
                             size > MAX_FONT_SIZE ? MAX_FONT_SIZE : size;
-      this.current.fontSizeScale = size / browserFontSize;
+      this.current[__webkitAssign__fontSizeScale] = size / browserFontSize;
 
       var rule = italic + ' ' + bold + ' ' + browserFontSize + 'px ' + typeface;
-      this.ctx.font = rule;
+      this.ctx[__webkitAssign__font] = rule;
     },
     setTextRenderingMode: function CanvasGraphics_setTextRenderingMode(mode) {
-      this.current.textRenderingMode = mode;
+      this.current[__webkitAssign__textRenderingMode] = mode;
     },
     setTextRise: function CanvasGraphics_setTextRise(rise) {
-      this.current.textRise = rise;
+      this.current[__webkitAssign__textRise] = rise;
     },
     moveText: function CanvasGraphics_moveText(x, y) {
-      this.current.x = this.current.lineX += x;
-      this.current.y = this.current.lineY += y;
+      this.current[__webkitAssign__x] = this.current[__webkitAssign__lineX] += x;
+      this.current[__webkitAssign__y] = this.current[__webkitAssign__lineY] += y;
     },
     setLeadingMoveText: function CanvasGraphics_setLeadingMoveText(x, y) {
       this.setLeading(-y);
       this.moveText(x, y);
     },
     setTextMatrix: function CanvasGraphics_setTextMatrix(a, b, c, d, e, f) {
-      this.current.textMatrix = [a, b, c, d, e, f];
-      this.current.textMatrixScale = Math.sqrt(a * a + b * b);
+      this.current[__webkitAssign__textMatrix] = [a, b, c, d, e, f];
+      this.current[__webkitAssign__textMatrixScale] = Math.sqrt(a * a + b * b);
 
-      this.current.x = this.current.lineX = 0;
-      this.current.y = this.current.lineY = 0;
+      this.current[__webkitAssign__x] = this.current[__webkitAssign__lineX] = 0;
+      this.current[__webkitAssign__y] = this.current[__webkitAssign__lineY] = 0;
     },
     nextLine: function CanvasGraphics_nextLine() {
       this.moveText(0, this.current.leading);
@@ -4990,7 +4990,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       }
 
       if (isAddToPathSet) {
-        var paths = this.pendingTextPaths || (this.pendingTextPaths = []);
+        var paths = this.pendingTextPaths || (this[__webkitAssign__pendingTextPaths] = []);
         paths.push({
           transform: ctx.mozCurrentTransform,
           x: x,
@@ -5063,7 +5063,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
           TextRenderingMode.FILL_STROKE_MASK;
         if (fillStrokeMode === TextRenderingMode.STROKE ||
             fillStrokeMode === TextRenderingMode.FILL_STROKE) {
-          this.cachedGetSinglePixelWidth = null;
+          this[__webkitAssign__cachedGetSinglePixelWidth] = null;
           lineWidth = this.getSinglePixelWidth() * MIN_WIDTH_FACTOR;
         }
       } else {
@@ -5075,7 +5075,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         lineWidth /= fontSizeScale;
       }
 
-      ctx.lineWidth = lineWidth;
+      ctx[__webkitAssign__lineWidth] = lineWidth;
 
       var x = 0, i;
       for (i = 0; i < glyphsLength; ++i) {
@@ -5138,9 +5138,9 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         }
       }
       if (vertical) {
-        current.y -= x * textHScale;
+        current[__webkitAssign__y] -= x * textHScale;
       } else {
-        current.x += x * textHScale;
+        current[__webkitAssign__x] += x * textHScale;
       }
       ctx.restore();
     },
@@ -5165,7 +5165,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       if (isTextInvisible || fontSize === 0) {
         return;
       }
-      this.cachedGetSinglePixelWidth = null;
+      this[__webkitAssign__cachedGetSinglePixelWidth] = null;
 
       ctx.save();
       ctx.transform.apply(ctx, current.textMatrix);
@@ -5178,7 +5178,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         if (isNum(glyph)) {
           spacingLength = spacingDir * glyph * fontSize / 1000;
           this.ctx.translate(spacingLength, 0);
-          current.x += spacingLength * textHScale;
+          current[__webkitAssign__x] += spacingLength * textHScale;
           continue;
         }
 
@@ -5189,7 +5189,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
                '\" is not available');
           continue;
         }
-        this.processingType3 = glyph;
+        this[__webkitAssign__processingType3] = glyph;
         this.save();
         ctx.scale(fontSize, fontSize);
         ctx.transform.apply(ctx, fontMatrix);
@@ -5200,10 +5200,10 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         width = transformed[0] * fontSize + spacing;
 
         ctx.translate(width, 0);
-        current.x += width * textHScale;
+        current[__webkitAssign__x] += width * textHScale;
       }
       ctx.restore();
-      this.processingType3 = null;
+      this[__webkitAssign__processingType3] = null;
     },
 
     // Type3 fonts
@@ -5239,22 +5239,22 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       return pattern;
     },
     setStrokeColorN: function CanvasGraphics_setStrokeColorN(/*...*/) {
-      this.current.strokeColor = this.getColorN_Pattern(arguments);
+      this.current[__webkitAssign__strokeColor] = this.getColorN_Pattern(arguments);
     },
     setFillColorN: function CanvasGraphics_setFillColorN(/*...*/) {
-      this.current.fillColor = this.getColorN_Pattern(arguments);
-      this.current.patternFill = true;
+      this.current[__webkitAssign__fillColor] = this.getColorN_Pattern(arguments);
+      this.current[__webkitAssign__patternFill] = true;
     },
     setStrokeRGBColor: function CanvasGraphics_setStrokeRGBColor(r, g, b) {
       var color = Util.makeCssRgb(r, g, b);
-      this.ctx.strokeStyle = color;
-      this.current.strokeColor = color;
+      this.ctx[__webkitAssign__strokeStyle] = color;
+      this.current[__webkitAssign__strokeColor] = color;
     },
     setFillRGBColor: function CanvasGraphics_setFillRGBColor(r, g, b) {
       var color = Util.makeCssRgb(r, g, b);
-      this.ctx.fillStyle = color;
-      this.current.fillColor = color;
-      this.current.patternFill = false;
+      this.ctx[__webkitAssign__fillStyle] = color;
+      this.current[__webkitAssign__fillColor] = color;
+      this.current[__webkitAssign__patternFill] = false;
     },
 
     shadingFill: function CanvasGraphics_shadingFill(patternIR) {
@@ -5262,7 +5262,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
       this.save();
       var pattern = getShadingPatternFromIR(patternIR);
-      ctx.fillStyle = pattern.getPattern(ctx, this, true);
+      ctx[__webkitAssign__fillStyle] = pattern.getPattern(ctx, this, true);
 
       var inv = ctx.mozCurrentTransformInverse;
       if (inv) {
@@ -5311,7 +5311,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
         this.transform.apply(this, matrix);
       }
 
-      this.baseTransform = this.ctx.mozCurrentTransform;
+      this[__webkitAssign__baseTransform] = this.ctx.mozCurrentTransform;
 
       if (isArray(bbox) && 4 === bbox.length) {
         var width = bbox[2] - bbox[0];
@@ -5324,7 +5324,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
     paintFormXObjectEnd: function CanvasGraphics_paintFormXObjectEnd() {
       this.restore();
-      this.baseTransform = this.baseTransformStack.pop();
+      this[__webkitAssign__baseTransform] = this.baseTransformStack.pop();
     },
 
     beginGroup: function CanvasGraphics_beginGroup(group) {
@@ -5424,7 +5424,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       // The transparency group inherits all off the current graphics state
       // except the blend mode, soft mask, and alpha constants.
       copyCtxState(currentCtx, groupCtx);
-      this.ctx = groupCtx;
+      this[__webkitAssign__ctx] = groupCtx;
       this.setGState([
         ['BM', 'Normal'],
         ['ca', 1],
@@ -5437,16 +5437,16 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
     endGroup: function CanvasGraphics_endGroup(group) {
       this.groupLevel--;
       var groupCtx = this.ctx;
-      this.ctx = this.groupStack.pop();
+      this[__webkitAssign__ctx] = this.groupStack.pop();
       // Turn off image smoothing to avoid sub pixel interpolation which can
       // look kind of blurry for some pdfs.
       if (this.ctx.imageSmoothingEnabled !== undefined) {
-        this.ctx.imageSmoothingEnabled = false;
+        this.ctx[__webkitAssign__imageSmoothingEnabled] = false;
       } else {
-        this.ctx.mozImageSmoothingEnabled = false;
+        this.ctx[__webkitAssign__mozImageSmoothingEnabled] = false;
       }
       if (group.smask) {
-        this.tempSMask = this.smaskStack.pop();
+        this[__webkitAssign__tempSMask] = this.smaskStack.pop();
       } else {
         this.ctx.drawImage(groupCtx.canvas, 0, 0);
       }
@@ -5455,7 +5455,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
     beginAnnotations: function CanvasGraphics_beginAnnotations() {
       this.save();
-      this.current = new CanvasExtraState();
+      this[__webkitAssign__current] = new CanvasExtraState();
     },
 
     endAnnotations: function CanvasGraphics_endAnnotations() {
@@ -5521,10 +5521,10 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
       if (COMPILE_TYPE3_GLYPHS && glyph && glyph.compiled === undefined) {
         if (width <= MAX_SIZE_TO_COMPILE && height <= MAX_SIZE_TO_COMPILE) {
-          glyph.compiled =
+          glyph[__webkitAssign__compiled] =
             compileType3Glyph({data: img.data, width: width, height: height});
         } else {
-          glyph.compiled = null;
+          glyph[__webkitAssign__compiled] = null;
         }
       }
 
@@ -5540,9 +5540,9 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
       putBinaryImageMask(maskCtx, img);
 
-      maskCtx.globalCompositeOperation = 'source-in';
+      maskCtx[__webkitAssign__globalCompositeOperation] = 'source-in';
 
-      maskCtx.fillStyle = isPatternFill ?
+      maskCtx[__webkitAssign__fillStyle] = isPatternFill ?
                           fillColor.getPattern(maskCtx, this) : fillColor;
       maskCtx.fillRect(0, 0, width, height);
 
@@ -5566,9 +5566,9 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
       putBinaryImageMask(maskCtx, imgData);
 
-      maskCtx.globalCompositeOperation = 'source-in';
+      maskCtx[__webkitAssign__globalCompositeOperation] = 'source-in';
 
-      maskCtx.fillStyle = isPatternFill ?
+      maskCtx[__webkitAssign__fillStyle] = isPatternFill ?
                           fillColor.getPattern(maskCtx, this) : fillColor;
       maskCtx.fillRect(0, 0, width, height);
 
@@ -5602,9 +5602,9 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
         putBinaryImageMask(maskCtx, image);
 
-        maskCtx.globalCompositeOperation = 'source-in';
+        maskCtx[__webkitAssign__globalCompositeOperation] = 'source-in';
 
-        maskCtx.fillStyle = isPatternFill ?
+        maskCtx[__webkitAssign__fillStyle] = isPatternFill ?
                             fillColor.getPattern(maskCtx, this) : fillColor;
         maskCtx.fillRect(0, 0, width, height);
 
@@ -5794,16 +5794,16 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       if (this.pendingClip) {
         if (this.pendingClip === EO_CLIP) {
           if (ctx.mozFillRule !== undefined) {
-            ctx.mozFillRule = 'evenodd';
+            ctx[__webkitAssign__mozFillRule] = 'evenodd';
             ctx.clip();
-            ctx.mozFillRule = 'nonzero';
+            ctx[__webkitAssign__mozFillRule] = 'nonzero';
           } else {
             ctx.clip('evenodd');
           }
         } else {
           ctx.clip();
         }
-        this.pendingClip = null;
+        this[__webkitAssign__pendingClip] = null;
       }
       ctx.beginPath();
     },
@@ -5811,7 +5811,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
       if (this.cachedGetSinglePixelWidth === null) {
         var inverse = this.ctx.mozCurrentTransformInverse;
         // max of the current horizontal and vertical scale
-        this.cachedGetSinglePixelWidth = Math.sqrt(Math.max(
+        this[__webkitAssign__cachedGetSinglePixelWidth] = Math.sqrt(Math.max(
           (inverse[0] * inverse[0] + inverse[1] * inverse[1]),
           (inverse[2] * inverse[2] + inverse[3] * inverse[3])));
       }
@@ -5953,12 +5953,12 @@ var WebGLUtils = (function WebGLUtilsClosure() {
     gl.useProgram(program);
 
     var cache = {};
-    cache.gl = gl;
-    cache.canvas = canvas;
-    cache.resolutionLocation = gl.getUniformLocation(program, 'u_resolution');
-    cache.positionLocation = gl.getAttribLocation(program, 'a_position');
-    cache.backdropLocation = gl.getUniformLocation(program, 'u_backdrop');
-    cache.subtypeLocation = gl.getUniformLocation(program, 'u_subtype');
+    cache[__webkitAssign__gl] = gl;
+    cache[__webkitAssign__canvas] = canvas;
+    cache[__webkitAssign__resolutionLocation] = gl.getUniformLocation(program, 'u_resolution');
+    cache[__webkitAssign__positionLocation] = gl.getAttribLocation(program, 'a_position');
+    cache[__webkitAssign__backdropLocation] = gl.getUniformLocation(program, 'u_backdrop');
+    cache[__webkitAssign__subtypeLocation] = gl.getUniformLocation(program, 'u_subtype');
 
     var texCoordLocation = gl.getAttribLocation(program, 'a_texCoord');
     var texLayerLocation = gl.getUniformLocation(program, 'u_image');
@@ -5990,8 +5990,8 @@ var WebGLUtils = (function WebGLUtilsClosure() {
       initSmaskGL();
     }
     var cache = smaskCache,canvas = cache.canvas, gl = cache.gl;
-    canvas.width = width;
-    canvas.height = height;
+    canvas[__webkitAssign__width] = width;
+    canvas[__webkitAssign__height] = height;
     gl.viewport(0, 0, gl.drawingBufferWidth, gl.drawingBufferHeight);
     gl.uniform2f(cache.resolutionLocation, width, height);
 
@@ -6085,13 +6085,13 @@ var WebGLUtils = (function WebGLUtilsClosure() {
     gl.useProgram(program);
 
     var cache = {};
-    cache.gl = gl;
-    cache.canvas = canvas;
-    cache.resolutionLocation = gl.getUniformLocation(program, 'u_resolution');
-    cache.scaleLocation = gl.getUniformLocation(program, 'u_scale');
-    cache.offsetLocation = gl.getUniformLocation(program, 'u_offset');
-    cache.positionLocation = gl.getAttribLocation(program, 'a_position');
-    cache.colorLocation = gl.getAttribLocation(program, 'a_color');
+    cache[__webkitAssign__gl] = gl;
+    cache[__webkitAssign__canvas] = canvas;
+    cache[__webkitAssign__resolutionLocation] = gl.getUniformLocation(program, 'u_resolution');
+    cache[__webkitAssign__scaleLocation] = gl.getUniformLocation(program, 'u_scale');
+    cache[__webkitAssign__offsetLocation] = gl.getUniformLocation(program, 'u_offset');
+    cache[__webkitAssign__positionLocation] = gl.getAttribLocation(program, 'a_position');
+    cache[__webkitAssign__colorLocation] = gl.getAttribLocation(program, 'a_color');
 
     figuresCache = cache;
   }
@@ -6102,8 +6102,8 @@ var WebGLUtils = (function WebGLUtilsClosure() {
     }
     var cache = figuresCache, canvas = cache.canvas, gl = cache.gl;
 
-    canvas.width = width;
-    canvas.height = height;
+    canvas[__webkitAssign__width] = width;
+    canvas[__webkitAssign__height] = height;
     gl.viewport(0, 0, gl.drawingBufferWidth, gl.drawingBufferHeight);
     gl.uniform2f(cache.resolutionLocation, width, height);
 
@@ -6222,12 +6222,12 @@ var WebGLUtils = (function WebGLUtilsClosure() {
 
   function cleanup() {
     if (smaskCache && smaskCache.canvas) {
-      smaskCache.canvas.width = 0;
-      smaskCache.canvas.height = 0;
+      smaskCache.canvas[__webkitAssign__width] = 0;
+      smaskCache.canvas[__webkitAssign__height] = 0;
     }
     if (figuresCache && figuresCache.canvas) {
-      figuresCache.canvas.width = 0;
-      figuresCache.canvas.height = 0;
+      figuresCache.canvas[__webkitAssign__width] = 0;
+      figuresCache.canvas[__webkitAssign__height] = 0;
     }
     smaskCache = null;
     figuresCache = null;
@@ -6254,7 +6254,7 @@ var WebGLUtils = (function WebGLUtilsClosure() {
 
 var ShadingIRs = {};
 
-ShadingIRs.RadialAxial = {
+ShadingIRs[__webkitAssign__RadialAxial] = {
   fromIR: function RadialAxial_fromIR(raw) {
     var type = raw[1];
     var colorStops = raw[2];
@@ -6446,7 +6446,7 @@ var createMeshCanvas = (function createMeshCanvasClosure() {
   return createMeshCanvas;
 })();
 
-ShadingIRs.Mesh = {
+ShadingIRs[__webkitAssign__Mesh] = {
   fromIR: function Mesh_fromIR(raw) {
     //var type = raw[1];
     var coords = raw[2];
@@ -6497,7 +6497,7 @@ ShadingIRs.Mesh = {
   }
 };
 
-ShadingIRs.Dummy = {
+ShadingIRs[__webkitAssign__Dummy] = {
   fromIR: function Dummy_fromIR() {
     return {
       type: 'Pattern',
@@ -6525,22 +6525,22 @@ var TilingPattern = (function TilingPatternClosure() {
   var MAX_PATTERN_SIZE = 3000; // 10in @ 300dpi shall be enough
 
   function TilingPattern(IR, color, ctx, objs, commonObjs, baseTransform) {
-    this.operatorList = IR[2];
-    this.matrix = IR[3] || [1, 0, 0, 1, 0, 0];
-    this.bbox = IR[4];
-    this.xstep = IR[5];
-    this.ystep = IR[6];
-    this.paintType = IR[7];
-    this.tilingType = IR[8];
-    this.color = color;
-    this.objs = objs;
-    this.commonObjs = commonObjs;
-    this.baseTransform = baseTransform;
-    this.type = 'Pattern';
-    this.ctx = ctx;
+    this[__webkitAssign__operatorList] = IR[2];
+    this[__webkitAssign__matrix] = IR[3] || [1, 0, 0, 1, 0, 0];
+    this[__webkitAssign__bbox] = IR[4];
+    this[__webkitAssign__xstep] = IR[5];
+    this[__webkitAssign__ystep] = IR[6];
+    this[__webkitAssign__paintType] = IR[7];
+    this[__webkitAssign__tilingType] = IR[8];
+    this[__webkitAssign__color] = color;
+    this[__webkitAssign__objs] = objs;
+    this[__webkitAssign__commonObjs] = commonObjs;
+    this[__webkitAssign__baseTransform] = baseTransform;
+    this[__webkitAssign__type] = 'Pattern';
+    this[__webkitAssign__ctx] = ctx;
   }
 
-  TilingPattern.prototype = {
+  TilingPattern[__webkitAssign__prototype] = {
     createPatternCanvas: function TilinPattern_createPatternCanvas(owner) {
       var operatorList = this.operatorList;
       var bbox = this.bbox;
@@ -6584,7 +6584,7 @@ var TilingPattern = (function TilingPatternClosure() {
         width, height, true);
       var tmpCtx = tmpCanvas.context;
       var graphics = new CanvasGraphics(tmpCtx, commonObjs, objs);
-      graphics.groupLevel = owner.groupLevel;
+      graphics[__webkitAssign__groupLevel] = owner.groupLevel;
 
       this.setFillAndStrokeStyleToContext(tmpCtx, paintType, color);
 
@@ -6602,7 +6602,7 @@ var TilingPattern = (function TilingPatternClosure() {
     },
 
     setScale: function TilingPattern_setScale(width, height, xstep, ystep) {
-      this.scale = [width / xstep, height / ystep];
+      this[__webkitAssign__scale] = [width / xstep, height / ystep];
     },
 
     transformToScale: function TilingPattern_transformToScale(graphics) {
@@ -6631,13 +6631,13 @@ var TilingPattern = (function TilingPatternClosure() {
         switch (paintType) {
           case PaintType.COLORED:
             var ctx = this.ctx;
-            context.fillStyle = ctx.fillStyle;
-            context.strokeStyle = ctx.strokeStyle;
+            context[__webkitAssign__fillStyle] = ctx.fillStyle;
+            context[__webkitAssign__strokeStyle] = ctx.strokeStyle;
             break;
           case PaintType.UNCOLORED:
             var cssColor = Util.makeCssRgb(color[0], color[1], color[2]);
-            context.fillStyle = cssColor;
-            context.strokeStyle = cssColor;
+            context[__webkitAssign__fillStyle] = cssColor;
+            context[__webkitAssign__strokeStyle] = cssColor;
             break;
           default:
             error('Unsupported paint type: ' + paintType);
@@ -6660,24 +6660,24 @@ var TilingPattern = (function TilingPatternClosure() {
 })();
 
 
-PDFJS.disableFontFace = false;
+PDFJS[__webkitAssign__disableFontFace] = false;
 
 function FontLoader(docId) {
-  this.docId = docId;
-  this.styleElement = null;
-  this.nativeFontFaces = [];
-  this.loadTestFontId = 0;
-  this.loadingContext = {
+  this[__webkitAssign__docId] = docId;
+  this[__webkitAssign__styleElement] = null;
+  this[__webkitAssign__nativeFontFaces] = [];
+  this[__webkitAssign__loadTestFontId] = 0;
+  this[__webkitAssign__loadingContext] = {
     requests: [],
     nextRequestId: 0
   };
 }
-FontLoader.prototype = {
+FontLoader[__webkitAssign__prototype] = {
   insertRule: function fontLoaderInsertRule(rule) {
     var styleElement = this.styleElement;
     if (!styleElement) {
-      styleElement = this.styleElement = document.createElement('style');
-      styleElement.id = 'PDFJS_FONT_STYLE_TAG_' + this.docId;
+      styleElement = this[__webkitAssign__styleElement] = document.createElement('style');
+      styleElement[__webkitAssign__id] = 'PDFJS_FONT_STYLE_TAG_' + this.docId;
       document.documentElement.getElementsByTagName('head')[0].appendChild(
         styleElement);
     }
@@ -6694,7 +6694,7 @@ FontLoader.prototype = {
     this.nativeFontFaces.forEach(function(nativeFontFace) {
       document.fonts.delete(nativeFontFace);
     });
-    this.nativeFontFaces.length = 0;
+    this.nativeFontFaces[__webkitAssign__length] = 0;
   },
   get loadTestFont() {
     // This is a CFF font with 1 glyph for '.' that fills its entire width and
@@ -6751,7 +6751,7 @@ FontLoader.prototype = {
       if (font.attached || font.loading === false) {
         continue;
       }
-      font.attached = true;
+      font[__webkitAssign__attached] = true;
 
       if (FontLoader.isFontLoadingAPISupported) {
         var nativeFontFace = font.createNativeFontFace();
@@ -6784,7 +6784,7 @@ FontLoader.prototype = {
   queueLoadingCallback: function FontLoader_queueLoadingCallback(callback) {
     function LoadLoader_completeRequest() {
       assert(!request.end, 'completeRequest() cannot be called twice');
-      request.end = Date.now();
+      request[__webkitAssign__end] = Date.now();
 
       // sending all completed requests in order how they were queued
       while (context.requests.length > 0 && context.requests[0].end) {
@@ -6831,8 +6831,8 @@ FontLoader.prototype = {
       var i, ii;
 
       var canvas = document.createElement('canvas');
-      canvas.width = 1;
-      canvas.height = 1;
+      canvas[__webkitAssign__width] = 1;
+      canvas[__webkitAssign__height] = 1;
       var ctx = canvas.getContext('2d');
 
       var called = 0;
@@ -6844,7 +6844,7 @@ FontLoader.prototype = {
           callback();
           return;
         }
-        ctx.font = '30px ' + name;
+        ctx[__webkitAssign__font] = '30px ' + name;
         ctx.fillText('.', 0, 20);
         var imageData = ctx.getImageData(0, 0, 1, 1);
         if (imageData.data[3] > 0) {
@@ -6895,8 +6895,8 @@ FontLoader.prototype = {
                        'position: absolute; top: 0px; left: 0px;');
       for (i = 0, ii = names.length; i < ii; ++i) {
         var span = document.createElement('span');
-        span.textContent = 'Hi';
-        span.style.fontFamily = names[i];
+        span[__webkitAssign__textContent] = 'Hi';
+        span.style[__webkitAssign__fontFamily] = names[i];
         div.appendChild(span);
       }
       document.body.appendChild(div);
@@ -6908,7 +6908,7 @@ FontLoader.prototype = {
       /** Hack end */
   }
 };
-FontLoader.isFontLoadingAPISupported = (!isWorker &&
+FontLoader[__webkitAssign__isFontLoadingAPISupported] = (!isWorker &&
   typeof document !== 'undefined' && !!document.fonts);
 Object.defineProperty(FontLoader, 'isSyncFontLoadingSupported', {
   get: function () {
@@ -6933,7 +6933,7 @@ Object.defineProperty(FontLoader, 'isSyncFontLoadingSupported', {
 
 var FontFaceObject = (function FontFaceObjectClosure() {
   function FontFaceObject(translatedData) {
-    this.compiledGlyphs = {};
+    this[__webkitAssign__compiledGlyphs] = {};
     // importing translated data
     for (var i in translatedData) {
       this[i] = translatedData[i];
@@ -6954,14 +6954,14 @@ var FontFaceObject = (function FontFaceObjectClosure() {
     enumerable: true,
     configurable: true
   });
-  FontFaceObject.prototype = {
+  FontFaceObject[__webkitAssign__prototype] = {
     createNativeFontFace: function FontFaceObject_createNativeFontFace() {
       if (!this.data) {
         return null;
       }
 
       if (PDFJS.disableFontFace) {
-        this.disableFontFace = true;
+        this[__webkitAssign__disableFontFace] = true;
         return null;
       }
 
@@ -6980,7 +6980,7 @@ var FontFaceObject = (function FontFaceObjectClosure() {
       }
 
       if (PDFJS.disableFontFace) {
-        this.disableFontFace = true;
+        this[__webkitAssign__disableFontFace] = true;
         return null;
       }
 
@@ -7030,7 +7030,7 @@ var FontFaceObject = (function FontFaceObjectClosure() {
               current = cmds[i];
 
               if (current.cmd === 'scale') {
-                current.args = [size, -size];
+                current[__webkitAssign__args] = [size, -size];
               }
 
               c[current.cmd].apply(c, current.args);
@@ -7060,7 +7060,7 @@ var CustomStyle = (function CustomStyleClosure() {
 
   function CustomStyle() {}
 
-  CustomStyle.getProp = function get(propName, element) {
+  CustomStyle[__webkitAssign__getProp] = function get(propName, element) {
     // check cache only when no element is given
     if (arguments.length === 1 && typeof _cache[propName] === 'string') {
       return _cache[propName];
@@ -7089,7 +7089,7 @@ var CustomStyle = (function CustomStyleClosure() {
     return (_cache[propName] = 'undefined');
   };
 
-  CustomStyle.setProp = function set(propName, element, str) {
+  CustomStyle[__webkitAssign__setProp] = function set(propName, element, str) {
     var prop = this.getProp(propName);
     if (prop !== 'undefined') {
       element.style[prop] = str;
@@ -7099,7 +7099,7 @@ var CustomStyle = (function CustomStyleClosure() {
   return CustomStyle;
 })();
 
-PDFJS.CustomStyle = CustomStyle;
+PDFJS[__webkitAssign__CustomStyle] = CustomStyle;
 
 
 var ANNOT_MIN_SIZE = 10; // px
@@ -7109,23 +7109,23 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
   function setTextStyles(element, item, fontObj) {
 
     var style = element.style;
-    style.fontSize = item.fontSize + 'px';
-    style.direction = item.fontDirection < 0 ? 'rtl': 'ltr';
+    style[__webkitAssign__fontSize] = item.fontSize + 'px';
+    style[__webkitAssign__direction] = item.fontDirection < 0 ? 'rtl': 'ltr';
 
     if (!fontObj) {
       return;
     }
 
-    style.fontWeight = fontObj.black ?
+    style[__webkitAssign__fontWeight] = fontObj.black ?
       (fontObj.bold ? 'bolder' : 'bold') :
       (fontObj.bold ? 'bold' : 'normal');
-    style.fontStyle = fontObj.italic ? 'italic' : 'normal';
+    style[__webkitAssign__fontStyle] = fontObj.italic ? 'italic' : 'normal';
 
     var fontName = fontObj.loadedName;
     var fontFamily = fontName ? '"' + fontName + '", ' : '';
     // Use a reasonable default font if the font doesn't specify a fallback
     var fallbackName = fontObj.fallbackName || 'Helvetica, sans-serif';
-    style.fontFamily = fontFamily + fallbackName;
+    style[__webkitAssign__fontFamily] = fontFamily + fallbackName;
   }
 
   function initContainer(item) {
@@ -7137,7 +7137,7 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
     // Border
     if (item.borderStyle.width > 0) {
       // Border width
-      container.style.borderWidth = item.borderStyle.width + 'px';
+      container.style[__webkitAssign__borderWidth] = item.borderStyle.width + 'px';
       if (item.borderStyle.style !== AnnotationBorderStyleType.UNDERLINE) {
         // Underline styles only have a bottom border, so we do not need
         // to adjust for all borders. This yields a similar result as
@@ -7157,11 +7157,11 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
       // Border style
       switch (item.borderStyle.style) {
         case AnnotationBorderStyleType.SOLID:
-          container.style.borderStyle = 'solid';
+          container.style[__webkitAssign__borderStyle] = 'solid';
           break;
 
         case AnnotationBorderStyleType.DASHED:
-          container.style.borderStyle = 'dashed';
+          container.style[__webkitAssign__borderStyle] = 'dashed';
           break;
 
         case AnnotationBorderStyleType.BEVELED:
@@ -7173,7 +7173,7 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
           break;
 
         case AnnotationBorderStyleType.UNDERLINE:
-          container.style.borderBottomStyle = 'solid';
+          container.style[__webkitAssign__borderBottomStyle] = 'solid';
           break;
 
         default:
@@ -7182,18 +7182,18 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
 
       // Border color
       if (item.color) {
-        container.style.borderColor =
+        container.style[__webkitAssign__borderColor] =
           Util.makeCssRgb(item.color[0] | 0,
                           item.color[1] | 0,
                           item.color[2] | 0);
       } else {
         // Transparent (invisible) border, so do not draw it at all.
-        container.style.borderWidth = 0;
+        container.style[__webkitAssign__borderWidth] = 0;
       }
     }
 
-    cstyle.width = width + 'px';
-    cstyle.height = height + 'px';
+    cstyle[__webkitAssign__width] = width + 'px';
+    cstyle[__webkitAssign__height] = height + 'px';
     return container;
   }
 
@@ -7201,16 +7201,16 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
     var element = document.createElement('div');
     var width = item.rect[2] - item.rect[0];
     var height = item.rect[3] - item.rect[1];
-    element.style.width = width + 'px';
-    element.style.height = height + 'px';
-    element.style.display = 'table';
+    element.style[__webkitAssign__width] = width + 'px';
+    element.style[__webkitAssign__height] = height + 'px';
+    element.style[__webkitAssign__display] = 'table';
 
     var content = document.createElement('div');
-    content.textContent = item.fieldValue;
+    content[__webkitAssign__textContent] = item.fieldValue;
     var textAlignment = item.textAlignment;
-    content.style.textAlign = ['left', 'center', 'right'][textAlignment];
-    content.style.verticalAlign = 'middle';
-    content.style.display = 'table-cell';
+    content.style[__webkitAssign__textAlign] = ['left', 'center', 'right'][textAlignment];
+    content.style[__webkitAssign__verticalAlign] = 'middle';
+    content.style[__webkitAssign__display] = 'table-cell';
 
     var fontObj = item.fontRefName ?
       commonObjs.getData(item.fontRefName) : null;
@@ -7233,25 +7233,25 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
     }
 
     var container = initContainer(item);
-    container.className = 'annotText';
+    container[__webkitAssign__className] = 'annotText';
 
     var image  = document.createElement('img');
-    image.style.height = container.style.height;
-    image.style.width = container.style.width;
+    image.style[__webkitAssign__height] = container.style.height;
+    image.style[__webkitAssign__width] = container.style.width;
     var iconName = item.name;
-    image.src = PDFJS.imageResourcesPath + 'annotation-' +
+    image[__webkitAssign__src] = PDFJS.imageResourcesPath + 'annotation-' +
       iconName.toLowerCase() + '.svg';
-    image.alt = '[{{type}} Annotation]';
-    image.dataset.l10nId = 'text_annotation_type';
-    image.dataset.l10nArgs = JSON.stringify({type: iconName});
+    image[__webkitAssign__alt] = '[{{type}} Annotation]';
+    image.dataset[__webkitAssign__l10nId] = 'text_annotation_type';
+    image.dataset[__webkitAssign__l10nArgs] = JSON.stringify({type: iconName});
 
     var contentWrapper = document.createElement('div');
-    contentWrapper.className = 'annotTextContentWrapper';
-    contentWrapper.style.left = Math.floor(rect[2] - rect[0] + 5) + 'px';
-    contentWrapper.style.top = '-10px';
+    contentWrapper[__webkitAssign__className] = 'annotTextContentWrapper';
+    contentWrapper.style[__webkitAssign__left] = Math.floor(rect[2] - rect[0] + 5) + 'px';
+    contentWrapper.style[__webkitAssign__top] = '-10px';
 
     var content = document.createElement('div');
-    content.className = 'annotTextContent';
+    content[__webkitAssign__className] = 'annotTextContent';
     content.setAttribute('hidden', true);
 
     var i, ii;
@@ -7263,12 +7263,12 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
       var r = BACKGROUND_ENLIGHT * (255 - color[0]) + color[0];
       var g = BACKGROUND_ENLIGHT * (255 - color[1]) + color[1];
       var b = BACKGROUND_ENLIGHT * (255 - color[2]) + color[2];
-      content.style.backgroundColor = Util.makeCssRgb(r | 0, g | 0, b | 0);
+      content.style[__webkitAssign__backgroundColor] = Util.makeCssRgb(r | 0, g | 0, b | 0);
     }
 
     var title = document.createElement('h1');
     var text = document.createElement('p');
-    title.textContent = item.title;
+    title[__webkitAssign__textContent] = item.title;
 
     if (!item.content && !item.title) {
       content.setAttribute('hidden', true);
@@ -7291,7 +7291,7 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
           pinned = true;
         }
         if (content.hasAttribute('hidden')) {
-          container.style.zIndex += 1;
+          container.style[__webkitAssign__zIndex] += 1;
           content.removeAttribute('hidden');
         }
       };
@@ -7301,7 +7301,7 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
           pinned = false;
         }
         if (!content.hasAttribute('hidden') && !pinned) {
-          container.style.zIndex -= 1;
+          container.style[__webkitAssign__zIndex] -= 1;
           content.setAttribute('hidden', true);
         }
       };
@@ -7340,13 +7340,13 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
 
   function getHtmlElementForLinkAnnotation(item) {
     var container = initContainer(item);
-    container.className = 'annotLink';
+    container[__webkitAssign__className] = 'annotLink';
 
     var link = document.createElement('a');
-    link.href = link.title = item.url || '';
+    link[__webkitAssign__href] = link[__webkitAssign__title] = item.url || '';
 
     if (item.url && isExternalLinkTargetSet()) {
-      link.target = LinkTargetStringMap[PDFJS.externalLinkTarget];
+      link[__webkitAssign__target] = LinkTargetStringMap[PDFJS.externalLinkTarget];
     }
 
     container.appendChild(link);
@@ -7371,7 +7371,7 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
     getHtmlElement: getHtmlElement
   };
 })();
-PDFJS.AnnotationUtils = AnnotationUtils;
+PDFJS[__webkitAssign__AnnotationUtils] = AnnotationUtils;
 
 
 /**
@@ -7403,7 +7403,7 @@ var renderTextLayer = (function renderTextLayerClosure() {
     var textDiv = document.createElement('div');
     textDivs.push(textDiv);
     if (isAllWhitespace(geom.str)) {
-      textDiv.dataset.isWhitespace = true;
+      textDiv.dataset[__webkitAssign__isWhitespace] = true;
       return;
     }
     var tx = PDFJS.Util.transform(viewport.transform, geom.transform);
@@ -7428,30 +7428,30 @@ var renderTextLayer = (function renderTextLayerClosure() {
       left = tx[4] + (fontAscent * Math.sin(angle));
       top = tx[5] - (fontAscent * Math.cos(angle));
     }
-    textDiv.style.left = left + 'px';
-    textDiv.style.top = top + 'px';
-    textDiv.style.fontSize = fontHeight + 'px';
-    textDiv.style.fontFamily = style.fontFamily;
+    textDiv.style[__webkitAssign__left] = left + 'px';
+    textDiv.style[__webkitAssign__top] = top + 'px';
+    textDiv.style[__webkitAssign__fontSize] = fontHeight + 'px';
+    textDiv.style[__webkitAssign__fontFamily] = style.fontFamily;
 
-    textDiv.textContent = geom.str;
+    textDiv[__webkitAssign__textContent] = geom.str;
     // |fontName| is only used by the Font Inspector. This test will succeed
     // when e.g. the Font Inspector is off but the Stepper is on, but it's
     // not worth the effort to do a more accurate test.
     if (PDFJS.pdfBug) {
-      textDiv.dataset.fontName = geom.fontName;
+      textDiv.dataset[__webkitAssign__fontName] = geom.fontName;
     }
     // Storing into dataset will convert number into string.
     if (angle !== 0) {
-      textDiv.dataset.angle = angle * (180 / Math.PI);
+      textDiv.dataset[__webkitAssign__angle] = angle * (180 / Math.PI);
     }
     // We don't bother scaling single-char text divs, because it has very
     // little effect on text highlighting. This makes scrolling on docs with
     // lots of such divs a lot faster.
     if (geom.str.length > 1) {
       if (style.vertical) {
-        textDiv.dataset.canvasWidth = geom.height * viewport.scale;
+        textDiv.dataset[__webkitAssign__canvasWidth] = geom.height * viewport.scale;
       } else {
-        textDiv.dataset.canvasWidth = geom.width * viewport.scale;
+        textDiv.dataset[__webkitAssign__canvasWidth] = geom.width * viewport.scale;
       }
     }
   }
@@ -7488,7 +7488,7 @@ var renderTextLayer = (function renderTextLayerClosure() {
 
       // Only build font string and set to context if different from last.
       if (fontSize !== lastFontSize || fontFamily !== lastFontFamily) {
-        ctx.font = fontSize + ' ' + fontFamily;
+        ctx[__webkitAssign__font] = fontSize + ' ' + fontFamily;
         lastFontSize = fontSize;
         lastFontFamily = fontFamily;
       }
@@ -7526,25 +7526,25 @@ var renderTextLayer = (function renderTextLayerClosure() {
    * @private
    */
   function TextLayerRenderTask(textContent, container, viewport, textDivs) {
-    this._textContent = textContent;
-    this._container = container;
-    this._viewport = viewport;
+    this[__webkitAssign___textContent] = textContent;
+    this[__webkitAssign___container] = container;
+    this[__webkitAssign___viewport] = viewport;
     textDivs = textDivs || [];
-    this._textDivs = textDivs;
-    this._canceled = false;
-    this._capability = createPromiseCapability();
-    this._renderTimer = null;
+    this[__webkitAssign___textDivs] = textDivs;
+    this[__webkitAssign___canceled] = false;
+    this[__webkitAssign___capability] = createPromiseCapability();
+    this[__webkitAssign___renderTimer] = null;
   }
-  TextLayerRenderTask.prototype = {
+  TextLayerRenderTask[__webkitAssign__prototype] = {
     get promise() {
       return this._capability.promise;
     },
 
     cancel: function TextLayer_cancel() {
-      this._canceled = true;
+      this[__webkitAssign___canceled] = true;
       if (this._renderTimer !== null) {
         clearTimeout(this._renderTimer);
-        this._renderTimer = null;
+        this[__webkitAssign___renderTimer] = null;
       }
       this._capability.reject('canceled');
     },
@@ -7562,9 +7562,9 @@ var renderTextLayer = (function renderTextLayerClosure() {
         render(this);
       } else { // Schedule
         var self = this;
-        this._renderTimer = setTimeout(function() {
+        this[__webkitAssign___renderTimer] = setTimeout(function() {
           render(self);
-          self._renderTimer = null;
+          self[__webkitAssign___renderTimer] = null;
         }, timeout);
       }
     }
@@ -7589,7 +7589,7 @@ var renderTextLayer = (function renderTextLayerClosure() {
   return renderTextLayer;
 })();
 
-PDFJS.renderTextLayer = renderTextLayer;
+PDFJS[__webkitAssign__renderTextLayer] = renderTextLayer;
 
 
 var SVG_DEFAULTS = {
@@ -7792,58 +7792,58 @@ var convertImgDataToPng = (function convertImgDataToPngClosure() {
 
 var SVGExtraState = (function SVGExtraStateClosure() {
   function SVGExtraState() {
-    this.fontSizeScale = 1;
-    this.fontWeight = SVG_DEFAULTS.fontWeight;
-    this.fontSize = 0;
+    this[__webkitAssign__fontSizeScale] = 1;
+    this[__webkitAssign__fontWeight] = SVG_DEFAULTS.fontWeight;
+    this[__webkitAssign__fontSize] = 0;
 
-    this.textMatrix = IDENTITY_MATRIX;
-    this.fontMatrix = FONT_IDENTITY_MATRIX;
-    this.leading = 0;
+    this[__webkitAssign__textMatrix] = IDENTITY_MATRIX;
+    this[__webkitAssign__fontMatrix] = FONT_IDENTITY_MATRIX;
+    this[__webkitAssign__leading] = 0;
 
     // Current point (in user coordinates)
-    this.x = 0;
-    this.y = 0;
+    this[__webkitAssign__x] = 0;
+    this[__webkitAssign__y] = 0;
 
     // Start of text line (in text coordinates)
-    this.lineX = 0;
-    this.lineY = 0;
+    this[__webkitAssign__lineX] = 0;
+    this[__webkitAssign__lineY] = 0;
 
     // Character and word spacing
-    this.charSpacing = 0;
-    this.wordSpacing = 0;
-    this.textHScale = 1;
-    this.textRise = 0;
+    this[__webkitAssign__charSpacing] = 0;
+    this[__webkitAssign__wordSpacing] = 0;
+    this[__webkitAssign__textHScale] = 1;
+    this[__webkitAssign__textRise] = 0;
 
     // Default foreground and background colors
-    this.fillColor = SVG_DEFAULTS.fillColor;
-    this.strokeColor = '#000000';
+    this[__webkitAssign__fillColor] = SVG_DEFAULTS.fillColor;
+    this[__webkitAssign__strokeColor] = '#000000';
 
-    this.fillAlpha = 1;
-    this.strokeAlpha = 1;
-    this.lineWidth = 1;
-    this.lineJoin = '';
-    this.lineCap = '';
-    this.miterLimit = 0;
+    this[__webkitAssign__fillAlpha] = 1;
+    this[__webkitAssign__strokeAlpha] = 1;
+    this[__webkitAssign__lineWidth] = 1;
+    this[__webkitAssign__lineJoin] = '';
+    this[__webkitAssign__lineCap] = '';
+    this[__webkitAssign__miterLimit] = 0;
 
-    this.dashArray = [];
-    this.dashPhase = 0;
+    this[__webkitAssign__dashArray] = [];
+    this[__webkitAssign__dashPhase] = 0;
 
-    this.dependencies = [];
+    this[__webkitAssign__dependencies] = [];
 
     // Clipping
-    this.clipId = '';
-    this.pendingClip = false;
+    this[__webkitAssign__clipId] = '';
+    this[__webkitAssign__pendingClip] = false;
 
-    this.maskId = '';
+    this[__webkitAssign__maskId] = '';
   }
 
-  SVGExtraState.prototype = {
+  SVGExtraState[__webkitAssign__prototype] = {
     clone: function SVGExtraState_clone() {
       return Object.create(this);
     },
     setCurrentPoint: function SVGExtraState_setCurrentPoint(x, y) {
-      this.x = x;
-      this.y = y;
+      this[__webkitAssign__x] = x;
+      this[__webkitAssign__y] = y;
     }
   };
   return SVGExtraState;
@@ -7932,17 +7932,17 @@ var SVGGraphics = (function SVGGraphicsClosure() {
   }
 
   function SVGGraphics(commonObjs, objs) {
-    this.current = new SVGExtraState();
-    this.transformMatrix = IDENTITY_MATRIX; // Graphics state matrix
-    this.transformStack = [];
-    this.extraStack = [];
-    this.commonObjs = commonObjs;
-    this.objs = objs;
-    this.pendingEOFill = false;
+    this[__webkitAssign__current] = new SVGExtraState();
+    this[__webkitAssign__transformMatrix] = IDENTITY_MATRIX; // Graphics state matrix
+    this[__webkitAssign__transformStack] = [];
+    this[__webkitAssign__extraStack] = [];
+    this[__webkitAssign__commonObjs] = commonObjs;
+    this[__webkitAssign__objs] = objs;
+    this[__webkitAssign__pendingEOFill] = false;
 
-    this.embedFonts = false;
-    this.embeddedFonts = {};
-    this.cssStyle = null;
+    this[__webkitAssign__embedFonts] = false;
+    this[__webkitAssign__embeddedFonts] = {};
+    this[__webkitAssign__cssStyle] = null;
   }
 
   var NS = 'http://www.w3.org/2000/svg';
@@ -7953,19 +7953,19 @@ var SVGGraphics = (function SVGGraphicsClosure() {
   var clipCount = 0;
   var maskCount = 0;
 
-  SVGGraphics.prototype = {
+  SVGGraphics[__webkitAssign__prototype] = {
     save: function SVGGraphics_save() {
       this.transformStack.push(this.transformMatrix);
       var old = this.current;
       this.extraStack.push(old);
-      this.current = old.clone();
+      this[__webkitAssign__current] = old.clone();
     },
 
     restore: function SVGGraphics_restore() {
-      this.transformMatrix = this.transformStack.pop();
-      this.current = this.extraStack.pop();
+      this[__webkitAssign__transformMatrix] = this.transformStack.pop();
+      this[__webkitAssign__current] = this.extraStack.pop();
 
-      this.tgrp = document.createElementNS(NS, 'svg:g');
+      this[__webkitAssign__tgrp] = document.createElementNS(NS, 'svg:g');
       this.tgrp.setAttributeNS(null, 'transform', pm(this.transformMatrix));
       this.pgrp.appendChild(this.tgrp);
     },
@@ -8007,24 +8007,24 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 
     transform: function SVGGraphics_transform(a, b, c, d, e, f) {
       var transformMatrix = [a, b, c, d, e, f];
-      this.transformMatrix = PDFJS.Util.transform(this.transformMatrix,
+      this[__webkitAssign__transformMatrix] = PDFJS.Util.transform(this.transformMatrix,
                                                   transformMatrix);
 
-      this.tgrp = document.createElementNS(NS, 'svg:g');
+      this[__webkitAssign__tgrp] = document.createElementNS(NS, 'svg:g');
       this.tgrp.setAttributeNS(null, 'transform', pm(this.transformMatrix));
     },
 
     getSVG: function SVGGraphics_getSVG(operatorList, viewport) {
-      this.svg = createScratchSVG(viewport.width, viewport.height);
-      this.viewport = viewport;
+      this[__webkitAssign__svg] = createScratchSVG(viewport.width, viewport.height);
+      this[__webkitAssign__viewport] = viewport;
 
       return this.loadDependencies(operatorList).then(function () {
-        this.transformMatrix = IDENTITY_MATRIX;
-        this.pgrp = document.createElementNS(NS, 'svg:g'); // Parent group
+        this[__webkitAssign__transformMatrix] = IDENTITY_MATRIX;
+        this[__webkitAssign__pgrp] = document.createElementNS(NS, 'svg:g'); // Parent group
         this.pgrp.setAttributeNS(null, 'transform', pm(viewport.transform));
-        this.tgrp = document.createElementNS(NS, 'svg:g'); // Transform group
+        this[__webkitAssign__tgrp] = document.createElementNS(NS, 'svg:g'); // Transform group
         this.tgrp.setAttributeNS(null, 'transform', pm(this.transformMatrix));
-        this.defs = document.createElementNS(NS, 'svg:defs');
+        this[__webkitAssign__defs] = document.createElementNS(NS, 'svg:defs');
         this.pgrp.appendChild(this.defs);
         this.pgrp.appendChild(this.tgrp);
         this.svg.appendChild(this.pgrp);
@@ -8196,11 +8196,11 @@ var SVGGraphics = (function SVGGraphicsClosure() {
     },
 
     setWordSpacing: function SVGGraphics_setWordSpacing(wordSpacing) {
-      this.current.wordSpacing = wordSpacing;
+      this.current[__webkitAssign__wordSpacing] = wordSpacing;
     },
 
     setCharSpacing: function SVGGraphics_setCharSpacing(charSpacing) {
-      this.current.charSpacing = charSpacing;
+      this.current[__webkitAssign__charSpacing] = charSpacing;
     },
 
     nextLine: function SVGGraphics_nextLine() {
@@ -8209,40 +8209,40 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 
     setTextMatrix: function SVGGraphics_setTextMatrix(a, b, c, d, e, f) {
       var current = this.current;
-      this.current.textMatrix = this.current.lineMatrix = [a, b, c, d, e, f];
+      this.current[__webkitAssign__textMatrix] = this.current[__webkitAssign__lineMatrix] = [a, b, c, d, e, f];
 
-      this.current.x = this.current.lineX = 0;
-      this.current.y = this.current.lineY = 0;
+      this.current[__webkitAssign__x] = this.current[__webkitAssign__lineX] = 0;
+      this.current[__webkitAssign__y] = this.current[__webkitAssign__lineY] = 0;
 
-      current.xcoords = [];
-      current.tspan = document.createElementNS(NS, 'svg:tspan');
+      current[__webkitAssign__xcoords] = [];
+      current[__webkitAssign__tspan] = document.createElementNS(NS, 'svg:tspan');
       current.tspan.setAttributeNS(null, 'font-family', current.fontFamily);
       current.tspan.setAttributeNS(null, 'font-size',
                                    pf(current.fontSize) + 'px');
       current.tspan.setAttributeNS(null, 'y', pf(-current.y));
 
-      current.txtElement = document.createElementNS(NS, 'svg:text');
+      current[__webkitAssign__txtElement] = document.createElementNS(NS, 'svg:text');
       current.txtElement.appendChild(current.tspan);
     },
 
     beginText: function SVGGraphics_beginText() {
-      this.current.x = this.current.lineX = 0;
-      this.current.y = this.current.lineY = 0;
-      this.current.textMatrix = IDENTITY_MATRIX;
-      this.current.lineMatrix = IDENTITY_MATRIX;
-      this.current.tspan = document.createElementNS(NS, 'svg:tspan');
-      this.current.txtElement = document.createElementNS(NS, 'svg:text');
-      this.current.txtgrp = document.createElementNS(NS, 'svg:g');
-      this.current.xcoords = [];
+      this.current[__webkitAssign__x] = this.current[__webkitAssign__lineX] = 0;
+      this.current[__webkitAssign__y] = this.current[__webkitAssign__lineY] = 0;
+      this.current[__webkitAssign__textMatrix] = IDENTITY_MATRIX;
+      this.current[__webkitAssign__lineMatrix] = IDENTITY_MATRIX;
+      this.current[__webkitAssign__tspan] = document.createElementNS(NS, 'svg:tspan');
+      this.current[__webkitAssign__txtElement] = document.createElementNS(NS, 'svg:text');
+      this.current[__webkitAssign__txtgrp] = document.createElementNS(NS, 'svg:g');
+      this.current[__webkitAssign__xcoords] = [];
     },
 
     moveText: function SVGGraphics_moveText(x, y) {
       var current = this.current;
-      this.current.x = this.current.lineX += x;
-      this.current.y = this.current.lineY += y;
+      this.current[__webkitAssign__x] = this.current[__webkitAssign__lineX] += x;
+      this.current[__webkitAssign__y] = this.current[__webkitAssign__lineY] += y;
 
-      current.xcoords = [];
-      current.tspan = document.createElementNS(NS, 'svg:tspan');
+      current[__webkitAssign__xcoords] = [];
+      current[__webkitAssign__tspan] = document.createElementNS(NS, 'svg:tspan');
       current.tspan.setAttributeNS(null, 'font-family', current.fontFamily);
       current.tspan.setAttributeNS(null, 'font-size',
                                    pf(current.fontSize) + 'px');
@@ -8284,12 +8284,12 @@ var SVGGraphics = (function SVGGraphicsClosure() {
         var charWidth = width * widthAdvanceScale + charSpacing * fontDirection;
         x += charWidth;
 
-        current.tspan.textContent += character;
+        current.tspan[__webkitAssign__textContent] += character;
       }
       if (vertical) {
-        current.y -= x * textHScale;
+        current[__webkitAssign__y] -= x * textHScale;
       } else {
-        current.x += x * textHScale;
+        current[__webkitAssign__x] += x * textHScale;
       }
 
       current.tspan.setAttributeNS(null, 'x',
@@ -8326,13 +8326,13 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 
     addFontStyle: function SVGGraphics_addFontStyle(fontObj) {
       if (!this.cssStyle) {
-        this.cssStyle = document.createElementNS(NS, 'svg:style');
+        this[__webkitAssign__cssStyle] = document.createElementNS(NS, 'svg:style');
         this.cssStyle.setAttributeNS(null, 'type', 'text/css');
         this.defs.appendChild(this.cssStyle);
       }
 
       var url = PDFJS.createObjectURL(fontObj.data, fontObj.mimetype);
-      this.cssStyle.textContent +=
+      this.cssStyle[__webkitAssign__textContent] +=
         '@font-face { font-family: "' + fontObj.loadedName + '";' +
         ' src: url(' + url + '); }\n';
     },
@@ -8341,7 +8341,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       var current = this.current;
       var fontObj = this.commonObjs.get(details[0]);
       var size = details[1];
-      this.current.font = fontObj;
+      this.current[__webkitAssign__font] = fontObj;
 
       if (this.embedFonts && fontObj.data &&
           !this.embeddedFonts[fontObj.loadedName]) {
@@ -8349,7 +8349,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
         this.embeddedFonts[fontObj.loadedName] = fontObj;
       }
 
-      current.fontMatrix = (fontObj.fontMatrix ?
+      current[__webkitAssign__fontMatrix] = (fontObj.fontMatrix ?
                             fontObj.fontMatrix : FONT_IDENTITY_MATRIX);
 
       var bold = fontObj.black ? (fontObj.bold ? 'bolder' : 'bold') :
@@ -8358,18 +8358,18 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 
       if (size < 0) {
         size = -size;
-        current.fontDirection = -1;
+        current[__webkitAssign__fontDirection] = -1;
       } else {
-        current.fontDirection = 1;
+        current[__webkitAssign__fontDirection] = 1;
       }
-      current.fontSize = size;
-      current.fontFamily = fontObj.loadedName;
-      current.fontWeight = bold;
-      current.fontStyle = italic;
+      current[__webkitAssign__fontSize] = size;
+      current[__webkitAssign__fontFamily] = fontObj.loadedName;
+      current[__webkitAssign__fontWeight] = bold;
+      current[__webkitAssign__fontStyle] = italic;
 
-      current.tspan = document.createElementNS(NS, 'svg:tspan');
+      current[__webkitAssign__tspan] = document.createElementNS(NS, 'svg:tspan');
       current.tspan.setAttributeNS(null, 'y', pf(-current.y));
-      current.xcoords = [];
+      current[__webkitAssign__xcoords] = [];
     },
 
     endText: function SVGGraphics_endText() {
@@ -8379,42 +8379,42 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       } else {
         this.pgrp.appendChild(this.tgrp);
       }
-      this.tgrp = document.createElementNS(NS, 'svg:g');
+      this[__webkitAssign__tgrp] = document.createElementNS(NS, 'svg:g');
       this.tgrp.setAttributeNS(null, 'transform', pm(this.transformMatrix));
     },
 
     // Path properties
     setLineWidth: function SVGGraphics_setLineWidth(width) {
-      this.current.lineWidth = width;
+      this.current[__webkitAssign__lineWidth] = width;
     },
     setLineCap: function SVGGraphics_setLineCap(style) {
-      this.current.lineCap = LINE_CAP_STYLES[style];
+      this.current[__webkitAssign__lineCap] = LINE_CAP_STYLES[style];
     },
     setLineJoin: function SVGGraphics_setLineJoin(style) {
-      this.current.lineJoin = LINE_JOIN_STYLES[style];
+      this.current[__webkitAssign__lineJoin] = LINE_JOIN_STYLES[style];
     },
     setMiterLimit: function SVGGraphics_setMiterLimit(limit) {
-      this.current.miterLimit = limit;
+      this.current[__webkitAssign__miterLimit] = limit;
     },
     setStrokeRGBColor: function SVGGraphics_setStrokeRGBColor(r, g, b) {
       var color = Util.makeCssRgb(r, g, b);
-      this.current.strokeColor = color;
+      this.current[__webkitAssign__strokeColor] = color;
     },
     setFillRGBColor: function SVGGraphics_setFillRGBColor(r, g, b) {
       var color = Util.makeCssRgb(r, g, b);
-      this.current.fillColor = color;
-      this.current.tspan = document.createElementNS(NS, 'svg:tspan');
-      this.current.xcoords = [];
+      this.current[__webkitAssign__fillColor] = color;
+      this.current[__webkitAssign__tspan] = document.createElementNS(NS, 'svg:tspan');
+      this.current[__webkitAssign__xcoords] = [];
     },
     setDash: function SVGGraphics_setDash(dashArray, dashPhase) {
-      this.current.dashArray = dashArray;
-      this.current.dashPhase = dashPhase;
+      this.current[__webkitAssign__dashArray] = dashArray;
+      this.current[__webkitAssign__dashPhase] = dashPhase;
     },
 
     constructPath: function SVGGraphics_constructPath(ops, args) {
       var current = this.current;
       var x = current.x, y = current.y;
-      current.path = document.createElementNS(NS, 'svg:path');
+      current[__webkitAssign__path] = document.createElementNS(NS, 'svg:path');
       var d = [];
       var opLength = ops.length;
 
@@ -8488,7 +8488,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       }
       // Saving a reference in current.element so that it can be addressed
       // in 'fill' and 'stroke'
-      current.element = current.path;
+      current[__webkitAssign__element] = current.path;
       current.setCurrentPoint(x, y);
     },
 
@@ -8500,16 +8500,16 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       } else {
         this.pgrp.appendChild(this.tgrp);
       }
-      this.tgrp = document.createElementNS(NS, 'svg:g');
+      this[__webkitAssign__tgrp] = document.createElementNS(NS, 'svg:g');
       this.tgrp.setAttributeNS(null, 'transform', pm(this.transformMatrix));
     },
 
     clip: function SVGGraphics_clip(type) {
       var current = this.current;
       // Add current path to clipping path
-      current.clipId = 'clippath' + clipCount;
+      current[__webkitAssign__clipId] = 'clippath' + clipCount;
       clipCount++;
-      this.clippath = document.createElementNS(NS, 'svg:clipPath');
+      this[__webkitAssign__clippath] = document.createElementNS(NS, 'svg:clipPath');
       this.clippath.setAttributeNS(null, 'id', current.clipId);
       var clipElement = current.element.cloneNode();
       if (type === 'evenodd') {
@@ -8522,8 +8522,8 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       this.defs.appendChild(this.clippath);
 
       // Create a new group with that attribute
-      current.pendingClip = true;
-      this.cgrp = document.createElementNS(NS, 'svg:g');
+      current[__webkitAssign__pendingClip] = true;
+      this[__webkitAssign__cgrp] = document.createElementNS(NS, 'svg:g');
       this.cgrp.setAttributeNS(null, 'clip-path',
                                'url(#' + current.clipId + ')');
       this.pgrp.appendChild(this.cgrp);
@@ -8537,15 +8537,15 @@ var SVGGraphics = (function SVGGraphicsClosure() {
     },
 
     setLeading: function SVGGraphics_setLeading(leading) {
-      this.current.leading = -leading;
+      this.current[__webkitAssign__leading] = -leading;
     },
 
     setTextRise: function SVGGraphics_setTextRise(textRise) {
-      this.current.textRise = textRise;
+      this.current[__webkitAssign__textRise] = textRise;
     },
 
     setHScale: function SVGGraphics_setHScale(scale) {
-      this.current.textHScale = scale / 100;
+      this.current[__webkitAssign__textHScale] = scale / 100;
     },
 
     setGState: function SVGGraphics_setGState(states) {
@@ -8682,7 +8682,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       cliprect.setAttributeNS(null, 'y', '0');
       cliprect.setAttributeNS(null, 'width', pf(width));
       cliprect.setAttributeNS(null, 'height', pf(height));
-      current.element = cliprect;
+      current[__webkitAssign__element] = cliprect;
       this.clip('nonzero');
       var imgEl = document.createElementNS(NS, 'svg:image');
       imgEl.setAttributeNS(XLINK_NS, 'xlink:href', imgSrc);
@@ -8713,7 +8713,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
       var height = imgData.height;
       var fillColor = current.fillColor;
 
-      current.maskId = 'mask' + maskCount++;
+      current[__webkitAssign__maskId] = 'mask' + maskCount++;
       var mask = document.createElementNS(NS, 'svg:mask');
       mask.setAttributeNS(null, 'id', current.maskId);
 
@@ -8748,7 +8748,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
         cliprect.setAttributeNS(null, 'y', bbox[1]);
         cliprect.setAttributeNS(null, 'width', pf(width));
         cliprect.setAttributeNS(null, 'height', pf(height));
-        this.current.element = cliprect;
+        this.current[__webkitAssign__element] = cliprect;
         this.clip('nonzero');
         this.endPath();
       }
@@ -8762,7 +8762,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
   return SVGGraphics;
 })();
 
-PDFJS.SVGGraphics = SVGGraphics;
+PDFJS[__webkitAssign__SVGGraphics] = SVGGraphics;
 
 
 
@@ -8773,19 +8773,19 @@ var NetworkManager = (function NetworkManagerClosure() {
   var PARTIAL_CONTENT_RESPONSE = 206;
 
   function NetworkManager(url, args) {
-    this.url = url;
+    this[__webkitAssign__url] = url;
     args = args || {};
-    this.isHttp = /^https?:/i.test(url);
-    this.httpHeaders = (this.isHttp && args.httpHeaders) || {};
-    this.withCredentials = args.withCredentials || false;
-    this.getXhr = args.getXhr ||
+    this[__webkitAssign__isHttp] = /^https?:/i.test(url);
+    this[__webkitAssign__httpHeaders] = (this.isHttp && args.httpHeaders) || {};
+    this[__webkitAssign__withCredentials] = args.withCredentials || false;
+    this[__webkitAssign__getXhr] = args.getXhr ||
       function NetworkManager_getXhr() {
         return new XMLHttpRequest();
       };
 
-    this.currXhrId = 0;
-    this.pendingRequests = {};
-    this.loadedRequests = {};
+    this[__webkitAssign__currXhrId] = 0;
+    this[__webkitAssign__pendingRequests] = {};
+    this[__webkitAssign__loadedRequests] = {};
   }
 
   function getArrayBuffer(xhr) {
@@ -8811,14 +8811,14 @@ var NetworkManager = (function NetworkManagerClosure() {
       // When this error occurs, this feature detection method will mistakenly
       // report that moz-chunked-arraybuffer is not supported in Firefox 37-.
       x.open('GET', 'https://example.com');
-      x.responseType = 'moz-chunked-arraybuffer';
+      x[__webkitAssign__responseType] = 'moz-chunked-arraybuffer';
       return x.responseType === 'moz-chunked-arraybuffer';
     } catch (e) {
       return false;
     }
   })();
 
-  NetworkManager.prototype = {
+  NetworkManager[__webkitAssign__prototype] = {
     requestRange: function NetworkManager_requestRange(begin, end, listeners) {
       var args = {
         begin: begin,
@@ -8842,7 +8842,7 @@ var NetworkManager = (function NetworkManagerClosure() {
       };
 
       xhr.open('GET', this.url);
-      xhr.withCredentials = this.withCredentials;
+      xhr[__webkitAssign__withCredentials] = this.withCredentials;
       for (var property in this.httpHeaders) {
         var value = this.httpHeaders[property];
         if (typeof value === 'undefined') {
@@ -8853,32 +8853,32 @@ var NetworkManager = (function NetworkManagerClosure() {
       if (this.isHttp && 'begin' in args && 'end' in args) {
         var rangeStr = args.begin + '-' + (args.end - 1);
         xhr.setRequestHeader('Range', 'bytes=' + rangeStr);
-        pendingRequest.expectedStatus = 206;
+        pendingRequest[__webkitAssign__expectedStatus] = 206;
       } else {
-        pendingRequest.expectedStatus = 200;
+        pendingRequest[__webkitAssign__expectedStatus] = 200;
       }
 
       var useMozChunkedLoading = supportsMozChunked && !!args.onProgressiveData;
       if (useMozChunkedLoading) {
-        xhr.responseType = 'moz-chunked-arraybuffer';
-        pendingRequest.onProgressiveData = args.onProgressiveData;
-        pendingRequest.mozChunked = true;
+        xhr[__webkitAssign__responseType] = 'moz-chunked-arraybuffer';
+        pendingRequest[__webkitAssign__onProgressiveData] = args.onProgressiveData;
+        pendingRequest[__webkitAssign__mozChunked] = true;
       } else {
-        xhr.responseType = 'arraybuffer';
+        xhr[__webkitAssign__responseType] = 'arraybuffer';
       }
 
       if (args.onError) {
-        xhr.onerror = function(evt) {
+        xhr[__webkitAssign__onerror] = function(evt) {
           args.onError(xhr.status);
         };
       }
-      xhr.onreadystatechange = this.onStateChange.bind(this, xhrId);
-      xhr.onprogress = this.onProgress.bind(this, xhrId);
+      xhr[__webkitAssign__onreadystatechange] = this.onStateChange.bind(this, xhrId);
+      xhr[__webkitAssign__onprogress] = this.onProgress.bind(this, xhrId);
 
-      pendingRequest.onHeadersReceived = args.onHeadersReceived;
-      pendingRequest.onDone = args.onDone;
-      pendingRequest.onError = args.onError;
-      pendingRequest.onProgress = args.onProgress;
+      pendingRequest[__webkitAssign__onHeadersReceived] = args.onHeadersReceived;
+      pendingRequest[__webkitAssign__onDone] = args.onDone;
+      pendingRequest[__webkitAssign__onError] = args.onError;
+      pendingRequest[__webkitAssign__onProgress] = args.onProgress;
 
       xhr.send(null);
 
@@ -9017,22 +9017,22 @@ var NetworkManager = (function NetworkManagerClosure() {
 
 var ChunkedStream = (function ChunkedStreamClosure() {
   function ChunkedStream(length, chunkSize, manager) {
-    this.bytes = new Uint8Array(length);
-    this.start = 0;
-    this.pos = 0;
-    this.end = length;
-    this.chunkSize = chunkSize;
-    this.loadedChunks = [];
-    this.numChunksLoaded = 0;
-    this.numChunks = Math.ceil(length / chunkSize);
-    this.manager = manager;
-    this.progressiveDataLength = 0;
-    this.lastSuccessfulEnsureByteChunk = -1;  // a single-entry cache
+    this[__webkitAssign__bytes] = new Uint8Array(length);
+    this[__webkitAssign__start] = 0;
+    this[__webkitAssign__pos] = 0;
+    this[__webkitAssign__end] = length;
+    this[__webkitAssign__chunkSize] = chunkSize;
+    this[__webkitAssign__loadedChunks] = [];
+    this[__webkitAssign__numChunksLoaded] = 0;
+    this[__webkitAssign__numChunks] = Math.ceil(length / chunkSize);
+    this[__webkitAssign__manager] = manager;
+    this[__webkitAssign__progressiveDataLength] = 0;
+    this[__webkitAssign__lastSuccessfulEnsureByteChunk] = -1;  // a single-entry cache
   }
 
   // required methods for a stream. if a particular stream does not
   // implement these, an error should be thrown
-  ChunkedStream.prototype = {
+  ChunkedStream[__webkitAssign__prototype] = {
 
     getMissingChunks: function ChunkedStream_getMissingChunks() {
       var chunks = [];
@@ -9083,7 +9083,7 @@ var ChunkedStream = (function ChunkedStreamClosure() {
 
       this.bytes.set(new Uint8Array(data), position);
       position += data.byteLength;
-      this.progressiveDataLength = position;
+      this[__webkitAssign__progressiveDataLength] = position;
       var endChunk = position >= this.end ? this.numChunks :
                      Math.floor(position / this.chunkSize);
       var curChunk;
@@ -9104,7 +9104,7 @@ var ChunkedStream = (function ChunkedStreamClosure() {
       if (!this.loadedChunks[chunk]) {
         throw new MissingDataException(pos, pos + 1);
       }
-      this.lastSuccessfulEnsureByteChunk = chunk;
+      this[__webkitAssign__lastSuccessfulEnsureByteChunk] = chunk;
     },
 
     ensureRange: function ChunkedStream_ensureRange(begin, end) {
@@ -9193,7 +9193,7 @@ var ChunkedStream = (function ChunkedStreamClosure() {
       }
       this.ensureRange(pos, end);
 
-      this.pos = end;
+      this[__webkitAssign__pos] = end;
       return bytes.subarray(pos, end);
     },
 
@@ -9205,7 +9205,7 @@ var ChunkedStream = (function ChunkedStreamClosure() {
 
     peekBytes: function ChunkedStream_peekBytes(length) {
       var bytes = this.getBytes(length);
-      this.pos -= bytes.length;
+      this[__webkitAssign__pos] -= bytes.length;
       return bytes;
     },
 
@@ -9218,23 +9218,23 @@ var ChunkedStream = (function ChunkedStreamClosure() {
       if (!n) {
         n = 1;
       }
-      this.pos += n;
+      this[__webkitAssign__pos] += n;
     },
 
     reset: function ChunkedStream_reset() {
-      this.pos = this.start;
+      this[__webkitAssign__pos] = this.start;
     },
 
     moveStart: function ChunkedStream_moveStart() {
-      this.start = this.pos;
+      this[__webkitAssign__start] = this.pos;
     },
 
     makeSubStream: function ChunkedStream_makeSubStream(start, length, dict) {
       this.ensureRange(start, start + length);
 
       function ChunkedStreamSubstream() {}
-      ChunkedStreamSubstream.prototype = Object.create(this);
-      ChunkedStreamSubstream.prototype.getMissingChunks = function() {
+      ChunkedStreamSubstream[__webkitAssign__prototype] = Object.create(this);
+      ChunkedStreamSubstream.prototype[__webkitAssign__getMissingChunks] = function() {
         var chunkSize = this.chunkSize;
         var beginChunk = Math.floor(this.start / chunkSize);
         var endChunk = Math.floor((this.end - 1) / chunkSize) + 1;
@@ -9247,9 +9247,9 @@ var ChunkedStream = (function ChunkedStreamClosure() {
         return missingChunks;
       };
       var subStream = new ChunkedStreamSubstream();
-      subStream.pos = subStream.start = start;
-      subStream.end = start + length || this.end;
-      subStream.dict = dict;
+      subStream[__webkitAssign__pos] = subStream[__webkitAssign__start] = start;
+      subStream[__webkitAssign__end] = start + length || this.end;
+      subStream[__webkitAssign__dict] = dict;
       return subStream;
     },
 
@@ -9262,17 +9262,17 @@ var ChunkedStream = (function ChunkedStreamClosure() {
 var ChunkedStreamManager = (function ChunkedStreamManagerClosure() {
 
   function ChunkedStreamManager(length, chunkSize, url, args) {
-    this.stream = new ChunkedStream(length, chunkSize, this);
-    this.length = length;
-    this.chunkSize = chunkSize;
-    this.url = url;
-    this.disableAutoFetch = args.disableAutoFetch;
-    var msgHandler = this.msgHandler = args.msgHandler;
+    this[__webkitAssign__stream] = new ChunkedStream(length, chunkSize, this);
+    this[__webkitAssign__length] = length;
+    this[__webkitAssign__chunkSize] = chunkSize;
+    this[__webkitAssign__url] = url;
+    this[__webkitAssign__disableAutoFetch] = args.disableAutoFetch;
+    var msgHandler = this[__webkitAssign__msgHandler] = args.msgHandler;
 
     if (args.chunkedViewerLoading) {
       msgHandler.on('OnDataRange', this.onReceiveData.bind(this));
       msgHandler.on('OnDataProgress', this.onProgress.bind(this));
-      this.sendRequest = function ChunkedStreamManager_sendRequest(begin, end) {
+      this[__webkitAssign__sendRequest] = function ChunkedStreamManager_sendRequest(begin, end) {
         msgHandler.send('RequestDataRange', { begin: begin, end: end });
       };
     } else {
@@ -9280,12 +9280,12 @@ var ChunkedStreamManager = (function ChunkedStreamManagerClosure() {
       var getXhr = function getXhr() {
         return new XMLHttpRequest();
       };
-      this.networkManager = new NetworkManager(this.url, {
+      this[__webkitAssign__networkManager] = new NetworkManager(this.url, {
         getXhr: getXhr,
         httpHeaders: args.httpHeaders,
         withCredentials: args.withCredentials
       });
-      this.sendRequest = function ChunkedStreamManager_sendRequest(begin, end) {
+      this[__webkitAssign__sendRequest] = function ChunkedStreamManager_sendRequest(begin, end) {
         this.networkManager.requestRange(begin, end, {
           onDone: this.onReceiveData.bind(this),
           onProgress: this.onProgress.bind(this)
@@ -9293,21 +9293,21 @@ var ChunkedStreamManager = (function ChunkedStreamManagerClosure() {
       };
     }
 
-    this.currRequestId = 0;
+    this[__webkitAssign__currRequestId] = 0;
 
-    this.chunksNeededByRequest = {};
-    this.requestsByChunk = {};
-    this.promisesByRequest = {};
-    this.progressiveDataLength = 0;
+    this[__webkitAssign__chunksNeededByRequest] = {};
+    this[__webkitAssign__requestsByChunk] = {};
+    this[__webkitAssign__promisesByRequest] = {};
+    this[__webkitAssign__progressiveDataLength] = 0;
 
-    this._loadedStreamCapability = createPromiseCapability();
+    this[__webkitAssign___loadedStreamCapability] = createPromiseCapability();
 
     if (args.initialData) {
       this.onReceiveData({chunk: args.initialData});
     }
   }
 
-  ChunkedStreamManager.prototype = {
+  ChunkedStreamManager[__webkitAssign__prototype] = {
     onLoadedStream: function ChunkedStreamManager_getLoadedStream() {
       return this._loadedStreamCapability.promise;
     },
@@ -9452,7 +9452,7 @@ var ChunkedStreamManager = (function ChunkedStreamManagerClosure() {
 
       if (isProgressive) {
         this.stream.onReceiveProgressiveData(chunk);
-        this.progressiveDataLength = end;
+        this[__webkitAssign__progressiveDataLength] = end;
       } else {
         this.stream.onReceiveData(begin, chunk);
       }
@@ -9550,7 +9550,7 @@ var BasePdfManager = (function BasePdfManagerClosure() {
     throw new Error('Cannot initialize BaseManagerManager');
   }
 
-  BasePdfManager.prototype = {
+  BasePdfManager[__webkitAssign__prototype] = {
     get docId() {
       return this._docId;
     },
@@ -9596,14 +9596,14 @@ var BasePdfManager = (function BasePdfManagerClosure() {
     },
 
     updatePassword: function BasePdfManager_updatePassword(password) {
-      this.pdfDocument.xref.password = this.password = password;
+      this.pdfDocument.xref[__webkitAssign__password] = this[__webkitAssign__password] = password;
       if (this._passwordChangedCapability) {
         this._passwordChangedCapability.resolve();
       }
     },
 
     passwordChanged: function BasePdfManager_passwordChanged() {
-      this._passwordChangedCapability = createPromiseCapability();
+      this[__webkitAssign___passwordChangedCapability] = createPromiseCapability();
       return this._passwordChangedCapability.promise;
     },
 
@@ -9617,10 +9617,10 @@ var BasePdfManager = (function BasePdfManagerClosure() {
 
 var LocalPdfManager = (function LocalPdfManagerClosure() {
   function LocalPdfManager(docId, data, password) {
-    this._docId = docId;
+    this[__webkitAssign___docId] = docId;
     var stream = new Stream(data);
-    this.pdfDocument = new PDFDocument(this, stream, password);
-    this._loadedStreamCapability = createPromiseCapability();
+    this[__webkitAssign__pdfDocument] = new PDFDocument(this, stream, password);
+    this[__webkitAssign___loadedStreamCapability] = createPromiseCapability();
     this._loadedStreamCapability.resolve(stream);
   }
 
@@ -9664,8 +9664,8 @@ var LocalPdfManager = (function LocalPdfManagerClosure() {
 
 var NetworkPdfManager = (function NetworkPdfManagerClosure() {
   function NetworkPdfManager(docId, args, msgHandler) {
-    this._docId = docId;
-    this.msgHandler = msgHandler;
+    this[__webkitAssign___docId] = docId;
+    this[__webkitAssign__msgHandler] = msgHandler;
 
     var params = {
       msgHandler: msgHandler,
@@ -9675,10 +9675,10 @@ var NetworkPdfManager = (function NetworkPdfManagerClosure() {
       disableAutoFetch: args.disableAutoFetch,
       initialData: args.initialData
     };
-    this.streamManager = new ChunkedStreamManager(args.length,
+    this[__webkitAssign__streamManager] = new ChunkedStreamManager(args.length,
                                                   args.rangeChunkSize,
                                                   args.url, params);
-    this.pdfDocument = new PDFDocument(this, this.streamManager.getStream(),
+    this[__webkitAssign__pdfDocument] = new PDFDocument(this, this.streamManager.getStream(),
                                        args.password);
   }
 
@@ -9742,19 +9742,19 @@ var Page = (function PageClosure() {
   var LETTER_SIZE_MEDIABOX = [0, 0, 612, 792];
 
   function Page(pdfManager, xref, pageIndex, pageDict, ref, fontCache) {
-    this.pdfManager = pdfManager;
-    this.pageIndex = pageIndex;
-    this.pageDict = pageDict;
-    this.xref = xref;
-    this.ref = ref;
-    this.fontCache = fontCache;
-    this.idCounters = {
+    this[__webkitAssign__pdfManager] = pdfManager;
+    this[__webkitAssign__pageIndex] = pageIndex;
+    this[__webkitAssign__pageDict] = pageDict;
+    this[__webkitAssign__xref] = xref;
+    this[__webkitAssign__ref] = ref;
+    this[__webkitAssign__fontCache] = fontCache;
+    this[__webkitAssign__idCounters] = {
       obj: 0
     };
-    this.resourcesPromise = null;
+    this[__webkitAssign__resourcesPromise] = null;
   }
 
-  Page.prototype = {
+  Page[__webkitAssign__prototype] = {
     getPageProp: function Page_getPageProp(key) {
       return this.pageDict.get(key);
     },
@@ -9865,7 +9865,7 @@ var Page = (function PageClosure() {
     loadResources: function Page_loadResources(keys) {
       if (!this.resourcesPromise) {
         // TODO: add async getInheritedPageProp and remove this.
-        this.resourcesPromise = this.pdfManager.ensure(this, 'resources');
+        this[__webkitAssign__resourcesPromise] = this.pdfManager.ensure(this, 'resources');
       }
       return this.resourcesPromise.then(function resourceSuccess() {
         var objectLoader = new ObjectLoader(this.resources.map,
@@ -10028,10 +10028,10 @@ var PDFDocument = (function PDFDocumentClosure() {
 
   function init(pdfManager, stream, password) {
     assert(stream.length > 0, 'stream must have data');
-    this.pdfManager = pdfManager;
-    this.stream = stream;
+    this[__webkitAssign__pdfManager] = pdfManager;
+    this[__webkitAssign__stream] = stream;
     var xref = new XRef(this.stream, password, pdfManager);
-    this.xref = xref;
+    this[__webkitAssign__xref] = xref;
   }
 
   function find(stream, needle, limit, backwards) {
@@ -10045,12 +10045,12 @@ var PDFDocument = (function PDFDocumentClosure() {
       strBuf.push(String.fromCharCode(stream.getByte()));
     }
     var str = strBuf.join('');
-    stream.pos = pos;
+    stream[__webkitAssign__pos] = pos;
     var index = backwards ? str.lastIndexOf(needle) : str.indexOf(needle);
     if (index === -1) {
       return false; /* not found */
     }
-    stream.pos += index;
+    stream[__webkitAssign__pos] += index;
     return true; /* found */
   }
 
@@ -10072,28 +10072,28 @@ var PDFDocument = (function PDFDocumentClosure() {
     }
   };
 
-  PDFDocument.prototype = {
+  PDFDocument[__webkitAssign__prototype] = {
     parse: function PDFDocument_parse(recoveryMode) {
       this.setup(recoveryMode);
       var version = this.catalog.catDict.get('Version');
       if (isName(version)) {
-        this.pdfFormatVersion = version.name;
+        this[__webkitAssign__pdfFormatVersion] = version.name;
       }
       try {
         // checking if AcroForm is present
-        this.acroForm = this.catalog.catDict.get('AcroForm');
+        this[__webkitAssign__acroForm] = this.catalog.catDict.get('AcroForm');
         if (this.acroForm) {
-          this.xfa = this.acroForm.get('XFA');
+          this[__webkitAssign__xfa] = this.acroForm.get('XFA');
           var fields = this.acroForm.get('Fields');
           if ((!fields || !isArray(fields) || fields.length === 0) &&
               !this.xfa) {
             // no fields and no XFA -- not a form (?)
-            this.acroForm = null;
+            this[__webkitAssign__acroForm] = null;
           }
         }
       } catch (ex) {
         info('Something wrong with AcroForm entry');
-        this.acroForm = null;
+        this[__webkitAssign__acroForm] = null;
       }
     },
 
@@ -10131,7 +10131,7 @@ var PDFDocument = (function PDFDocumentClosure() {
           if (pos < 0) {
             pos = 0;
           }
-          stream.pos = pos;
+          stream[__webkitAssign__pos] = pos;
           found = find(stream, 'startxref', step, true);
         }
         if (found) {
@@ -10182,7 +10182,7 @@ var PDFDocument = (function PDFDocumentClosure() {
         }
         if (!this.pdfFormatVersion) {
           // removing "%PDF-"-prefix
-          this.pdfFormatVersion = version.substring(5);
+          this[__webkitAssign__pdfFormatVersion] = version.substring(5);
         }
         return;
       }
@@ -10194,7 +10194,7 @@ var PDFDocument = (function PDFDocumentClosure() {
     },
     setup: function PDFDocument_setup(recoveryMode) {
       this.xref.parse(recoveryMode);
-      this.catalog = new Catalog(this.pdfManager, this.xref);
+      this[__webkitAssign__catalog] = new Catalog(this.pdfManager, this.xref);
     },
     get numPages() {
       var linearization = this.linearization;
@@ -10271,14 +10271,14 @@ var PDFDocument = (function PDFDocumentClosure() {
 
 var Name = (function NameClosure() {
   function Name(name) {
-    this.name = name;
+    this[__webkitAssign__name] = name;
   }
 
-  Name.prototype = {};
+  Name[__webkitAssign__prototype] = {};
 
   var nameCache = {};
 
-  Name.get = function Name_get(name) {
+  Name[__webkitAssign__get] = function Name_get(name) {
     var nameValue = nameCache[name];
     return (nameValue ? nameValue : (nameCache[name] = new Name(name)));
   };
@@ -10288,14 +10288,14 @@ var Name = (function NameClosure() {
 
 var Cmd = (function CmdClosure() {
   function Cmd(cmd) {
-    this.cmd = cmd;
+    this[__webkitAssign__cmd] = cmd;
   }
 
-  Cmd.prototype = {};
+  Cmd[__webkitAssign__prototype] = {};
 
   var cmdCache = {};
 
-  Cmd.get = function Cmd_get(cmd) {
+  Cmd[__webkitAssign__get] = function Cmd_get(cmd) {
     var cmdValue = cmdCache[cmd];
     return (cmdValue ? cmdValue : (cmdCache[cmd] = new Cmd(cmd)));
   };
@@ -10329,15 +10329,15 @@ var Dict = (function DictClosure() {
   // xref is optional
   function Dict(xref) {
     // Map should only be used internally, use functions below to access.
-    this.map = Object.create(null);
-    this.xref = xref;
-    this.objId = null;
-    this.__nonSerializable__ = nonSerializable; // disable cloning of the Dict
+    this[__webkitAssign__map] = Object.create(null);
+    this[__webkitAssign__xref] = xref;
+    this[__webkitAssign__objId] = null;
+    this[__webkitAssign____nonSerializable__] = nonSerializable; // disable cloning of the Dict
   }
 
-  Dict.prototype = {
+  Dict[__webkitAssign__prototype] = {
     assignXref: function Dict_assignXref(newXref) {
-      this.xref = newXref;
+      this[__webkitAssign__xref] = newXref;
     },
 
     // automatically dereferences Ref objects
@@ -10474,9 +10474,9 @@ var Dict = (function DictClosure() {
     }
   };
 
-  Dict.empty = new Dict(null);
+  Dict[__webkitAssign__empty] = new Dict(null);
 
-  Dict.merge = function Dict_merge(xref, dictArray) {
+  Dict[__webkitAssign__merge] = function Dict_merge(xref, dictArray) {
     var mergedDict = new Dict(xref);
 
     for (var i = 0, ii = dictArray.length; i < ii; i++) {
@@ -10499,11 +10499,11 @@ var Dict = (function DictClosure() {
 
 var Ref = (function RefClosure() {
   function Ref(num, gen) {
-    this.num = num;
-    this.gen = gen;
+    this[__webkitAssign__num] = num;
+    this[__webkitAssign__gen] = gen;
   }
 
-  Ref.prototype = {
+  Ref[__webkitAssign__prototype] = {
     toString: function Ref_toString() {
       // This function is hot, so we make the string as compact as possible.
       // |this.gen| is almost always zero, so we treat that case specially.
@@ -10522,10 +10522,10 @@ var Ref = (function RefClosure() {
 // This structure stores only one instance of the reference.
 var RefSet = (function RefSetClosure() {
   function RefSet() {
-    this.dict = {};
+    this[__webkitAssign__dict] = {};
   }
 
-  RefSet.prototype = {
+  RefSet[__webkitAssign__prototype] = {
     has: function RefSet_has(ref) {
       return ref.toString() in this.dict;
     },
@@ -10544,10 +10544,10 @@ var RefSet = (function RefSetClosure() {
 
 var RefSetCache = (function RefSetCacheClosure() {
   function RefSetCache() {
-    this.dict = Object.create(null);
+    this[__webkitAssign__dict] = Object.create(null);
   }
 
-  RefSetCache.prototype = {
+  RefSetCache[__webkitAssign__prototype] = {
     get: function RefSetCache_get(ref) {
       return this.dict[ref.toString()];
     },
@@ -10571,7 +10571,7 @@ var RefSetCache = (function RefSetCacheClosure() {
     },
 
     clear: function RefSetCache_clear() {
-      this.dict = Object.create(null);
+      this[__webkitAssign__dict] = Object.create(null);
     }
   };
 
@@ -10580,17 +10580,17 @@ var RefSetCache = (function RefSetCacheClosure() {
 
 var Catalog = (function CatalogClosure() {
   function Catalog(pdfManager, xref) {
-    this.pdfManager = pdfManager;
-    this.xref = xref;
-    this.catDict = xref.getCatalogObj();
-    this.fontCache = new RefSetCache();
+    this[__webkitAssign__pdfManager] = pdfManager;
+    this[__webkitAssign__xref] = xref;
+    this[__webkitAssign__catDict] = xref.getCatalogObj();
+    this[__webkitAssign__fontCache] = new RefSetCache();
     assert(isDict(this.catDict),
       'catalog object is not a dictionary');
 
-    this.pagePromises = [];
+    this[__webkitAssign__pagePromises] = [];
   }
 
-  Catalog.prototype = {
+  Catalog[__webkitAssign__prototype] = {
     get metadata() {
       var streamRef = this.catDict.getRaw('Metadata');
       if (!isRef(streamRef)) {
@@ -11015,23 +11015,23 @@ var Catalog = (function CatalogClosure() {
 
 var XRef = (function XRefClosure() {
   function XRef(stream, password) {
-    this.stream = stream;
-    this.entries = [];
-    this.xrefstms = {};
+    this[__webkitAssign__stream] = stream;
+    this[__webkitAssign__entries] = [];
+    this[__webkitAssign__xrefstms] = {};
     // prepare the XRef cache
-    this.cache = [];
-    this.password = password;
-    this.stats = {
+    this[__webkitAssign__cache] = [];
+    this[__webkitAssign__password] = password;
+    this[__webkitAssign__stats] = {
       streamTypes: [],
       fontTypes: []
     };
   }
 
-  XRef.prototype = {
+  XRef[__webkitAssign__prototype] = {
     setStartXRef: function XRef_setStartXRef(startXRef) {
       // Store the starting positions of xref tables as we process them
       // so we can recover from missing data errors
-      this.startXRefQueue = [startXRef];
+      this[__webkitAssign__startXRefQueue] = [startXRef];
     },
 
     parse: function XRef_parse(recoveryMode) {
@@ -11043,17 +11043,17 @@ var XRef = (function XRefClosure() {
         trailerDict = this.indexObjects();
       }
       trailerDict.assignXref(this);
-      this.trailer = trailerDict;
+      this[__webkitAssign__trailer] = trailerDict;
       var encrypt = trailerDict.get('Encrypt');
       if (encrypt) {
         var ids = trailerDict.get('ID');
         var fileId = (ids && ids.length) ? ids[0] : '';
-        this.encrypt = new CipherTransformFactory(encrypt, fileId,
+        this[__webkitAssign__encrypt] = new CipherTransformFactory(encrypt, fileId,
                                                   this.password);
       }
 
       // get the root dictionary (catalog) object
-      if (!(this.root = trailerDict.get('Root'))) {
+      if (!(this[__webkitAssign__root] = trailerDict.get('Root'))) {
         error('Invalid root reference');
       }
     },
@@ -11062,7 +11062,7 @@ var XRef = (function XRefClosure() {
       if (!('tableState' in this)) {
         // Stores state of the table as we process it so we can resume
         // from middle of table in case of missing data error
-        this.tableState = {
+        this[__webkitAssign__tableState] = {
           entryNum: 0,
           streamPos: parser.lexer.stream.pos,
           parserBuf1: parser.buf1,
@@ -11112,9 +11112,9 @@ var XRef = (function XRefClosure() {
 
       var stream = parser.lexer.stream;
       var tableState = this.tableState;
-      stream.pos = tableState.streamPos;
-      parser.buf1 = tableState.parserBuf1;
-      parser.buf2 = tableState.parserBuf2;
+      stream[__webkitAssign__pos] = tableState.streamPos;
+      parser[__webkitAssign__buf1] = tableState.parserBuf1;
+      parser[__webkitAssign__buf2] = tableState.parserBuf2;
 
       // Outer loop is over subsection headers
       var obj;
@@ -11124,8 +11124,8 @@ var XRef = (function XRefClosure() {
           if (isCmd(obj = parser.getObj(), 'trailer')) {
             break;
           }
-          tableState.firstEntryNum = obj;
-          tableState.entryCount = parser.getObj();
+          tableState[__webkitAssign__firstEntryNum] = obj;
+          tableState[__webkitAssign__entryCount] = parser.getObj();
         }
 
         var first = tableState.firstEntryNum;
@@ -11135,20 +11135,20 @@ var XRef = (function XRefClosure() {
         }
         // Inner loop is over objects themselves
         for (var i = tableState.entryNum; i < count; i++) {
-          tableState.streamPos = stream.pos;
-          tableState.entryNum = i;
-          tableState.parserBuf1 = parser.buf1;
-          tableState.parserBuf2 = parser.buf2;
+          tableState[__webkitAssign__streamPos] = stream.pos;
+          tableState[__webkitAssign__entryNum] = i;
+          tableState[__webkitAssign__parserBuf1] = parser.buf1;
+          tableState[__webkitAssign__parserBuf2] = parser.buf2;
 
           var entry = {};
-          entry.offset = parser.getObj();
-          entry.gen = parser.getObj();
+          entry[__webkitAssign__offset] = parser.getObj();
+          entry[__webkitAssign__gen] = parser.getObj();
           var type = parser.getObj();
 
           if (isCmd(type, 'f')) {
-            entry.free = true;
+            entry[__webkitAssign__free] = true;
           } else if (isCmd(type, 'n')) {
-            entry.uncompressed = true;
+            entry[__webkitAssign__uncompressed] = true;
           }
 
           // Validate entry obj
@@ -11162,10 +11162,10 @@ var XRef = (function XRefClosure() {
           }
         }
 
-        tableState.entryNum = 0;
-        tableState.streamPos = stream.pos;
-        tableState.parserBuf1 = parser.buf1;
-        tableState.parserBuf2 = parser.buf2;
+        tableState[__webkitAssign__entryNum] = 0;
+        tableState[__webkitAssign__streamPos] = stream.pos;
+        tableState[__webkitAssign__parserBuf1] = parser.buf1;
+        tableState[__webkitAssign__parserBuf2] = parser.buf2;
         delete tableState.firstEntryNum;
         delete tableState.entryCount;
       }
@@ -11194,7 +11194,7 @@ var XRef = (function XRefClosure() {
           range = [0, streamParameters.get('Size')];
         }
 
-        this.streamState = {
+        this[__webkitAssign__streamState] = {
           entryRanges: range,
           byteWidths: byteWidths,
           entryNum: 0,
@@ -11210,7 +11210,7 @@ var XRef = (function XRefClosure() {
     readXRefStream: function XRef_readXRefStream(stream) {
       var i, j;
       var streamState = this.streamState;
-      stream.pos = streamState.streamPos;
+      stream[__webkitAssign__pos] = streamState.streamPos;
 
       var byteWidths = streamState.byteWidths;
       var typeFieldWidth = byteWidths[0];
@@ -11230,8 +11230,8 @@ var XRef = (function XRefClosure() {
           error('Invalid XRef entry fields length: ' + first + ', ' + n);
         }
         for (i = streamState.entryNum; i < n; ++i) {
-          streamState.entryNum = i;
-          streamState.streamPos = stream.pos;
+          streamState[__webkitAssign__entryNum] = i;
+          streamState[__webkitAssign__streamPos] = stream.pos;
 
           var type = 0, offset = 0, generation = 0;
           for (j = 0; j < typeFieldWidth; ++j) {
@@ -11248,14 +11248,14 @@ var XRef = (function XRefClosure() {
             generation = (generation << 8) | stream.getByte();
           }
           var entry = {};
-          entry.offset = offset;
-          entry.gen = generation;
+          entry[__webkitAssign__offset] = offset;
+          entry[__webkitAssign__gen] = generation;
           switch (type) {
             case 0:
-              entry.free = true;
+              entry[__webkitAssign__free] = true;
               break;
             case 1:
-              entry.uncompressed = true;
+              entry[__webkitAssign__uncompressed] = true;
               break;
             case 2:
               break;
@@ -11267,8 +11267,8 @@ var XRef = (function XRefClosure() {
           }
         }
 
-        streamState.entryNum = 0;
-        streamState.streamPos = stream.pos;
+        streamState[__webkitAssign__entryNum] = 0;
+        streamState[__webkitAssign__streamPos] = stream.pos;
         entryRanges.splice(0, 2);
       }
     },
@@ -11315,10 +11315,10 @@ var XRef = (function XRefClosure() {
       var xrefBytes = new Uint8Array([47, 88, 82, 101, 102]);
 
       // Clear out any existing entries, since they may be bogus.
-      this.entries.length = 0;
+      this.entries[__webkitAssign__length] = 0;
 
       var stream = this.stream;
-      stream.pos = 0;
+      stream[__webkitAssign__pos] = 0;
       var buffer = stream.getBytes();
       var position = stream.start, length = buffer.length;
       var trailers = [], xrefStms = [];
@@ -11383,7 +11383,7 @@ var XRef = (function XRefClosure() {
       // finding main trailer
       var dict;
       for (i = 0, ii = trailers.length; i < ii; ++i) {
-        stream.pos = trailers[i];
+        stream[__webkitAssign__pos] = trailers[i];
         var parser = new Parser(new Lexer(stream), true, this);
         var obj = parser.getObj();
         if (!isCmd(obj, 'trailer')) {
@@ -11414,7 +11414,7 @@ var XRef = (function XRefClosure() {
         while (this.startXRefQueue.length) {
           var startXRef = this.startXRefQueue[0];
 
-          stream.pos = startXRef + stream.start;
+          stream[__webkitAssign__pos] = startXRef + stream.start;
 
           var parser = new Parser(new Lexer(stream), true, this);
           var obj = parser.getObj();
@@ -11425,7 +11425,7 @@ var XRef = (function XRefClosure() {
             // Parse end-of-file XRef
             dict = this.processXRefTable(parser);
             if (!this.topDict) {
-              this.topDict = dict;
+              this[__webkitAssign__topDict] = dict;
             }
 
             // Recursively get other XRefs 'XRefStm', if any
@@ -11448,7 +11448,7 @@ var XRef = (function XRefClosure() {
             }
             dict = this.processXRefStream(obj);
             if (!this.topDict) {
-              this.topDict = dict;
+              this[__webkitAssign__topDict] = dict;
             }
             if (!dict) {
               error('Failed to read XRef stream');
@@ -11520,9 +11520,9 @@ var XRef = (function XRefClosure() {
         xrefEntry = this.fetchCompressed(xrefEntry, suppressEncryption);
       }
       if (isDict(xrefEntry)){
-        xrefEntry.objId = ref.toString();
+        xrefEntry[__webkitAssign__objId] = ref.toString();
       } else if (isStream(xrefEntry)) {
-        xrefEntry.dict.objId = ref.toString();
+        xrefEntry.dict[__webkitAssign__objId] = ref.toString();
       }
       return xrefEntry;
     },
@@ -11579,7 +11579,7 @@ var XRef = (function XRefClosure() {
         error('invalid first and n parameters for ObjStm stream');
       }
       var parser = new Parser(new Lexer(stream), false, this);
-      parser.allowStreams = true;
+      parser[__webkitAssign__allowStreams] = true;
       var i, entries = [], num, nums = [];
       // read the object numbers to populate cache
       for (i = 0; i < n; ++i) {
@@ -11649,11 +11649,11 @@ var XRef = (function XRefClosure() {
  */
 var NameTree = (function NameTreeClosure() {
   function NameTree(root, xref) {
-    this.root = root;
-    this.xref = xref;
+    this[__webkitAssign__root] = root;
+    this[__webkitAssign__xref] = xref;
   }
 
-  NameTree.prototype = {
+  NameTree[__webkitAssign__prototype] = {
     getAll: function NameTree_getAll() {
       var dict = {};
       if (!this.root) {
@@ -11777,20 +11777,20 @@ var FileSpec = (function FileSpecClosure() {
     if (!root || !isDict(root)) {
       return;
     }
-    this.xref = xref;
-    this.root = root;
+    this[__webkitAssign__xref] = xref;
+    this[__webkitAssign__root] = root;
     if (root.has('FS')) {
-      this.fs = root.get('FS');
+      this[__webkitAssign__fs] = root.get('FS');
     }
-    this.description = root.has('Desc') ?
+    this[__webkitAssign__description] = root.has('Desc') ?
                          stringToPDFString(root.get('Desc')) :
                          '';
     if (root.has('RF')) {
       warn('Related file specifications are not supported');
     }
-    this.contentAvailable = true;
+    this[__webkitAssign__contentAvailable] = true;
     if (!root.has('EF')) {
-      this.contentAvailable = false;
+      this[__webkitAssign__contentAvailable] = false;
       warn('Non-embedded file specifications are not supported');
     }
   }
@@ -11813,11 +11813,11 @@ var FileSpec = (function FileSpecClosure() {
     }
   }
 
-  FileSpec.prototype = {
+  FileSpec[__webkitAssign__prototype] = {
     get filename() {
       if (!this._filename && this.root) {
         var filename = pickPlatformItem(this.root) || 'unnamed';
-        this._filename = stringToPDFString(filename).
+        this[__webkitAssign___filename] = stringToPDFString(filename).
           replace(/\\\\/g, '\\').
           replace(/\\\//g, '/').
           replace(/\\/g, '/');
@@ -11829,7 +11829,7 @@ var FileSpec = (function FileSpecClosure() {
         return null;
       }
       if (!this.contentRef && this.root) {
-        this.contentRef = pickPlatformItem(this.root.get('EF'));
+        this[__webkitAssign__contentRef] = pickPlatformItem(this.root.get('EF'));
       }
       var content = null;
       if (this.contentRef) {
@@ -11898,17 +11898,17 @@ var ObjectLoader = (function() {
   }
 
   function ObjectLoader(obj, keys, xref) {
-    this.obj = obj;
-    this.keys = keys;
-    this.xref = xref;
-    this.refSet = null;
-    this.capability = null;
+    this[__webkitAssign__obj] = obj;
+    this[__webkitAssign__keys] = keys;
+    this[__webkitAssign__xref] = xref;
+    this[__webkitAssign__refSet] = null;
+    this[__webkitAssign__capability] = null;
   }
 
-  ObjectLoader.prototype = {
+  ObjectLoader[__webkitAssign__prototype] = {
     load: function ObjectLoader_load() {
       var keys = this.keys;
-      this.capability = createPromiseCapability();
+      this[__webkitAssign__capability] = createPromiseCapability();
       // Don't walk the graph if all the data is already loaded.
       if (!(this.xref.stream instanceof ChunkedStream) ||
           this.xref.stream.getMissingChunks().length === 0) {
@@ -11916,7 +11916,7 @@ var ObjectLoader = (function() {
         return this.capability.promise;
       }
 
-      this.refSet = new RefSet();
+      this[__webkitAssign__refSet] = new RefSet();
       // Setup the initial nodes to visit.
       var nodesToVisit = [];
       for (var i = 0; i < keys.length; i++) {
@@ -11990,7 +11990,7 @@ var ObjectLoader = (function() {
         return;
       }
       // Everything is loaded.
-      this.refSet = null;
+      this[__webkitAssign__refSet] = null;
       this.capability.resolve();
     }
   };
@@ -12107,7 +12107,7 @@ var DEFAULT_ICON_SIZE = 22; // px
  * @alias AnnotationFactory
  */
 function AnnotationFactory() {}
-AnnotationFactory.prototype = /** @lends AnnotationFactory.prototype */ {
+AnnotationFactory[__webkitAssign__prototype] = /** @lends AnnotationFactory.prototype */ {
   /**
    * @param {XRef} xref
    * @param {Object} ref
@@ -12204,20 +12204,20 @@ var Annotation = (function AnnotationClosure() {
     this.setRectangle(dict.get('Rect'));
     this.setColor(dict.get('C'));
     this.setBorderStyle(dict);
-    this.appearance = getDefaultAppearance(dict);
+    this[__webkitAssign__appearance] = getDefaultAppearance(dict);
 
     // Expose public properties using a data object.
-    this.data = {};
-    this.data.id = params.ref.num;
-    this.data.subtype = dict.get('Subtype').name;
-    this.data.annotationFlags = this.flags;
-    this.data.rect = this.rectangle;
-    this.data.color = this.color;
-    this.data.borderStyle = this.borderStyle;
-    this.data.hasAppearance = !!this.appearance;
+    this[__webkitAssign__data] = {};
+    this.data[__webkitAssign__id] = params.ref.num;
+    this.data[__webkitAssign__subtype] = dict.get('Subtype').name;
+    this.data[__webkitAssign__annotationFlags] = this.flags;
+    this.data[__webkitAssign__rect] = this.rectangle;
+    this.data[__webkitAssign__color] = this.color;
+    this.data[__webkitAssign__borderStyle] = this.borderStyle;
+    this.data[__webkitAssign__hasAppearance] = !!this.appearance;
   }
 
-  Annotation.prototype = {
+  Annotation[__webkitAssign__prototype] = {
     /**
      * @return {boolean}
      */
@@ -12253,9 +12253,9 @@ var Annotation = (function AnnotationClosure() {
      */
     setFlags: function Annotation_setFlags(flags) {
       if (isInt(flags)) {
-        this.flags = flags;
+        this[__webkitAssign__flags] = flags;
       } else {
-        this.flags = 0;
+        this[__webkitAssign__flags] = 0;
       }
     },
 
@@ -12285,9 +12285,9 @@ var Annotation = (function AnnotationClosure() {
      */
     setRectangle: function Annotation_setRectangle(rectangle) {
       if (isArray(rectangle) && rectangle.length === 4) {
-        this.rectangle = Util.normalizeRect(rectangle);
+        this[__webkitAssign__rectangle] = Util.normalizeRect(rectangle);
       } else {
-        this.rectangle = [0, 0, 0, 0];
+        this[__webkitAssign__rectangle] = [0, 0, 0, 0];
       }
     },
 
@@ -12303,32 +12303,32 @@ var Annotation = (function AnnotationClosure() {
     setColor: function Annotation_setColor(color) {
       var rgbColor = new Uint8Array(3); // Black in RGB color space (default)
       if (!isArray(color)) {
-        this.color = rgbColor;
+        this[__webkitAssign__color] = rgbColor;
         return;
       }
 
       switch (color.length) {
         case 0: // Transparent, which we indicate with a null value
-          this.color = null;
+          this[__webkitAssign__color] = null;
           break;
 
         case 1: // Convert grayscale to RGB
           ColorSpace.singletons.gray.getRgbItem(color, 0, rgbColor, 0);
-          this.color = rgbColor;
+          this[__webkitAssign__color] = rgbColor;
           break;
 
         case 3: // Convert RGB percentages to RGB
           ColorSpace.singletons.rgb.getRgbItem(color, 0, rgbColor, 0);
-          this.color = rgbColor;
+          this[__webkitAssign__color] = rgbColor;
           break;
 
         case 4: // Convert CMYK to RGB
           ColorSpace.singletons.cmyk.getRgbItem(color, 0, rgbColor, 0);
-          this.color = rgbColor;
+          this[__webkitAssign__color] = rgbColor;
           break;
 
         default:
-          this.color = rgbColor;
+          this[__webkitAssign__color] = rgbColor;
           break;
       }
     },
@@ -12341,7 +12341,7 @@ var Annotation = (function AnnotationClosure() {
      * @param {Dict} borderStyle - The border style dictionary
      */
     setBorderStyle: function Annotation_setBorderStyle(borderStyle) {
-      this.borderStyle = new AnnotationBorderStyle();
+      this[__webkitAssign__borderStyle] = new AnnotationBorderStyle();
       if (!isDict(borderStyle)) {
         return;
       }
@@ -12429,7 +12429,7 @@ var Annotation = (function AnnotationClosure() {
     }
   };
 
-  Annotation.appendToOperatorList = function Annotation_appendToOperatorList(
+  Annotation[__webkitAssign__appendToOperatorList] = function Annotation_appendToOperatorList(
       annotations, opList, partialEvaluator, task, intent) {
     var annotationPromises = [];
     for (var i = 0, n = annotations.length; i < n; ++i) {
@@ -12462,14 +12462,14 @@ var AnnotationBorderStyle = (function AnnotationBorderStyleClosure() {
    * @private
    */
   function AnnotationBorderStyle() {
-    this.width = 1;
-    this.style = AnnotationBorderStyleType.SOLID;
-    this.dashArray = [3];
-    this.horizontalCornerRadius = 0;
-    this.verticalCornerRadius = 0;
+    this[__webkitAssign__width] = 1;
+    this[__webkitAssign__style] = AnnotationBorderStyleType.SOLID;
+    this[__webkitAssign__dashArray] = [3];
+    this[__webkitAssign__horizontalCornerRadius] = 0;
+    this[__webkitAssign__verticalCornerRadius] = 0;
   }
 
-  AnnotationBorderStyle.prototype = {
+  AnnotationBorderStyle[__webkitAssign__prototype] = {
     /**
      * Set the width.
      *
@@ -12479,7 +12479,7 @@ var AnnotationBorderStyle = (function AnnotationBorderStyleClosure() {
      */
     setWidth: function AnnotationBorderStyle_setWidth(width) {
       if (width === (width | 0)) {
-        this.width = width;
+        this[__webkitAssign__width] = width;
       }
     },
 
@@ -12497,23 +12497,23 @@ var AnnotationBorderStyle = (function AnnotationBorderStyleClosure() {
       }
       switch (style.name) {
         case 'S':
-          this.style = AnnotationBorderStyleType.SOLID;
+          this[__webkitAssign__style] = AnnotationBorderStyleType.SOLID;
           break;
 
         case 'D':
-          this.style = AnnotationBorderStyleType.DASHED;
+          this[__webkitAssign__style] = AnnotationBorderStyleType.DASHED;
           break;
 
         case 'B':
-          this.style = AnnotationBorderStyleType.BEVELED;
+          this[__webkitAssign__style] = AnnotationBorderStyleType.BEVELED;
           break;
 
         case 'I':
-          this.style = AnnotationBorderStyleType.INSET;
+          this[__webkitAssign__style] = AnnotationBorderStyleType.INSET;
           break;
 
         case 'U':
-          this.style = AnnotationBorderStyleType.UNDERLINE;
+          this[__webkitAssign__style] = AnnotationBorderStyleType.UNDERLINE;
           break;
 
         default:
@@ -12548,12 +12548,12 @@ var AnnotationBorderStyle = (function AnnotationBorderStyleClosure() {
           }
         }
         if (isValid && !allZeros) {
-          this.dashArray = dashArray;
+          this[__webkitAssign__dashArray] = dashArray;
         } else {
-          this.width = 0; // Adobe behavior when the array is invalid.
+          this[__webkitAssign__width] = 0; // Adobe behavior when the array is invalid.
         }
       } else if (dashArray) {
-        this.width = 0; // Adobe behavior when the array is invalid.
+        this[__webkitAssign__width] = 0; // Adobe behavior when the array is invalid.
       }
     },
 
@@ -12567,7 +12567,7 @@ var AnnotationBorderStyle = (function AnnotationBorderStyleClosure() {
     setHorizontalCornerRadius:
         function AnnotationBorderStyle_setHorizontalCornerRadius(radius) {
       if (radius === (radius | 0)) {
-        this.horizontalCornerRadius = radius;
+        this[__webkitAssign__horizontalCornerRadius] = radius;
       }
     },
 
@@ -12581,7 +12581,7 @@ var AnnotationBorderStyle = (function AnnotationBorderStyleClosure() {
     setVerticalCornerRadius:
         function AnnotationBorderStyle_setVerticalCornerRadius(radius) {
       if (radius === (radius | 0)) {
-        this.verticalCornerRadius = radius;
+        this[__webkitAssign__verticalCornerRadius] = radius;
       }
     }
   };
@@ -12596,14 +12596,14 @@ var WidgetAnnotation = (function WidgetAnnotationClosure() {
     var dict = params.dict;
     var data = this.data;
 
-    data.fieldValue = stringToPDFString(
+    data[__webkitAssign__fieldValue] = stringToPDFString(
       Util.getInheritableProperty(dict, 'V') || '');
-    data.alternativeText = stringToPDFString(dict.get('TU') || '');
-    data.defaultAppearance = Util.getInheritableProperty(dict, 'DA') || '';
+    data[__webkitAssign__alternativeText] = stringToPDFString(dict.get('TU') || '');
+    data[__webkitAssign__defaultAppearance] = Util.getInheritableProperty(dict, 'DA') || '';
     var fieldType = Util.getInheritableProperty(dict, 'FT');
-    data.fieldType = isName(fieldType) ? fieldType.name : '';
-    data.fieldFlags = Util.getInheritableProperty(dict, 'Ff') || 0;
-    this.fieldResources = Util.getInheritableProperty(dict, 'DR') || Dict.empty;
+    data[__webkitAssign__fieldType] = isName(fieldType) ? fieldType.name : '';
+    data[__webkitAssign__fieldFlags] = Util.getInheritableProperty(dict, 'Ff') || 0;
+    this[__webkitAssign__fieldResources] = Util.getInheritableProperty(dict, 'DR') || Dict.empty;
 
     // Hide unsupported Widget signatures.
     if (data.fieldType === 'Sig') {
@@ -12641,7 +12641,7 @@ var WidgetAnnotation = (function WidgetAnnotationClosure() {
       namedItem = parent;
       ref = parentRef;
     }
-    data.fullName = fieldName.join('.');
+    data[__webkitAssign__fullName] = fieldName.join('.');
   }
 
   Util.inherit(WidgetAnnotation, Annotation, {});
@@ -12653,9 +12653,9 @@ var TextWidgetAnnotation = (function TextWidgetAnnotationClosure() {
   function TextWidgetAnnotation(params) {
     WidgetAnnotation.call(this, params);
 
-    this.data.textAlignment = Util.getInheritableProperty(params.dict, 'Q');
-    this.data.annotationType = AnnotationType.WIDGET;
-    this.data.hasHtml = !this.data.hasAppearance && !!this.data.fieldValue;
+    this.data[__webkitAssign__textAlignment] = Util.getInheritableProperty(params.dict, 'Q');
+    this.data[__webkitAssign__annotationType] = AnnotationType.WIDGET;
+    this.data[__webkitAssign__hasHtml] = !this.data.hasAppearance && !!this.data.fieldValue;
   }
 
   Util.inherit(TextWidgetAnnotation, WidgetAnnotation, {
@@ -12695,21 +12695,21 @@ var TextAnnotation = (function TextAnnotationClosure() {
 
     var content = dict.get('Contents');
     var title = dict.get('T');
-    data.annotationType = AnnotationType.TEXT;
-    data.content = stringToPDFString(content || '');
-    data.title = stringToPDFString(title || '');
-    data.hasHtml = true;
+    data[__webkitAssign__annotationType] = AnnotationType.TEXT;
+    data[__webkitAssign__content] = stringToPDFString(content || '');
+    data[__webkitAssign__title] = stringToPDFString(title || '');
+    data[__webkitAssign__hasHtml] = true;
 
     if (data.hasAppearance) {
-      data.name = 'NoIcon';
+      data[__webkitAssign__name] = 'NoIcon';
     } else {
       data.rect[1] = data.rect[3] - DEFAULT_ICON_SIZE;
       data.rect[2] = data.rect[0] + DEFAULT_ICON_SIZE;
-      data.name = dict.has('Name') ? dict.get('Name').name : 'Note';
+      data[__webkitAssign__name] = dict.has('Name') ? dict.get('Name').name : 'Note';
     }
 
     if (dict.has('C')) {
-      data.hasBgColor = true;
+      data[__webkitAssign__hasBgColor] = true;
     }
   }
 
@@ -12724,8 +12724,8 @@ var LinkAnnotation = (function LinkAnnotationClosure() {
 
     var dict = params.dict;
     var data = this.data;
-    data.annotationType = AnnotationType.LINK;
-    data.hasHtml = true;
+    data[__webkitAssign__annotationType] = AnnotationType.LINK;
+    data[__webkitAssign__hasHtml] = true;
 
     var action = dict.get('A');
     if (action && isDict(action)) {
@@ -12747,13 +12747,13 @@ var LinkAnnotation = (function LinkAnnotationClosure() {
         // URI should to be encoded in 7-bit ASCII.
         // Some bad PDFs may have URIs in UTF-8 encoding, see Bugzilla 1122280.
         try {
-          data.url = stringToUTF8String(url);
+          data[__webkitAssign__url] = stringToUTF8String(url);
         } catch (e) {
           // Fall back to a simple copy.
-          data.url = url;
+          data[__webkitAssign__url] = url;
         }
       } else if (linkType === 'GoTo') {
-        data.dest = action.get('D');
+        data[__webkitAssign__dest] = action.get('D');
       } else if (linkType === 'GoToR') {
         var urlDict = action.get('F');
         if (isDict(urlDict)) {
@@ -12767,17 +12767,17 @@ var LinkAnnotation = (function LinkAnnotationClosure() {
         if (!isValidUrl(url, false)) {
           url = '';
         }
-        data.url = url;
-        data.dest = action.get('D');
+        data[__webkitAssign__url] = url;
+        data[__webkitAssign__dest] = action.get('D');
       } else if (linkType === 'Named') {
-        data.action = action.get('N').name;
+        data[__webkitAssign__action] = action.get('N').name;
       } else {
         warn('unrecognized link type: ' + linkType);
       }
     } else if (dict.has('Dest')) {
       // simple destination link
       var dest = dict.get('Dest');
-      data.dest = isName(dest) ? dest.name : dest;
+      data[__webkitAssign__dest] = isName(dest) ? dest.name : dest;
     }
   }
 
@@ -13259,11 +13259,11 @@ function isPDFFunction(v) {
 var PostScriptStack = (function PostScriptStackClosure() {
   var MAX_STACK_SIZE = 100;
   function PostScriptStack(initialStack) {
-    this.stack = !initialStack ? [] :
+    this[__webkitAssign__stack] = !initialStack ? [] :
                  Array.prototype.slice.call(initialStack, 0);
   }
 
-  PostScriptStack.prototype = {
+  PostScriptStack[__webkitAssign__prototype] = {
     push: function PostScriptStack_push(value) {
       if (this.stack.length >= MAX_STACK_SIZE) {
         error('PostScript function stack overflow.');
@@ -13308,9 +13308,9 @@ var PostScriptStack = (function PostScriptStackClosure() {
 })();
 var PostScriptEvaluator = (function PostScriptEvaluatorClosure() {
   function PostScriptEvaluator(operators) {
-    this.operators = operators;
+    this[__webkitAssign__operators] = operators;
   }
-  PostScriptEvaluator.prototype = {
+  PostScriptEvaluator[__webkitAssign__prototype] = {
     execute: function PostScriptEvaluator_execute(initialStack) {
       var stack = new PostScriptStack(initialStack);
       var counter = 0;
@@ -13551,83 +13551,83 @@ var PostScriptEvaluator = (function PostScriptEvaluatorClosure() {
 // min/max values will allow us to avoid extra Math.min/Math.max calls.
 var PostScriptCompiler = (function PostScriptCompilerClosure() {
   function AstNode(type) {
-    this.type = type;
+    this[__webkitAssign__type] = type;
   }
-  AstNode.prototype.visit = function (visitor) {
+  AstNode.prototype[__webkitAssign__visit] = function (visitor) {
     throw new Error('abstract method');
   };
 
   function AstArgument(index, min, max) {
     AstNode.call(this, 'args');
-    this.index = index;
-    this.min = min;
-    this.max = max;
+    this[__webkitAssign__index] = index;
+    this[__webkitAssign__min] = min;
+    this[__webkitAssign__max] = max;
   }
-  AstArgument.prototype = Object.create(AstNode.prototype);
-  AstArgument.prototype.visit = function (visitor) {
+  AstArgument[__webkitAssign__prototype] = Object.create(AstNode.prototype);
+  AstArgument.prototype[__webkitAssign__visit] = function (visitor) {
     visitor.visitArgument(this);
   };
 
   function AstLiteral(number) {
     AstNode.call(this, 'literal');
-    this.number = number;
-    this.min = number;
-    this.max = number;
+    this[__webkitAssign__number] = number;
+    this[__webkitAssign__min] = number;
+    this[__webkitAssign__max] = number;
   }
-  AstLiteral.prototype = Object.create(AstNode.prototype);
-  AstLiteral.prototype.visit = function (visitor) {
+  AstLiteral[__webkitAssign__prototype] = Object.create(AstNode.prototype);
+  AstLiteral.prototype[__webkitAssign__visit] = function (visitor) {
     visitor.visitLiteral(this);
   };
 
   function AstBinaryOperation(op, arg1, arg2, min, max) {
     AstNode.call(this, 'binary');
-    this.op = op;
-    this.arg1 = arg1;
-    this.arg2 = arg2;
-    this.min = min;
-    this.max = max;
+    this[__webkitAssign__op] = op;
+    this[__webkitAssign__arg1] = arg1;
+    this[__webkitAssign__arg2] = arg2;
+    this[__webkitAssign__min] = min;
+    this[__webkitAssign__max] = max;
   }
-  AstBinaryOperation.prototype = Object.create(AstNode.prototype);
-  AstBinaryOperation.prototype.visit = function (visitor) {
+  AstBinaryOperation[__webkitAssign__prototype] = Object.create(AstNode.prototype);
+  AstBinaryOperation.prototype[__webkitAssign__visit] = function (visitor) {
     visitor.visitBinaryOperation(this);
   };
 
   function AstMin(arg, max) {
     AstNode.call(this, 'max');
-    this.arg = arg;
-    this.min = arg.min;
-    this.max = max;
+    this[__webkitAssign__arg] = arg;
+    this[__webkitAssign__min] = arg.min;
+    this[__webkitAssign__max] = max;
   }
-  AstMin.prototype = Object.create(AstNode.prototype);
-  AstMin.prototype.visit = function (visitor) {
+  AstMin[__webkitAssign__prototype] = Object.create(AstNode.prototype);
+  AstMin.prototype[__webkitAssign__visit] = function (visitor) {
     visitor.visitMin(this);
   };
 
   function AstVariable(index, min, max) {
     AstNode.call(this, 'var');
-    this.index = index;
-    this.min = min;
-    this.max = max;
+    this[__webkitAssign__index] = index;
+    this[__webkitAssign__min] = min;
+    this[__webkitAssign__max] = max;
   }
-  AstVariable.prototype = Object.create(AstNode.prototype);
-  AstVariable.prototype.visit = function (visitor) {
+  AstVariable[__webkitAssign__prototype] = Object.create(AstNode.prototype);
+  AstVariable.prototype[__webkitAssign__visit] = function (visitor) {
     visitor.visitVariable(this);
   };
 
   function AstVariableDefinition(variable, arg) {
     AstNode.call(this, 'definition');
-    this.variable = variable;
-    this.arg = arg;
+    this[__webkitAssign__variable] = variable;
+    this[__webkitAssign__arg] = arg;
   }
-  AstVariableDefinition.prototype = Object.create(AstNode.prototype);
-  AstVariableDefinition.prototype.visit = function (visitor) {
+  AstVariableDefinition[__webkitAssign__prototype] = Object.create(AstNode.prototype);
+  AstVariableDefinition.prototype[__webkitAssign__visit] = function (visitor) {
     visitor.visitVariableDefinition(this);
   };
 
   function ExpressionBuilderVisitor() {
-    this.parts = [];
+    this[__webkitAssign__parts] = [];
   }
-  ExpressionBuilderVisitor.prototype = {
+  ExpressionBuilderVisitor[__webkitAssign__prototype] = {
     visitArgument: function (arg) {
       this.parts.push('Math.max(', arg.min, ', Math.min(',
                       arg.max, ', src[srcOffset + ', arg.index, ']))');
@@ -13738,7 +13738,7 @@ var PostScriptCompiler = (function PostScriptCompilerClosure() {
   }
 
   function PostScriptCompiler() {}
-  PostScriptCompiler.prototype = {
+  PostScriptCompiler[__webkitAssign__prototype] = {
     compile: function PostScriptCompiler_compile(code, domain, range) {
       var stack = [];
       var i, ii;
@@ -13917,7 +13917,7 @@ var ColorSpace = (function ColorSpaceClosure() {
     error('should not call ColorSpace constructor');
   }
 
-  ColorSpace.prototype = {
+  ColorSpace[__webkitAssign__prototype] = {
     /**
      * Converts the color value to the RGB color. The color components are
      * located in the src array starting from the srcOffset. Returns the array
@@ -14059,7 +14059,7 @@ var ColorSpace = (function ColorSpaceClosure() {
     usesZeroToOneRange: true
   };
 
-  ColorSpace.parse = function ColorSpace_parse(cs, xref, res) {
+  ColorSpace[__webkitAssign__parse] = function ColorSpace_parse(cs, xref, res) {
     var IR = ColorSpace.parseToIR(cs, xref, res);
     if (IR instanceof AlternateCS) {
       return IR;
@@ -14067,7 +14067,7 @@ var ColorSpace = (function ColorSpaceClosure() {
     return ColorSpace.fromIR(IR);
   };
 
-  ColorSpace.fromIR = function ColorSpace_fromIR(IR) {
+  ColorSpace[__webkitAssign__fromIR] = function ColorSpace_fromIR(IR) {
     var name = isArray(IR) ? IR[0] : IR;
     var whitePoint, blackPoint, gamma;
 
@@ -14118,7 +14118,7 @@ var ColorSpace = (function ColorSpaceClosure() {
     return null;
   };
 
-  ColorSpace.parseToIR = function ColorSpace_parseToIR(cs, xref, res) {
+  ColorSpace[__webkitAssign__parseToIR] = function ColorSpace_parseToIR(cs, xref, res) {
     if (isName(cs)) {
       var colorSpaces = res.get('ColorSpace');
       if (isDict(colorSpaces)) {
@@ -14134,7 +14134,7 @@ var ColorSpace = (function ColorSpaceClosure() {
 
     if (isName(cs)) {
       mode = cs.name;
-      this.mode = mode;
+      this[__webkitAssign__mode] = mode;
 
       switch (mode) {
         case 'DeviceGray':
@@ -14153,7 +14153,7 @@ var ColorSpace = (function ColorSpaceClosure() {
       }
     } else if (isArray(cs)) {
       mode = xref.fetchIfRef(cs[0]).name;
-      this.mode = mode;
+      this[__webkitAssign__mode] = mode;
       var numComps, params, alt;
 
       switch (mode) {
@@ -14242,7 +14242,7 @@ var ColorSpace = (function ColorSpaceClosure() {
    * @param {Array} decode Decode map (usually from an image).
    * @param {Number} n Number of components the color space has.
    */
-  ColorSpace.isDefaultDecode = function ColorSpace_isDefaultDecode(decode, n) {
+  ColorSpace[__webkitAssign__isDefaultDecode] = function ColorSpace_isDefaultDecode(decode, n) {
     if (!isArray(decode)) {
       return true;
     }
@@ -14259,7 +14259,7 @@ var ColorSpace = (function ColorSpaceClosure() {
     return true;
   };
 
-  ColorSpace.singletons = {
+  ColorSpace[__webkitAssign__singletons] = {
     get gray() {
       return shadow(this, 'gray', new DeviceGrayCS());
     },
@@ -14282,18 +14282,18 @@ var ColorSpace = (function ColorSpaceClosure() {
  */
 var AlternateCS = (function AlternateCSClosure() {
   function AlternateCS(numComps, base, tintFn) {
-    this.name = 'Alternate';
-    this.numComps = numComps;
-    this.defaultColor = new Float32Array(numComps);
+    this[__webkitAssign__name] = 'Alternate';
+    this[__webkitAssign__numComps] = numComps;
+    this[__webkitAssign__defaultColor] = new Float32Array(numComps);
     for (var i = 0; i < numComps; ++i) {
       this.defaultColor[i] = 1;
     }
-    this.base = base;
-    this.tintFn = tintFn;
-    this.tmpBuf = new Float32Array(base.numComps);
+    this[__webkitAssign__base] = base;
+    this[__webkitAssign__tintFn] = tintFn;
+    this[__webkitAssign__tmpBuf] = new Float32Array(base.numComps);
   }
 
-  AlternateCS.prototype = {
+  AlternateCS[__webkitAssign__prototype] = {
     getRgb: ColorSpace.prototype.getRgb,
     getRgbItem: function AlternateCS_getRgbItem(src, srcOffset,
                                                 dest, destOffset) {
@@ -14361,21 +14361,21 @@ var AlternateCS = (function AlternateCSClosure() {
 
 var PatternCS = (function PatternCSClosure() {
   function PatternCS(baseCS) {
-    this.name = 'Pattern';
-    this.base = baseCS;
+    this[__webkitAssign__name] = 'Pattern';
+    this[__webkitAssign__base] = baseCS;
   }
-  PatternCS.prototype = {};
+  PatternCS[__webkitAssign__prototype] = {};
 
   return PatternCS;
 })();
 
 var IndexedCS = (function IndexedCSClosure() {
   function IndexedCS(base, highVal, lookup) {
-    this.name = 'Indexed';
-    this.numComps = 1;
-    this.defaultColor = new Uint8Array([0]);
-    this.base = base;
-    this.highVal = highVal;
+    this[__webkitAssign__name] = 'Indexed';
+    this[__webkitAssign__numComps] = 1;
+    this[__webkitAssign__defaultColor] = new Uint8Array([0]);
+    this[__webkitAssign__base] = base;
+    this[__webkitAssign__highVal] = highVal;
 
     var baseNumComps = base.numComps;
     var length = baseNumComps * highVal;
@@ -14395,10 +14395,10 @@ var IndexedCS = (function IndexedCSClosure() {
     } else {
       error('Unrecognized lookup table: ' + lookup);
     }
-    this.lookup = lookupArray;
+    this[__webkitAssign__lookup] = lookupArray;
   }
 
-  IndexedCS.prototype = {
+  IndexedCS[__webkitAssign__prototype] = {
     getRgb: ColorSpace.prototype.getRgb,
     getRgbItem: function IndexedCS_getRgbItem(src, srcOffset,
                                               dest, destOffset) {
@@ -14437,12 +14437,12 @@ var IndexedCS = (function IndexedCSClosure() {
 
 var DeviceGrayCS = (function DeviceGrayCSClosure() {
   function DeviceGrayCS() {
-    this.name = 'DeviceGray';
-    this.numComps = 1;
-    this.defaultColor = new Float32Array([0]);
+    this[__webkitAssign__name] = 'DeviceGray';
+    this[__webkitAssign__numComps] = 1;
+    this[__webkitAssign__defaultColor] = new Float32Array([0]);
   }
 
-  DeviceGrayCS.prototype = {
+  DeviceGrayCS[__webkitAssign__prototype] = {
     getRgb: ColorSpace.prototype.getRgb,
     getRgbItem: function DeviceGrayCS_getRgbItem(src, srcOffset,
                                                  dest, destOffset) {
@@ -14479,11 +14479,11 @@ var DeviceGrayCS = (function DeviceGrayCSClosure() {
 
 var DeviceRgbCS = (function DeviceRgbCSClosure() {
   function DeviceRgbCS() {
-    this.name = 'DeviceRGB';
-    this.numComps = 3;
-    this.defaultColor = new Float32Array([0, 0, 0]);
+    this[__webkitAssign__name] = 'DeviceRGB';
+    this[__webkitAssign__numComps] = 3;
+    this[__webkitAssign__defaultColor] = new Float32Array([0, 0, 0]);
   }
-  DeviceRgbCS.prototype = {
+  DeviceRgbCS[__webkitAssign__prototype] = {
     getRgb: ColorSpace.prototype.getRgb,
     getRgbItem: function DeviceRgbCS_getRgbItem(src, srcOffset,
                                                 dest, destOffset) {
@@ -14572,11 +14572,11 @@ var DeviceCmykCS = (function DeviceCmykCSClosure() {
   }
 
   function DeviceCmykCS() {
-    this.name = 'DeviceCMYK';
-    this.numComps = 4;
-    this.defaultColor = new Float32Array([0, 0, 0, 1]);
+    this[__webkitAssign__name] = 'DeviceCMYK';
+    this[__webkitAssign__numComps] = 4;
+    this[__webkitAssign__defaultColor] = new Float32Array([0, 0, 0, 1]);
   }
-  DeviceCmykCS.prototype = {
+  DeviceCmykCS[__webkitAssign__prototype] = {
     getRgb: ColorSpace.prototype.getRgb,
     getRgbItem: function DeviceCmykCS_getRgbItem(src, srcOffset,
                                                  dest, destOffset) {
@@ -14612,9 +14612,9 @@ var DeviceCmykCS = (function DeviceCmykCSClosure() {
 //
 var CalGrayCS = (function CalGrayCSClosure() {
   function CalGrayCS(whitePoint, blackPoint, gamma) {
-    this.name = 'CalGray';
-    this.numComps = 1;
-    this.defaultColor = new Float32Array([0]);
+    this[__webkitAssign__name] = 'CalGray';
+    this[__webkitAssign__numComps] = 1;
+    this[__webkitAssign__defaultColor] = new Float32Array([0]);
 
     if (!whitePoint) {
       error('WhitePoint missing - required for color space CalGray');
@@ -14623,15 +14623,15 @@ var CalGrayCS = (function CalGrayCSClosure() {
     gamma = gamma || 1;
 
     // Translate arguments to spec variables.
-    this.XW = whitePoint[0];
-    this.YW = whitePoint[1];
-    this.ZW = whitePoint[2];
+    this[__webkitAssign__XW] = whitePoint[0];
+    this[__webkitAssign__YW] = whitePoint[1];
+    this[__webkitAssign__ZW] = whitePoint[2];
 
-    this.XB = blackPoint[0];
-    this.YB = blackPoint[1];
-    this.ZB = blackPoint[2];
+    this[__webkitAssign__XB] = blackPoint[0];
+    this[__webkitAssign__YB] = blackPoint[1];
+    this[__webkitAssign__ZB] = blackPoint[2];
 
-    this.G = gamma;
+    this[__webkitAssign__G] = gamma;
 
     // Validate variables as per spec.
     if (this.XW < 0 || this.ZW < 0 || this.YW !== 1) {
@@ -14641,7 +14641,7 @@ var CalGrayCS = (function CalGrayCSClosure() {
 
     if (this.XB < 0 || this.YB < 0 || this.ZB < 0) {
       info('Invalid BlackPoint for ' + this.name + ', falling back to default');
-      this.XB = this.YB = this.ZB = 0;
+      this[__webkitAssign__XB] = this[__webkitAssign__YB] = this[__webkitAssign__ZB] = 0;
     }
 
     if (this.XB !== 0 || this.YB !== 0 || this.ZB !== 0) {
@@ -14652,7 +14652,7 @@ var CalGrayCS = (function CalGrayCSClosure() {
     if (this.G < 1) {
       info('Invalid Gamma: ' + this.G + ' for ' + this.name +
            ', falling back to default');
-      this.G = 1;
+      this[__webkitAssign__G] = 1;
     }
   }
 
@@ -14673,7 +14673,7 @@ var CalGrayCS = (function CalGrayCSClosure() {
     dest[destOffset + 2] = val;
   }
 
-  CalGrayCS.prototype = {
+  CalGrayCS[__webkitAssign__prototype] = {
     getRgb: ColorSpace.prototype.getRgb,
     getRgbItem: function CalGrayCS_getRgbItem(src, srcOffset,
                                               dest, destOffset) {
@@ -14735,9 +14735,9 @@ var CalRGBCS = (function CalRGBCSClosure() {
   var DECODE_L_CONSTANT = Math.pow(((8 + 16) / 116), 3) / 8.0;
 
   function CalRGBCS(whitePoint, blackPoint, gamma, matrix) {
-    this.name = 'CalRGB';
-    this.numComps = 3;
-    this.defaultColor = new Float32Array(3);
+    this[__webkitAssign__name] = 'CalRGB';
+    this[__webkitAssign__numComps] = 3;
+    this[__webkitAssign__defaultColor] = new Float32Array(3);
 
     if (!whitePoint) {
       error('WhitePoint missing - required for color space CalRGB');
@@ -14750,26 +14750,26 @@ var CalRGBCS = (function CalRGBCSClosure() {
     var XW = whitePoint[0];
     var YW = whitePoint[1];
     var ZW = whitePoint[2];
-    this.whitePoint = whitePoint;
+    this[__webkitAssign__whitePoint] = whitePoint;
 
     var XB = blackPoint[0];
     var YB = blackPoint[1];
     var ZB = blackPoint[2];
-    this.blackPoint = blackPoint;
+    this[__webkitAssign__blackPoint] = blackPoint;
 
-    this.GR = gamma[0];
-    this.GG = gamma[1];
-    this.GB = gamma[2];
+    this[__webkitAssign__GR] = gamma[0];
+    this[__webkitAssign__GG] = gamma[1];
+    this[__webkitAssign__GB] = gamma[2];
 
-    this.MXA = matrix[0];
-    this.MYA = matrix[1];
-    this.MZA = matrix[2];
-    this.MXB = matrix[3];
-    this.MYB = matrix[4];
-    this.MZB = matrix[5];
-    this.MXC = matrix[6];
-    this.MYC = matrix[7];
-    this.MZC = matrix[8];
+    this[__webkitAssign__MXA] = matrix[0];
+    this[__webkitAssign__MYA] = matrix[1];
+    this[__webkitAssign__MZA] = matrix[2];
+    this[__webkitAssign__MXB] = matrix[3];
+    this[__webkitAssign__MYB] = matrix[4];
+    this[__webkitAssign__MZB] = matrix[5];
+    this[__webkitAssign__MXC] = matrix[6];
+    this[__webkitAssign__MYC] = matrix[7];
+    this[__webkitAssign__MZC] = matrix[8];
 
     // Validate variables as per spec.
     if (XW < 0 || ZW < 0 || YW !== 1) {
@@ -14780,13 +14780,13 @@ var CalRGBCS = (function CalRGBCSClosure() {
     if (XB < 0 || YB < 0 || ZB < 0) {
       info('Invalid BlackPoint for ' + this.name + ' [' + XB + ', ' + YB +
            ', ' + ZB + '], falling back to default');
-      this.blackPoint = new Float32Array(3);
+      this[__webkitAssign__blackPoint] = new Float32Array(3);
     }
 
     if (this.GR < 0 || this.GG < 0 || this.GB < 0) {
       info('Invalid Gamma [' + this.GR + ', ' + this.GG + ', ' + this.GB +
            '] for ' + this.name + ', falling back to default');
-      this.GR = this.GG = this.GB = 1;
+      this[__webkitAssign__GR] = this[__webkitAssign__GG] = this[__webkitAssign__GB] = 1;
     }
 
     if (this.MXA < 0 || this.MYA < 0 || this.MZA < 0 ||
@@ -14797,8 +14797,8 @@ var CalRGBCS = (function CalRGBCSClosure() {
            this.MXB + ', ' + this.MYB + ', ' + this.MZB +
            this.MXC + ', ' + this.MYC + ', ' + this.MZC +
            '], falling back to default');
-      this.MXA = this.MYB = this.MZC = 1;
-      this.MXB = this.MYA = this.MZA = this.MXC = this.MYC = this.MZB = 0;
+      this[__webkitAssign__MXA] = this[__webkitAssign__MYB] = this[__webkitAssign__MZC] = 1;
+      this[__webkitAssign__MXB] = this[__webkitAssign__MYA] = this[__webkitAssign__MZA] = this[__webkitAssign__MXC] = this[__webkitAssign__MYC] = this[__webkitAssign__MZB] = 0;
     }
   }
 
@@ -14972,7 +14972,7 @@ var CalRGBCS = (function CalRGBCSClosure() {
     dest[destOffset + 2] = Math.round(sB * 255);
   }
 
-  CalRGBCS.prototype = {
+  CalRGBCS[__webkitAssign__prototype] = {
     getRgb: function CalRGBCS_getRgb(src, srcOffset) {
       var rgb = new Uint8Array(3);
       this.getRgbItem(src, srcOffset, rgb, 0);
@@ -15011,9 +15011,9 @@ var CalRGBCS = (function CalRGBCSClosure() {
 //
 var LabCS = (function LabCSClosure() {
   function LabCS(whitePoint, blackPoint, range) {
-    this.name = 'Lab';
-    this.numComps = 3;
-    this.defaultColor = new Float32Array([0, 0, 0]);
+    this[__webkitAssign__name] = 'Lab';
+    this[__webkitAssign__numComps] = 3;
+    this[__webkitAssign__defaultColor] = new Float32Array([0, 0, 0]);
 
     if (!whitePoint) {
       error('WhitePoint missing - required for color space Lab');
@@ -15022,19 +15022,19 @@ var LabCS = (function LabCSClosure() {
     range = range || [-100, 100, -100, 100];
 
     // Translate args to spec variables
-    this.XW = whitePoint[0];
-    this.YW = whitePoint[1];
-    this.ZW = whitePoint[2];
-    this.amin = range[0];
-    this.amax = range[1];
-    this.bmin = range[2];
-    this.bmax = range[3];
+    this[__webkitAssign__XW] = whitePoint[0];
+    this[__webkitAssign__YW] = whitePoint[1];
+    this[__webkitAssign__ZW] = whitePoint[2];
+    this[__webkitAssign__amin] = range[0];
+    this[__webkitAssign__amax] = range[1];
+    this[__webkitAssign__bmin] = range[2];
+    this[__webkitAssign__bmax] = range[3];
 
     // These are here just for completeness - the spec doesn't offer any
     // formulas that use BlackPoint in Lab
-    this.XB = blackPoint[0];
-    this.YB = blackPoint[1];
-    this.ZB = blackPoint[2];
+    this[__webkitAssign__XB] = blackPoint[0];
+    this[__webkitAssign__YB] = blackPoint[1];
+    this[__webkitAssign__ZB] = blackPoint[2];
 
     // Validate vars as per spec
     if (this.XW < 0 || this.ZW < 0 || this.YW !== 1) {
@@ -15043,15 +15043,15 @@ var LabCS = (function LabCSClosure() {
 
     if (this.XB < 0 || this.YB < 0 || this.ZB < 0) {
       info('Invalid BlackPoint, falling back to default');
-      this.XB = this.YB = this.ZB = 0;
+      this[__webkitAssign__XB] = this[__webkitAssign__YB] = this[__webkitAssign__ZB] = 0;
     }
 
     if (this.amin > this.amax || this.bmin > this.bmax) {
       info('Invalid Range, falling back to defaults');
-      this.amin = -100;
-      this.amax = 100;
-      this.bmin = -100;
-      this.bmax = 100;
+      this[__webkitAssign__amin] = -100;
+      this[__webkitAssign__amax] = 100;
+      this[__webkitAssign__bmin] = -100;
+      this[__webkitAssign__bmax] = 100;
     }
   }
 
@@ -15118,7 +15118,7 @@ var LabCS = (function LabCSClosure() {
     dest[destOffset + 2] = b <= 0 ? 0 : b >= 1 ? 255 : Math.sqrt(b) * 255 | 0;
   }
 
-  LabCS.prototype = {
+  LabCS[__webkitAssign__prototype] = {
     getRgb: ColorSpace.prototype.getRgb,
     getRgbItem: function LabCS_getRgbItem(src, srcOffset, dest, destOffset) {
       convertToRgb(this, src, srcOffset, false, dest, destOffset);
@@ -15151,8 +15151,8 @@ var LabCS = (function LabCSClosure() {
 
 var ARCFourCipher = (function ARCFourCipherClosure() {
   function ARCFourCipher(key) {
-    this.a = 0;
-    this.b = 0;
+    this[__webkitAssign__a] = 0;
+    this[__webkitAssign__b] = 0;
     var s = new Uint8Array(256);
     var i, j = 0, tmp, keyLength = key.length;
     for (i = 0; i < 256; ++i) {
@@ -15164,10 +15164,10 @@ var ARCFourCipher = (function ARCFourCipherClosure() {
       s[i] = s[j];
       s[j] = tmp;
     }
-    this.s = s;
+    this[__webkitAssign__s] = s;
   }
 
-  ARCFourCipher.prototype = {
+  ARCFourCipher[__webkitAssign__prototype] = {
     encryptBlock: function ARCFourCipher_encryptBlock(data) {
       var i, n = data.length, tmp, tmp2;
       var a = this.a, b = this.b, s = this.s;
@@ -15181,12 +15181,12 @@ var ARCFourCipher = (function ARCFourCipherClosure() {
         s[b] = tmp;
         output[i] = data[i] ^ s[(tmp + tmp2) & 0xFF];
       }
-      this.a = a;
-      this.b = b;
+      this[__webkitAssign__a] = a;
+      this[__webkitAssign__b] = b;
       return output;
     }
   };
-  ARCFourCipher.prototype.decryptBlock = ARCFourCipher.prototype.encryptBlock;
+  ARCFourCipher.prototype[__webkitAssign__decryptBlock] = ARCFourCipher.prototype.encryptBlock;
 
   return ARCFourCipher;
 })();
@@ -15277,41 +15277,41 @@ var calculateMD5 = (function calculateMD5Closure() {
 })();
 var Word64 = (function Word64Closure() {
   function Word64(highInteger, lowInteger) {
-    this.high = highInteger | 0;
-    this.low = lowInteger | 0;
+    this[__webkitAssign__high] = highInteger | 0;
+    this[__webkitAssign__low] = lowInteger | 0;
   }
-  Word64.prototype = {
+  Word64[__webkitAssign__prototype] = {
     and: function Word64_and(word) {
-      this.high &= word.high;
-      this.low &= word.low;
+      this[__webkitAssign__high] &= word.high;
+      this[__webkitAssign__low] &= word.low;
     },
     xor: function Word64_xor(word) {
-     this.high ^= word.high;
-     this.low ^= word.low;
+     this[__webkitAssign__high] ^= word.high;
+     this[__webkitAssign__low] ^= word.low;
     },
 
     or: function Word64_or(word) {
-      this.high |= word.high;
-      this.low |= word.low;
+      this[__webkitAssign__high] |= word.high;
+      this[__webkitAssign__low] |= word.low;
     },
 
     shiftRight: function Word64_shiftRight(places) {
       if (places >= 32) {
-        this.low = (this.high >>> (places - 32)) | 0;
-        this.high = 0;
+        this[__webkitAssign__low] = (this.high >>> (places - 32)) | 0;
+        this[__webkitAssign__high] = 0;
       } else {
-        this.low = (this.low >>> places) | (this.high << (32 - places));
-        this.high = (this.high >>> places) | 0;
+        this[__webkitAssign__low] = (this.low >>> places) | (this.high << (32 - places));
+        this[__webkitAssign__high] = (this.high >>> places) | 0;
       }
     },
 
     shiftLeft: function Word64_shiftLeft(places) {
       if (places >= 32) {
-        this.high = this.low << (places - 32);
-        this.low = 0;
+        this[__webkitAssign__high] = this.low << (places - 32);
+        this[__webkitAssign__low] = 0;
       } else {
-        this.high = (this.high << places) | (this.low >>> (32 - places));
-        this.low = this.low << places;
+        this[__webkitAssign__high] = (this.high << places) | (this.low >>> (32 - places));
+        this[__webkitAssign__low] = this.low << places;
       }
     },
 
@@ -15325,13 +15325,13 @@ var Word64 = (function Word64Closure() {
         high = this.high;
       }
       places &= 31;
-      this.low = (low >>> places) | (high << (32 - places));
-      this.high = (high >>> places) | (low << (32 - places));
+      this[__webkitAssign__low] = (low >>> places) | (high << (32 - places));
+      this[__webkitAssign__high] = (high >>> places) | (low << (32 - places));
     },
 
     not: function Word64_not() {
-      this.high = ~this.high;
-      this.low = ~this.low;
+      this[__webkitAssign__high] = ~this.high;
+      this[__webkitAssign__low] = ~this.low;
     },
 
     add: function Word64_add(word) {
@@ -15340,8 +15340,8 @@ var Word64 = (function Word64Closure() {
       if (lowAdd > 0xFFFFFFFF) {
         highAdd += 1;
       }
-      this.low = lowAdd | 0;
-      this.high = highAdd | 0;
+      this[__webkitAssign__low] = lowAdd | 0;
+      this[__webkitAssign__high] = highAdd | 0;
     },
 
     copyTo: function Word64_copyTo(bytes, offset) {
@@ -15356,8 +15356,8 @@ var Word64 = (function Word64Closure() {
     },
 
     assign: function Word64_assign(word) {
-      this.high = word.high;
-      this.low = word.low;
+      this[__webkitAssign__high] = word.high;
+      this[__webkitAssign__low] = word.low;
     }
   };
   return Word64;
@@ -15661,9 +15661,9 @@ var calculateSHA512 = (function calculateSHA512Closure() {
     // for each 1024 bit block
     for (i = 0; i < paddedLength;) {
       for (j = 0; j < 16; ++j) {
-        w[j].high = (padded[i] << 24) | (padded[i + 1] << 16) |
+        w[j][__webkitAssign__high] = (padded[i] << 24) | (padded[i + 1] << 16) |
                     (padded[i + 2] << 8) | (padded[i + 3]);
-        w[j].low = (padded[i + 4]) << 24 | (padded[i + 5]) << 16 |
+        w[j][__webkitAssign__low] = (padded[i + 4]) << 24 | (padded[i + 5]) << 16 |
                    (padded[i + 6]) << 8 | (padded[i + 7]);
         i += 8;
       }
@@ -15751,7 +15751,7 @@ var NullCipher = (function NullCipherClosure() {
   function NullCipher() {
   }
 
-  NullCipher.prototype = {
+  NullCipher[__webkitAssign__prototype] = {
     decryptBlock: function NullCipher_decryptBlock(data) {
       return data;
     }
@@ -16070,9 +16070,9 @@ var AES128Cipher = (function AES128CipherClosure() {
   }
 
   function AES128Cipher(key) {
-    this.key = expandKey128(key);
-    this.buffer = new Uint8Array(16);
-    this.bufferPosition = 0;
+    this[__webkitAssign__key] = expandKey128(key);
+    this[__webkitAssign__buffer] = new Uint8Array(16);
+    this[__webkitAssign__bufferPosition] = 0;
   }
 
   function decryptBlock2(data, finalize) {
@@ -16097,9 +16097,9 @@ var AES128Cipher = (function AES128CipherClosure() {
       bufferLength = 0;
     }
     // saving incomplete buffer
-    this.buffer = buffer;
-    this.bufferLength = bufferLength;
-    this.iv = iv;
+    this[__webkitAssign__buffer] = buffer;
+    this[__webkitAssign__bufferLength] = bufferLength;
+    this[__webkitAssign__iv] = iv;
     if (result.length === 0) {
       return new Uint8Array([]);
     }
@@ -16128,7 +16128,7 @@ var AES128Cipher = (function AES128CipherClosure() {
     return output;
   }
 
-  AES128Cipher.prototype = {
+  AES128Cipher[__webkitAssign__prototype] = {
     decryptBlock: function AES128Cipher_decryptBlock(data, finalize) {
       var i, sourceLength = data.length;
       var buffer = this.buffer, bufferLength = this.bufferPosition;
@@ -16138,14 +16138,14 @@ var AES128Cipher = (function AES128CipherClosure() {
       }
       if (bufferLength < 16) {
         // need more data
-        this.bufferLength = bufferLength;
+        this[__webkitAssign__bufferLength] = bufferLength;
         return new Uint8Array([]);
       }
-      this.iv = buffer;
-      this.buffer = new Uint8Array(16);
-      this.bufferLength = 0;
+      this[__webkitAssign__iv] = buffer;
+      this[__webkitAssign__buffer] = new Uint8Array(16);
+      this[__webkitAssign__bufferLength] = 0;
       // starting decryption
-      this.decryptBlock = decryptBlock2;
+      this[__webkitAssign__decryptBlock] = decryptBlock2;
       return this.decryptBlock(data.subarray(16), finalize);
     },
     encrypt: function AES128Cipher_encrypt(data, iv) {
@@ -16173,9 +16173,9 @@ var AES128Cipher = (function AES128CipherClosure() {
         bufferLength = 0;
       }
       // saving incomplete buffer
-      this.buffer = buffer;
-      this.bufferLength = bufferLength;
-      this.iv = iv;
+      this[__webkitAssign__buffer] = buffer;
+      this[__webkitAssign__bufferLength] = bufferLength;
+      this[__webkitAssign__iv] = iv;
       if (result.length === 0) {
         return new Uint8Array([]);
       }
@@ -16518,9 +16518,9 @@ var AES256Cipher = (function AES256CipherClosure() {
   }
 
   function AES256Cipher(key) {
-    this.key = expandKey256(key);
-    this.buffer = new Uint8Array(16);
-    this.bufferPosition = 0;
+    this[__webkitAssign__key] = expandKey256(key);
+    this[__webkitAssign__buffer] = new Uint8Array(16);
+    this[__webkitAssign__bufferPosition] = 0;
   }
 
   function decryptBlock2(data, finalize) {
@@ -16546,9 +16546,9 @@ var AES256Cipher = (function AES256CipherClosure() {
       bufferLength = 0;
     }
     // saving incomplete buffer
-    this.buffer = buffer;
-    this.bufferLength = bufferLength;
-    this.iv = iv;
+    this[__webkitAssign__buffer] = buffer;
+    this[__webkitAssign__bufferLength] = bufferLength;
+    this[__webkitAssign__iv] = iv;
     if (result.length === 0) {
       return new Uint8Array([]);
     }
@@ -16578,14 +16578,14 @@ var AES256Cipher = (function AES256CipherClosure() {
 
   }
 
-  AES256Cipher.prototype = {
+  AES256Cipher[__webkitAssign__prototype] = {
     decryptBlock: function AES256Cipher_decryptBlock(data, finalize, iv) {
       var i, sourceLength = data.length;
       var buffer = this.buffer, bufferLength = this.bufferPosition;
       // if not supplied an IV wait for IV values
       // they are at the start of the stream
       if (iv) {
-        this.iv = iv;
+        this[__webkitAssign__iv] = iv;
       } else {
         for (i = 0; bufferLength < 16 &&
              i < sourceLength; ++i, ++bufferLength) {
@@ -16593,16 +16593,16 @@ var AES256Cipher = (function AES256CipherClosure() {
         }
         if (bufferLength < 16) {
           //need more data
-          this.bufferLength = bufferLength;
+          this[__webkitAssign__bufferLength] = bufferLength;
           return new Uint8Array([]);
         }
-        this.iv = buffer;
+        this[__webkitAssign__iv] = buffer;
         data = data.subarray(16);
       }
-      this.buffer = new Uint8Array(16);
-      this.bufferLength = 0;
+      this[__webkitAssign__buffer] = new Uint8Array(16);
+      this[__webkitAssign__bufferLength] = 0;
       // starting decryption
-      this.decryptBlock = decryptBlock2;
+      this[__webkitAssign__decryptBlock] = decryptBlock2;
       return this.decryptBlock(data, finalize);
     },
     encrypt: function AES256Cipher_encrypt(data, iv) {
@@ -16624,15 +16624,15 @@ var AES256Cipher = (function AES256CipherClosure() {
 
         // buffer is full, encrypting
         var cipher = encrypt256(buffer, this.key);
-        this.iv = cipher;
+        this[__webkitAssign__iv] = cipher;
         result.push(cipher);
         buffer = new Uint8Array(16);
         bufferLength = 0;
       }
       // saving incomplete buffer
-      this.buffer = buffer;
-      this.bufferLength = bufferLength;
-      this.iv = iv;
+      this[__webkitAssign__buffer] = buffer;
+      this[__webkitAssign__bufferLength] = bufferLength;
+      this[__webkitAssign__iv] = iv;
       if (result.length === 0) {
         return new Uint8Array([]);
       }
@@ -16666,7 +16666,7 @@ var PDF17 = (function PDF17Closure() {
   function PDF17() {
   }
 
-  PDF17.prototype = {
+  PDF17[__webkitAssign__prototype] = {
     checkOwnerPassword: function PDF17_checkOwnerPassword(password,
                                                           ownerValidationSalt,
                                                           userBytes,
@@ -16785,7 +16785,7 @@ var PDF20 = (function PDF20Closure() {
     return true;
   }
 
-  PDF20.prototype = {
+  PDF20[__webkitAssign__prototype] = {
     hash: function PDF20_hash(password, concatBytes, userBytes) {
       return calculatePDF20Hash(password, concatBytes, userBytes);
     },
@@ -16840,11 +16840,11 @@ var PDF20 = (function PDF20Closure() {
 
 var CipherTransform = (function CipherTransformClosure() {
   function CipherTransform(stringCipherConstructor, streamCipherConstructor) {
-    this.stringCipherConstructor = stringCipherConstructor;
-    this.streamCipherConstructor = streamCipherConstructor;
+    this[__webkitAssign__stringCipherConstructor] = stringCipherConstructor;
+    this[__webkitAssign__streamCipherConstructor] = streamCipherConstructor;
   }
 
-  CipherTransform.prototype = {
+  CipherTransform[__webkitAssign__prototype] = {
     createStream: function CipherTransform_createStream(stream, length) {
       var cipher = new this.streamCipherConstructor();
       return new DecryptStream(stream, length,
@@ -17022,14 +17022,14 @@ var CipherTransformFactory = (function CipherTransformFactoryClosure() {
     if (!isName(filter) || filter.name !== 'Standard') {
       error('unknown encryption method');
     }
-    this.dict = dict;
+    this[__webkitAssign__dict] = dict;
     var algorithm = dict.get('V');
     if (!isInt(algorithm) ||
         (algorithm !== 1 && algorithm !== 2 && algorithm !== 4 &&
         algorithm !== 5)) {
       error('unsupported encryption algorithm');
     }
-    this.algorithm = algorithm;
+    this[__webkitAssign__algorithm] = algorithm;
     var keyLength = dict.get('Length') || 40;
     if (!isInt(keyLength) ||
         keyLength < 40 || (keyLength % 8) !== 0) {
@@ -17044,7 +17044,7 @@ var CipherTransformFactory = (function CipherTransformFactoryClosure() {
     // meaningful when V is 4 or 5
     var encryptMetadata = ((algorithm === 4 || algorithm === 5) &&
                            dict.get('EncryptMetadata') !== false);
-    this.encryptMetadata = encryptMetadata;
+    this[__webkitAssign__encryptMetadata] = encryptMetadata;
 
     var fileIdBytes = stringToBytes(fileId);
     var passwordBytes;
@@ -17100,13 +17100,13 @@ var CipherTransformFactory = (function CipherTransformFactoryClosure() {
                                   PasswordResponses.INCORRECT_PASSWORD);
     }
 
-    this.encryptionKey = encryptionKey;
+    this[__webkitAssign__encryptionKey] = encryptionKey;
 
     if (algorithm >= 4) {
-      this.cf = dict.get('CF');
-      this.stmf = dict.get('StmF') || identityName;
-      this.strf = dict.get('StrF') || identityName;
-      this.eff = dict.get('EFF') || this.stmf;
+      this[__webkitAssign__cf] = dict.get('CF');
+      this[__webkitAssign__stmf] = dict.get('StmF') || identityName;
+      this[__webkitAssign__strf] = dict.get('StrF') || identityName;
+      this[__webkitAssign__eff] = dict.get('EFF') || this.stmf;
     }
   }
 
@@ -17159,7 +17159,7 @@ var CipherTransformFactory = (function CipherTransformFactoryClosure() {
     error('Unknown crypto method');
   }
 
-  CipherTransformFactory.prototype = {
+  CipherTransformFactory[__webkitAssign__prototype] = {
     createCipherTransform:
         function CipherTransformFactory_createCipherTransform(num, gen) {
       if (this.algorithm === 4 || this.algorithm === 5) {
@@ -17198,7 +17198,7 @@ var Pattern = (function PatternClosure() {
     error('should not call Pattern constructor');
   }
 
-  Pattern.prototype = {
+  Pattern[__webkitAssign__prototype] = {
     // Input: current Canvas context
     // Output: the appropriate fillStyle or strokeStyle
     getPattern: function Pattern_getPattern(ctx) {
@@ -17206,7 +17206,7 @@ var Pattern = (function PatternClosure() {
     }
   };
 
-  Pattern.parseShading = function Pattern_parseShading(shading, matrix, xref,
+  Pattern[__webkitAssign__parseShading] = function Pattern_parseShading(shading, matrix, xref,
                                                        res, handler) {
 
     var dict = isStream(shading) ? shading.dict : shading;
@@ -17245,19 +17245,19 @@ var Shadings = {};
 // support extend.  Number.MIN_VALUE appears to be too small and breaks the
 // extend. 1e-7 works in FF but chrome seems to use an even smaller sized number
 // internally so we have to go bigger.
-Shadings.SMALL_NUMBER = 1e-2;
+Shadings[__webkitAssign__SMALL_NUMBER] = 1e-2;
 
 // Radial and axial shading have very similar implementations
 // If needed, the implementations can be broken into two classes
-Shadings.RadialAxial = (function RadialAxialClosure() {
+Shadings[__webkitAssign__RadialAxial] = (function RadialAxialClosure() {
   function RadialAxial(dict, matrix, xref, res) {
-    this.matrix = matrix;
-    this.coordsArr = dict.get('Coords');
-    this.shadingType = dict.get('ShadingType');
-    this.type = 'Pattern';
+    this[__webkitAssign__matrix] = matrix;
+    this[__webkitAssign__coordsArr] = dict.get('Coords');
+    this[__webkitAssign__shadingType] = dict.get('ShadingType');
+    this[__webkitAssign__type] = 'Pattern';
     var cs = dict.get('ColorSpace', 'CS');
     cs = ColorSpace.parse(cs, xref, res);
-    this.cs = cs;
+    this[__webkitAssign__cs] = cs;
 
     var t0 = 0.0, t1 = 1.0;
     if (dict.has('Domain')) {
@@ -17290,8 +17290,8 @@ Shadings.RadialAxial = (function RadialAxialClosure() {
       }
     }
 
-    this.extendStart = extendStart;
-    this.extendEnd = extendEnd;
+    this[__webkitAssign__extendStart] = extendStart;
+    this[__webkitAssign__extendEnd] = extendEnd;
 
     var fnObj = dict.get('Function');
     var fn = PDFFunction.parseArray(xref, fnObj);
@@ -17302,7 +17302,7 @@ Shadings.RadialAxial = (function RadialAxialClosure() {
     var diff = t1 - t0;
     var step = diff / 10;
 
-    var colorStops = this.colorStops = [];
+    var colorStops = this[__webkitAssign__colorStops] = [];
 
     // Protect against bad domains so we don't end up in an infinte loop below.
     if (t0 >= t1 || step <= 0) {
@@ -17340,10 +17340,10 @@ Shadings.RadialAxial = (function RadialAxialClosure() {
       colorStops.push([1, background]);
     }
 
-    this.colorStops = colorStops;
+    this[__webkitAssign__colorStops] = colorStops;
   }
 
-  RadialAxial.prototype = {
+  RadialAxial[__webkitAssign__prototype] = {
     getIR: function RadialAxial_getIR() {
       var coordsArr = this.coordsArr;
       var shadingType = this.shadingType;
@@ -17384,20 +17384,20 @@ Shadings.RadialAxial = (function RadialAxialClosure() {
 
 // All mesh shading. For now, they will be presented as set of the triangles
 // to be drawn on the canvas and rgb color for each vertex.
-Shadings.Mesh = (function MeshClosure() {
+Shadings[__webkitAssign__Mesh] = (function MeshClosure() {
   function MeshStreamReader(stream, context) {
-    this.stream = stream;
-    this.context = context;
-    this.buffer = 0;
-    this.bufferLength = 0;
+    this[__webkitAssign__stream] = stream;
+    this[__webkitAssign__context] = context;
+    this[__webkitAssign__buffer] = 0;
+    this[__webkitAssign__bufferLength] = 0;
 
     var numComps = context.numComps;
-    this.tmpCompsBuf = new Float32Array(numComps);
+    this[__webkitAssign__tmpCompsBuf] = new Float32Array(numComps);
     var csNumComps = context.colorSpace.numComps;
-    this.tmpCsCompsBuf = context.colorFn ? new Float32Array(csNumComps) :
+    this[__webkitAssign__tmpCsCompsBuf] = context.colorFn ? new Float32Array(csNumComps) :
                                            this.tmpCompsBuf;
   }
-  MeshStreamReader.prototype = {
+  MeshStreamReader[__webkitAssign__prototype] = {
     get hasData() {
       if (this.stream.end) {
         return this.stream.pos < this.stream.end;
@@ -17409,8 +17409,8 @@ Shadings.Mesh = (function MeshClosure() {
       if (nextByte < 0) {
         return false;
       }
-      this.buffer = nextByte;
-      this.bufferLength = 8;
+      this[__webkitAssign__buffer] = nextByte;
+      this[__webkitAssign__bufferLength] = 8;
       return true;
     },
     readBits: function MeshStreamReader_readBits(n) {
@@ -17425,7 +17425,7 @@ Shadings.Mesh = (function MeshClosure() {
         buffer = (buffer << 24) | (this.stream.getByte() << 16) |
           (this.stream.getByte() << 8) | this.stream.getByte();
         var nextByte = this.stream.getByte();
-        this.buffer = nextByte & ((1 << bufferLength) - 1);
+        this[__webkitAssign__buffer] = nextByte & ((1 << bufferLength) - 1);
         return ((buffer << (8 - bufferLength)) |
           ((nextByte & 0xFF) >> bufferLength)) >>> 0;
       }
@@ -17437,13 +17437,13 @@ Shadings.Mesh = (function MeshClosure() {
         bufferLength += 8;
       }
       bufferLength -= n;
-      this.bufferLength = bufferLength;
-      this.buffer = buffer & ((1 << bufferLength) - 1);
+      this[__webkitAssign__bufferLength] = bufferLength;
+      this[__webkitAssign__buffer] = buffer & ((1 << bufferLength) - 1);
       return buffer >> bufferLength;
     },
     align: function MeshStreamReader_align() {
-      this.buffer = 0;
-      this.bufferLength = 0;
+      this[__webkitAssign__buffer] = 0;
+      this[__webkitAssign__bufferLength] = 0;
     },
     readFlag: function MeshStreamReader_readFlag() {
       return this.readBits(this.context.bitsPerFlag);
@@ -17832,7 +17832,7 @@ Shadings.Mesh = (function MeshClosure() {
       maxX = maxX < x ? x : maxX;
       maxY = maxY < y ? y : maxY;
     }
-    mesh.bounds = [minX, minY, maxX, maxY];
+    mesh[__webkitAssign__bounds] = [minX, minY, maxX, maxY];
   }
 
   function packData(mesh) {
@@ -17845,7 +17845,7 @@ Shadings.Mesh = (function MeshClosure() {
       coordsPacked[j++] = xy[0];
       coordsPacked[j++] = xy[1];
     }
-    mesh.coords = coordsPacked;
+    mesh[__webkitAssign__coords] = coordsPacked;
 
     var colors = mesh.colors;
     var colorsPacked = new Uint8Array(colors.length * 3);
@@ -17855,7 +17855,7 @@ Shadings.Mesh = (function MeshClosure() {
       colorsPacked[j++] = c[1];
       colorsPacked[j++] = c[2];
     }
-    mesh.colors = colorsPacked;
+    mesh[__webkitAssign__colors] = colorsPacked;
 
     var figures = mesh.figures;
     for (i = 0, ii = figures.length; i < ii; i++) {
@@ -17870,22 +17870,22 @@ Shadings.Mesh = (function MeshClosure() {
   function Mesh(stream, matrix, xref, res) {
     assert(isStream(stream), 'Mesh data is not a stream');
     var dict = stream.dict;
-    this.matrix = matrix;
-    this.shadingType = dict.get('ShadingType');
-    this.type = 'Pattern';
-    this.bbox = dict.get('BBox');
+    this[__webkitAssign__matrix] = matrix;
+    this[__webkitAssign__shadingType] = dict.get('ShadingType');
+    this[__webkitAssign__type] = 'Pattern';
+    this[__webkitAssign__bbox] = dict.get('BBox');
     var cs = dict.get('ColorSpace', 'CS');
     cs = ColorSpace.parse(cs, xref, res);
-    this.cs = cs;
-    this.background = dict.has('Background') ?
+    this[__webkitAssign__cs] = cs;
+    this[__webkitAssign__background] = dict.has('Background') ?
       cs.getRgb(dict.get('Background'), 0) : null;
 
     var fnObj = dict.get('Function');
     var fn = fnObj ? PDFFunction.parseArray(xref, fnObj) : null;
 
-    this.coords = [];
-    this.colors = [];
-    this.figures = [];
+    this[__webkitAssign__coords] = [];
+    this[__webkitAssign__colors] = [];
+    this[__webkitAssign__figures] = [];
 
     var decodeContext = {
       bitsPerCoordinate: dict.get('BitsPerCoordinate'),
@@ -17934,7 +17934,7 @@ Shadings.Mesh = (function MeshClosure() {
     packData(this);
   }
 
-  Mesh.prototype = {
+  Mesh[__webkitAssign__prototype] = {
     getIR: function Mesh_getIR() {
       return ['Mesh', this.shadingType, this.coords, this.colors, this.figures,
         this.bounds, this.matrix, this.bbox, this.background];
@@ -17944,12 +17944,12 @@ Shadings.Mesh = (function MeshClosure() {
   return Mesh;
 })();
 
-Shadings.Dummy = (function DummyClosure() {
+Shadings[__webkitAssign__Dummy] = (function DummyClosure() {
   function Dummy() {
-    this.type = 'Pattern';
+    this[__webkitAssign__type] = 'Pattern';
   }
 
-  Dummy.prototype = {
+  Dummy[__webkitAssign__prototype] = {
     getIR: function Dummy_getIR() {
       return ['Dummy'];
     }
@@ -17975,13 +17975,13 @@ function getTilingPatternIR(operatorList, dict, args) {
 var PartialEvaluator = (function PartialEvaluatorClosure() {
   function PartialEvaluator(pdfManager, xref, handler, pageIndex,
                             uniquePrefix, idCounters, fontCache) {
-    this.pdfManager = pdfManager;
-    this.xref = xref;
-    this.handler = handler;
-    this.pageIndex = pageIndex;
-    this.uniquePrefix = uniquePrefix;
-    this.idCounters = idCounters;
-    this.fontCache = fontCache;
+    this[__webkitAssign__pdfManager] = pdfManager;
+    this[__webkitAssign__xref] = xref;
+    this[__webkitAssign__handler] = handler;
+    this[__webkitAssign__pageIndex] = pageIndex;
+    this[__webkitAssign__uniquePrefix] = uniquePrefix;
+    this[__webkitAssign__idCounters] = idCounters;
+    this[__webkitAssign__fontCache] = fontCache;
   }
 
   // Trying to minimize Date.now() usage and check every 100 time
@@ -17990,17 +17990,17 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
   function TimeSlotManager() {
     this.reset();
   }
-  TimeSlotManager.prototype = {
+  TimeSlotManager[__webkitAssign__prototype] = {
     check: function TimeSlotManager_check() {
       if (++this.checked < CHECK_TIME_EVERY) {
         return false;
       }
-      this.checked = 0;
+      this[__webkitAssign__checked] = 0;
       return this.endTime <= Date.now();
     },
     reset: function TimeSlotManager_reset() {
-      this.endTime = Date.now() + TIME_SLOT_DURATION_MS;
-      this.checked = 0;
+      this[__webkitAssign__endTime] = Date.now() + TIME_SLOT_DURATION_MS;
+      this[__webkitAssign__checked] = 0;
     }
   };
 
@@ -18008,7 +18008,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
 
   var TILING_PATTERN = 1, SHADING_PATTERN = 2;
 
-  PartialEvaluator.prototype = {
+  PartialEvaluator[__webkitAssign__prototype] = {
     hasBlendModes: function PartialEvaluator_hasBlendModes(resources) {
       if (!isDict(resources)) {
         return false;
@@ -18087,15 +18087,15 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
         var groupSubtype = group.get('S');
         var colorSpace;
         if (isName(groupSubtype) && groupSubtype.name === 'Transparency') {
-          groupOptions.isolated = (group.get('I') || false);
-          groupOptions.knockout = (group.get('K') || false);
+          groupOptions[__webkitAssign__isolated] = (group.get('I') || false);
+          groupOptions[__webkitAssign__knockout] = (group.get('K') || false);
           colorSpace = (group.has('CS') ?
             ColorSpace.parse(group.get('CS'), this.xref, resources) : null);
         }
 
         if (smask && smask.backdrop) {
           colorSpace = colorSpace || ColorSpace.singletons.rgb;
-          smask.backdrop = colorSpace.getRgb(smask.backdrop, 0);
+          smask[__webkitAssign__backdrop] = colorSpace.getRgb(smask.backdrop, 0);
         }
 
         operatorList.addOp(OPS.beginGroup, [groupOptions]);
@@ -18151,7 +18151,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
         imgData = PDFImage.createMask(imgArray, width, height,
                                       image instanceof DecodeStream,
                                       inverseDecode);
-        imgData.cached = true;
+        imgData[__webkitAssign__cached] = true;
         args = [imgData];
         operatorList.addOp(OPS.paintImageMaskXObject, args);
         if (cacheKey) {
@@ -18235,7 +18235,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
           transferFn(tmp, 0, tmp, 0);
           transferMap[i] = (tmp[0] * 255) | 0;
         }
-        smaskOptions.transferMap = transferMap;
+        smaskOptions[__webkitAssign__transferMap] = transferMap;
       }
 
       return this.buildFormXObject(resources, smaskContent, smaskOptions,
@@ -18292,7 +18292,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
             new ErrorFont('Type3 font load error: ' + reason), translated.font);
         });
       }).then(function (translated) {
-        state.font = translated.font;
+        state[__webkitAssign__font] = translated.font;
         translated.send(self.handler);
         return translated.loadedName;
       });
@@ -18463,7 +18463,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
       var fontID = fontRef.num + '_' + fontRef.gen;
       if (isDict(descriptor)) {
         if (!descriptor.fontAliases) {
-          descriptor.fontAliases = Object.create(null);
+          descriptor[__webkitAssign__fontAliases] = Object.create(null);
         }
 
         var fontAliases = descriptor.fontAliases;
@@ -18482,7 +18482,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
           };
         }
 
-        fontAliases[hash].aliasRef = fontRef;
+        fontAliases[hash][__webkitAssign__aliasRef] = fontRef;
         fontID = fontAliases[hash].fontID;
       }
 
@@ -18498,10 +18498,10 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
 
       // Keep track of each font we translated so the caller can
       // load them asynchronously before calling display on a page.
-      font.loadedName = 'g_' + this.pdfManager.docId + '_f' + (fontRefIsDict ?
+      font[__webkitAssign__loadedName] = 'g_' + this.pdfManager.docId + '_f' + (fontRefIsDict ?
         fontName.replace(/\W/g, '') : fontID);
 
-      font.translated = fontCapability.promise;
+      font[__webkitAssign__translated] = fontCapability.promise;
 
       // TODO move promises into translate font
       var translatedPromise;
@@ -18619,7 +18619,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
           // cannot reuse the same array on each iteration. Therefore we pass
           // in |null| as the initial value (see the comment on
           // EvaluatorPreprocessor_read() for why).
-          operation.args = null;
+          operation[__webkitAssign__args] = null;
           if (!(preprocessor.read(operation))) {
             break;
           }
@@ -18732,15 +18732,15 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
               fn = OPS.showText;
               break;
             case OPS.setTextRenderingMode:
-              stateManager.state.textRenderingMode = args[0];
+              stateManager.state[__webkitAssign__textRenderingMode] = args[0];
               break;
 
             case OPS.setFillColorSpace:
-              stateManager.state.fillColorSpace =
+              stateManager.state[__webkitAssign__fillColorSpace] =
                 ColorSpace.parse(args[0], xref, resources);
               continue;
             case OPS.setStrokeColorSpace:
-              stateManager.state.strokeColorSpace =
+              stateManager.state[__webkitAssign__strokeColorSpace] =
                 ColorSpace.parse(args[0], xref, resources);
               continue;
             case OPS.setFillColor:
@@ -18754,31 +18754,31 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
               fn = OPS.setStrokeRGBColor;
               break;
             case OPS.setFillGray:
-              stateManager.state.fillColorSpace = ColorSpace.singletons.gray;
+              stateManager.state[__webkitAssign__fillColorSpace] = ColorSpace.singletons.gray;
               args = ColorSpace.singletons.gray.getRgb(args, 0);
               fn = OPS.setFillRGBColor;
               break;
             case OPS.setStrokeGray:
-              stateManager.state.strokeColorSpace = ColorSpace.singletons.gray;
+              stateManager.state[__webkitAssign__strokeColorSpace] = ColorSpace.singletons.gray;
               args = ColorSpace.singletons.gray.getRgb(args, 0);
               fn = OPS.setStrokeRGBColor;
               break;
             case OPS.setFillCMYKColor:
-              stateManager.state.fillColorSpace = ColorSpace.singletons.cmyk;
+              stateManager.state[__webkitAssign__fillColorSpace] = ColorSpace.singletons.cmyk;
               args = ColorSpace.singletons.cmyk.getRgb(args, 0);
               fn = OPS.setFillRGBColor;
               break;
             case OPS.setStrokeCMYKColor:
-              stateManager.state.strokeColorSpace = ColorSpace.singletons.cmyk;
+              stateManager.state[__webkitAssign__strokeColorSpace] = ColorSpace.singletons.cmyk;
               args = ColorSpace.singletons.cmyk.getRgb(args, 0);
               fn = OPS.setStrokeRGBColor;
               break;
             case OPS.setFillRGBColor:
-              stateManager.state.fillColorSpace = ColorSpace.singletons.rgb;
+              stateManager.state[__webkitAssign__fillColorSpace] = ColorSpace.singletons.rgb;
               args = ColorSpace.singletons.rgb.getRgb(args, 0);
               break;
             case OPS.setStrokeRGBColor:
-              stateManager.state.strokeColorSpace = ColorSpace.singletons.rgb;
+              stateManager.state[__webkitAssign__strokeColorSpace] = ColorSpace.singletons.rgb;
               args = ColorSpace.singletons.rgb.getRgb(args, 0);
               break;
             case OPS.setFillColorN:
@@ -18941,7 +18941,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
             vertical: font.vertical
           };
         }
-        textContentItem.fontName = font.loadedName;
+        textContentItem[__webkitAssign__fontName] = font.loadedName;
 
         // 9.4.4 Text Space Details
         var tsm = [textState.fontSize * textState.textHScale, 0,
@@ -18960,15 +18960,15 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
 
         var trm = Util.transform(textState.ctm,
                                  Util.transform(textState.textMatrix, tsm));
-        textContentItem.transform = trm;
+        textContentItem[__webkitAssign__transform] = trm;
         if (!font.vertical) {
-          textContentItem.width = 0;
-          textContentItem.height = Math.sqrt(trm[2] * trm[2] + trm[3] * trm[3]);
-          textContentItem.vertical = false;
+          textContentItem[__webkitAssign__width] = 0;
+          textContentItem[__webkitAssign__height] = Math.sqrt(trm[2] * trm[2] + trm[3] * trm[3]);
+          textContentItem[__webkitAssign__vertical] = false;
         } else {
-          textContentItem.width = Math.sqrt(trm[0] * trm[0] + trm[1] * trm[1]);
-          textContentItem.height = 0;
-          textContentItem.vertical = true;
+          textContentItem[__webkitAssign__width] = Math.sqrt(trm[0] * trm[0] + trm[1] * trm[1]);
+          textContentItem[__webkitAssign__height] = 0;
+          textContentItem[__webkitAssign__vertical] = true;
         }
 
         var a = textState.textLineMatrix[0];
@@ -18977,29 +18977,29 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
         a = textState.ctm[0];
         b = textState.ctm[1];
         var scaleCtmX = Math.sqrt(a * a + b * b);
-        textContentItem.textAdvanceScale = scaleCtmX * scaleLineX;
-        textContentItem.lastAdvanceWidth = 0;
-        textContentItem.lastAdvanceHeight = 0;
+        textContentItem[__webkitAssign__textAdvanceScale] = scaleCtmX * scaleLineX;
+        textContentItem[__webkitAssign__lastAdvanceWidth] = 0;
+        textContentItem[__webkitAssign__lastAdvanceHeight] = 0;
 
         var spaceWidth = font.spaceWidth / 1000 * textState.fontSize;
         if (spaceWidth) {
-          textContentItem.spaceWidth = spaceWidth;
-          textContentItem.fakeSpaceMin = spaceWidth * SPACE_FACTOR;
-          textContentItem.fakeMultiSpaceMin = spaceWidth * MULTI_SPACE_FACTOR;
-          textContentItem.fakeMultiSpaceMax =
+          textContentItem[__webkitAssign__spaceWidth] = spaceWidth;
+          textContentItem[__webkitAssign__fakeSpaceMin] = spaceWidth * SPACE_FACTOR;
+          textContentItem[__webkitAssign__fakeMultiSpaceMin] = spaceWidth * MULTI_SPACE_FACTOR;
+          textContentItem[__webkitAssign__fakeMultiSpaceMax] =
             spaceWidth * MULTI_SPACE_FACTOR_MAX;
           // It's okay for monospace fonts to fake as much space as needed.
-          textContentItem.textRunBreakAllowed = !font.isMonospace;
+          textContentItem[__webkitAssign__textRunBreakAllowed] = !font.isMonospace;
         } else {
-          textContentItem.spaceWidth = 0;
-          textContentItem.fakeSpaceMin = Infinity;
-          textContentItem.fakeMultiSpaceMin = Infinity;
-          textContentItem.fakeMultiSpaceMax = 0;
-          textContentItem.textRunBreakAllowed = false;
+          textContentItem[__webkitAssign__spaceWidth] = 0;
+          textContentItem[__webkitAssign__fakeSpaceMin] = Infinity;
+          textContentItem[__webkitAssign__fakeMultiSpaceMin] = Infinity;
+          textContentItem[__webkitAssign__fakeMultiSpaceMax] = 0;
+          textContentItem[__webkitAssign__textRunBreakAllowed] = false;
         }
 
 
-        textContentItem.initialized = true;
+        textContentItem[__webkitAssign__initialized] = true;
         return textContentItem;
       }
 
@@ -19031,8 +19031,8 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
       function handleSetFont(fontName, fontRef) {
         return self.loadFont(fontName, fontRef, xref, resources).
           then(function (translated) {
-            textState.font = translated.font;
-            textState.fontMatrix = translated.font.fontMatrix ||
+            textState[__webkitAssign__font] = translated.font;
+            textState[__webkitAssign__fontMatrix] = translated.font.fontMatrix ||
               FONT_IDENTITY_MATRIX;
           });
       }
@@ -19108,11 +19108,11 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
         }
 
         if (!font.vertical) {
-          textChunk.lastAdvanceWidth = width;
-          textChunk.width += width * textChunk.textAdvanceScale;
+          textChunk[__webkitAssign__lastAdvanceWidth] = width;
+          textChunk[__webkitAssign__width] += width * textChunk.textAdvanceScale;
         } else {
-          textChunk.lastAdvanceHeight = height;
-          textChunk.height += Math.abs(height * textChunk.textAdvanceScale);
+          textChunk[__webkitAssign__lastAdvanceHeight] = height;
+          textChunk[__webkitAssign__height] += Math.abs(height * textChunk.textAdvanceScale);
         }
 
         return textChunk;
@@ -19138,8 +19138,8 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
         }
         textContent.items.push(runBidiTransform(textContentItem));
 
-        textContentItem.initialized = false;
-        textContentItem.str.length = 0;
+        textContentItem[__webkitAssign__initialized] = false;
+        textContentItem.str[__webkitAssign__length] = 0;
       }
 
       var timeSlotManager = new TimeSlotManager();
@@ -19152,8 +19152,8 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
           // The arguments parsed by read() are not used beyond this loop, so
           // we can reuse the same array on every iteration, thus avoiding
           // unnecessary allocations.
-          args.length = 0;
-          operation.args = args;
+          args[__webkitAssign__length] = 0;
+          operation[__webkitAssign__args] = args;
           if (!(preprocessor.read(operation))) {
             break;
           }
@@ -19165,21 +19165,21 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
           switch (fn | 0) {
             case OPS.setFont:
               flushTextContentItem();
-              textState.fontSize = args[1];
+              textState[__webkitAssign__fontSize] = args[1];
               return handleSetFont(args[0].name).then(function() {
                 next(resolve, reject);
               }, reject);
             case OPS.setTextRise:
               flushTextContentItem();
-              textState.textRise = args[0];
+              textState[__webkitAssign__textRise] = args[0];
               break;
             case OPS.setHScale:
               flushTextContentItem();
-              textState.textHScale = args[0] / 100;
+              textState[__webkitAssign__textHScale] = args[0] / 100;
               break;
             case OPS.setLeading:
               flushTextContentItem();
-              textState.leading = args[0];
+              textState[__webkitAssign__leading] = args[0];
               break;
             case OPS.moveText:
               // Optimization to treat same line movement as advance
@@ -19190,9 +19190,9 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
                   advance > 0 &&
                   advance <= textContentItem.fakeMultiSpaceMax) {
                 textState.translateTextLineMatrix(args[0], args[1]);
-                textContentItem.width +=
+                textContentItem[__webkitAssign__width] +=
                   (args[0] - textContentItem.lastAdvanceWidth);
-                textContentItem.height +=
+                textContentItem[__webkitAssign__height] +=
                   (args[1] - textContentItem.lastAdvanceHeight);
                 var diff = (args[0] - textContentItem.lastAdvanceWidth) -
                            (args[1] - textContentItem.lastAdvanceHeight);
@@ -19202,13 +19202,13 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
 
               flushTextContentItem();
               textState.translateTextLineMatrix(args[0], args[1]);
-              textState.textMatrix = textState.textLineMatrix.slice();
+              textState[__webkitAssign__textMatrix] = textState.textLineMatrix.slice();
               break;
             case OPS.setLeadingMoveText:
               flushTextContentItem();
-              textState.leading = -args[1];
+              textState[__webkitAssign__leading] = -args[1];
               textState.translateTextLineMatrix(args[0], args[1]);
-              textState.textMatrix = textState.textLineMatrix.slice();
+              textState[__webkitAssign__textMatrix] = textState.textLineMatrix.slice();
               break;
             case OPS.nextLine:
               flushTextContentItem();
@@ -19222,15 +19222,15 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
                 args[4], args[5]);
               break;
             case OPS.setCharSpacing:
-              textState.charSpacing = args[0];
+              textState[__webkitAssign__charSpacing] = args[0];
               break;
             case OPS.setWordSpacing:
-              textState.wordSpacing = args[0];
+              textState[__webkitAssign__wordSpacing] = args[0];
               break;
             case OPS.beginText:
               flushTextContentItem();
-              textState.textMatrix = IDENTITY_MATRIX.slice();
-              textState.textLineMatrix = IDENTITY_MATRIX.slice();
+              textState[__webkitAssign__textMatrix] = IDENTITY_MATRIX.slice();
+              textState[__webkitAssign__textLineMatrix] = IDENTITY_MATRIX.slice();
               break;
             case OPS.showSpacedText:
               var items = args[0];
@@ -19260,7 +19260,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
                                    advance > textContentItem.fakeMultiSpaceMax;
                     if (!breakTextRun) {
                       // Value needs to be added to height to paint down.
-                      textContentItem.height += offset;
+                      textContentItem[__webkitAssign__height] += offset;
                     }
                   } else {
                     advance = -advance;
@@ -19272,7 +19272,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
                                    advance > textContentItem.fakeMultiSpaceMax;
                     if (!breakTextRun) {
                       // Value needs to be subtracted from width to paint left.
-                      textContentItem.width += offset;
+                      textContentItem[__webkitAssign__width] += offset;
                     }
                   }
                   if (breakTextRun) {
@@ -19293,8 +19293,8 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
               break;
             case OPS.nextLineSetSpacingShowText:
               flushTextContentItem();
-              textState.wordSpacing = args[0];
-              textState.charSpacing = args[1];
+              textState[__webkitAssign__wordSpacing] = args[0];
+              textState[__webkitAssign__charSpacing] = args[1];
               textState.carriageReturn();
               buildTextContentItem(args[2]);
               break;
@@ -19328,8 +19328,8 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
                 'XObject should have a Name subtype');
 
               if ('Form' !== type.name) {
-                xobjsCache.key = name;
-                xobjsCache.texts = null;
+                xobjsCache[__webkitAssign__key] = name;
+                xobjsCache[__webkitAssign__texts] = null;
                 break;
               }
 
@@ -19346,8 +19346,8 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
                   Util.extendObj(textContent.styles, formTextContent.styles);
                   stateManager.restore();
 
-                  xobjsCache.key = name;
-                  xobjsCache.texts = formTextContent;
+                  xobjsCache[__webkitAssign__key] = name;
+                  xobjsCache[__webkitAssign__texts] = formTextContent;
 
                   next(resolve, reject);
                 }, reject);
@@ -19369,7 +19369,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
                 }
               }
               if (gsStateFont) {
-                textState.fontSize = gsStateFont[1];
+                textState[__webkitAssign__fontSize] = gsStateFont[1];
                 return handleSetFont(gsStateFont[0]).then(function() {
                   next(resolve, reject);
                 }, reject);
@@ -19394,13 +19394,13 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
       // 9.10.2
       var toUnicode = (dict.get('ToUnicode') || baseDict.get('ToUnicode'));
       if (toUnicode) {
-        properties.toUnicode = this.readToUnicode(toUnicode);
+        properties[__webkitAssign__toUnicode] = this.readToUnicode(toUnicode);
       }
       if (properties.composite) {
         // CIDSystemInfo helps to match CID to glyphs
         var cidSystemInfo = dict.get('CIDSystemInfo');
         if (isDict(cidSystemInfo)) {
-          properties.cidSystemInfo = {
+          properties[__webkitAssign__cidSystemInfo] = {
             registry: cidSystemInfo.get('Registry'),
             ordering: cidSystemInfo.get('Ordering'),
             supplement: cidSystemInfo.get('Supplement')
@@ -19409,7 +19409,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
 
         var cidToGidMap = dict.get('CIDToGIDMap');
         if (isStream(cidToGidMap)) {
-          properties.cidToGidMap = this.readCidToGidMap(cidToGidMap);
+          properties[__webkitAssign__cidToGidMap] = this.readCidToGidMap(cidToGidMap);
         }
       }
 
@@ -19461,7 +19461,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
       }
 
       if (baseEncodingName) {
-        properties.defaultEncoding = Encodings[baseEncodingName].slice();
+        properties[__webkitAssign__defaultEncoding] = Encodings[baseEncodingName].slice();
       } else {
         encoding = (properties.type === 'TrueType' ?
                     Encodings.WinAnsiEncoding : Encodings.StandardEncoding);
@@ -19477,12 +19477,12 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
             }
           }
         }
-        properties.defaultEncoding = encoding;
+        properties[__webkitAssign__defaultEncoding] = encoding;
       }
 
-      properties.differences = differences;
-      properties.baseEncodingName = baseEncodingName;
-      properties.dict = dict;
+      properties[__webkitAssign__differences] = differences;
+      properties[__webkitAssign__baseEncodingName] = baseEncodingName;
+      properties[__webkitAssign__dict] = dict;
     },
 
     readToUnicode: function PartialEvaluator_readToUnicode(toUnicode) {
@@ -19630,13 +19630,13 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
         }
       }
       if (isMonospace) {
-        properties.flags |= FontFlags.FixedPitch;
+        properties[__webkitAssign__flags] |= FontFlags.FixedPitch;
       }
 
-      properties.defaultWidth = defaultWidth;
-      properties.widths = glyphsWidths;
-      properties.defaultVMetrics = defaultVMetrics;
-      properties.vmetrics = glyphsVMetrics;
+      properties[__webkitAssign__defaultWidth] = defaultWidth;
+      properties[__webkitAssign__widths] = glyphsWidths;
+      properties[__webkitAssign__defaultVMetrics] = defaultVMetrics;
+      properties[__webkitAssign__vmetrics] = glyphsVMetrics;
     },
 
     isSerifFont: function PartialEvaluator_isSerifFont(baseFontName) {
@@ -19823,7 +19823,7 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
             lastChar: maxCharIndex
           };
           this.extractDataStructures(dict, dict, xref, properties);
-          properties.widths = this.buildCharCodeToWidth(metrics.widths,
+          properties[__webkitAssign__widths] = this.buildCharCodeToWidth(metrics.widths,
                                                         properties);
           return new Font(baseFontName, null, properties);
         }
@@ -19905,17 +19905,17 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
       if (composite) {
         var cidEncoding = baseDict.get('Encoding');
         if (isName(cidEncoding)) {
-          properties.cidEncoding = cidEncoding.name;
+          properties[__webkitAssign__cidEncoding] = cidEncoding.name;
         }
-        properties.cMap = CMapFactory.create(cidEncoding,
+        properties[__webkitAssign__cMap] = CMapFactory.create(cidEncoding,
           { url: PDFJS.cMapUrl, packed: PDFJS.cMapPacked }, null);
-        properties.vertical = properties.cMap.vertical;
+        properties[__webkitAssign__vertical] = properties.cMap.vertical;
       }
       this.extractDataStructures(dict, baseDict, xref, properties);
       this.extractWidths(dict, xref, descriptor, properties);
 
       if (type === 'Type3') {
-        properties.isType3Font = true;
+        properties[__webkitAssign__isType3Font] = true;
       }
 
       return new Font(fontName.name, fontFile, properties);
@@ -19927,13 +19927,13 @@ var PartialEvaluator = (function PartialEvaluatorClosure() {
 
 var TranslatedFont = (function TranslatedFontClosure() {
   function TranslatedFont(loadedName, font, dict) {
-    this.loadedName = loadedName;
-    this.font = font;
-    this.dict = dict;
-    this.type3Loaded = null;
-    this.sent = false;
+    this[__webkitAssign__loadedName] = loadedName;
+    this[__webkitAssign__font] = font;
+    this[__webkitAssign__dict] = dict;
+    this[__webkitAssign__type3Loaded] = null;
+    this[__webkitAssign__sent] = false;
   }
-  TranslatedFont.prototype = {
+  TranslatedFont[__webkitAssign__prototype] = {
     send: function (handler) {
       if (this.sent) {
         return;
@@ -19944,7 +19944,7 @@ var TranslatedFont = (function TranslatedFontClosure() {
         'Font',
         fontData
       ]);
-      this.sent = true;
+      this[__webkitAssign__sent] = true;
     },
     loadType3Data: function (evaluator, resources, parentOperatorList, task) {
       assert(this.font.isType3Font);
@@ -19977,8 +19977,8 @@ var TranslatedFont = (function TranslatedFontClosure() {
           });
         }.bind(this, charProcKeys[i]));
       }
-      this.type3Loaded = loadCharProcsPromise.then(function () {
-        translatedFont.charProcOperatorList = charProcOperatorList;
+      this[__webkitAssign__type3Loaded] = loadCharProcsPromise.then(function () {
+        translatedFont[__webkitAssign__charProcOperatorList] = charProcOperatorList;
       });
       return this.type3Loaded;
     }
@@ -20009,16 +20009,16 @@ var OperatorList = (function OperatorListClosure() {
   }
 
   function OperatorList(intent, messageHandler, pageIndex) {
-    this.messageHandler = messageHandler;
-    this.fnArray = [];
-    this.argsArray = [];
-    this.dependencies = {};
-    this._totalLength = 0;
-    this.pageIndex = pageIndex;
-    this.intent = intent;
+    this[__webkitAssign__messageHandler] = messageHandler;
+    this[__webkitAssign__fnArray] = [];
+    this[__webkitAssign__argsArray] = [];
+    this[__webkitAssign__dependencies] = {};
+    this[__webkitAssign___totalLength] = 0;
+    this[__webkitAssign__pageIndex] = pageIndex;
+    this[__webkitAssign__intent] = intent;
   }
 
-  OperatorList.prototype = {
+  OperatorList[__webkitAssign__prototype] = {
     get length() {
       return this.argsArray.length;
     },
@@ -20080,7 +20080,7 @@ var OperatorList = (function OperatorListClosure() {
       }
       var transfers = getTransfers(this);
       var length = this.length;
-      this._totalLength += length;
+      this[__webkitAssign___totalLength] += length;
 
       this.messageHandler.send('RenderPageChunk', {
         operatorList: {
@@ -20092,9 +20092,9 @@ var OperatorList = (function OperatorListClosure() {
         pageIndex: this.pageIndex,
         intent: this.intent
       }, transfers);
-      this.dependencies = {};
-      this.fnArray.length = 0;
-      this.argsArray.length = 0;
+      this[__webkitAssign__dependencies] = {};
+      this.fnArray[__webkitAssign__length] = 0;
+      this.argsArray[__webkitAssign__length] = 0;
     }
   };
 
@@ -20103,23 +20103,23 @@ var OperatorList = (function OperatorListClosure() {
 
 var StateManager = (function StateManagerClosure() {
   function StateManager(initialState) {
-    this.state = initialState;
-    this.stateStack = [];
+    this[__webkitAssign__state] = initialState;
+    this[__webkitAssign__stateStack] = [];
   }
-  StateManager.prototype = {
+  StateManager[__webkitAssign__prototype] = {
     save: function () {
       var old = this.state;
       this.stateStack.push(this.state);
-      this.state = old.clone();
+      this[__webkitAssign__state] = old.clone();
     },
     restore: function () {
       var prev = this.stateStack.pop();
       if (prev) {
-        this.state = prev;
+        this[__webkitAssign__state] = prev;
       }
     },
     transform: function (args) {
-      this.state.ctm = Util.transform(this.state.ctm, args);
+      this.state[__webkitAssign__ctm] = Util.transform(this.state.ctm, args);
     }
   };
   return StateManager;
@@ -20127,20 +20127,20 @@ var StateManager = (function StateManagerClosure() {
 
 var TextState = (function TextStateClosure() {
   function TextState() {
-    this.ctm = new Float32Array(IDENTITY_MATRIX);
-    this.fontSize = 0;
-    this.font = null;
-    this.fontMatrix = FONT_IDENTITY_MATRIX;
-    this.textMatrix = IDENTITY_MATRIX.slice();
-    this.textLineMatrix = IDENTITY_MATRIX.slice();
-    this.charSpacing = 0;
-    this.wordSpacing = 0;
-    this.leading = 0;
-    this.textHScale = 1;
-    this.textRise = 0;
+    this[__webkitAssign__ctm] = new Float32Array(IDENTITY_MATRIX);
+    this[__webkitAssign__fontSize] = 0;
+    this[__webkitAssign__font] = null;
+    this[__webkitAssign__fontMatrix] = FONT_IDENTITY_MATRIX;
+    this[__webkitAssign__textMatrix] = IDENTITY_MATRIX.slice();
+    this[__webkitAssign__textLineMatrix] = IDENTITY_MATRIX.slice();
+    this[__webkitAssign__charSpacing] = 0;
+    this[__webkitAssign__wordSpacing] = 0;
+    this[__webkitAssign__leading] = 0;
+    this[__webkitAssign__textHScale] = 1;
+    this[__webkitAssign__textRise] = 0;
   }
 
-  TextState.prototype = {
+  TextState[__webkitAssign__prototype] = {
     setTextMatrix: function TextState_setTextMatrix(a, b, c, d, e, f) {
       var m = this.textMatrix;
       m[0] = a; m[1] = b; m[2] = c; m[3] = d; m[4] = e; m[5] = f;
@@ -20168,13 +20168,13 @@ var TextState = (function TextStateClosure() {
     },
     carriageReturn: function TextState_carriageReturn() {
       this.translateTextLineMatrix(0, -this.leading);
-      this.textMatrix = this.textLineMatrix.slice();
+      this[__webkitAssign__textMatrix] = this.textLineMatrix.slice();
     },
     clone: function TextState_clone() {
       var clone = Object.create(this);
-      clone.textMatrix = this.textMatrix.slice();
-      clone.textLineMatrix = this.textLineMatrix.slice();
-      clone.fontMatrix = this.fontMatrix.slice();
+      clone[__webkitAssign__textMatrix] = this.textMatrix.slice();
+      clone[__webkitAssign__textLineMatrix] = this.textLineMatrix.slice();
+      clone[__webkitAssign__fontMatrix] = this.fontMatrix.slice();
       return clone;
     }
   };
@@ -20183,13 +20183,13 @@ var TextState = (function TextStateClosure() {
 
 var EvalState = (function EvalStateClosure() {
   function EvalState() {
-    this.ctm = new Float32Array(IDENTITY_MATRIX);
-    this.font = null;
-    this.textRenderingMode = TextRenderingMode.FILL;
-    this.fillColorSpace = ColorSpace.singletons.gray;
-    this.strokeColorSpace = ColorSpace.singletons.gray;
+    this[__webkitAssign__ctm] = new Float32Array(IDENTITY_MATRIX);
+    this[__webkitAssign__font] = null;
+    this[__webkitAssign__textRenderingMode] = TextRenderingMode.FILL;
+    this[__webkitAssign__fillColorSpace] = ColorSpace.singletons.gray;
+    this[__webkitAssign__strokeColorSpace] = ColorSpace.singletons.gray;
   }
-  EvalState.prototype = {
+  EvalState[__webkitAssign__prototype] = {
     clone: function CanvasExtraState_clone() {
       return Object.create(this);
     },
@@ -20314,12 +20314,12 @@ var EvaluatorPreprocessor = (function EvaluatorPreprocessorClosure() {
   function EvaluatorPreprocessor(stream, xref, stateManager) {
     // TODO(mduan): pass array of knownCommands rather than OP_MAP
     // dictionary
-    this.parser = new Parser(new Lexer(stream, OP_MAP), false, xref);
-    this.stateManager = stateManager;
-    this.nonProcessedArgs = [];
+    this[__webkitAssign__parser] = new Parser(new Lexer(stream, OP_MAP), false, xref);
+    this[__webkitAssign__stateManager] = stateManager;
+    this[__webkitAssign__nonProcessedArgs] = [];
   }
 
-  EvaluatorPreprocessor.prototype = {
+  EvaluatorPreprocessor[__webkitAssign__prototype] = {
     get savedStatesDepth() {
       return this.stateManager.stateStack.length;
     },
@@ -20396,8 +20396,8 @@ var EvaluatorPreprocessor = (function EvaluatorPreprocessorClosure() {
           // TODO figure out how to type-check vararg functions
           this.preprocessCommand(fn, args);
 
-          operation.fn = fn;
-          operation.args = args;
+          operation[__webkitAssign__fn] = fn;
+          operation[__webkitAssign__args] = args;
           return true;
         } else {
           if (isEOF(obj)) {
@@ -20808,7 +20808,7 @@ var QueueOptimizer = (function QueueOptimizerClosure() {
 
   function QueueOptimizer() {}
 
-  QueueOptimizer.prototype = {
+  QueueOptimizer[__webkitAssign__prototype] = {
     optimize: function QueueOptimizer_optimize(queue) {
       var fnArray = queue.fnArray, argsArray = queue.argsArray;
       var context = {
@@ -20821,7 +20821,7 @@ var QueueOptimizer = (function QueueOptimizerClosure() {
       while (i < ii) {
         state = (state || InitialState)[fnArray[i]];
         if (typeof state === 'function') { // we found some handler
-          context.iCurr = i;
+          context[__webkitAssign__iCurr] = i;
           // state() returns the index of the first non-matching op (if we
           // didn't match) or the first op past the modified ops (if we did
           // match and replace).
@@ -21016,19 +21016,19 @@ var CMap = (function CMapClosure() {
     // Codespace ranges are stored as follows:
     // [[1BytePairs], [2BytePairs], [3BytePairs], [4BytePairs]]
     // where nBytePairs are ranges e.g. [low1, high1, low2, high2, ...]
-    this.codespaceRanges = [[], [], [], []];
-    this.numCodespaceRanges = 0;
+    this[__webkitAssign__codespaceRanges] = [[], [], [], []];
+    this[__webkitAssign__numCodespaceRanges] = 0;
     // Map entries have one of two forms.
     // - cid chars are 16-bit unsigned integers, stored as integers.
     // - bf chars are variable-length byte sequences, stored as strings, with
     //   one byte per character.
-    this._map = [];
-    this.name = '';
-    this.vertical = false;
-    this.useCMap = null;
-    this.builtInCMap = builtInCMap;
+    this[__webkitAssign___map] = [];
+    this[__webkitAssign__name] = '';
+    this[__webkitAssign__vertical] = false;
+    this[__webkitAssign__useCMap] = null;
+    this[__webkitAssign__builtInCMap] = builtInCMap;
   }
-  CMap.prototype = {
+  CMap[__webkitAssign__prototype] = {
     addCodespaceRange: function(n, low, high) {
       this.codespaceRanges[n - 1].push(low, high);
       this.numCodespaceRanges++;
@@ -21115,14 +21115,14 @@ var CMap = (function CMapClosure() {
           var low = codespaceRange[k++];
           var high = codespaceRange[k++];
           if (c >= low && c <= high) {
-            out.charcode = c;
-            out.length = n + 1;
+            out[__webkitAssign__charcode] = c;
+            out[__webkitAssign__length] = n + 1;
             return;
           }
         }
       }
-      out.charcode = 0;
-      out.length = 1;
+      out[__webkitAssign__charcode] = 0;
+      out[__webkitAssign__length] = 1;
     },
 
     get length() {
@@ -21152,12 +21152,12 @@ var CMap = (function CMapClosure() {
 var IdentityCMap = (function IdentityCMapClosure() {
   function IdentityCMap(vertical, n) {
     CMap.call(this);
-    this.vertical = vertical;
+    this[__webkitAssign__vertical] = vertical;
     this.addCodespaceRange(n, 0, 0xffff);
   }
   Util.inherit(IdentityCMap, CMap, {});
 
-  IdentityCMap.prototype = {
+  IdentityCMap[__webkitAssign__prototype] = {
     addCodespaceRange: CMap.prototype.addCodespaceRange,
 
     mapCidRange: function(low, high, dstLow) {
@@ -21224,7 +21224,7 @@ var BinaryCMapReader = (function BinaryCMapReaderClosure() {
     request.open('GET', url, false);
     if (!nonBinaryRequest) {
       try {
-        request.responseType = 'arraybuffer';
+        request[__webkitAssign__responseType] = 'arraybuffer';
         nonBinaryRequest = request.responseType !== 'arraybuffer';
       } catch (e) {
         nonBinaryRequest = true;
@@ -21288,13 +21288,13 @@ var BinaryCMapReader = (function BinaryCMapReaderClosure() {
   var MAX_ENCODED_NUM_SIZE = 19; // ceil(MAX_NUM_SIZE * 7 / 8)
 
   function BinaryCMapStream(data) {
-    this.buffer = data;
-    this.pos = 0;
-    this.end = data.length;
-    this.tmpBuf = new Uint8Array(MAX_ENCODED_NUM_SIZE);
+    this[__webkitAssign__buffer] = data;
+    this[__webkitAssign__pos] = 0;
+    this[__webkitAssign__end] = data.length;
+    this[__webkitAssign__tmpBuf] = new Uint8Array(MAX_ENCODED_NUM_SIZE);
   }
 
-  BinaryCMapStream.prototype = {
+  BinaryCMapStream[__webkitAssign__prototype] = {
     readByte: function () {
       if (this.pos >= this.end) {
         return -1;
@@ -21321,7 +21321,7 @@ var BinaryCMapReader = (function BinaryCMapReaderClosure() {
     readHex: function (num, size) {
       num.set(this.buffer.subarray(this.pos,
         this.pos + size + 1));
-      this.pos += size + 1;
+      this[__webkitAssign__pos] += size + 1;
     },
     readHexNumber: function (num, size) {
       var last;
@@ -21370,7 +21370,7 @@ var BinaryCMapReader = (function BinaryCMapReaderClosure() {
     var stream = new BinaryCMapStream(data);
 
     var header = stream.readByte();
-    cMap.vertical = !!(header & 1);
+    cMap[__webkitAssign__vertical] = !!(header & 1);
 
     var useCMap = null;
     var start = new Uint8Array(MAX_NUM_SIZE);
@@ -21527,7 +21527,7 @@ var BinaryCMapReader = (function BinaryCMapReaderClosure() {
 
   function BinaryCMapReader() {}
 
-  BinaryCMapReader.prototype = {
+  BinaryCMapReader[__webkitAssign__prototype] = {
     read: processBinaryCMap
   };
 
@@ -21672,14 +21672,14 @@ var CMapFactory = (function CMapFactoryClosure() {
   function parseWMode(cMap, lexer) {
     var obj = lexer.getObj();
     if (isInt(obj)) {
-      cMap.vertical = !!obj;
+      cMap[__webkitAssign__vertical] = !!obj;
     }
   }
 
   function parseCMapName(cMap, lexer) {
     var obj = lexer.getObj();
     if (isName(obj) && isString(obj.name)) {
-      cMap.name = obj.name;
+      cMap[__webkitAssign__name] = obj.name;
     }
   }
 
@@ -21736,7 +21736,7 @@ var CMapFactory = (function CMapFactoryClosure() {
   }
 
   function extendCMap(cMap, builtInCMapParams, useCMap) {
-    cMap.useCMap = createBuiltInCMap(useCMap, builtInCMapParams);
+    cMap[__webkitAssign__useCMap] = createBuiltInCMap(useCMap, builtInCMapParams);
     // If there aren't any code space ranges defined clone all the parent ones
     // into this cMap.
     if (cMap.numCodespaceRanges === 0) {
@@ -21744,7 +21744,7 @@ var CMapFactory = (function CMapFactoryClosure() {
       for (var i = 0; i < useCodespaceRanges.length; i++) {
         cMap.codespaceRanges[i] = useCodespaceRanges[i].slice();
       }
-      cMap.numCodespaceRanges = cMap.useCMap.numCodespaceRanges;
+      cMap[__webkitAssign__numCodespaceRanges] = cMap.useCMap.numCodespaceRanges;
     }
     // Merge the map into the current one, making sure not to override
     // any previously defined entries.
@@ -23940,7 +23940,7 @@ function adjustWidths(properties) {
   for (var glyph in glyphsWidths) {
     glyphsWidths[glyph] *= scale;
   }
-  properties.defaultWidth *= scale;
+  properties[__webkitAssign__defaultWidth] *= scale;
 }
 
 function getFontType(type, subtype) {
@@ -23968,16 +23968,16 @@ function getFontType(type, subtype) {
 var Glyph = (function GlyphClosure() {
   function Glyph(fontChar, unicode, accent, width, vmetric, operatorListId,
                  isSpace) {
-    this.fontChar = fontChar;
-    this.unicode = unicode;
-    this.accent = accent;
-    this.width = width;
-    this.vmetric = vmetric;
-    this.operatorListId = operatorListId;
-    this.isSpace = isSpace;
+    this[__webkitAssign__fontChar] = fontChar;
+    this[__webkitAssign__unicode] = unicode;
+    this[__webkitAssign__accent] = accent;
+    this[__webkitAssign__width] = width;
+    this[__webkitAssign__vmetric] = vmetric;
+    this[__webkitAssign__operatorListId] = operatorListId;
+    this[__webkitAssign__isSpace] = isSpace;
   }
 
-  Glyph.prototype.matchesForCache = function(fontChar, unicode, accent, width,
+  Glyph.prototype[__webkitAssign__matchesForCache] = function(fontChar, unicode, accent, width,
                                              vmetric, operatorListId, isSpace) {
     return this.fontChar === fontChar &&
            this.unicode === unicode &&
@@ -23995,10 +23995,10 @@ var ToUnicodeMap = (function ToUnicodeMapClosure() {
   function ToUnicodeMap(cmap) {
     // The elements of this._map can be integers or strings, depending on how
     // |cmap| was created.
-    this._map = cmap;
+    this[__webkitAssign___map] = cmap;
   }
 
-  ToUnicodeMap.prototype = {
+  ToUnicodeMap[__webkitAssign__prototype] = {
     get length() {
       return this._map.length;
     },
@@ -24027,11 +24027,11 @@ var ToUnicodeMap = (function ToUnicodeMapClosure() {
 
 var IdentityToUnicodeMap = (function IdentityToUnicodeMapClosure() {
   function IdentityToUnicodeMap(firstChar, lastChar) {
-    this.firstChar = firstChar;
-    this.lastChar = lastChar;
+    this[__webkitAssign__firstChar] = firstChar;
+    this[__webkitAssign__lastChar] = lastChar;
   }
 
-  IdentityToUnicodeMap.prototype = {
+  IdentityToUnicodeMap[__webkitAssign__prototype] = {
     get length() {
       return (this.lastChar + 1) - this.firstChar;
     },
@@ -24091,11 +24091,11 @@ var OpenTypeFileBuilder = (function OpenTypeFileBuilderClosure() {
   }
 
   function OpenTypeFileBuilder(sfnt) {
-    this.sfnt = sfnt;
-    this.tables = Object.create(null);
+    this[__webkitAssign__sfnt] = sfnt;
+    this[__webkitAssign__tables] = Object.create(null);
   }
 
-  OpenTypeFileBuilder.getSearchParams =
+  OpenTypeFileBuilder[__webkitAssign__getSearchParams] =
       function OpenTypeFileBuilder_getSearchParams(entriesCount, entrySize) {
     var maxPower2 = 1, log2 = 0;
     while ((maxPower2 ^ entriesCount) > maxPower2) {
@@ -24113,7 +24113,7 @@ var OpenTypeFileBuilder = (function OpenTypeFileBuilderClosure() {
   var OTF_HEADER_SIZE = 12;
   var OTF_TABLE_ENTRY_SIZE = 16;
 
-  OpenTypeFileBuilder.prototype = {
+  OpenTypeFileBuilder[__webkitAssign__prototype] = {
     toArray: function OpenTypeFileBuilder_toArray() {
       var sfnt = this.sfnt;
 
@@ -24240,56 +24240,56 @@ var Font = (function FontClosure() {
   function Font(name, file, properties) {
     var charCode, glyphName, fontChar;
 
-    this.name = name;
-    this.loadedName = properties.loadedName;
-    this.isType3Font = properties.isType3Font;
-    this.sizes = [];
+    this[__webkitAssign__name] = name;
+    this[__webkitAssign__loadedName] = properties.loadedName;
+    this[__webkitAssign__isType3Font] = properties.isType3Font;
+    this[__webkitAssign__sizes] = [];
 
-    this.glyphCache = {};
+    this[__webkitAssign__glyphCache] = {};
 
     var names = name.split('+');
     names = names.length > 1 ? names[1] : names[0];
     names = names.split(/[-,_]/g)[0];
-    this.isSerifFont = !!(properties.flags & FontFlags.Serif);
-    this.isSymbolicFont = !!(properties.flags & FontFlags.Symbolic);
-    this.isMonospace = !!(properties.flags & FontFlags.FixedPitch);
+    this[__webkitAssign__isSerifFont] = !!(properties.flags & FontFlags.Serif);
+    this[__webkitAssign__isSymbolicFont] = !!(properties.flags & FontFlags.Symbolic);
+    this[__webkitAssign__isMonospace] = !!(properties.flags & FontFlags.FixedPitch);
 
     var type = properties.type;
     var subtype = properties.subtype;
-    this.type = type;
+    this[__webkitAssign__type] = type;
 
-    this.fallbackName = (this.isMonospace ? 'monospace' :
+    this[__webkitAssign__fallbackName] = (this.isMonospace ? 'monospace' :
                          (this.isSerifFont ? 'serif' : 'sans-serif'));
 
-    this.differences = properties.differences;
-    this.widths = properties.widths;
-    this.defaultWidth = properties.defaultWidth;
-    this.composite = properties.composite;
-    this.wideChars = properties.wideChars;
-    this.cMap = properties.cMap;
-    this.ascent = properties.ascent / PDF_GLYPH_SPACE_UNITS;
-    this.descent = properties.descent / PDF_GLYPH_SPACE_UNITS;
-    this.fontMatrix = properties.fontMatrix;
-    this.bbox = properties.bbox;
+    this[__webkitAssign__differences] = properties.differences;
+    this[__webkitAssign__widths] = properties.widths;
+    this[__webkitAssign__defaultWidth] = properties.defaultWidth;
+    this[__webkitAssign__composite] = properties.composite;
+    this[__webkitAssign__wideChars] = properties.wideChars;
+    this[__webkitAssign__cMap] = properties.cMap;
+    this[__webkitAssign__ascent] = properties.ascent / PDF_GLYPH_SPACE_UNITS;
+    this[__webkitAssign__descent] = properties.descent / PDF_GLYPH_SPACE_UNITS;
+    this[__webkitAssign__fontMatrix] = properties.fontMatrix;
+    this[__webkitAssign__bbox] = properties.bbox;
 
-    this.toUnicode = properties.toUnicode = this.buildToUnicode(properties);
+    this[__webkitAssign__toUnicode] = properties[__webkitAssign__toUnicode] = this.buildToUnicode(properties);
 
-    this.toFontChar = [];
+    this[__webkitAssign__toFontChar] = [];
 
     if (properties.type === 'Type3') {
       for (charCode = 0; charCode < 256; charCode++) {
         this.toFontChar[charCode] = (this.differences[charCode] ||
                                      properties.defaultEncoding[charCode]);
       }
-      this.fontType = FontType.TYPE3;
+      this[__webkitAssign__fontType] = FontType.TYPE3;
       return;
     }
 
-    this.cidEncoding = properties.cidEncoding;
-    this.vertical = properties.vertical;
+    this[__webkitAssign__cidEncoding] = properties.cidEncoding;
+    this[__webkitAssign__vertical] = properties.vertical;
     if (this.vertical) {
-      this.vmetrics = properties.vmetrics;
-      this.defaultVMetrics = properties.defaultVMetrics;
+      this[__webkitAssign__vmetrics] = properties.vmetrics;
+      this[__webkitAssign__defaultVMetrics] = properties.defaultVMetrics;
     }
 
     if (!file || file.isEmpty) {
@@ -24299,7 +24299,7 @@ var Font = (function FontClosure() {
         warn('Font file is empty in "' + name + '" (' + this.loadedName + ')');
       }
 
-      this.missingFile = true;
+      this[__webkitAssign__missingFile] = true;
       // The file data is not specified. Trying to fix the font name
       // to be used with the canvas.font.
       var fontName = name.replace(/[,_]/g, '-');
@@ -24307,16 +24307,16 @@ var Font = (function FontClosure() {
         !!(nonStdFontMap[fontName] && stdFontMap[nonStdFontMap[fontName]]);
       fontName = stdFontMap[fontName] || nonStdFontMap[fontName] || fontName;
 
-      this.bold = (fontName.search(/bold/gi) !== -1);
-      this.italic = ((fontName.search(/oblique/gi) !== -1) ||
+      this[__webkitAssign__bold] = (fontName.search(/bold/gi) !== -1);
+      this[__webkitAssign__italic] = ((fontName.search(/oblique/gi) !== -1) ||
                      (fontName.search(/italic/gi) !== -1));
 
       // Use 'name' instead of 'fontName' here because the original
       // name ArialBlack for example will be replaced by Helvetica.
-      this.black = (name.search(/Black/g) !== -1);
+      this[__webkitAssign__black] = (name.search(/Black/g) !== -1);
 
       // if at least one width is present, remeasure all chars when exists
-      this.remeasure = Object.keys(this.widths).length > 0;
+      this[__webkitAssign__remeasure] = Object.keys(this.widths).length > 0;
       if (isStandardFont && type === 'CIDFontType2' &&
           properties.cidEncoding.indexOf('Identity-') === 0) {
         // Standard fonts might be embedded as CID font without glyph mapping.
@@ -24336,8 +24336,8 @@ var Font = (function FontClosure() {
             map[+charCode] = unicodeCharCode;
           });
         }
-        this.toFontChar = map;
-        this.toUnicode = new ToUnicodeMap(map);
+        this[__webkitAssign__toFontChar] = map;
+        this[__webkitAssign__toUnicode] = new ToUnicodeMap(map);
       } else if (/Symbol/i.test(fontName)) {
         var symbols = Encodings.SymbolSetEncoding;
         for (charCode in symbols) {
@@ -24375,7 +24375,7 @@ var Font = (function FontClosure() {
           this.toFontChar[charCode] = fontChar;
         }
       } else if (isStandardFont) {
-        this.toFontChar = [];
+        this[__webkitAssign__toFontChar] = [];
         for (charCode in properties.defaultEncoding) {
           glyphName = (properties.differences[charCode] ||
                        properties.defaultEncoding[charCode]);
@@ -24392,9 +24392,9 @@ var Font = (function FontClosure() {
           this.toFontChar[charCode] = unicodeCharCode;
         }.bind(this));
       }
-      this.loadedName = fontName.split('-')[0];
-      this.loading = false;
-      this.fontType = getFontType(type, subtype);
+      this[__webkitAssign__loadedName] = fontName.split('-')[0];
+      this[__webkitAssign__loading] = false;
+      this[__webkitAssign__fontType] = getFontType(type, subtype);
       return;
     }
 
@@ -24425,7 +24425,7 @@ var Font = (function FontClosure() {
         /* falls through */
       case 'Type1':
       case 'CIDFontType0':
-        this.mimetype = 'font/opentype';
+        this[__webkitAssign__mimetype] = 'font/opentype';
 
         var cff = (subtype === 'Type1C' || subtype === 'CIDFontType0C') ?
           new CFFFont(file, properties) : new Type1Font(name, file, properties);
@@ -24439,7 +24439,7 @@ var Font = (function FontClosure() {
       case 'OpenType':
       case 'TrueType':
       case 'CIDFontType2':
-        this.mimetype = 'font/opentype';
+        this[__webkitAssign__mimetype] = 'font/opentype';
 
         // Repair the TrueType file. It is can be damaged in the point of
         // view of the sanitizer
@@ -24456,20 +24456,20 @@ var Font = (function FontClosure() {
         break;
     }
 
-    this.data = data;
-    this.fontType = getFontType(type, subtype);
+    this[__webkitAssign__data] = data;
+    this[__webkitAssign__fontType] = getFontType(type, subtype);
 
     // Transfer some properties again that could change during font conversion
-    this.fontMatrix = properties.fontMatrix;
-    this.widths = properties.widths;
-    this.defaultWidth = properties.defaultWidth;
-    this.encoding = properties.baseEncoding;
-    this.seacMap = properties.seacMap;
+    this[__webkitAssign__fontMatrix] = properties.fontMatrix;
+    this[__webkitAssign__widths] = properties.widths;
+    this[__webkitAssign__defaultWidth] = properties.defaultWidth;
+    this[__webkitAssign__encoding] = properties.baseEncoding;
+    this[__webkitAssign__seacMap] = properties.seacMap;
 
-    this.loading = true;
+    this[__webkitAssign__loading] = true;
   }
 
-  Font.getFontID = (function () {
+  Font[__webkitAssign__getFontID] = (function () {
     var ID = 1;
     return function Font_getFontID() {
       return String(ID++);
@@ -24963,7 +24963,7 @@ var Font = (function FontClosure() {
     return nameTable;
   }
 
-  Font.prototype = {
+  Font[__webkitAssign__prototype] = {
     name: null,
     font: null,
     mimetype: null,
@@ -24993,10 +24993,10 @@ var Font = (function FontClosure() {
 
         // Read the table associated data
         var previousPosition = file.pos;
-        file.pos = file.start ? file.start : 0;
+        file[__webkitAssign__pos] = file.start ? file.start : 0;
         file.skip(offset);
         var data = file.getBytes(length);
-        file.pos = previousPosition;
+        file[__webkitAssign__pos] = previousPosition;
 
         if (tag === 'head') {
           // clearing checksum adjustment
@@ -25039,7 +25039,7 @@ var Font = (function FontClosure() {
         }
         var segment;
         var start = (font.start ? font.start : 0) + cmap.offset;
-        font.pos = start;
+        font[__webkitAssign__pos] = start;
 
         var version = font.getUint16();
         var numTables = font.getUint16();
@@ -25090,7 +25090,7 @@ var Font = (function FontClosure() {
         }
 
         if (potentialTable) {
-          font.pos = start + potentialTable.offset;
+          font[__webkitAssign__pos] = start + potentialTable.offset;
         }
         if (!potentialTable || font.peekByte() === -1) {
           warn('Could not find a preferred cmap table.');
@@ -25134,11 +25134,11 @@ var Font = (function FontClosure() {
           }
           font.getUint16();
           for (segIndex = 0; segIndex < segCount; segIndex++) {
-            segments[segIndex].start = font.getUint16();
+            segments[segIndex][__webkitAssign__start] = font.getUint16();
           }
 
           for (segIndex = 0; segIndex < segCount; segIndex++) {
-            segments[segIndex].delta = font.getUint16();
+            segments[segIndex][__webkitAssign__delta] = font.getUint16();
           }
 
           var offsetsCount = 0;
@@ -25146,12 +25146,12 @@ var Font = (function FontClosure() {
             segment = segments[segIndex];
             var rangeOffset = font.getUint16();
             if (!rangeOffset) {
-              segment.offsetIndex = -1;
+              segment[__webkitAssign__offsetIndex] = -1;
               continue;
             }
 
             var offsetIndex = (rangeOffset >> 1) - (segCount - segIndex);
-            segment.offsetIndex = offsetIndex;
+            segment[__webkitAssign__offsetIndex] = offsetIndex;
             offsetsCount = Math.max(offsetsCount, offsetIndex +
                                     segment.end - segment.start + 1);
           }
@@ -25235,13 +25235,13 @@ var Font = (function FontClosure() {
       function sanitizeMetrics(font, header, metrics, numGlyphs) {
         if (!header) {
           if (metrics) {
-            metrics.data = null;
+            metrics[__webkitAssign__data] = null;
           }
           return;
         }
 
-        font.pos = (font.start ? font.start : 0) + header.offset;
-        font.pos += header.length - 2;
+        font[__webkitAssign__pos] = (font.start ? font.start : 0) + header.offset;
+        font[__webkitAssign__pos] += header.length - 2;
         var numOfMetrics = font.getUint16();
 
         if (numOfMetrics > numGlyphs) {
@@ -25263,7 +25263,7 @@ var Font = (function FontClosure() {
           // the use of |numMissing * 2| when initializing the typed array.
           var entries = new Uint8Array(metrics.length + numMissing * 2);
           entries.set(metrics.data);
-          metrics.data = entries;
+          metrics[__webkitAssign__data] = entries;
         }
       }
 
@@ -25416,7 +25416,7 @@ var Font = (function FontClosure() {
         if (locaData.length !== locaDataSize) {
           locaData = new Uint8Array(locaDataSize);
           locaData.set(loca.data.subarray(0, locaDataSize));
-          loca.data = locaData;
+          loca[__webkitAssign__data] = locaData;
         }
         // removing the invalid glyphs
         var oldGlyfData = glyf.data;
@@ -25461,30 +25461,30 @@ var Font = (function FontClosure() {
           for (i = 0, j = itemSize; i < numGlyphs; i++, j += itemSize) {
             itemEncode(locaData, j, simpleGlyph.length);
           }
-          glyf.data = simpleGlyph;
+          glyf[__webkitAssign__data] = simpleGlyph;
           return missingGlyphData;
         }
 
         if (dupFirstEntry) {
           var firstEntryLength = itemDecode(locaData, itemSize);
           if (newGlyfData.length > firstEntryLength + writeOffset) {
-            glyf.data = newGlyfData.subarray(0, firstEntryLength + writeOffset);
+            glyf[__webkitAssign__data] = newGlyfData.subarray(0, firstEntryLength + writeOffset);
           } else {
-            glyf.data = new Uint8Array(firstEntryLength + writeOffset);
+            glyf[__webkitAssign__data] = new Uint8Array(firstEntryLength + writeOffset);
             glyf.data.set(newGlyfData.subarray(0, writeOffset));
           }
           glyf.data.set(newGlyfData.subarray(0, firstEntryLength), writeOffset);
           itemEncode(loca.data, locaData.length - itemSize,
                      writeOffset + firstEntryLength);
         } else {
-          glyf.data = newGlyfData.subarray(0, writeOffset);
+          glyf[__webkitAssign__data] = newGlyfData.subarray(0, writeOffset);
         }
         return missingGlyphData;
       }
 
       function readPostScriptTable(post, properties, maxpNumGlyphs) {
         var start = (font.start ? font.start : 0) + post.offset;
-        font.pos = start;
+        font[__webkitAssign__pos] = start;
 
         var length = post.length, end = start + length;
         var version = font.getInt32();
@@ -25521,7 +25521,7 @@ var Font = (function FontClosure() {
             var strBuf = [];
             while (font.pos < end) {
               var stringLength = font.getByte();
-              strBuf.length = stringLength;
+              strBuf[__webkitAssign__length] = stringLength;
               for (i = 0; i < stringLength; ++i) {
                 strBuf[i] = String.fromCharCode(font.getByte());
               }
@@ -25547,13 +25547,13 @@ var Font = (function FontClosure() {
             }
             break;
         }
-        properties.glyphNames = glyphNames;
+        properties[__webkitAssign__glyphNames] = glyphNames;
         return valid;
       }
 
       function readNameTable(nameTable) {
         var start = (font.start ? font.start : 0) + nameTable.offset;
-        font.pos = start;
+        font[__webkitAssign__pos] = start;
 
         var names = [[], []];
         var length = nameTable.length, end = start + length;
@@ -25591,7 +25591,7 @@ var Font = (function FontClosure() {
           if (pos + record.length > end) {
             continue; // outside of name table, ignoring
           }
-          font.pos = pos;
+          font[__webkitAssign__pos] = pos;
           var nameIndex = record.name;
           if (record.encoding) {
             // unicode
@@ -25676,7 +25676,7 @@ var Font = (function FontClosure() {
               funcId = stack[stack.length - 1];
               ttContext.functionsUsed[funcId] = true;
               if (funcId in ttContext.functionsStackDeltas) {
-                stack.length += ttContext.functionsStackDeltas[funcId];
+                stack[__webkitAssign__length] += ttContext.functionsStackDeltas[funcId];
               } else if (funcId in ttContext.functionsDefined &&
                          functionsCalled.indexOf(funcId) < 0) {
                 callstack.push({data: data, i: i, stackTop: stack.length - 1});
@@ -25684,7 +25684,7 @@ var Font = (function FontClosure() {
                 pc = ttContext.functionsDefined[funcId];
                 if (!pc) {
                   warn('TT: CALL non-existent function');
-                  ttContext.hintsValid = false;
+                  ttContext[__webkitAssign__hintsValid] = false;
                   return;
                 }
                 data = pc.data;
@@ -25709,7 +25709,7 @@ var Font = (function FontClosure() {
               pc = callstack.pop();
               if (!pc) {
                 warn('TT: ENDF bad stack');
-                ttContext.hintsValid = false;
+                ttContext[__webkitAssign__hintsValid] = false;
                 return;
               }
               funcId = functionsCalled.pop();
@@ -25764,7 +25764,7 @@ var Font = (function FontClosure() {
             }
           }
         }
-        ttContext.tooComplexToFollowFunctions = tooComplexToFollowFunctions;
+        ttContext[__webkitAssign__tooComplexToFollowFunctions] = tooComplexToFollowFunctions;
         var content = [data];
         if (i > data.length) {
           content.push(new Uint8Array(i - data.length));
@@ -25784,18 +25784,18 @@ var Font = (function FontClosure() {
         }
         if (ttContext.functionsDefined.length > maxFunctionDefs) {
           warn('TT: more functions defined than expected');
-          ttContext.hintsValid = false;
+          ttContext[__webkitAssign__hintsValid] = false;
           return;
         }
         for (var j = 0, jj = ttContext.functionsUsed.length; j < jj; j++) {
           if (j > maxFunctionDefs) {
             warn('TT: invalid function id: ' + j);
-            ttContext.hintsValid = false;
+            ttContext[__webkitAssign__hintsValid] = false;
             return;
           }
           if (ttContext.functionsUsed[j] && !ttContext.functionsDefined[j]) {
             warn('TT: undefined function: ' + j);
-            ttContext.hintsValid = false;
+            ttContext[__webkitAssign__hintsValid] = false;
             return;
           }
         }
@@ -25816,8 +25816,8 @@ var Font = (function FontClosure() {
             result.set(content[j], pos);
             pos += content[j].length;
           }
-          table.data = result;
-          table.length = newLength;
+          table[__webkitAssign__data] = result;
+          table[__webkitAssign__length] = newLength;
         }
       }
 
@@ -25841,7 +25841,7 @@ var Font = (function FontClosure() {
         if (cvt && (cvt.length & 1)) {
           var cvtData = new Uint8Array(cvt.length + 1);
           cvtData.set(cvt.data);
-          cvt.data = cvtData;
+          cvt[__webkitAssign__data] = cvtData;
         }
         return ttContext.hintsValid;
       }
@@ -25889,31 +25889,31 @@ var Font = (function FontClosure() {
         delete tables.fpgm;
         delete tables.prep;
         delete tables['cvt '];
-        this.isOpenType = true;
+        this[__webkitAssign__isOpenType] = true;
       } else {
         if (!tables.glyf || !tables.loca) {
           error('Required "glyf" or "loca" tables are not found');
         }
-        this.isOpenType = false;
+        this[__webkitAssign__isOpenType] = false;
       }
 
       if (!tables.maxp) {
         error('Required "maxp" table is not found');
       }
 
-      font.pos = (font.start || 0) + tables.maxp.offset;
+      font[__webkitAssign__pos] = (font.start || 0) + tables.maxp.offset;
       var version = font.getInt32();
       var numGlyphs = font.getUint16();
       var maxFunctionDefs = 0;
       if (version >= 0x00010000 && tables.maxp.length >= 22) {
         // maxZones can be invalid
-        font.pos += 8;
+        font[__webkitAssign__pos] += 8;
         var maxZones = font.getUint16();
         if (maxZones > 2) { // reset to 2 if font has invalid maxZones
           tables.maxp.data[14] = 0;
           tables.maxp.data[15] = 2;
         }
-        font.pos += 4;
+        font[__webkitAssign__pos] += 4;
         maxFunctionDefs = font.getUint16();
       }
 
@@ -25976,14 +25976,14 @@ var Font = (function FontClosure() {
       };
 
       // PDF FontDescriptor metrics lie -- using data from actual font.
-      this.ascent = metricsOverride.ascent / metricsOverride.unitsPerEm;
-      this.descent = metricsOverride.descent / metricsOverride.unitsPerEm;
+      this[__webkitAssign__ascent] = metricsOverride.ascent / metricsOverride.unitsPerEm;
+      this[__webkitAssign__descent] = metricsOverride.descent / metricsOverride.unitsPerEm;
 
       // The 'post' table has glyphs names.
       if (tables.post) {
         var valid = readPostScriptTable(tables.post, properties, numGlyphs);
         if (!valid) {
-          tables.post = null;
+          tables[__webkitAssign__post] = null;
         }
       }
 
@@ -26138,8 +26138,8 @@ var Font = (function FontClosure() {
 
       // Converting glyphs and ids into font's cmap table
       var newMapping = adjustMapping(charCodeToGlyphId, properties);
-      this.toFontChar = newMapping.toFontChar;
-      tables.cmap = {
+      this[__webkitAssign__toFontChar] = newMapping.toFontChar;
+      tables[__webkitAssign__cmap] = {
         tag: 'cmap',
         data: createCmapTable(newMapping.charCodeToGlyphId, numGlyphs)
       };
@@ -26154,7 +26154,7 @@ var Font = (function FontClosure() {
 
       // Rewrite the 'post' table if needed
       if (!tables.post) {
-        tables.post = {
+        tables[__webkitAssign__post] = {
           tag: 'post',
           data: createPostTable(properties)
         };
@@ -26167,7 +26167,7 @@ var Font = (function FontClosure() {
           var parser = new CFFParser(cffFile, properties);
           cff = parser.parse();
           var compiler = new CFFCompiler(cff);
-          tables['CFF '].data = compiler.compile();
+          tables['CFF '][__webkitAssign__data] = compiler.compile();
         } catch (e) {
           warn('Failed to compile font ' + properties.loadedName);
         }
@@ -26175,14 +26175,14 @@ var Font = (function FontClosure() {
 
       // Re-creating 'name' table
       if (!tables.name) {
-        tables.name = {
+        tables[__webkitAssign__name] = {
           tag: 'name',
           data: createNameTable(this.name)
         };
       } else {
         // ... using existing 'name' table as prototype
         var namePrototype = readNameTable(tables.name);
-        tables.name.data = createNameTable(name, namePrototype);
+        tables.name[__webkitAssign__data] = createNameTable(name, namePrototype);
       }
 
       var builder = new OpenTypeFileBuilder(header.version);
@@ -26194,11 +26194,11 @@ var Font = (function FontClosure() {
 
     convert: function Font_convert(fontName, font, properties) {
       // TODO: Check the charstring widths to determine this.
-      properties.fixedPitch = false;
+      properties[__webkitAssign__fixedPitch] = false;
 
       var mapping = font.getGlyphMapping(properties);
       var newMapping = adjustMapping(mapping, properties);
-      this.toFontChar = newMapping.toFontChar;
+      this[__webkitAssign__toFontChar] = newMapping.toFontChar;
       var numGlyphs = font.numGlyphs;
 
       function getCharCodes(charCodeToGlyphId, glyphId) {
@@ -26267,7 +26267,7 @@ var Font = (function FontClosure() {
             };
           }
         }
-        properties.seacMap = seacMap;
+        properties[__webkitAssign__seacMap] = seacMap;
       }
 
       var unitsPerEm = 1 / (properties.fontMatrix || FONT_IDENTITY_MATRIX)[0];
@@ -26518,7 +26518,7 @@ var Font = (function FontClosure() {
       width = width || this.defaultWidth;
       // Do not shadow the property here. See discussion:
       // https://github.com/mozilla/pdf.js/pull/2127#discussion_r1662280
-      this._shadowWidth = width;
+      this[__webkitAssign___shadowWidth] = width;
       return width;
     },
 
@@ -26587,7 +26587,7 @@ var Font = (function FontClosure() {
 
       // lazily create the translation cache
       if (!charsCache) {
-        charsCache = this.charsCache = Object.create(null);
+        charsCache = this[__webkitAssign__charsCache] = Object.create(null);
       }
 
       glyphs = [];
@@ -26626,12 +26626,12 @@ var Font = (function FontClosure() {
 
 var ErrorFont = (function ErrorFontClosure() {
   function ErrorFont(error) {
-    this.error = error;
-    this.loadedName = 'g_font_error';
-    this.loading = false;
+    this[__webkitAssign__error] = error;
+    this[__webkitAssign__loadedName] = 'g_font_error';
+    this[__webkitAssign__loading] = false;
   }
 
-  ErrorFont.prototype = {
+  ErrorFont[__webkitAssign__prototype] = {
     charsToGlyphs: function ErrorFont_charsToGlyphs() {
       return [];
     },
@@ -26762,14 +26762,14 @@ var Type1CharString = (function Type1CharStringClosure() {
   };
 
   function Type1CharString() {
-    this.width = 0;
-    this.lsb = 0;
-    this.flexing = false;
-    this.output = [];
-    this.stack = [];
+    this[__webkitAssign__width] = 0;
+    this[__webkitAssign__lsb] = 0;
+    this[__webkitAssign__flexing] = false;
+    this[__webkitAssign__output] = [];
+    this[__webkitAssign__stack] = [];
   }
 
-  Type1CharString.prototype = {
+  Type1CharString[__webkitAssign__prototype] = {
     convert: function Type1CharString_convert(encoded, subrs) {
       var count = encoded.length;
       var error = false;
@@ -26783,14 +26783,14 @@ var Type1CharString = (function Type1CharStringClosure() {
           switch (value) {
             case 1: // hstem
               if (!HINTING_ENABLED) {
-                this.stack = [];
+                this[__webkitAssign__stack] = [];
                 break;
               }
               error = this.executeCommand(2, COMMAND_MAP.hstem);
               break;
             case 3: // vstem
               if (!HINTING_ENABLED) {
-                this.stack = [];
+                this[__webkitAssign__stack] = [];
                 break;
               }
               error = this.executeCommand(2, COMMAND_MAP.vstem);
@@ -26824,7 +26824,7 @@ var Type1CharString = (function Type1CharStringClosure() {
             case 9: // closepath
               // closepath is a Type1 command that does not take argument and is
               // useless in Type2 and it can simply be ignored.
-              this.stack = [];
+              this[__webkitAssign__stack] = [];
               break;
             case 10: // callsubr
               if (this.stack.length < 1) {
@@ -26845,8 +26845,8 @@ var Type1CharString = (function Type1CharStringClosure() {
               // first part of the charstring and then use hmoveto with lsb.
               wx = this.stack.pop();
               sbx = this.stack.pop();
-              this.lsb = sbx;
-              this.width = wx;
+              this[__webkitAssign__lsb] = sbx;
+              this[__webkitAssign__width] = wx;
               this.stack.push(wx, sbx);
               error = this.executeCommand(2, COMMAND_MAP.hmoveto);
               break;
@@ -26877,11 +26877,11 @@ var Type1CharString = (function Type1CharStringClosure() {
               // dotsection is a Type1 command to specify some hinting feature
               // for dots that do not take a parameter and it can safely be
               // ignored for Type2.
-              this.stack = [];
+              this[__webkitAssign__stack] = [];
               break;
             case (12 << 8) + 1: // vstem3
               if (!HINTING_ENABLED) {
-                this.stack = [];
+                this[__webkitAssign__stack] = [];
                 break;
               }
               // [vh]stem3 are Type1 only and Type2 supports [vh]stem with
@@ -26891,7 +26891,7 @@ var Type1CharString = (function Type1CharStringClosure() {
               break;
             case (12 << 8) + 2: // hstem3
               if (!HINTING_ENABLED) {
-                 this.stack = [];
+                 this[__webkitAssign__stack] = [];
                 break;
               }
               // See vstem3.
@@ -26901,7 +26901,7 @@ var Type1CharString = (function Type1CharStringClosure() {
               // seac is like type 2's special endchar but it doesn't use the
               // first argument asb, so remove it.
               if (SEAC_ANALYSIS_ENABLED) {
-                this.seac = this.stack.splice(-4, 4);
+                this[__webkitAssign__seac] = this.stack.splice(-4, 4);
                 error = this.executeCommand(0, COMMAND_MAP.endchar);
               } else {
                 error = this.executeCommand(4, COMMAND_MAP.endchar);
@@ -26920,8 +26920,8 @@ var Type1CharString = (function Type1CharStringClosure() {
               wx = this.stack.pop();
               var sby = this.stack.pop();
               sbx = this.stack.pop();
-              this.lsb = sbx;
-              this.width = wx;
+              this[__webkitAssign__lsb] = sbx;
+              this[__webkitAssign__width] = wx;
               this.stack.push(wx, sbx, sby);
               error = this.executeCommand(3, COMMAND_MAP.rmoveto);
               break;
@@ -26961,10 +26961,10 @@ var Type1CharString = (function Type1CharStringClosure() {
                   // 16 = finaly unused by flex
                 );
                 error = this.executeCommand(13, COMMAND_MAP.flex, true);
-                this.flexing = false;
+                this[__webkitAssign__flexing] = false;
                 this.stack.push(flexArgs[15], flexArgs[16]);
               } else if (subrNumber === 1 && numArgs === 0) {
-                this.flexing = true;
+                this[__webkitAssign__flexing] = true;
               }
               break;
             case (12 << 8) + 17: // pop
@@ -26972,7 +26972,7 @@ var Type1CharString = (function Type1CharStringClosure() {
               break;
             case (12 << 8) + 33: // setcurrentpoint
               // Ignore for now.
-              this.stack = [];
+              this[__webkitAssign__stack] = [];
               break;
             default:
               warn('Unknown type 1 charstring command of "' + value + '"');
@@ -27020,7 +27020,7 @@ var Type1CharString = (function Type1CharStringClosure() {
       if (keepStack) {
         this.stack.splice(start, howManyArgs);
       } else {
-        this.stack.length = 0;
+        this.stack[__webkitAssign__length] = 0;
       }
       return false;
     }
@@ -27103,11 +27103,11 @@ var Type1Parser = (function Type1ParserClosure() {
       stream = new Stream(isBinary ? decrypt(data, EEXEC_ENCRYPT_KEY, 4) :
                           decryptAscii(data, EEXEC_ENCRYPT_KEY, 4));
     }
-    this.stream = stream;
+    this[__webkitAssign__stream] = stream;
     this.nextChar();
   }
 
-  Type1Parser.prototype = {
+  Type1Parser[__webkitAssign__prototype] = {
     readNumberArray: function Type1Parser_readNumberArray() {
       this.getToken(); // read '[' or '{' (arrays can start with either)
       var array = [];
@@ -27141,7 +27141,7 @@ var Type1Parser = (function Type1ParserClosure() {
     },
 
     nextChar : function Type1_nextChar() {
-      return (this.currentChar = this.stream.getByte());
+      return (this[__webkitAssign__currentChar] = this.stream.getByte());
     },
 
     getToken: function Type1Parser_getToken() {
@@ -27324,7 +27324,7 @@ var Type1Parser = (function Type1ParserClosure() {
         switch (token) {
           case 'FontMatrix':
             var matrix = this.readNumberArray();
-            properties.fontMatrix = matrix;
+            properties[__webkitAssign__fontMatrix] = matrix;
             break;
           case 'Encoding':
             var encodingArg = this.getToken();
@@ -27356,14 +27356,14 @@ var Type1Parser = (function Type1ParserClosure() {
                 this.getToken(); // read the in 'put'
               }
             }
-            properties.builtInEncoding = encoding;
+            properties[__webkitAssign__builtInEncoding] = encoding;
             break;
           case 'FontBBox':
             var fontBBox = this.readNumberArray();
             // adjusting ascent/descent
-            properties.ascent = fontBBox[3];
-            properties.descent = fontBBox[1];
-            properties.ascentScaled = true;
+            properties[__webkitAssign__ascent] = fontBBox[3];
+            properties[__webkitAssign__descent] = fontBBox[1];
+            properties[__webkitAssign__ascentScaled] = true;
             break;
         }
       }
@@ -27484,13 +27484,13 @@ var Type1Font = function Type1Font(name, file, properties) {
   var type2Charstrings = this.getType2Charstrings(charstrings);
   var subrs = this.getType2Subrs(data.subrs);
 
-  this.charstrings = charstrings;
-  this.data = this.wrap(name, type2Charstrings, this.charstrings,
+  this[__webkitAssign__charstrings] = charstrings;
+  this[__webkitAssign__data] = this.wrap(name, type2Charstrings, this.charstrings,
                         subrs, properties);
-  this.seacs = this.getSeacs(data.charstrings);
+  this[__webkitAssign__seacs] = this.getSeacs(data.charstrings);
 };
 
-Type1Font.prototype = {
+Type1Font[__webkitAssign__prototype] = {
   get numGlyphs() {
     return this.charstrings.length + 1;
   },
@@ -27573,9 +27573,9 @@ Type1Font.prototype = {
 
   wrap: function Type1Font_wrap(name, glyphs, charstrings, subrs, properties) {
     var cff = new CFF();
-    cff.header = new CFFHeader(1, 0, 4, 4);
+    cff[__webkitAssign__header] = new CFFHeader(1, 0, 4, 4);
 
-    cff.names = [name];
+    cff[__webkitAssign__names] = [name];
 
     var topDict = new CFFTopDict();
     // CFF strings IDs 0...390 are predefined names, so refering
@@ -27591,7 +27591,7 @@ Type1Font.prototype = {
     topDict.setByName('charset', null); // placeholder
     topDict.setByName('CharStrings', null); // placeholder
     topDict.setByName('Private', null); // placeholder
-    cff.topDict = topDict;
+    cff[__webkitAssign__topDict] = topDict;
 
     var strings = new CFFStrings();
     strings.add('Version 0.11'); // Version
@@ -27599,9 +27599,9 @@ Type1Font.prototype = {
     strings.add(name); // FullName
     strings.add(name); // FamilyName
     strings.add('Medium'); // Weight
-    cff.strings = strings;
+    cff[__webkitAssign__strings] = strings;
 
-    cff.globalSubrIndex = new CFFIndex();
+    cff[__webkitAssign__globalSubrIndex] = new CFFIndex();
 
     var count = glyphs.length;
     var charsetArray = [0];
@@ -27617,14 +27617,14 @@ Type1Font.prototype = {
       }
       charsetArray.push((index >> 8) & 0xff, index & 0xff);
     }
-    cff.charset = new CFFCharset(false, 0, [], charsetArray);
+    cff[__webkitAssign__charset] = new CFFCharset(false, 0, [], charsetArray);
 
     var charStringsIndex = new CFFIndex();
     charStringsIndex.add([0x8B, 0x0E]); // .notdef
     for (i = 0; i < count; i++) {
       charStringsIndex.add(glyphs[i]);
     }
-    cff.charStrings = charStringsIndex;
+    cff[__webkitAssign__charStrings] = charStringsIndex;
 
     var privateDict = new CFFPrivateDict();
     privateDict.setByName('Subrs', null); // placeholder
@@ -27659,13 +27659,13 @@ Type1Font.prototype = {
       }
       privateDict.setByName(field, value);
     }
-    cff.topDict.privateDict = privateDict;
+    cff.topDict[__webkitAssign__privateDict] = privateDict;
 
     var subrIndex = new CFFIndex();
     for (i = 0, ii = subrs.length; i < ii; i++) {
       subrIndex.add(subrs[i]);
     }
-    privateDict.subrsIndex = subrIndex;
+    privateDict[__webkitAssign__subrsIndex] = subrIndex;
 
     var compiler = new CFFCompiler(cff);
     return compiler.compile();
@@ -27674,23 +27674,23 @@ Type1Font.prototype = {
 
 var CFFFont = (function CFFFontClosure() {
   function CFFFont(file, properties) {
-    this.properties = properties;
+    this[__webkitAssign__properties] = properties;
 
     var parser = new CFFParser(file, properties);
-    this.cff = parser.parse();
+    this[__webkitAssign__cff] = parser.parse();
     var compiler = new CFFCompiler(this.cff);
-    this.seacs = this.cff.seacs;
+    this[__webkitAssign__seacs] = this.cff.seacs;
     try {
-      this.data = compiler.compile();
+      this[__webkitAssign__data] = compiler.compile();
     } catch (e) {
       warn('Failed to compile font ' + properties.loadedName);
       // There may have just been an issue with the compiler, set the data
       // anyway and hope the font loaded.
-      this.data = file;
+      this[__webkitAssign__data] = file;
     }
   }
 
-  CFFFont.prototype = {
+  CFFFont[__webkitAssign__prototype] = {
     get numGlyphs() {
       return this.cff.charStrings.count;
     },
@@ -27830,14 +27830,14 @@ var CFFParser = (function CFFParserClosure() {
   ];
 
   function CFFParser(file, properties) {
-    this.bytes = file.getBytes();
-    this.properties = properties;
+    this[__webkitAssign__bytes] = file.getBytes();
+    this[__webkitAssign__properties] = properties;
   }
-  CFFParser.prototype = {
+  CFFParser[__webkitAssign__prototype] = {
     parse: function CFFParser_parse() {
       var properties = this.properties;
       var cff = new CFF();
-      this.cff = cff;
+      this[__webkitAssign__cff] = cff;
 
       // The first five sections must be in order, all the others are reached
       // via offsets contained in one of the below.
@@ -27850,33 +27850,33 @@ var CFFParser = (function CFFParserClosure() {
       var topDictParsed = this.parseDict(topDictIndex.obj.get(0));
       var topDict = this.createDict(CFFTopDict, topDictParsed, cff.strings);
 
-      cff.header = header.obj;
-      cff.names = this.parseNameIndex(nameIndex.obj);
-      cff.strings = this.parseStringIndex(stringIndex.obj);
-      cff.topDict = topDict;
-      cff.globalSubrIndex = globalSubrIndex.obj;
+      cff[__webkitAssign__header] = header.obj;
+      cff[__webkitAssign__names] = this.parseNameIndex(nameIndex.obj);
+      cff[__webkitAssign__strings] = this.parseStringIndex(stringIndex.obj);
+      cff[__webkitAssign__topDict] = topDict;
+      cff[__webkitAssign__globalSubrIndex] = globalSubrIndex.obj;
 
       this.parsePrivateDict(cff.topDict);
 
-      cff.isCIDFont = topDict.hasName('ROS');
+      cff[__webkitAssign__isCIDFont] = topDict.hasName('ROS');
 
       var charStringOffset = topDict.getByName('CharStrings');
       var charStringsAndSeacs = this.parseCharStrings(charStringOffset);
-      cff.charStrings = charStringsAndSeacs.charStrings;
-      cff.seacs = charStringsAndSeacs.seacs;
-      cff.widths = charStringsAndSeacs.widths;
+      cff[__webkitAssign__charStrings] = charStringsAndSeacs.charStrings;
+      cff[__webkitAssign__seacs] = charStringsAndSeacs.seacs;
+      cff[__webkitAssign__widths] = charStringsAndSeacs.widths;
 
       var fontMatrix = topDict.getByName('FontMatrix');
       if (fontMatrix) {
-        properties.fontMatrix = fontMatrix;
+        properties[__webkitAssign__fontMatrix] = fontMatrix;
       }
 
       var fontBBox = topDict.getByName('FontBBox');
       if (fontBBox) {
         // adjusting ascent/descent
-        properties.ascent = fontBBox[3];
-        properties.descent = fontBBox[1];
-        properties.ascentScaled = true;
+        properties[__webkitAssign__ascent] = fontBBox[3];
+        properties[__webkitAssign__descent] = fontBBox[1];
+        properties[__webkitAssign__ascentScaled] = true;
       }
 
       var charset, encoding;
@@ -27893,7 +27893,7 @@ var CFFParser = (function CFFParserClosure() {
         encoding = null;
         charset = this.parseCharsets(topDict.getByName('charset'),
                                      cff.charStrings.count, cff.strings, true);
-        cff.fdSelect = this.parseFDSelect(topDict.getByName('FDSelect'),
+        cff[__webkitAssign__fdSelect] = this.parseFDSelect(topDict.getByName('FDSelect'),
                                              cff.charStrings.count);
       } else {
         charset = this.parseCharsets(topDict.getByName('charset'),
@@ -27902,8 +27902,8 @@ var CFFParser = (function CFFParserClosure() {
                                       properties,
                                       cff.strings, charset.charset);
       }
-      cff.charset = charset;
-      cff.encoding = encoding;
+      cff[__webkitAssign__charset] = charset;
+      cff[__webkitAssign__encoding] = encoding;
 
       return cff;
     },
@@ -27922,7 +27922,7 @@ var CFFParser = (function CFFParserClosure() {
       } else if (offset !== 0) {
         info('cff data is shifted');
         bytes = bytes.subarray(offset);
-        this.bytes = bytes;
+        this[__webkitAssign__bytes] = bytes;
       }
       var major = bytes[0];
       var minor = bytes[1];
@@ -28204,7 +28204,7 @@ var CFFParser = (function CFFParserClosure() {
       var privateDict = this.createDict(CFFPrivateDict, [],
                                         parentDict.strings);
       parentDict.setByKey(18, [0, 0]);
-      parentDict.privateDict = privateDict;
+      parentDict[__webkitAssign__privateDict] = privateDict;
     },
     parsePrivateDict: function CFFParser_parsePrivateDict(parentDict) {
       // no private dict, do nothing
@@ -28231,7 +28231,7 @@ var CFFParser = (function CFFParserClosure() {
       var dict = this.parseDict(dictData);
       var privateDict = this.createDict(CFFPrivateDict, dict,
                                         parentDict.strings);
-      parentDict.privateDict = privateDict;
+      parentDict[__webkitAssign__privateDict] = privateDict;
 
       // Parse the Subrs index also since it's relative to the private dict.
       if (!privateDict.getByName('Subrs')) {
@@ -28245,7 +28245,7 @@ var CFFParser = (function CFFParserClosure() {
         return;
       }
       var subrsIndex = this.parseIndex(relativeOffset);
-      privateDict.subrsIndex = subrsIndex.obj;
+      privateDict[__webkitAssign__subrsIndex] = subrsIndex.obj;
     },
     parseCharsets: function CFFParser_parseCharsets(pos, length, strings, cid) {
       if (pos === 0) {
@@ -28417,40 +28417,40 @@ var CFFParser = (function CFFParserClosure() {
 // Compact Font Format
 var CFF = (function CFFClosure() {
   function CFF() {
-    this.header = null;
-    this.names = [];
-    this.topDict = null;
-    this.strings = new CFFStrings();
-    this.globalSubrIndex = null;
+    this[__webkitAssign__header] = null;
+    this[__webkitAssign__names] = [];
+    this[__webkitAssign__topDict] = null;
+    this[__webkitAssign__strings] = new CFFStrings();
+    this[__webkitAssign__globalSubrIndex] = null;
 
     // The following could really be per font, but since we only have one font
     // store them here.
-    this.encoding = null;
-    this.charset = null;
-    this.charStrings = null;
-    this.fdArray = [];
-    this.fdSelect = null;
+    this[__webkitAssign__encoding] = null;
+    this[__webkitAssign__charset] = null;
+    this[__webkitAssign__charStrings] = null;
+    this[__webkitAssign__fdArray] = [];
+    this[__webkitAssign__fdSelect] = null;
 
-    this.isCIDFont = false;
+    this[__webkitAssign__isCIDFont] = false;
   }
   return CFF;
 })();
 
 var CFFHeader = (function CFFHeaderClosure() {
   function CFFHeader(major, minor, hdrSize, offSize) {
-    this.major = major;
-    this.minor = minor;
-    this.hdrSize = hdrSize;
-    this.offSize = offSize;
+    this[__webkitAssign__major] = major;
+    this[__webkitAssign__minor] = minor;
+    this[__webkitAssign__hdrSize] = hdrSize;
+    this[__webkitAssign__offSize] = offSize;
   }
   return CFFHeader;
 })();
 
 var CFFStrings = (function CFFStringsClosure() {
   function CFFStrings() {
-    this.strings = [];
+    this[__webkitAssign__strings] = [];
   }
-  CFFStrings.prototype = {
+  CFFStrings[__webkitAssign__prototype] = {
     get: function CFFStrings_get(index) {
       if (index >= 0 && index <= 390) {
         return CFFStandardStrings[index];
@@ -28472,16 +28472,16 @@ var CFFStrings = (function CFFStringsClosure() {
 
 var CFFIndex = (function CFFIndexClosure() {
   function CFFIndex() {
-    this.objects = [];
-    this.length = 0;
+    this[__webkitAssign__objects] = [];
+    this[__webkitAssign__length] = 0;
   }
-  CFFIndex.prototype = {
+  CFFIndex[__webkitAssign__prototype] = {
     add: function CFFIndex_add(data) {
-      this.length += data.length;
+      this[__webkitAssign__length] += data.length;
       this.objects.push(data);
     },
     set: function CFFIndex_set(index, data) {
-      this.length += data.length - this.objects[index].length;
+      this[__webkitAssign__length] += data.length - this.objects[index].length;
       this.objects[index] = data;
     },
     get: function CFFIndex_get(index) {
@@ -28496,16 +28496,16 @@ var CFFIndex = (function CFFIndexClosure() {
 
 var CFFDict = (function CFFDictClosure() {
   function CFFDict(tables, strings) {
-    this.keyToNameMap = tables.keyToNameMap;
-    this.nameToKeyMap = tables.nameToKeyMap;
-    this.defaults = tables.defaults;
-    this.types = tables.types;
-    this.opcodes = tables.opcodes;
-    this.order = tables.order;
-    this.strings = strings;
-    this.values = {};
+    this[__webkitAssign__keyToNameMap] = tables.keyToNameMap;
+    this[__webkitAssign__nameToKeyMap] = tables.nameToKeyMap;
+    this[__webkitAssign__defaults] = tables.defaults;
+    this[__webkitAssign__types] = tables.types;
+    this[__webkitAssign__opcodes] = tables.opcodes;
+    this[__webkitAssign__order] = tables.order;
+    this[__webkitAssign__strings] = strings;
+    this[__webkitAssign__values] = {};
   }
-  CFFDict.prototype = {
+  CFFDict[__webkitAssign__prototype] = {
     // value should always be an array
     setByKey: function CFFDict_setByKey(key, value) {
       if (!(key in this.keyToNameMap)) {
@@ -28546,7 +28546,7 @@ var CFFDict = (function CFFDictClosure() {
       delete this.values[this.nameToKeyMap[name]];
     }
   };
-  CFFDict.createTables = function CFFDict_createTables(layout) {
+  CFFDict[__webkitAssign__createTables] = function CFFDict_createTables(layout) {
     var tables = {
       keyToNameMap: {},
       nameToKeyMap: {},
@@ -28616,9 +28616,9 @@ var CFFTopDict = (function CFFTopDictClosure() {
       tables = CFFDict.createTables(layout);
     }
     CFFDict.call(this, tables, strings);
-    this.privateDict = null;
+    this[__webkitAssign__privateDict] = null;
   }
-  CFFTopDict.prototype = Object.create(CFFDict.prototype);
+  CFFTopDict[__webkitAssign__prototype] = Object.create(CFFDict.prototype);
   return CFFTopDict;
 })();
 
@@ -28649,9 +28649,9 @@ var CFFPrivateDict = (function CFFPrivateDictClosure() {
       tables = CFFDict.createTables(layout);
     }
     CFFDict.call(this, tables, strings);
-    this.subrsIndex = null;
+    this[__webkitAssign__subrsIndex] = null;
   }
-  CFFPrivateDict.prototype = Object.create(CFFDict.prototype);
+  CFFPrivateDict[__webkitAssign__prototype] = Object.create(CFFDict.prototype);
   return CFFPrivateDict;
 })();
 
@@ -28662,28 +28662,28 @@ var CFFCharsetPredefinedTypes = {
 };
 var CFFCharset = (function CFFCharsetClosure() {
   function CFFCharset(predefined, format, charset, raw) {
-    this.predefined = predefined;
-    this.format = format;
-    this.charset = charset;
-    this.raw = raw;
+    this[__webkitAssign__predefined] = predefined;
+    this[__webkitAssign__format] = format;
+    this[__webkitAssign__charset] = charset;
+    this[__webkitAssign__raw] = raw;
   }
   return CFFCharset;
 })();
 
 var CFFEncoding = (function CFFEncodingClosure() {
   function CFFEncoding(predefined, format, encoding, raw) {
-    this.predefined = predefined;
-    this.format = format;
-    this.encoding = encoding;
-    this.raw = raw;
+    this[__webkitAssign__predefined] = predefined;
+    this[__webkitAssign__format] = format;
+    this[__webkitAssign__encoding] = encoding;
+    this[__webkitAssign__raw] = raw;
   }
   return CFFEncoding;
 })();
 
 var CFFFDSelect = (function CFFFDSelectClosure() {
   function CFFFDSelect(fdSelect, raw) {
-    this.fdSelect = fdSelect;
-    this.raw = raw;
+    this[__webkitAssign__fdSelect] = fdSelect;
+    this[__webkitAssign__raw] = raw;
   }
   return CFFFDSelect;
 })();
@@ -28692,9 +28692,9 @@ var CFFFDSelect = (function CFFFDSelectClosure() {
 // filling in that offset once it's known.
 var CFFOffsetTracker = (function CFFOffsetTrackerClosure() {
   function CFFOffsetTracker() {
-    this.offsets = {};
+    this[__webkitAssign__offsets] = {};
   }
-  CFFOffsetTracker.prototype = {
+  CFFOffsetTracker[__webkitAssign__prototype] = {
     isTracking: function CFFOffsetTracker_isTracking(key) {
       return key in this.offsets;
     },
@@ -28744,17 +28744,17 @@ var CFFOffsetTracker = (function CFFOffsetTrackerClosure() {
 // Takes a CFF and converts it to the binary representation.
 var CFFCompiler = (function CFFCompilerClosure() {
   function CFFCompiler(cff) {
-    this.cff = cff;
+    this[__webkitAssign__cff] = cff;
   }
-  CFFCompiler.prototype = {
+  CFFCompiler[__webkitAssign__prototype] = {
     compile: function CFFCompiler_compile() {
       var cff = this.cff;
       var output = {
         data: [],
         length: 0,
         add: function CFFCompiler_add(data) {
-          this.data = this.data.concat(data);
-          this.length = this.data.length;
+          this[__webkitAssign__data] = this.data.concat(data);
+          this[__webkitAssign__length] = this.data.length;
         }
       };
 
@@ -29191,17 +29191,17 @@ var FontRendererFactory = (function FontRendererFactoryClosure() {
       }
       p += 2;
       for (i = 0; i < segCount; i++, p += 2) {
-        ranges[i].start = getUshort(data, p);
+        ranges[i][__webkitAssign__start] = getUshort(data, p);
       }
       for (i = 0; i < segCount; i++, p += 2) {
-        ranges[i].idDelta = getUshort(data, p);
+        ranges[i][__webkitAssign__idDelta] = getUshort(data, p);
       }
       for (i = 0; i < segCount; i++, p += 2) {
         var idOffset = getUshort(data, p);
         if (idOffset === 0) {
           continue;
         }
-        ranges[i].ids = [];
+        ranges[i][__webkitAssign__ids] = [];
         for (var j = 0, jj = ranges[i].end - ranges[i].start + 1; j < jj; j++) {
           ranges[i].ids[j] = getUshort(data, p + idOffset);
           idOffset += 2;
@@ -29377,7 +29377,7 @@ var FontRendererFactory = (function FontRendererFactoryClosure() {
             x += code[i++];
             break;
         }
-        points[j].x = x;
+        points[j][__webkitAssign__x] = x;
       }
       for (j = 0; j < numberOfPoints; j++) {
         switch (points[j].flags & 0x24) {
@@ -29392,7 +29392,7 @@ var FontRendererFactory = (function FontRendererFactoryClosure() {
             y += code[i++];
             break;
         }
-        points[j].y = y;
+        points[j][__webkitAssign__y] = y;
       }
 
       var startPoint = 0;
@@ -29726,7 +29726,7 @@ var FontRendererFactory = (function FontRendererFactoryClosure() {
             break;
         }
         if (stackClean) {
-          stack.length = 0;
+          stack[__webkitAssign__length] = 0;
         }
       }
     }
@@ -29736,10 +29736,10 @@ var FontRendererFactory = (function FontRendererFactoryClosure() {
   var noop = '';
 
   function CompiledFont(fontMatrix) {
-    this.compiledGlyphs = {};
-    this.fontMatrix = fontMatrix;
+    this[__webkitAssign__compiledGlyphs] = {};
+    this[__webkitAssign__fontMatrix] = fontMatrix;
   }
-  CompiledFont.prototype = {
+  CompiledFont[__webkitAssign__prototype] = {
     getPathJs: function (unicode) {
       var gid = lookupCmap(this.cmap, unicode);
       var fn = this.compiledGlyphs[gid];
@@ -29780,10 +29780,10 @@ var FontRendererFactory = (function FontRendererFactoryClosure() {
     fontMatrix = fontMatrix || [0.000488, 0, 0, 0.000488, 0, 0];
     CompiledFont.call(this, fontMatrix);
 
-    this.glyphs = glyphs;
-    this.cmap = cmap;
+    this[__webkitAssign__glyphs] = glyphs;
+    this[__webkitAssign__cmap] = cmap;
 
-    this.compiledGlyphs = [];
+    this[__webkitAssign__compiledGlyphs] = [];
   }
 
   Util.inherit(TrueTypeCompiled, CompiledFont, {
@@ -29795,16 +29795,16 @@ var FontRendererFactory = (function FontRendererFactoryClosure() {
   function Type2Compiled(cffInfo, cmap, fontMatrix, glyphNameMap) {
     fontMatrix = fontMatrix || [0.001, 0, 0, 0.001, 0, 0];
     CompiledFont.call(this, fontMatrix);
-    this.glyphs = cffInfo.glyphs;
-    this.gsubrs = cffInfo.gsubrs || [];
-    this.subrs = cffInfo.subrs || [];
-    this.cmap = cmap;
-    this.glyphNameMap = glyphNameMap || GlyphsUnicode;
+    this[__webkitAssign__glyphs] = cffInfo.glyphs;
+    this[__webkitAssign__gsubrs] = cffInfo.gsubrs || [];
+    this[__webkitAssign__subrs] = cffInfo.subrs || [];
+    this[__webkitAssign__cmap] = cmap;
+    this[__webkitAssign__glyphNameMap] = glyphNameMap || GlyphsUnicode;
 
-    this.compiledGlyphs = [];
-    this.gsubrsBias = (this.gsubrs.length < 1240 ?
+    this[__webkitAssign__compiledGlyphs] = [];
+    this[__webkitAssign__gsubrsBias] = (this.gsubrs.length < 1240 ?
                        107 : (this.gsubrs.length < 33900 ? 1131 : 32768));
-    this.subrsBias = (this.subrs.length < 1240 ?
+    this[__webkitAssign__subrsBias] = (this.subrs.length < 1240 ?
                       107 : (this.subrs.length < 33900 ? 1131 : 32768));
   }
 
@@ -34305,7 +34305,7 @@ var PDFImage = (function PDFImageClosure() {
   }
 
   function PDFImage(xref, res, image, inline, smask, mask, isMask) {
-    this.image = image;
+    this[__webkitAssign__image] = image;
     var dict = image.dict;
     if (dict.has('Filter')) {
       var filter = dict.get('Filter').name;
@@ -34313,26 +34313,26 @@ var PDFImage = (function PDFImageClosure() {
         var jpxImage = new JpxImage();
         jpxImage.parseImageProperties(image.stream);
         image.stream.reset();
-        image.bitsPerComponent = jpxImage.bitsPerComponent;
-        image.numComps = jpxImage.componentsCount;
+        image[__webkitAssign__bitsPerComponent] = jpxImage.bitsPerComponent;
+        image[__webkitAssign__numComps] = jpxImage.componentsCount;
       } else if (filter === 'JBIG2Decode') {
-        image.bitsPerComponent = 1;
-        image.numComps = 1;
+        image[__webkitAssign__bitsPerComponent] = 1;
+        image[__webkitAssign__numComps] = 1;
       }
     }
     // TODO cache rendered images?
 
-    this.width = dict.get('Width', 'W');
-    this.height = dict.get('Height', 'H');
+    this[__webkitAssign__width] = dict.get('Width', 'W');
+    this[__webkitAssign__height] = dict.get('Height', 'H');
 
     if (this.width < 1 || this.height < 1) {
       error('Invalid image width: ' + this.width + ' or height: ' +
             this.height);
     }
 
-    this.interpolate = dict.get('Interpolate', 'I') || false;
-    this.imageMask = dict.get('ImageMask', 'IM') || false;
-    this.matte = dict.get('Matte') || false;
+    this[__webkitAssign__interpolate] = dict.get('Interpolate', 'I') || false;
+    this[__webkitAssign__imageMask] = dict.get('ImageMask', 'IM') || false;
+    this[__webkitAssign__matte] = dict.get('Matte') || false;
 
     var bitsPerComponent = image.bitsPerComponent;
     if (!bitsPerComponent) {
@@ -34345,7 +34345,7 @@ var PDFImage = (function PDFImageClosure() {
         }
       }
     }
-    this.bpc = bitsPerComponent;
+    this[__webkitAssign__bpc] = bitsPerComponent;
 
     if (!this.imageMask) {
       var colorSpace = dict.get('ColorSpace', 'CS');
@@ -34366,20 +34366,20 @@ var PDFImage = (function PDFImageClosure() {
                   ' color components not supported.');
         }
       }
-      this.colorSpace = ColorSpace.parse(colorSpace, xref, res);
-      this.numComps = this.colorSpace.numComps;
+      this[__webkitAssign__colorSpace] = ColorSpace.parse(colorSpace, xref, res);
+      this[__webkitAssign__numComps] = this.colorSpace.numComps;
     }
 
-    this.decode = dict.get('Decode', 'D');
-    this.needsDecode = false;
+    this[__webkitAssign__decode] = dict.get('Decode', 'D');
+    this[__webkitAssign__needsDecode] = false;
     if (this.decode &&
         ((this.colorSpace && !this.colorSpace.isDefaultDecode(this.decode)) ||
          (isMask && !ColorSpace.isDefaultDecode(this.decode, 1)))) {
-      this.needsDecode = true;
+      this[__webkitAssign__needsDecode] = true;
       // Do some preprocessing to avoid more math.
       var max = (1 << bitsPerComponent) - 1;
-      this.decodeCoefficients = [];
-      this.decodeAddends = [];
+      this[__webkitAssign__decodeCoefficients] = [];
+      this[__webkitAssign__decodeAddends] = [];
       for (var i = 0, j = 0; i < this.decode.length; i += 2, ++j) {
         var dmin = this.decode[i];
         var dmax = this.decode[i + 1];
@@ -34389,18 +34389,18 @@ var PDFImage = (function PDFImageClosure() {
     }
 
     if (smask) {
-      this.smask = new PDFImage(xref, res, smask, false);
+      this[__webkitAssign__smask] = new PDFImage(xref, res, smask, false);
     } else if (mask) {
       if (isStream(mask)) {
         var maskDict = mask.dict, imageMask = maskDict.get('ImageMask', 'IM');
         if (!imageMask) {
           warn('Ignoring /Mask in image without /ImageMask.');
         } else {
-          this.mask = new PDFImage(xref, res, mask, false, null, null, true);
+          this[__webkitAssign__mask] = new PDFImage(xref, res, mask, false, null, null, true);
         }
       } else {
         // Color key mask (just an array).
-        this.mask = mask;
+        this[__webkitAssign__mask] = mask;
       }
     }
   }
@@ -34408,7 +34408,7 @@ var PDFImage = (function PDFImageClosure() {
    * Handles processing of image data and returns the Promise that is resolved
    * with a PDFImage when the image is ready to be used.
    */
-  PDFImage.buildImage = function PDFImage_buildImage(handler, xref,
+  PDFImage[__webkitAssign__buildImage] = function PDFImage_buildImage(handler, xref,
                                                      res, image, inline) {
     var imagePromise = handleImageData(handler, xref, res, image);
     var smaskPromise;
@@ -34458,7 +34458,7 @@ var PDFImage = (function PDFImageClosure() {
    * @param {Number} alpha01 (Optional) Size reserved for the alpha channel.
    * @return {TypedArray} Resized image data.
    */
-  PDFImage.resize = function PDFImage_resize(pixels, bpc, components,
+  PDFImage[__webkitAssign__resize] = function PDFImage_resize(pixels, bpc, components,
                                              w1, h1, w2, h2, dest, alpha01) {
 
     if (components !== 1 && components !== 3) {
@@ -34504,7 +34504,7 @@ var PDFImage = (function PDFImageClosure() {
     return temp;
   };
 
-  PDFImage.createMask =
+  PDFImage[__webkitAssign__createMask] =
       function PDFImage_createMask(imgArray, width, height,
                                    imageIsFromDecodeStream, inverseDecode) {
 
@@ -34546,7 +34546,7 @@ var PDFImage = (function PDFImageClosure() {
     return {data: data, width: width, height: height};
   };
 
-  PDFImage.prototype = {
+  PDFImage[__webkitAssign__prototype] = {
     get drawWidth() {
       return Math.max(this.width,
                       this.smask && this.smask.width || 0,
@@ -34682,7 +34682,7 @@ var PDFImage = (function PDFImageClosure() {
           sw = mask.width;
           sh = mask.height;
           alphaBuf = new Uint8Array(sw * sh);
-          mask.numComps = 1;
+          mask[__webkitAssign__numComps] = 1;
           mask.fillGrayBuffer(alphaBuf);
 
           // Need to invert values in rgbaBuf
@@ -34794,7 +34794,7 @@ var PDFImage = (function PDFImageClosure() {
         }
         if (kind && !this.smask && !this.mask &&
             drawWidth === originalWidth && drawHeight === originalHeight) {
-          imgData.kind = kind;
+          imgData[__webkitAssign__kind] = kind;
 
           imgArray = this.getImageBytes(originalHeight * rowBytes);
           // If imgArray came from a DecodeStream, we're safe to transfer it
@@ -34803,11 +34803,11 @@ var PDFImage = (function PDFImageClosure() {
           // copy it because it'll only be a portion of the Stream's data, and
           // the rest will be read later on.
           if (this.image instanceof DecodeStream) {
-            imgData.data = imgArray;
+            imgData[__webkitAssign__data] = imgArray;
           } else {
             var newArray = new Uint8Array(imgArray.length);
             newArray.set(imgArray);
-            imgData.data = newArray;
+            imgData[__webkitAssign__data] = newArray;
           }
           if (this.needsDecode) {
             // Invert the buffer (which must be grayscale if we reached here).
@@ -34823,8 +34823,8 @@ var PDFImage = (function PDFImageClosure() {
             (this.colorSpace.name === 'DeviceGray' ||
              this.colorSpace.name === 'DeviceRGB' ||
              this.colorSpace.name === 'DeviceCMYK')) {
-          imgData.kind = ImageKind.RGB_24BPP;
-          imgData.data = this.getImageBytes(originalHeight * rowBytes,
+          imgData[__webkitAssign__kind] = ImageKind.RGB_24BPP;
+          imgData[__webkitAssign__data] = this.getImageBytes(originalHeight * rowBytes,
                                             drawWidth, drawHeight, true);
           return imgData;
         }
@@ -34841,13 +34841,13 @@ var PDFImage = (function PDFImageClosure() {
       // more compact RGB_24BPP form if allowable.
       var alpha01, maybeUndoPreblend;
       if (!forceRGBA && !this.smask && !this.mask) {
-        imgData.kind = ImageKind.RGB_24BPP;
-        imgData.data = new Uint8Array(drawWidth * drawHeight * 3);
+        imgData[__webkitAssign__kind] = ImageKind.RGB_24BPP;
+        imgData[__webkitAssign__data] = new Uint8Array(drawWidth * drawHeight * 3);
         alpha01 = 0;
         maybeUndoPreblend = false;
       } else {
-        imgData.kind = ImageKind.RGBA_32BPP;
-        imgData.data = new Uint8Array(drawWidth * drawHeight * 4);
+        imgData[__webkitAssign__kind] = ImageKind.RGBA_32BPP;
+        imgData[__webkitAssign__data] = new Uint8Array(drawWidth * drawHeight * 4);
         alpha01 = 1;
         maybeUndoPreblend = true;
 
@@ -34918,9 +34918,9 @@ var PDFImage = (function PDFImageClosure() {
                                                    drawWidth, drawHeight,
                                                    forceRGB) {
       this.image.reset();
-      this.image.drawWidth = drawWidth || this.width;
-      this.image.drawHeight = drawHeight || this.height;
-      this.image.forceRGB = !!forceRGB;
+      this.image[__webkitAssign__drawWidth] = drawWidth || this.width;
+      this.image[__webkitAssign__drawHeight] = drawHeight || this.height;
+      this.image[__webkitAssign__forceRGB] = !!forceRGB;
       return this.image.getBytes(length);
     }
   };
@@ -37881,25 +37881,25 @@ var MAX_LENGTH_TO_CACHE = 1000;
 
 var Parser = (function ParserClosure() {
   function Parser(lexer, allowStreams, xref) {
-    this.lexer = lexer;
-    this.allowStreams = allowStreams;
-    this.xref = xref;
-    this.imageCache = {};
+    this[__webkitAssign__lexer] = lexer;
+    this[__webkitAssign__allowStreams] = allowStreams;
+    this[__webkitAssign__xref] = xref;
+    this[__webkitAssign__imageCache] = {};
     this.refill();
   }
 
-  Parser.prototype = {
+  Parser[__webkitAssign__prototype] = {
     refill: function Parser_refill() {
-      this.buf1 = this.lexer.getObj();
-      this.buf2 = this.lexer.getObj();
+      this[__webkitAssign__buf1] = this.lexer.getObj();
+      this[__webkitAssign__buf2] = this.lexer.getObj();
     },
     shift: function Parser_shift() {
       if (isCmd(this.buf2, 'ID')) {
-        this.buf1 = this.buf2;
-        this.buf2 = null;
+        this[__webkitAssign__buf1] = this.buf2;
+        this[__webkitAssign__buf2] = null;
       } else {
-        this.buf1 = this.buf2;
-        this.buf2 = this.lexer.getObj();
+        this[__webkitAssign__buf1] = this.buf2;
+        this[__webkitAssign__buf2] = this.lexer.getObj();
       }
     },
     tryShift: function Parser_tryShift() {
@@ -38241,7 +38241,7 @@ var Parser = (function ParserClosure() {
         adler32 = ((b % 65521) << 16) | (a % 65521);
 
         if (this.imageCache.adler32 === adler32) {
-          this.buf2 = Cmd.get('EI');
+          this[__webkitAssign__buf2] = Cmd.get('EI');
           this.shift();
 
           this.imageCache[adler32].reset();
@@ -38254,13 +38254,13 @@ var Parser = (function ParserClosure() {
       }
 
       imageStream = this.filter(imageStream, dict, length);
-      imageStream.dict = dict;
+      imageStream[__webkitAssign__dict] = dict;
       if (adler32 !== undefined) {
-        imageStream.cacheKey = 'inline_' + length + '_' + adler32;
+        imageStream[__webkitAssign__cacheKey] = 'inline_' + length + '_' + adler32;
         this.imageCache[adler32] = imageStream;
       }
 
-      this.buf2 = Cmd.get('EI');
+      this[__webkitAssign__buf2] = Cmd.get('EI');
       this.shift();
 
       return imageStream;
@@ -38281,7 +38281,7 @@ var Parser = (function ParserClosure() {
       }
 
       // skip over the stream data
-      stream.pos = pos + length;
+      stream[__webkitAssign__pos] = pos + length;
       lexer.nextChar();
 
       // Shift '>>' and check whether the new object marks the end of the stream
@@ -38289,7 +38289,7 @@ var Parser = (function ParserClosure() {
         this.shift(); // 'stream'
       } else {
         // bad stream length, scanning for endstream
-        stream.pos = pos;
+        stream[__webkitAssign__pos] = pos;
         var SCAN_BLOCK_SIZE = 2048;
         var ENDSTREAM_SIGNATURE_LENGTH = 9;
         var ENDSTREAM_SIGNATURE = [0x65, 0x6E, 0x64, 0x73, 0x74, 0x72, 0x65,
@@ -38318,11 +38318,11 @@ var Parser = (function ParserClosure() {
           }
           if (found) {
             skipped += i - ENDSTREAM_SIGNATURE_LENGTH;
-            stream.pos += i - ENDSTREAM_SIGNATURE_LENGTH;
+            stream[__webkitAssign__pos] += i - ENDSTREAM_SIGNATURE_LENGTH;
             break;
           }
           skipped += scanLength;
-          stream.pos += scanLength;
+          stream[__webkitAssign__pos] += scanLength;
         }
         if (!found) {
           error('Missing endstream');
@@ -38340,7 +38340,7 @@ var Parser = (function ParserClosure() {
         stream = cipherTransform.createStream(stream, length);
       }
       stream = this.filter(stream, dict, length);
-      stream.dict = dict;
+      stream[__webkitAssign__dict] = dict;
       return stream;
     },
     filter: function Parser_filter(stream, dict, length) {
@@ -38447,7 +38447,7 @@ var Parser = (function ParserClosure() {
 
 var Lexer = (function LexerClosure() {
   function Lexer(stream, knownCommands) {
-    this.stream = stream;
+    this[__webkitAssign__stream] = stream;
     this.nextChar();
 
     // While lexing, we build up many strings one char at a time. Using += for
@@ -38455,7 +38455,7 @@ var Lexer = (function LexerClosure() {
     // array of single-char strings and then join() them together at the end.
     // And reusing a single array (i.e. |this.strBuf|) over and over for this
     // purpose uses less memory than using a new array for each string.
-    this.strBuf = [];
+    this[__webkitAssign__strBuf] = [];
 
     // The PDFs might have "glued" commands with other commands, operands or
     // literals, e.g. "q1". The knownCommands is a dictionary of the valid
@@ -38464,10 +38464,10 @@ var Lexer = (function LexerClosure() {
     // literal (e.g. 'f' and 'false') the following prefixes must be included,
     // 'fa', 'fal', 'fals'. The prefixes are not needed, if the command has no
     // other commands or literals as a prefix. The knowCommands is optional.
-    this.knownCommands = knownCommands;
+    this[__webkitAssign__knownCommands] = knownCommands;
   }
 
-  Lexer.isSpace = function Lexer_isSpace(ch) {
+  Lexer[__webkitAssign__isSpace] = function Lexer_isSpace(ch) {
     // Space is one of the following characters: SPACE, TAB, CR or LF.
     return (ch === 0x20 || ch === 0x09 || ch === 0x0D || ch === 0x0A);
   };
@@ -38504,9 +38504,9 @@ var Lexer = (function LexerClosure() {
     return -1;
   }
 
-  Lexer.prototype = {
+  Lexer[__webkitAssign__prototype] = {
     nextChar: function Lexer_nextChar() {
-      return (this.currentChar = this.stream.getByte());
+      return (this[__webkitAssign__currentChar] = this.stream.getByte());
     },
     peekChar: function Lexer_peekChar() {
       return this.stream.peekByte();
@@ -38593,7 +38593,7 @@ var Lexer = (function LexerClosure() {
       var numParen = 1;
       var done = false;
       var strBuf = this.strBuf;
-      strBuf.length = 0;
+      strBuf[__webkitAssign__length] = 0;
 
       var ch = this.nextChar();
       while (true) {
@@ -38685,7 +38685,7 @@ var Lexer = (function LexerClosure() {
     getName: function Lexer_getName() {
       var ch, previousCh;
       var strBuf = this.strBuf;
-      strBuf.length = 0;
+      strBuf[__webkitAssign__length] = 0;
       while ((ch = this.nextChar()) >= 0 && !specialChars[ch]) {
         if (ch === 0x23) { // '#'
           ch = this.nextChar();
@@ -38725,7 +38725,7 @@ var Lexer = (function LexerClosure() {
     },
     getHexString: function Lexer_getHexString() {
       var strBuf = this.strBuf;
-      strBuf.length = 0;
+      strBuf[__webkitAssign__length] = 0;
       var ch = this.currentChar;
       var isFirstHex = true;
       var firstDigit;
@@ -38929,15 +38929,15 @@ var Linearization = {
 
 var PostScriptParser = (function PostScriptParserClosure() {
   function PostScriptParser(lexer) {
-    this.lexer = lexer;
-    this.operators = [];
-    this.token = null;
-    this.prev = null;
+    this[__webkitAssign__lexer] = lexer;
+    this[__webkitAssign__operators] = [];
+    this[__webkitAssign__token] = null;
+    this[__webkitAssign__prev] = null;
   }
-  PostScriptParser.prototype = {
+  PostScriptParser[__webkitAssign__prototype] = {
     nextToken: function PostScriptParser_nextToken() {
-      this.prev = this.token;
-      this.token = this.lexer.getToken();
+      this[__webkitAssign__prev] = this.token;
+      this[__webkitAssign__token] = this.lexer.getToken();
     },
     accept: function PostScriptParser_accept(type) {
       if (this.token.type === type) {
@@ -39018,13 +39018,13 @@ var PostScriptTokenTypes = {
 
 var PostScriptToken = (function PostScriptTokenClosure() {
   function PostScriptToken(type, value) {
-    this.type = type;
-    this.value = value;
+    this[__webkitAssign__type] = type;
+    this[__webkitAssign__value] = value;
   }
 
   var opCache = {};
 
-  PostScriptToken.getOperator = function PostScriptToken_getOperator(op) {
+  PostScriptToken[__webkitAssign__getOperator] = function PostScriptToken_getOperator(op) {
     var opValue = opCache[op];
     if (opValue) {
       return opValue;
@@ -39032,26 +39032,26 @@ var PostScriptToken = (function PostScriptTokenClosure() {
     return opCache[op] = new PostScriptToken(PostScriptTokenTypes.OPERATOR, op);
   };
 
-  PostScriptToken.LBRACE = new PostScriptToken(PostScriptTokenTypes.LBRACE,
+  PostScriptToken[__webkitAssign__LBRACE] = new PostScriptToken(PostScriptTokenTypes.LBRACE,
     '{');
-  PostScriptToken.RBRACE = new PostScriptToken(PostScriptTokenTypes.RBRACE,
+  PostScriptToken[__webkitAssign__RBRACE] = new PostScriptToken(PostScriptTokenTypes.RBRACE,
     '}');
-  PostScriptToken.IF = new PostScriptToken(PostScriptTokenTypes.IF, 'IF');
-  PostScriptToken.IFELSE = new PostScriptToken(PostScriptTokenTypes.IFELSE,
+  PostScriptToken[__webkitAssign__IF] = new PostScriptToken(PostScriptTokenTypes.IF, 'IF');
+  PostScriptToken[__webkitAssign__IFELSE] = new PostScriptToken(PostScriptTokenTypes.IFELSE,
     'IFELSE');
   return PostScriptToken;
 })();
 
 var PostScriptLexer = (function PostScriptLexerClosure() {
   function PostScriptLexer(stream) {
-    this.stream = stream;
+    this[__webkitAssign__stream] = stream;
     this.nextChar();
 
-    this.strBuf = [];
+    this[__webkitAssign__strBuf] = [];
   }
-  PostScriptLexer.prototype = {
+  PostScriptLexer[__webkitAssign__prototype] = {
     nextChar: function PostScriptLexer_nextChar() {
-      return (this.currentChar = this.stream.getByte());
+      return (this[__webkitAssign__currentChar] = this.stream.getByte());
     },
     getToken: function PostScriptLexer_getToken() {
       var comment = false;
@@ -39089,7 +39089,7 @@ var PostScriptLexer = (function PostScriptLexerClosure() {
       }
       // operator
       var strBuf = this.strBuf;
-      strBuf.length = 0;
+      strBuf[__webkitAssign__length] = 0;
       strBuf[0] = String.fromCharCode(ch);
 
       while ((ch = this.nextChar()) >= 0 && // and 'A'-'Z', 'a'-'z'
@@ -39109,7 +39109,7 @@ var PostScriptLexer = (function PostScriptLexerClosure() {
     getNumber: function PostScriptLexer_getNumber() {
       var ch = this.currentChar;
       var strBuf = this.strBuf;
-      strBuf.length = 0;
+      strBuf[__webkitAssign__length] = 0;
       strBuf[0] = String.fromCharCode(ch);
 
       while ((ch = this.nextChar()) >= 0) {
@@ -39133,17 +39133,17 @@ var PostScriptLexer = (function PostScriptLexerClosure() {
 
 var Stream = (function StreamClosure() {
   function Stream(arrayBuffer, start, length, dict) {
-    this.bytes = (arrayBuffer instanceof Uint8Array ?
+    this[__webkitAssign__bytes] = (arrayBuffer instanceof Uint8Array ?
                   arrayBuffer : new Uint8Array(arrayBuffer));
-    this.start = start || 0;
-    this.pos = this.start;
-    this.end = (start + length) || this.bytes.length;
-    this.dict = dict;
+    this[__webkitAssign__start] = start || 0;
+    this[__webkitAssign__pos] = this.start;
+    this[__webkitAssign__end] = (start + length) || this.bytes.length;
+    this[__webkitAssign__dict] = dict;
   }
 
   // required methods for a stream. if a particular stream does not
   // implement these, an error should be thrown
-  Stream.prototype = {
+  Stream[__webkitAssign__prototype] = {
     get length() {
       return this.end - this.start;
     },
@@ -39185,7 +39185,7 @@ var Stream = (function StreamClosure() {
       if (end > strEnd) {
         end = strEnd;
       }
-      this.pos = end;
+      this[__webkitAssign__pos] = end;
       return bytes.subarray(pos, end);
     },
     peekByte: function Stream_peekByte() {
@@ -39195,20 +39195,20 @@ var Stream = (function StreamClosure() {
     },
     peekBytes: function Stream_peekBytes(length) {
       var bytes = this.getBytes(length);
-      this.pos -= bytes.length;
+      this[__webkitAssign__pos] -= bytes.length;
       return bytes;
     },
     skip: function Stream_skip(n) {
       if (!n) {
         n = 1;
       }
-      this.pos += n;
+      this[__webkitAssign__pos] += n;
     },
     reset: function Stream_reset() {
-      this.pos = this.start;
+      this[__webkitAssign__pos] = this.start;
     },
     moveStart: function Stream_moveStart() {
-      this.start = this.pos;
+      this[__webkitAssign__start] = this.pos;
     },
     makeSubStream: function Stream_makeSubStream(start, length, dict) {
       return new Stream(this.bytes.buffer, start, length, dict);
@@ -39229,7 +39229,7 @@ var StringStream = (function StringStreamClosure() {
     Stream.call(this, bytes);
   }
 
-  StringStream.prototype = Stream.prototype;
+  StringStream[__webkitAssign__prototype] = Stream.prototype;
 
   return StringStream;
 })();
@@ -39243,20 +39243,20 @@ var DecodeStream = (function DecodeStreamClosure() {
   var emptyBuffer = new Uint8Array(0);
 
   function DecodeStream(maybeMinBufferLength) {
-    this.pos = 0;
-    this.bufferLength = 0;
-    this.eof = false;
-    this.buffer = emptyBuffer;
-    this.minBufferLength = 512;
+    this[__webkitAssign__pos] = 0;
+    this[__webkitAssign__bufferLength] = 0;
+    this[__webkitAssign__eof] = false;
+    this[__webkitAssign__buffer] = emptyBuffer;
+    this[__webkitAssign__minBufferLength] = 512;
     if (maybeMinBufferLength) {
       // Compute the first power of two that is as big as maybeMinBufferLength.
       while (this.minBufferLength < maybeMinBufferLength) {
-        this.minBufferLength *= 2;
+        this[__webkitAssign__minBufferLength] *= 2;
       }
     }
   }
 
-  DecodeStream.prototype = {
+  DecodeStream[__webkitAssign__prototype] = {
     get isEmpty() {
       while (!this.eof && this.bufferLength === 0) {
         this.readBlock();
@@ -39274,7 +39274,7 @@ var DecodeStream = (function DecodeStreamClosure() {
       }
       var buffer2 = new Uint8Array(size);
       buffer2.set(buffer);
-      return (this.buffer = buffer2);
+      return (this[__webkitAssign__buffer] = buffer2);
     },
     getByte: function DecodeStream_getByte() {
       var pos = this.pos;
@@ -39322,7 +39322,7 @@ var DecodeStream = (function DecodeStreamClosure() {
         end = this.bufferLength;
       }
 
-      this.pos = end;
+      this[__webkitAssign__pos] = end;
       return this.buffer.subarray(pos, end);
     },
     peekByte: function DecodeStream_peekByte() {
@@ -39332,7 +39332,7 @@ var DecodeStream = (function DecodeStreamClosure() {
     },
     peekBytes: function DecodeStream_peekBytes(length) {
       var bytes = this.getBytes(length);
-      this.pos -= bytes.length;
+      this[__webkitAssign__pos] -= bytes.length;
       return bytes;
     },
     makeSubStream: function DecodeStream_makeSubStream(start, length, dict) {
@@ -39346,10 +39346,10 @@ var DecodeStream = (function DecodeStreamClosure() {
       if (!n) {
         n = 1;
       }
-      this.pos += n;
+      this[__webkitAssign__pos] += n;
     },
     reset: function DecodeStream_reset() {
-      this.pos = 0;
+      this[__webkitAssign__pos] = 0;
     },
     getBaseStreams: function DecodeStream_getBaseStreams() {
       if (this.str && this.str.getBaseStreams) {
@@ -39364,18 +39364,18 @@ var DecodeStream = (function DecodeStreamClosure() {
 
 var StreamsSequenceStream = (function StreamsSequenceStreamClosure() {
   function StreamsSequenceStream(streams) {
-    this.streams = streams;
+    this[__webkitAssign__streams] = streams;
     DecodeStream.call(this, /* maybeLength = */ null);
   }
 
-  StreamsSequenceStream.prototype = Object.create(DecodeStream.prototype);
+  StreamsSequenceStream[__webkitAssign__prototype] = Object.create(DecodeStream.prototype);
 
-  StreamsSequenceStream.prototype.readBlock =
+  StreamsSequenceStream.prototype[__webkitAssign__readBlock] =
       function streamSequenceStreamReadBlock() {
 
     var streams = this.streams;
     if (streams.length === 0) {
-      this.eof = true;
+      this[__webkitAssign__eof] = true;
       return;
     }
     var stream = streams.shift();
@@ -39384,10 +39384,10 @@ var StreamsSequenceStream = (function StreamsSequenceStreamClosure() {
     var newLength = bufferLength + chunk.length;
     var buffer = this.ensureBuffer(newLength);
     buffer.set(chunk, bufferLength);
-    this.bufferLength = newLength;
+    this[__webkitAssign__bufferLength] = newLength;
   };
 
-  StreamsSequenceStream.prototype.getBaseStreams =
+  StreamsSequenceStream.prototype[__webkitAssign__getBaseStreams] =
     function StreamsSequenceStream_getBaseStreams() {
 
     var baseStreams = [];
@@ -39497,8 +39497,8 @@ var FlateStream = (function FlateStreamClosure() {
   ]), 5];
 
   function FlateStream(str, maybeLength) {
-    this.str = str;
-    this.dict = str.dict;
+    this[__webkitAssign__str] = str;
+    this[__webkitAssign__dict] = str.dict;
 
     var cmf = str.getByte();
     var flg = str.getByte();
@@ -39515,15 +39515,15 @@ var FlateStream = (function FlateStreamClosure() {
       error('FDICT bit set in flate stream: ' + cmf + ', ' + flg);
     }
 
-    this.codeSize = 0;
-    this.codeBuf = 0;
+    this[__webkitAssign__codeSize] = 0;
+    this[__webkitAssign__codeBuf] = 0;
 
     DecodeStream.call(this, maybeLength);
   }
 
-  FlateStream.prototype = Object.create(DecodeStream.prototype);
+  FlateStream[__webkitAssign__prototype] = Object.create(DecodeStream.prototype);
 
-  FlateStream.prototype.getBits = function FlateStream_getBits(bits) {
+  FlateStream.prototype[__webkitAssign__getBits] = function FlateStream_getBits(bits) {
     var str = this.str;
     var codeSize = this.codeSize;
     var codeBuf = this.codeBuf;
@@ -39537,13 +39537,13 @@ var FlateStream = (function FlateStreamClosure() {
       codeSize += 8;
     }
     b = codeBuf & ((1 << bits) - 1);
-    this.codeBuf = codeBuf >> bits;
-    this.codeSize = codeSize -= bits;
+    this[__webkitAssign__codeBuf] = codeBuf >> bits;
+    this[__webkitAssign__codeSize] = codeSize -= bits;
 
     return b;
   };
 
-  FlateStream.prototype.getCode = function FlateStream_getCode(table) {
+  FlateStream.prototype[__webkitAssign__getCode] = function FlateStream_getCode(table) {
     var str = this.str;
     var codes = table[0];
     var maxLen = table[1];
@@ -39566,12 +39566,12 @@ var FlateStream = (function FlateStreamClosure() {
     if (codeLen < 1 || codeSize < codeLen) {
       error('Bad encoding in flate stream');
     }
-    this.codeBuf = (codeBuf >> codeLen);
-    this.codeSize = (codeSize - codeLen);
+    this[__webkitAssign__codeBuf] = (codeBuf >> codeLen);
+    this[__webkitAssign__codeSize] = (codeSize - codeLen);
     return codeVal;
   };
 
-  FlateStream.prototype.generateHuffmanTable =
+  FlateStream.prototype[__webkitAssign__generateHuffmanTable] =
       function flateStreamGenerateHuffmanTable(lengths) {
     var n = lengths.length;
 
@@ -39612,13 +39612,13 @@ var FlateStream = (function FlateStreamClosure() {
     return [codes, maxLen];
   };
 
-  FlateStream.prototype.readBlock = function FlateStream_readBlock() {
+  FlateStream.prototype[__webkitAssign__readBlock] = function FlateStream_readBlock() {
     var buffer, len;
     var str = this.str;
     // read block header
     var hdr = this.getBits(3);
     if (hdr & 1) {
-      this.eof = true;
+      this[__webkitAssign__eof] = true;
     }
     hdr >>= 1;
 
@@ -39647,21 +39647,21 @@ var FlateStream = (function FlateStreamClosure() {
         error('Bad uncompressed block length in flate stream');
       }
 
-      this.codeBuf = 0;
-      this.codeSize = 0;
+      this[__webkitAssign__codeBuf] = 0;
+      this[__webkitAssign__codeSize] = 0;
 
       var bufferLength = this.bufferLength;
       buffer = this.ensureBuffer(bufferLength + blockLen);
       var end = bufferLength + blockLen;
-      this.bufferLength = end;
+      this[__webkitAssign__bufferLength] = end;
       if (blockLen === 0) {
         if (str.peekByte() === -1) {
-          this.eof = true;
+          this[__webkitAssign__eof] = true;
         }
       } else {
         for (var n = bufferLength; n < end; ++n) {
           if ((b = str.getByte()) === -1) {
-            this.eof = true;
+            this[__webkitAssign__eof] = true;
             break;
           }
           buffer[n] = b;
@@ -39736,7 +39736,7 @@ var FlateStream = (function FlateStreamClosure() {
         continue;
       }
       if (code1 === 256) {
-        this.bufferLength = pos;
+        this[__webkitAssign__bufferLength] = pos;
         return;
       }
       code1 -= 257;
@@ -39768,7 +39768,7 @@ var FlateStream = (function FlateStreamClosure() {
 
 var PredictorStream = (function PredictorStreamClosure() {
   function PredictorStream(str, maybeLength, params) {
-    var predictor = this.predictor = params.get('Predictor') || 1;
+    var predictor = this[__webkitAssign__predictor] = params.get('Predictor') || 1;
 
     if (predictor <= 1) {
       return str; // no prediction
@@ -39778,28 +39778,28 @@ var PredictorStream = (function PredictorStreamClosure() {
     }
 
     if (predictor === 2) {
-      this.readBlock = this.readBlockTiff;
+      this[__webkitAssign__readBlock] = this.readBlockTiff;
     } else {
-      this.readBlock = this.readBlockPng;
+      this[__webkitAssign__readBlock] = this.readBlockPng;
     }
 
-    this.str = str;
-    this.dict = str.dict;
+    this[__webkitAssign__str] = str;
+    this[__webkitAssign__dict] = str.dict;
 
-    var colors = this.colors = params.get('Colors') || 1;
-    var bits = this.bits = params.get('BitsPerComponent') || 8;
-    var columns = this.columns = params.get('Columns') || 1;
+    var colors = this[__webkitAssign__colors] = params.get('Colors') || 1;
+    var bits = this[__webkitAssign__bits] = params.get('BitsPerComponent') || 8;
+    var columns = this[__webkitAssign__columns] = params.get('Columns') || 1;
 
-    this.pixBytes = (colors * bits + 7) >> 3;
-    this.rowBytes = (columns * colors * bits + 7) >> 3;
+    this[__webkitAssign__pixBytes] = (colors * bits + 7) >> 3;
+    this[__webkitAssign__rowBytes] = (columns * colors * bits + 7) >> 3;
 
     DecodeStream.call(this, maybeLength);
     return this;
   }
 
-  PredictorStream.prototype = Object.create(DecodeStream.prototype);
+  PredictorStream[__webkitAssign__prototype] = Object.create(DecodeStream.prototype);
 
-  PredictorStream.prototype.readBlockTiff =
+  PredictorStream.prototype[__webkitAssign__readBlockTiff] =
       function predictorStreamReadBlockTiff() {
     var rowBytes = this.rowBytes;
 
@@ -39810,7 +39810,7 @@ var PredictorStream = (function PredictorStreamClosure() {
     var colors = this.colors;
 
     var rawBytes = this.str.getBytes(rowBytes);
-    this.eof = !rawBytes.length;
+    this[__webkitAssign__eof] = !rawBytes.length;
     if (this.eof) {
       return;
     }
@@ -39865,10 +39865,10 @@ var PredictorStream = (function PredictorStreamClosure() {
                       (inbuf & ((1 << (8 - outbits)) - 1));
       }
     }
-    this.bufferLength += rowBytes;
+    this[__webkitAssign__bufferLength] += rowBytes;
   };
 
-  PredictorStream.prototype.readBlockPng =
+  PredictorStream.prototype[__webkitAssign__readBlockPng] =
       function predictorStreamReadBlockPng() {
 
     var rowBytes = this.rowBytes;
@@ -39876,7 +39876,7 @@ var PredictorStream = (function PredictorStreamClosure() {
 
     var predictor = this.str.getByte();
     var rawBytes = this.str.getBytes(rowBytes);
-    this.eof = !rawBytes.length;
+    this[__webkitAssign__eof] = !rawBytes.length;
     if (this.eof) {
       return;
     }
@@ -39960,7 +39960,7 @@ var PredictorStream = (function PredictorStreamClosure() {
       default:
         error('Unsupported predictor: ' + predictor);
     }
-    this.bufferLength += rowBytes;
+    this[__webkitAssign__bufferLength] += rowBytes;
   };
 
   return PredictorStream;
@@ -39984,14 +39984,14 @@ var JpegStream = (function JpegStreamClosure() {
         break;
       }
     }
-    this.stream = stream;
-    this.maybeLength = maybeLength;
-    this.dict = dict;
+    this[__webkitAssign__stream] = stream;
+    this[__webkitAssign__maybeLength] = maybeLength;
+    this[__webkitAssign__dict] = dict;
 
     DecodeStream.call(this, maybeLength);
   }
 
-  JpegStream.prototype = Object.create(DecodeStream.prototype);
+  JpegStream[__webkitAssign__prototype] = Object.create(DecodeStream.prototype);
 
   Object.defineProperty(JpegStream.prototype, 'bytes', {
     get: function JpegStream_bytes() {
@@ -40001,7 +40001,7 @@ var JpegStream = (function JpegStreamClosure() {
     configurable: true
   });
 
-  JpegStream.prototype.ensureBuffer = function JpegStream_ensureBuffer(req) {
+  JpegStream.prototype[__webkitAssign__ensureBuffer] = function JpegStream_ensureBuffer(req) {
     if (this.bufferLength) {
       return;
     }
@@ -40024,34 +40024,34 @@ var JpegStream = (function JpegStreamClosure() {
           }
         }
         if (transformNeeded) {
-          jpegImage.decodeTransform = transform;
+          jpegImage[__webkitAssign__decodeTransform] = transform;
         }
       }
 
       jpegImage.parse(this.bytes);
       var data = jpegImage.getData(this.drawWidth, this.drawHeight,
                                    this.forceRGB);
-      this.buffer = data;
-      this.bufferLength = data.length;
-      this.eof = true;
+      this[__webkitAssign__buffer] = data;
+      this[__webkitAssign__bufferLength] = data.length;
+      this[__webkitAssign__eof] = true;
     } catch (e) {
       error('JPEG error: ' + e);
     }
   };
 
-  JpegStream.prototype.getBytes = function JpegStream_getBytes(length) {
+  JpegStream.prototype[__webkitAssign__getBytes] = function JpegStream_getBytes(length) {
     this.ensureBuffer();
     return this.buffer;
   };
 
-  JpegStream.prototype.getIR = function JpegStream_getIR() {
+  JpegStream.prototype[__webkitAssign__getIR] = function JpegStream_getIR() {
     return PDFJS.createObjectURL(this.bytes, 'image/jpeg');
   };
   /**
    * Checks if the image can be decoded and displayed by the browser without any
    * further processing such as color space conversions.
    */
-  JpegStream.prototype.isNativelySupported =
+  JpegStream.prototype[__webkitAssign__isNativelySupported] =
       function JpegStream_isNativelySupported(xref, res) {
     var cs = ColorSpace.parse(this.dict.get('ColorSpace', 'CS'), xref, res);
     return (cs.name === 'DeviceGray' || cs.name === 'DeviceRGB') &&
@@ -40060,7 +40060,7 @@ var JpegStream = (function JpegStreamClosure() {
   /**
    * Checks if the image can be decoded by the browser.
    */
-  JpegStream.prototype.isNativelyDecodable =
+  JpegStream.prototype[__webkitAssign__isNativelyDecodable] =
       function JpegStream_isNativelyDecodable(xref, res) {
     var cs = ColorSpace.parse(this.dict.get('ColorSpace', 'CS'), xref, res);
     return (cs.numComps === 1 || cs.numComps === 3) &&
@@ -40076,14 +40076,14 @@ var JpegStream = (function JpegStreamClosure() {
  */
 var JpxStream = (function JpxStreamClosure() {
   function JpxStream(stream, maybeLength, dict) {
-    this.stream = stream;
-    this.maybeLength = maybeLength;
-    this.dict = dict;
+    this[__webkitAssign__stream] = stream;
+    this[__webkitAssign__maybeLength] = maybeLength;
+    this[__webkitAssign__dict] = dict;
 
     DecodeStream.call(this, maybeLength);
   }
 
-  JpxStream.prototype = Object.create(DecodeStream.prototype);
+  JpxStream[__webkitAssign__prototype] = Object.create(DecodeStream.prototype);
 
   Object.defineProperty(JpxStream.prototype, 'bytes', {
     get: function JpxStream_bytes() {
@@ -40093,7 +40093,7 @@ var JpxStream = (function JpxStreamClosure() {
     configurable: true
   });
 
-  JpxStream.prototype.ensureBuffer = function JpxStream_ensureBuffer(req) {
+  JpxStream.prototype[__webkitAssign__ensureBuffer] = function JpxStream_ensureBuffer(req) {
     if (this.bufferLength) {
       return;
     }
@@ -40106,7 +40106,7 @@ var JpxStream = (function JpxStreamClosure() {
     var componentsCount = jpxImage.componentsCount;
     var tileCount = jpxImage.tiles.length;
     if (tileCount === 1) {
-      this.buffer = jpxImage.tiles[0].items;
+      this[__webkitAssign__buffer] = jpxImage.tiles[0].items;
     } else {
       var data = new Uint8Array(width * height * componentsCount);
 
@@ -40130,10 +40130,10 @@ var JpxStream = (function JpxStreamClosure() {
           dataPosition += imgRowSize;
         }
       }
-      this.buffer = data;
+      this[__webkitAssign__buffer] = data;
     }
-    this.bufferLength = this.buffer.length;
-    this.eof = true;
+    this[__webkitAssign__bufferLength] = this.buffer.length;
+    this[__webkitAssign__eof] = true;
   };
 
   return JpxStream;
@@ -40145,14 +40145,14 @@ var JpxStream = (function JpxStreamClosure() {
  */
 var Jbig2Stream = (function Jbig2StreamClosure() {
   function Jbig2Stream(stream, maybeLength, dict) {
-    this.stream = stream;
-    this.maybeLength = maybeLength;
-    this.dict = dict;
+    this[__webkitAssign__stream] = stream;
+    this[__webkitAssign__maybeLength] = maybeLength;
+    this[__webkitAssign__dict] = dict;
 
     DecodeStream.call(this, maybeLength);
   }
 
-  Jbig2Stream.prototype = Object.create(DecodeStream.prototype);
+  Jbig2Stream[__webkitAssign__prototype] = Object.create(DecodeStream.prototype);
 
   Object.defineProperty(Jbig2Stream.prototype, 'bytes', {
     get: function Jbig2Stream_bytes() {
@@ -40162,7 +40162,7 @@ var Jbig2Stream = (function Jbig2StreamClosure() {
     configurable: true
   });
 
-  Jbig2Stream.prototype.ensureBuffer = function Jbig2Stream_ensureBuffer(req) {
+  Jbig2Stream.prototype[__webkitAssign__ensureBuffer] = function Jbig2Stream_ensureBuffer(req) {
     if (this.bufferLength) {
       return;
     }
@@ -40195,9 +40195,9 @@ var Jbig2Stream = (function Jbig2StreamClosure() {
       data[i] ^= 0xFF;
     }
 
-    this.buffer = data;
-    this.bufferLength = dataLength;
-    this.eof = true;
+    this[__webkitAssign__buffer] = data;
+    this[__webkitAssign__bufferLength] = dataLength;
+    this[__webkitAssign__eof] = true;
   };
 
   return Jbig2Stream;
@@ -40205,32 +40205,32 @@ var Jbig2Stream = (function Jbig2StreamClosure() {
 
 var DecryptStream = (function DecryptStreamClosure() {
   function DecryptStream(str, maybeLength, decrypt) {
-    this.str = str;
-    this.dict = str.dict;
-    this.decrypt = decrypt;
-    this.nextChunk = null;
-    this.initialized = false;
+    this[__webkitAssign__str] = str;
+    this[__webkitAssign__dict] = str.dict;
+    this[__webkitAssign__decrypt] = decrypt;
+    this[__webkitAssign__nextChunk] = null;
+    this[__webkitAssign__initialized] = false;
 
     DecodeStream.call(this, maybeLength);
   }
 
   var chunkSize = 512;
 
-  DecryptStream.prototype = Object.create(DecodeStream.prototype);
+  DecryptStream[__webkitAssign__prototype] = Object.create(DecodeStream.prototype);
 
-  DecryptStream.prototype.readBlock = function DecryptStream_readBlock() {
+  DecryptStream.prototype[__webkitAssign__readBlock] = function DecryptStream_readBlock() {
     var chunk;
     if (this.initialized) {
       chunk = this.nextChunk;
     } else {
       chunk = this.str.getBytes(chunkSize);
-      this.initialized = true;
+      this[__webkitAssign__initialized] = true;
     }
     if (!chunk || chunk.length === 0) {
-      this.eof = true;
+      this[__webkitAssign__eof] = true;
       return;
     }
-    this.nextChunk = this.str.getBytes(chunkSize);
+    this[__webkitAssign__nextChunk] = this.str.getBytes(chunkSize);
     var hasMoreData = this.nextChunk && this.nextChunk.length > 0;
 
     var decrypt = this.decrypt;
@@ -40242,7 +40242,7 @@ var DecryptStream = (function DecryptStreamClosure() {
     for (i = 0; i < n; i++) {
       buffer[bufferLength++] = chunk[i];
     }
-    this.bufferLength = bufferLength;
+    this[__webkitAssign__bufferLength] = bufferLength;
   };
 
   return DecryptStream;
@@ -40250,9 +40250,9 @@ var DecryptStream = (function DecryptStreamClosure() {
 
 var Ascii85Stream = (function Ascii85StreamClosure() {
   function Ascii85Stream(str, maybeLength) {
-    this.str = str;
-    this.dict = str.dict;
-    this.input = new Uint8Array(5);
+    this[__webkitAssign__str] = str;
+    this[__webkitAssign__dict] = str.dict;
+    this[__webkitAssign__input] = new Uint8Array(5);
 
     // Most streams increase in size when decoded, but Ascii85 streams
     // typically shrink by ~20%.
@@ -40262,9 +40262,9 @@ var Ascii85Stream = (function Ascii85StreamClosure() {
     DecodeStream.call(this, maybeLength);
   }
 
-  Ascii85Stream.prototype = Object.create(DecodeStream.prototype);
+  Ascii85Stream[__webkitAssign__prototype] = Object.create(DecodeStream.prototype);
 
-  Ascii85Stream.prototype.readBlock = function Ascii85Stream_readBlock() {
+  Ascii85Stream.prototype[__webkitAssign__readBlock] = function Ascii85Stream_readBlock() {
     var TILDA_CHAR = 0x7E; // '~'
     var Z_LOWER_CHAR = 0x7A; // 'z'
     var EOF = -1;
@@ -40277,7 +40277,7 @@ var Ascii85Stream = (function Ascii85StreamClosure() {
     }
 
     if (c === EOF || c === TILDA_CHAR) {
-      this.eof = true;
+      this[__webkitAssign__eof] = true;
       return;
     }
 
@@ -40290,7 +40290,7 @@ var Ascii85Stream = (function Ascii85StreamClosure() {
       for (i = 0; i < 4; ++i) {
         buffer[bufferLength + i] = 0;
       }
-      this.bufferLength += 4;
+      this[__webkitAssign__bufferLength] += 4;
     } else {
       var input = this.input;
       input[0] = c;
@@ -40307,14 +40307,14 @@ var Ascii85Stream = (function Ascii85StreamClosure() {
         }
       }
       buffer = this.ensureBuffer(bufferLength + i - 1);
-      this.bufferLength += i - 1;
+      this[__webkitAssign__bufferLength] += i - 1;
 
       // partial ending;
       if (i < 5) {
         for (; i < 5; ++i) {
           input[i] = 0x21 + 84;
         }
-        this.eof = true;
+        this[__webkitAssign__eof] = true;
       }
       var t = 0;
       for (i = 0; i < 5; ++i) {
@@ -40333,10 +40333,10 @@ var Ascii85Stream = (function Ascii85StreamClosure() {
 
 var AsciiHexStream = (function AsciiHexStreamClosure() {
   function AsciiHexStream(str, maybeLength) {
-    this.str = str;
-    this.dict = str.dict;
+    this[__webkitAssign__str] = str;
+    this[__webkitAssign__dict] = str.dict;
 
-    this.firstDigit = -1;
+    this[__webkitAssign__firstDigit] = -1;
 
     // Most streams increase in size when decoded, but AsciiHex streams shrink
     // by 50%.
@@ -40346,13 +40346,13 @@ var AsciiHexStream = (function AsciiHexStreamClosure() {
     DecodeStream.call(this, maybeLength);
   }
 
-  AsciiHexStream.prototype = Object.create(DecodeStream.prototype);
+  AsciiHexStream[__webkitAssign__prototype] = Object.create(DecodeStream.prototype);
 
-  AsciiHexStream.prototype.readBlock = function AsciiHexStream_readBlock() {
+  AsciiHexStream.prototype[__webkitAssign__readBlock] = function AsciiHexStream_readBlock() {
     var UPSTREAM_BLOCK_SIZE = 8000;
     var bytes = this.str.getBytes(UPSTREAM_BLOCK_SIZE);
     if (!bytes.length) {
-      this.eof = true;
+      this[__webkitAssign__eof] = true;
       return;
     }
 
@@ -40369,7 +40369,7 @@ var AsciiHexStream = (function AsciiHexStreamClosure() {
         // 'A'-'Z', 'a'-'z'
         digit = (ch & 0x0F) + 9;
       } else if (ch === 0x3E) { // '>'
-        this.eof = true;
+        this[__webkitAssign__eof] = true;
         break;
       } else { // probably whitespace
         continue; // ignoring
@@ -40386,8 +40386,8 @@ var AsciiHexStream = (function AsciiHexStreamClosure() {
       buffer[bufferLength++] = (firstDigit << 4);
       firstDigit = -1;
     }
-    this.firstDigit = firstDigit;
-    this.bufferLength = bufferLength;
+    this[__webkitAssign__firstDigit] = firstDigit;
+    this[__webkitAssign__bufferLength] = bufferLength;
   };
 
   return AsciiHexStream;
@@ -40395,22 +40395,22 @@ var AsciiHexStream = (function AsciiHexStreamClosure() {
 
 var RunLengthStream = (function RunLengthStreamClosure() {
   function RunLengthStream(str, maybeLength) {
-    this.str = str;
-    this.dict = str.dict;
+    this[__webkitAssign__str] = str;
+    this[__webkitAssign__dict] = str.dict;
 
     DecodeStream.call(this, maybeLength);
   }
 
-  RunLengthStream.prototype = Object.create(DecodeStream.prototype);
+  RunLengthStream[__webkitAssign__prototype] = Object.create(DecodeStream.prototype);
 
-  RunLengthStream.prototype.readBlock = function RunLengthStream_readBlock() {
+  RunLengthStream.prototype[__webkitAssign__readBlock] = function RunLengthStream_readBlock() {
     // The repeatHeader has following format. The first byte defines type of run
     // and amount of bytes to repeat/copy: n = 0 through 127 - copy next n bytes
     // (in addition to the second byte from the header), n = 129 through 255 -
     // duplicate the second byte from the header (257 - n) times, n = 128 - end.
     var repeatHeader = this.str.getBytes(2);
     if (!repeatHeader || repeatHeader.length < 2 || repeatHeader[0] === 128) {
-      this.eof = true;
+      this[__webkitAssign__eof] = true;
       return;
     }
 
@@ -40434,7 +40434,7 @@ var RunLengthStream = (function RunLengthStreamClosure() {
         buffer[bufferLength++] = b;
       }
     }
-    this.bufferLength = bufferLength;
+    this[__webkitAssign__bufferLength] = bufferLength;
   };
 
   return RunLengthStream;
@@ -40869,34 +40869,34 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
   ];
 
   function CCITTFaxStream(str, maybeLength, params) {
-    this.str = str;
-    this.dict = str.dict;
+    this[__webkitAssign__str] = str;
+    this[__webkitAssign__dict] = str.dict;
 
     params = params || Dict.empty;
 
-    this.encoding = params.get('K') || 0;
-    this.eoline = params.get('EndOfLine') || false;
-    this.byteAlign = params.get('EncodedByteAlign') || false;
-    this.columns = params.get('Columns') || 1728;
-    this.rows = params.get('Rows') || 0;
+    this[__webkitAssign__encoding] = params.get('K') || 0;
+    this[__webkitAssign__eoline] = params.get('EndOfLine') || false;
+    this[__webkitAssign__byteAlign] = params.get('EncodedByteAlign') || false;
+    this[__webkitAssign__columns] = params.get('Columns') || 1728;
+    this[__webkitAssign__rows] = params.get('Rows') || 0;
     var eoblock = params.get('EndOfBlock');
     if (eoblock === null || eoblock === undefined) {
       eoblock = true;
     }
-    this.eoblock = eoblock;
-    this.black = params.get('BlackIs1') || false;
+    this[__webkitAssign__eoblock] = eoblock;
+    this[__webkitAssign__black] = params.get('BlackIs1') || false;
 
-    this.codingLine = new Uint32Array(this.columns + 1);
-    this.refLine = new Uint32Array(this.columns + 2);
+    this[__webkitAssign__codingLine] = new Uint32Array(this.columns + 1);
+    this[__webkitAssign__refLine] = new Uint32Array(this.columns + 2);
 
     this.codingLine[0] = this.columns;
-    this.codingPos = 0;
+    this[__webkitAssign__codingPos] = 0;
 
-    this.row = 0;
-    this.nextLine2D = this.encoding < 0;
-    this.inputBits = 0;
-    this.inputBuf = 0;
-    this.outputBits = 0;
+    this[__webkitAssign__row] = 0;
+    this[__webkitAssign__nextLine2D] = this.encoding < 0;
+    this[__webkitAssign__inputBits] = 0;
+    this[__webkitAssign__inputBuf] = 0;
+    this[__webkitAssign__outputBits] = 0;
 
     var code1;
     while ((code1 = this.lookBits(12)) === 0) {
@@ -40906,16 +40906,16 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
       this.eatBits(12);
     }
     if (this.encoding > 0) {
-      this.nextLine2D = !this.lookBits(1);
+      this[__webkitAssign__nextLine2D] = !this.lookBits(1);
       this.eatBits(1);
     }
 
     DecodeStream.call(this, maybeLength);
   }
 
-  CCITTFaxStream.prototype = Object.create(DecodeStream.prototype);
+  CCITTFaxStream[__webkitAssign__prototype] = Object.create(DecodeStream.prototype);
 
-  CCITTFaxStream.prototype.readBlock = function CCITTFaxStream_readBlock() {
+  CCITTFaxStream.prototype[__webkitAssign__readBlock] = function CCITTFaxStream_readBlock() {
     while (!this.eof) {
       var c = this.lookChar();
       this.ensureBuffer(this.bufferLength + 1);
@@ -40923,7 +40923,7 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
     }
   };
 
-  CCITTFaxStream.prototype.addPixels =
+  CCITTFaxStream.prototype[__webkitAssign__addPixels] =
       function ccittFaxStreamAddPixels(a1, blackPixels) {
     var codingLine = this.codingLine;
     var codingPos = this.codingPos;
@@ -40931,7 +40931,7 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
     if (a1 > codingLine[codingPos]) {
       if (a1 > this.columns) {
         info('row is wrong length');
-        this.err = true;
+        this[__webkitAssign__err] = true;
         a1 = this.columns;
       }
       if ((codingPos & 1) ^ blackPixels) {
@@ -40940,10 +40940,10 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
 
       codingLine[codingPos] = a1;
     }
-    this.codingPos = codingPos;
+    this[__webkitAssign__codingPos] = codingPos;
   };
 
-  CCITTFaxStream.prototype.addPixelsNeg =
+  CCITTFaxStream.prototype[__webkitAssign__addPixelsNeg] =
       function ccittFaxStreamAddPixelsNeg(a1, blackPixels) {
     var codingLine = this.codingLine;
     var codingPos = this.codingPos;
@@ -40951,7 +40951,7 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
     if (a1 > codingLine[codingPos]) {
       if (a1 > this.columns) {
         info('row is wrong length');
-        this.err = true;
+        this[__webkitAssign__err] = true;
         a1 = this.columns;
       }
       if ((codingPos & 1) ^ blackPixels) {
@@ -40962,7 +40962,7 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
     } else if (a1 < codingLine[codingPos]) {
       if (a1 < 0) {
         info('invalid code');
-        this.err = true;
+        this[__webkitAssign__err] = true;
         a1 = 0;
       }
       while (codingPos > 0 && a1 < codingLine[codingPos - 1]) {
@@ -40971,10 +40971,10 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
       codingLine[codingPos] = a1;
     }
 
-    this.codingPos = codingPos;
+    this[__webkitAssign__codingPos] = codingPos;
   };
 
-  CCITTFaxStream.prototype.lookChar = function CCITTFaxStream_lookChar() {
+  CCITTFaxStream.prototype[__webkitAssign__lookChar] = function CCITTFaxStream_lookChar() {
     var refLine = this.refLine;
     var codingLine = this.codingLine;
     var columns = this.columns;
@@ -40985,7 +40985,7 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
       if (this.eof) {
         return null;
       }
-      this.err = false;
+      this[__webkitAssign__err] = false;
 
       var code1, code2, code3;
       if (this.nextLine2D) {
@@ -40995,7 +40995,7 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
         refLine[i++] = columns;
         refLine[i] = columns;
         codingLine[0] = 0;
-        this.codingPos = 0;
+        this[__webkitAssign__codingPos] = 0;
         refPos = 0;
         blackPixels = 0;
 
@@ -41127,17 +41127,17 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
               break;
             case EOF:
               this.addPixels(columns, 0);
-              this.eof = true;
+              this[__webkitAssign__eof] = true;
               break;
             default:
               info('bad 2d code');
               this.addPixels(columns, 0);
-              this.err = true;
+              this[__webkitAssign__err] = true;
           }
         }
       } else {
         codingLine[0] = 0;
-        this.codingPos = 0;
+        this[__webkitAssign__codingPos] = 0;
         blackPixels = 0;
         while (codingLine[this.codingPos] < columns) {
           code1 = 0;
@@ -41158,11 +41158,11 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
       var gotEOL = false;
 
       if (this.byteAlign) {
-        this.inputBits &= ~7;
+        this[__webkitAssign__inputBits] &= ~7;
       }
 
       if (!this.eoblock && this.row === this.rows - 1) {
-        this.eof = true;
+        this[__webkitAssign__eof] = true;
       } else {
         code1 = this.lookBits(12);
         if (this.eoline) {
@@ -41180,12 +41180,12 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
           this.eatBits(12);
           gotEOL = true;
         } else if (code1 === EOF) {
-          this.eof = true;
+          this[__webkitAssign__eof] = true;
         }
       }
 
       if (!this.eof && this.encoding > 0) {
-        this.nextLine2D = !this.lookBits(1);
+        this[__webkitAssign__nextLine2D] = !this.lookBits(1);
         this.eatBits(1);
       }
 
@@ -41210,13 +41210,13 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
               }
             }
           }
-          this.eof = true;
+          this[__webkitAssign__eof] = true;
         }
       } else if (this.err && this.eoline) {
         while (true) {
           code1 = this.lookBits(13);
           if (code1 === EOF) {
-            this.eof = true;
+            this[__webkitAssign__eof] = true;
             return null;
           }
           if ((code1 >> 1) === 1) {
@@ -41227,14 +41227,14 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
         this.eatBits(12);
         if (this.encoding > 0) {
           this.eatBits(1);
-          this.nextLine2D = !(code1 & 1);
+          this[__webkitAssign__nextLine2D] = !(code1 & 1);
         }
       }
 
       if (codingLine[0] > 0) {
-        this.outputBits = codingLine[this.codingPos = 0];
+        this[__webkitAssign__outputBits] = codingLine[this[__webkitAssign__codingPos] = 0];
       } else {
-        this.outputBits = codingLine[this.codingPos = 1];
+        this[__webkitAssign__outputBits] = codingLine[this[__webkitAssign__codingPos] = 1];
       }
       this.row++;
     }
@@ -41242,10 +41242,10 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
     var c;
     if (this.outputBits >= 8) {
       c = (this.codingPos & 1) ? 0 : 0xFF;
-      this.outputBits -= 8;
+      this[__webkitAssign__outputBits] -= 8;
       if (this.outputBits === 0 && codingLine[this.codingPos] < columns) {
         this.codingPos++;
-        this.outputBits = (codingLine[this.codingPos] -
+        this[__webkitAssign__outputBits] = (codingLine[this.codingPos] -
                            codingLine[this.codingPos - 1]);
       }
     } else {
@@ -41257,7 +41257,7 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
           if (!(this.codingPos & 1)) {
             c |= 0xFF >> (8 - bits);
           }
-          this.outputBits -= bits;
+          this[__webkitAssign__outputBits] -= bits;
           bits = 0;
         } else {
           c <<= this.outputBits;
@@ -41265,10 +41265,10 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
             c |= 0xFF >> (8 - this.outputBits);
           }
           bits -= this.outputBits;
-          this.outputBits = 0;
+          this[__webkitAssign__outputBits] = 0;
           if (codingLine[this.codingPos] < columns) {
             this.codingPos++;
-            this.outputBits = (codingLine[this.codingPos] -
+            this[__webkitAssign__outputBits] = (codingLine[this.codingPos] -
                                codingLine[this.codingPos - 1]);
           } else if (bits > 0) {
             c <<= bits;
@@ -41289,7 +41289,7 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
   // values. The first array element indicates whether a valid code is being
   // returned. The second array element is the actual code. The third array
   // element indicates whether EOF was reached.
-  CCITTFaxStream.prototype.findTableCode =
+  CCITTFaxStream.prototype[__webkitAssign__findTableCode] =
       function ccittFaxStreamFindTableCode(start, end, table, limit) {
 
     var limitValue = limit || 0;
@@ -41312,7 +41312,7 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
     return [false, 0, false];
   };
 
-  CCITTFaxStream.prototype.getTwoDimCode =
+  CCITTFaxStream.prototype[__webkitAssign__getTwoDimCode] =
       function ccittFaxStreamGetTwoDimCode() {
 
     var code = 0;
@@ -41334,7 +41334,7 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
     return EOF;
   };
 
-  CCITTFaxStream.prototype.getWhiteCode =
+  CCITTFaxStream.prototype[__webkitAssign__getWhiteCode] =
       function ccittFaxStreamGetWhiteCode() {
 
     var code = 0;
@@ -41371,7 +41371,7 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
     return 1;
   };
 
-  CCITTFaxStream.prototype.getBlackCode =
+  CCITTFaxStream.prototype[__webkitAssign__getBlackCode] =
       function ccittFaxStreamGetBlackCode() {
 
     var code, p;
@@ -41413,7 +41413,7 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
     return 1;
   };
 
-  CCITTFaxStream.prototype.lookBits = function CCITTFaxStream_lookBits(n) {
+  CCITTFaxStream.prototype[__webkitAssign__lookBits] = function CCITTFaxStream_lookBits(n) {
     var c;
     while (this.inputBits < n) {
       if ((c = this.str.getByte()) === -1) {
@@ -41423,15 +41423,15 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
         return ((this.inputBuf << (n - this.inputBits)) &
                 (0xFFFF >> (16 - n)));
       }
-      this.inputBuf = (this.inputBuf << 8) + c;
-      this.inputBits += 8;
+      this[__webkitAssign__inputBuf] = (this.inputBuf << 8) + c;
+      this[__webkitAssign__inputBits] += 8;
     }
     return (this.inputBuf >> (this.inputBits - n)) & (0xFFFF >> (16 - n));
   };
 
-  CCITTFaxStream.prototype.eatBits = function CCITTFaxStream_eatBits(n) {
-    if ((this.inputBits -= n) < 0) {
-      this.inputBits = 0;
+  CCITTFaxStream.prototype[__webkitAssign__eatBits] = function CCITTFaxStream_eatBits(n) {
+    if ((this[__webkitAssign__inputBits] -= n) < 0) {
+      this[__webkitAssign__inputBits] = 0;
     }
   };
 
@@ -41440,10 +41440,10 @@ var CCITTFaxStream = (function CCITTFaxStreamClosure() {
 
 var LZWStream = (function LZWStreamClosure() {
   function LZWStream(str, maybeLength, earlyChange) {
-    this.str = str;
-    this.dict = str.dict;
-    this.cachedData = 0;
-    this.bitsCached = 0;
+    this[__webkitAssign__str] = str;
+    this[__webkitAssign__dict] = str.dict;
+    this[__webkitAssign__cachedData] = 0;
+    this[__webkitAssign__bitsCached] = 0;
 
     var maxLzwDictionarySize = 4096;
     var lzwState = {
@@ -41460,32 +41460,32 @@ var LZWStream = (function LZWStreamClosure() {
       lzwState.dictionaryValues[i] = i;
       lzwState.dictionaryLengths[i] = 1;
     }
-    this.lzwState = lzwState;
+    this[__webkitAssign__lzwState] = lzwState;
 
     DecodeStream.call(this, maybeLength);
   }
 
-  LZWStream.prototype = Object.create(DecodeStream.prototype);
+  LZWStream[__webkitAssign__prototype] = Object.create(DecodeStream.prototype);
 
-  LZWStream.prototype.readBits = function LZWStream_readBits(n) {
+  LZWStream.prototype[__webkitAssign__readBits] = function LZWStream_readBits(n) {
     var bitsCached = this.bitsCached;
     var cachedData = this.cachedData;
     while (bitsCached < n) {
       var c = this.str.getByte();
       if (c === -1) {
-        this.eof = true;
+        this[__webkitAssign__eof] = true;
         return null;
       }
       cachedData = (cachedData << 8) | c;
       bitsCached += 8;
     }
-    this.bitsCached = (bitsCached -= n);
-    this.cachedData = cachedData;
-    this.lastCode = null;
+    this[__webkitAssign__bitsCached] = (bitsCached -= n);
+    this[__webkitAssign__cachedData] = cachedData;
+    this[__webkitAssign__lastCode] = null;
     return (cachedData >>> bitsCached) & ((1 << n) - 1);
   };
 
-  LZWStream.prototype.readBlock = function LZWStream_readBlock() {
+  LZWStream.prototype[__webkitAssign__readBlock] = function LZWStream_readBlock() {
     var blockSize = 512;
     var estimatedDecodedSize = blockSize * 2, decodedSizeDelta = blockSize;
     var i, j, q;
@@ -41531,7 +41531,7 @@ var LZWStream = (function LZWStreamClosure() {
         currentSequenceLength = 0;
         continue;
       } else {
-        this.eof = true;
+        this[__webkitAssign__eof] = true;
         delete this.lzwState;
         break;
       }
@@ -41558,12 +41558,12 @@ var LZWStream = (function LZWStreamClosure() {
         buffer[currentBufferLength++] = currentSequence[j];
       }
     }
-    lzwState.nextCode = nextCode;
-    lzwState.codeLength = codeLength;
-    lzwState.prevCode = prevCode;
-    lzwState.currentSequenceLength = currentSequenceLength;
+    lzwState[__webkitAssign__nextCode] = nextCode;
+    lzwState[__webkitAssign__codeLength] = codeLength;
+    lzwState[__webkitAssign__prevCode] = prevCode;
+    lzwState[__webkitAssign__currentSequenceLength] = currentSequenceLength;
 
-    this.bufferLength = currentBufferLength;
+    this[__webkitAssign__bufferLength] = currentBufferLength;
   };
 
   return LZWStream;
@@ -41574,7 +41574,7 @@ var NullStream = (function NullStreamClosure() {
     Stream.call(this, new Uint8Array(0));
   }
 
-  NullStream.prototype = Stream.prototype;
+  NullStream[__webkitAssign__prototype] = Stream.prototype;
 
   return NullStream;
 })();
@@ -41582,12 +41582,12 @@ var NullStream = (function NullStreamClosure() {
 
 var WorkerTask = (function WorkerTaskClosure() {
   function WorkerTask(name) {
-    this.name = name;
-    this.terminated = false;
-    this._capability = createPromiseCapability();
+    this[__webkitAssign__name] = name;
+    this[__webkitAssign__terminated] = false;
+    this[__webkitAssign___capability] = createPromiseCapability();
   }
 
-  WorkerTask.prototype = {
+  WorkerTask[__webkitAssign__prototype] = {
     get finished() {
       return this._capability.promise;
     },
@@ -41597,7 +41597,7 @@ var WorkerTask = (function WorkerTaskClosure() {
     },
 
     terminate: function () {
-      this.terminated = true;
+      this[__webkitAssign__terminated] = true;
     },
 
     ensureNotTerminated: function () {
@@ -41610,7 +41610,7 @@ var WorkerTask = (function WorkerTaskClosure() {
   return WorkerTask;
 })();
 
-var WorkerMessageHandler = PDFJS.WorkerMessageHandler = {
+var WorkerMessageHandler = PDFJS[__webkitAssign__WorkerMessageHandler] = {
   setup: function wphSetup(handler, port) {
     handler.on('test', function wphSetupTest(data) {
       // check if Uint8Array can be sent to worker
@@ -41620,7 +41620,7 @@ var WorkerMessageHandler = PDFJS.WorkerMessageHandler = {
       }
       // making sure postMessage transfers are working
       var supportTransfers = data[0] === 255;
-      handler.postMessageTransfers = supportTransfers;
+      handler[__webkitAssign__postMessageTransfers] = supportTransfers;
       // check if the response property is supported by xhr
       var xhr = new XMLHttpRequest();
       var responseExists = 'response' in xhr;
@@ -41756,7 +41756,7 @@ var WorkerMessageHandler = PDFJS.WorkerMessageHandler = {
           if (!isInt(length)) {
             return;
           }
-          source.length = length;
+          source[__webkitAssign__length] = length;
           if (length <= 2 * source.rangeChunkSize) {
             // The file size is smaller than the size of two chunks, so it does
             // not make any sense to abort the request and retry with a range
@@ -41767,7 +41767,7 @@ var WorkerMessageHandler = PDFJS.WorkerMessageHandler = {
           if (networkManager.isStreamingRequest(fullRequestXhrId)) {
             // We can continue fetching when progressive loading is enabled,
             // and we don't need the autoFetch feature.
-            source.disableAutoFetch = true;
+            source[__webkitAssign__disableAutoFetch] = true;
           } else {
             // NOTE: by cancelling the full request, and then issuing range
             // requests, there will be an issue for sites where you can only
@@ -41888,14 +41888,14 @@ var WorkerMessageHandler = PDFJS.WorkerMessageHandler = {
 
       ensureNotTerminated();
 
-      PDFJS.maxImageSize = data.maxImageSize === undefined ?
+      PDFJS[__webkitAssign__maxImageSize] = data.maxImageSize === undefined ?
                            -1 : data.maxImageSize;
-      PDFJS.disableFontFace = data.disableFontFace;
-      PDFJS.disableCreateObjectURL = data.disableCreateObjectURL;
-      PDFJS.verbosity = data.verbosity;
-      PDFJS.cMapUrl = data.cMapUrl === undefined ?
+      PDFJS[__webkitAssign__disableFontFace] = data.disableFontFace;
+      PDFJS[__webkitAssign__disableCreateObjectURL] = data.disableCreateObjectURL;
+      PDFJS[__webkitAssign__verbosity] = data.verbosity;
+      PDFJS[__webkitAssign__cMapUrl] = data.cMapUrl === undefined ?
                            null : data.cMapUrl;
-      PDFJS.cMapPacked = data.cMapPacked === true;
+      PDFJS[__webkitAssign__cMapPacked] = data.cMapPacked === true;
 
       getPdfManager(data).then(function (newPdfManager) {
         if (terminated) {
@@ -42178,7 +42178,7 @@ var workerConsole = {
 // Worker thread?
 if (typeof window === 'undefined') {
   if (!('console' in globalScope)) {
-    globalScope.console = workerConsole;
+    globalScope[__webkitAssign__console] = workerConsole;
   }
 
   var handler = new MessageHandler('worker', 'main', this);
@@ -42248,22 +42248,22 @@ var ArithmeticDecoder = (function ArithmeticDecoderClosure() {
 
   // C.3.5 Initialisation of the decoder (INITDEC)
   function ArithmeticDecoder(data, start, end) {
-    this.data = data;
-    this.bp = start;
-    this.dataEnd = end;
+    this[__webkitAssign__data] = data;
+    this[__webkitAssign__bp] = start;
+    this[__webkitAssign__dataEnd] = end;
 
-    this.chigh = data[start];
-    this.clow = 0;
+    this[__webkitAssign__chigh] = data[start];
+    this[__webkitAssign__clow] = 0;
 
     this.byteIn();
 
-    this.chigh = ((this.chigh << 7) & 0xFFFF) | ((this.clow >> 9) & 0x7F);
-    this.clow = (this.clow << 7) & 0xFFFF;
-    this.ct -= 7;
-    this.a = 0x8000;
+    this[__webkitAssign__chigh] = ((this.chigh << 7) & 0xFFFF) | ((this.clow >> 9) & 0x7F);
+    this[__webkitAssign__clow] = (this.clow << 7) & 0xFFFF;
+    this[__webkitAssign__ct] -= 7;
+    this[__webkitAssign__a] = 0x8000;
   }
 
-  ArithmeticDecoder.prototype = {
+  ArithmeticDecoder[__webkitAssign__prototype] = {
     // C.3.4 Compressed data input (BYTEIN)
     byteIn: function ArithmeticDecoder_byteIn() {
       var data = this.data;
@@ -42271,23 +42271,23 @@ var ArithmeticDecoder = (function ArithmeticDecoderClosure() {
       if (data[bp] === 0xFF) {
         var b1 = data[bp + 1];
         if (b1 > 0x8F) {
-          this.clow += 0xFF00;
-          this.ct = 8;
+          this[__webkitAssign__clow] += 0xFF00;
+          this[__webkitAssign__ct] = 8;
         } else {
           bp++;
-          this.clow += (data[bp] << 9);
-          this.ct = 7;
-          this.bp = bp;
+          this[__webkitAssign__clow] += (data[bp] << 9);
+          this[__webkitAssign__ct] = 7;
+          this[__webkitAssign__bp] = bp;
         }
       } else {
         bp++;
-        this.clow += bp < this.dataEnd ? (data[bp] << 8) : 0xFF00;
-        this.ct = 8;
-        this.bp = bp;
+        this[__webkitAssign__clow] += bp < this.dataEnd ? (data[bp] << 8) : 0xFF00;
+        this[__webkitAssign__ct] = 8;
+        this[__webkitAssign__bp] = bp;
       }
       if (this.clow > 0xFFFF) {
-        this.chigh += (this.clow >> 16);
-        this.clow &= 0xFFFF;
+        this[__webkitAssign__chigh] += (this.clow >> 16);
+        this[__webkitAssign__clow] &= 0xFFFF;
       }
     },
     // C.3.2 Decoding a decision (DECODE)
@@ -42315,9 +42315,9 @@ var ArithmeticDecoder = (function ArithmeticDecoderClosure() {
           cx_index = qeTableIcx.nlps;
         }
       } else {
-        this.chigh -= qeIcx;
+        this[__webkitAssign__chigh] -= qeIcx;
         if ((a & 0x8000) !== 0) {
-          this.a = a;
+          this[__webkitAssign__a] = a;
           return cx_mps;
         }
         // exchangeMps
@@ -42339,11 +42339,11 @@ var ArithmeticDecoder = (function ArithmeticDecoderClosure() {
         }
 
         a <<= 1;
-        this.chigh = ((this.chigh << 1) & 0xFFFF) | ((this.clow >> 15) & 1);
-        this.clow = (this.clow << 1) & 0xFFFF;
+        this[__webkitAssign__chigh] = ((this.chigh << 1) & 0xFFFF) | ((this.clow >> 15) & 1);
+        this[__webkitAssign__clow] = (this.clow << 1) & 0xFFFF;
         this.ct--;
       } while ((a & 0x8000) === 0);
-      this.a = a;
+      this[__webkitAssign__a] = a;
 
       contexts[pos] = cx_index << 1 | cx_mps;
       return d;
@@ -42488,7 +42488,7 @@ var JpegImage = (function jpegImage() {
     function decodeBaseline(component, offset) {
       var t = decodeHuffman(component.huffmanTableDC);
       var diff = t === 0 ? 0 : receiveAndExtend(t);
-      component.blockData[offset] = (component.pred += diff);
+      component.blockData[offset] = (component[__webkitAssign__pred] += diff);
       var k = 1;
       while (k < 64) {
         var rs = decodeHuffman(component.huffmanTableAC);
@@ -42510,7 +42510,7 @@ var JpegImage = (function jpegImage() {
     function decodeDCFirst(component, offset) {
       var t = decodeHuffman(component.huffmanTableDC);
       var diff = t === 0 ? 0 : (receiveAndExtend(t) << successive);
-      component.blockData[offset] = (component.pred += diff);
+      component.blockData[offset] = (component[__webkitAssign__pred] += diff);
     }
 
     function decodeDCSuccessive(component, offset) {
@@ -42653,7 +42653,7 @@ var JpegImage = (function jpegImage() {
     while (mcu < mcuExpected) {
       // reset interval stuff
       for (i = 0; i < componentsLength; i++) {
-        components[i].pred = 0;
+        components[i][__webkitAssign__pred] = 0;
       }
       eobrun = 0;
 
@@ -42900,7 +42900,7 @@ var JpegImage = (function jpegImage() {
     return a <= 0 ? 0 : a >= 255 ? 255 : a;
   }
 
-  constructor.prototype = {
+  constructor[__webkitAssign__prototype] = {
     parse: function parse(data) {
 
       function readUint16() {
@@ -42930,12 +42930,12 @@ var JpegImage = (function jpegImage() {
 
           var blocksBufferSize = 64 * blocksPerColumnForMcu *
                                       (blocksPerLineForMcu + 1);
-          component.blockData = new Int16Array(blocksBufferSize);
-          component.blocksPerLine = blocksPerLine;
-          component.blocksPerColumn = blocksPerColumn;
+          component[__webkitAssign__blockData] = new Int16Array(blocksBufferSize);
+          component[__webkitAssign__blocksPerLine] = blocksPerLine;
+          component[__webkitAssign__blocksPerColumn] = blocksPerColumn;
         }
-        frame.mcusPerLine = mcusPerLine;
-        frame.mcusPerColumn = mcusPerColumn;
+        frame[__webkitAssign__mcusPerLine] = mcusPerLine;
+        frame[__webkitAssign__mcusPerColumn] = mcusPerColumn;
       }
 
       var offset = 0, length = data.length;
@@ -43036,13 +43036,13 @@ var JpegImage = (function jpegImage() {
             }
             readUint16(); // skip data length
             frame = {};
-            frame.extended = (fileMarker === 0xFFC1);
-            frame.progressive = (fileMarker === 0xFFC2);
-            frame.precision = data[offset++];
-            frame.scanLines = readUint16();
-            frame.samplesPerLine = readUint16();
-            frame.components = [];
-            frame.componentIds = {};
+            frame[__webkitAssign__extended] = (fileMarker === 0xFFC1);
+            frame[__webkitAssign__progressive] = (fileMarker === 0xFFC2);
+            frame[__webkitAssign__precision] = data[offset++];
+            frame[__webkitAssign__scanLines] = readUint16();
+            frame[__webkitAssign__samplesPerLine] = readUint16();
+            frame[__webkitAssign__components] = [];
+            frame[__webkitAssign__componentIds] = {};
             var componentsCount = data[offset++], componentId;
             var maxH = 0, maxV = 0;
             for (i = 0; i < componentsCount; i++) {
@@ -43064,8 +43064,8 @@ var JpegImage = (function jpegImage() {
               frame.componentIds[componentId] = l - 1;
               offset += 3;
             }
-            frame.maxH = maxH;
-            frame.maxV = maxV;
+            frame[__webkitAssign__maxH] = maxH;
+            frame[__webkitAssign__maxV] = maxV;
             prepareComponents(frame);
             break;
 
@@ -43103,8 +43103,8 @@ var JpegImage = (function jpegImage() {
               var componentIndex = frame.componentIds[data[offset++]];
               component = frame.components[componentIndex];
               var tableSpec = data[offset++];
-              component.huffmanTableDC = huffmanTablesDC[tableSpec >> 4];
-              component.huffmanTableAC = huffmanTablesAC[tableSpec & 15];
+              component[__webkitAssign__huffmanTableDC] = huffmanTablesDC[tableSpec >> 4];
+              component[__webkitAssign__huffmanTableAC] = huffmanTablesAC[tableSpec & 15];
               components.push(component);
             }
             var spectralStart = data[offset++];
@@ -43136,11 +43136,11 @@ var JpegImage = (function jpegImage() {
         fileMarker = readUint16();
       }
 
-      this.width = frame.samplesPerLine;
-      this.height = frame.scanLines;
-      this.jfif = jfif;
-      this.adobe = adobe;
-      this.components = [];
+      this[__webkitAssign__width] = frame.samplesPerLine;
+      this[__webkitAssign__height] = frame.scanLines;
+      this[__webkitAssign__jfif] = jfif;
+      this[__webkitAssign__adobe] = adobe;
+      this[__webkitAssign__components] = [];
       for (i = 0; i < frame.components.length; i++) {
         component = frame.components[i];
         this.components.push({
@@ -43151,7 +43151,7 @@ var JpegImage = (function jpegImage() {
           blocksPerColumn: component.blocksPerColumn
         });
       }
-      this.numComponents = this.components.length;
+      this[__webkitAssign__numComponents] = this.components.length;
     },
 
     _getLinearizedBlockData: function getLinearizedBlockData(width, height) {
@@ -43370,9 +43370,9 @@ var JpxImage = (function JpxImageClosure() {
     'HH': 2
   };
   function JpxImage() {
-    this.failOnCorruptedImage = false;
+    this[__webkitAssign__failOnCorruptedImage] = false;
   }
-  JpxImage.prototype = {
+  JpxImage[__webkitAssign__prototype] = {
     parse: function JpxImage_parse(data) {
 
       var head = readUint16(data, 0);
@@ -43472,11 +43472,11 @@ var JpxImage = (function JpxImageClosure() {
           var YOsiz = stream.getInt32() >>> 0; // Byte 16
           stream.skip(16);
           var Csiz = stream.getUint16(); // Byte 36
-          this.width = Xsiz - XOsiz;
-          this.height = Ysiz - YOsiz;
-          this.componentsCount = Csiz;
+          this[__webkitAssign__width] = Xsiz - XOsiz;
+          this[__webkitAssign__height] = Ysiz - YOsiz;
+          this[__webkitAssign__componentsCount] = Csiz;
           // Results are always returned as Uint8Arrays
-          this.bitsPerComponent = 8;
+          this[__webkitAssign__bitsPerComponent] = 8;
           return;
         }
       }
@@ -43494,23 +43494,23 @@ var JpxImage = (function JpxImageClosure() {
           var length = 0, j, sqcd, spqcds, spqcdSize, scalarExpounded, tile;
           switch (code) {
             case 0xFF4F: // Start of codestream (SOC)
-              context.mainHeader = true;
+              context[__webkitAssign__mainHeader] = true;
               break;
             case 0xFFD9: // End of codestream (EOC)
               break;
             case 0xFF51: // Image and tile size (SIZ)
               length = readUint16(data, position);
               var siz = {};
-              siz.Xsiz = readUint32(data, position + 4);
-              siz.Ysiz = readUint32(data, position + 8);
-              siz.XOsiz = readUint32(data, position + 12);
-              siz.YOsiz = readUint32(data, position + 16);
-              siz.XTsiz = readUint32(data, position + 20);
-              siz.YTsiz = readUint32(data, position + 24);
-              siz.XTOsiz = readUint32(data, position + 28);
-              siz.YTOsiz = readUint32(data, position + 32);
+              siz[__webkitAssign__Xsiz] = readUint32(data, position + 4);
+              siz[__webkitAssign__Ysiz] = readUint32(data, position + 8);
+              siz[__webkitAssign__XOsiz] = readUint32(data, position + 12);
+              siz[__webkitAssign__YOsiz] = readUint32(data, position + 16);
+              siz[__webkitAssign__XTsiz] = readUint32(data, position + 20);
+              siz[__webkitAssign__YTsiz] = readUint32(data, position + 24);
+              siz[__webkitAssign__XTOsiz] = readUint32(data, position + 28);
+              siz[__webkitAssign__YTOsiz] = readUint32(data, position + 32);
               var componentsCount = readUint16(data, position + 36);
-              siz.Csiz = componentsCount;
+              siz[__webkitAssign__Csiz] = componentsCount;
               var components = [];
               j = position + 38;
               for (var i = 0; i < componentsCount; i++) {
@@ -43523,11 +43523,11 @@ var JpxImage = (function JpxImageClosure() {
                 calculateComponentDimensions(component, siz);
                 components.push(component);
               }
-              context.SIZ = siz;
-              context.components = components;
+              context[__webkitAssign__SIZ] = siz;
+              context[__webkitAssign__components] = components;
               calculateTileGrids(context, components);
-              context.QCC = [];
-              context.COC = [];
+              context[__webkitAssign__QCC] = [];
+              context[__webkitAssign__COC] = [];
               break;
             case 0xFF5C: // Quantization default (QCD)
               length = readUint16(data, position);
@@ -43550,28 +43550,28 @@ var JpxImage = (function JpxImageClosure() {
                 default:
                   throw new Error('JPX Error: Invalid SQcd value ' + sqcd);
               }
-              qcd.noQuantization = (spqcdSize === 8);
-              qcd.scalarExpounded = scalarExpounded;
-              qcd.guardBits = sqcd >> 5;
+              qcd[__webkitAssign__noQuantization] = (spqcdSize === 8);
+              qcd[__webkitAssign__scalarExpounded] = scalarExpounded;
+              qcd[__webkitAssign__guardBits] = sqcd >> 5;
               spqcds = [];
               while (j < length + position) {
                 var spqcd = {};
                 if (spqcdSize === 8) {
-                  spqcd.epsilon = data[j++] >> 3;
-                  spqcd.mu = 0;
+                  spqcd[__webkitAssign__epsilon] = data[j++] >> 3;
+                  spqcd[__webkitAssign__mu] = 0;
                 } else {
-                  spqcd.epsilon = data[j] >> 3;
-                  spqcd.mu = ((data[j] & 0x7) << 8) | data[j + 1];
+                  spqcd[__webkitAssign__epsilon] = data[j] >> 3;
+                  spqcd[__webkitAssign__mu] = ((data[j] & 0x7) << 8) | data[j + 1];
                   j += 2;
                 }
                 spqcds.push(spqcd);
               }
-              qcd.SPqcds = spqcds;
+              qcd[__webkitAssign__SPqcds] = spqcds;
               if (context.mainHeader) {
-                context.QCD = qcd;
+                context[__webkitAssign__QCD] = qcd;
               } else {
-                context.currentTile.QCD = qcd;
-                context.currentTile.QCC = [];
+                context.currentTile[__webkitAssign__QCD] = qcd;
+                context.currentTile[__webkitAssign__QCC] = [];
               }
               break;
             case 0xFF5D: // Quantization component (QCC)
@@ -43602,23 +43602,23 @@ var JpxImage = (function JpxImageClosure() {
                 default:
                   throw new Error('JPX Error: Invalid SQcd value ' + sqcd);
               }
-              qcc.noQuantization = (spqcdSize === 8);
-              qcc.scalarExpounded = scalarExpounded;
-              qcc.guardBits = sqcd >> 5;
+              qcc[__webkitAssign__noQuantization] = (spqcdSize === 8);
+              qcc[__webkitAssign__scalarExpounded] = scalarExpounded;
+              qcc[__webkitAssign__guardBits] = sqcd >> 5;
               spqcds = [];
               while (j < (length + position)) {
                 spqcd = {};
                 if (spqcdSize === 8) {
-                  spqcd.epsilon = data[j++] >> 3;
-                  spqcd.mu = 0;
+                  spqcd[__webkitAssign__epsilon] = data[j++] >> 3;
+                  spqcd[__webkitAssign__mu] = 0;
                 } else {
-                  spqcd.epsilon = data[j] >> 3;
-                  spqcd.mu = ((data[j] & 0x7) << 8) | data[j + 1];
+                  spqcd[__webkitAssign__epsilon] = data[j] >> 3;
+                  spqcd[__webkitAssign__mu] = ((data[j] & 0x7) << 8) | data[j + 1];
                   j += 2;
                 }
                 spqcds.push(spqcd);
               }
-              qcc.SPqcds = spqcds;
+              qcc[__webkitAssign__SPqcds] = spqcds;
               if (context.mainHeader) {
                 context.QCC[cqcc] = qcc;
               } else {
@@ -43630,25 +43630,25 @@ var JpxImage = (function JpxImageClosure() {
               var cod = {};
               j = position + 2;
               var scod = data[j++];
-              cod.entropyCoderWithCustomPrecincts = !!(scod & 1);
-              cod.sopMarkerUsed = !!(scod & 2);
-              cod.ephMarkerUsed = !!(scod & 4);
-              cod.progressionOrder = data[j++];
-              cod.layersCount = readUint16(data, j);
+              cod[__webkitAssign__entropyCoderWithCustomPrecincts] = !!(scod & 1);
+              cod[__webkitAssign__sopMarkerUsed] = !!(scod & 2);
+              cod[__webkitAssign__ephMarkerUsed] = !!(scod & 4);
+              cod[__webkitAssign__progressionOrder] = data[j++];
+              cod[__webkitAssign__layersCount] = readUint16(data, j);
               j += 2;
-              cod.multipleComponentTransform = data[j++];
+              cod[__webkitAssign__multipleComponentTransform] = data[j++];
 
-              cod.decompositionLevelsCount = data[j++];
-              cod.xcb = (data[j++] & 0xF) + 2;
-              cod.ycb = (data[j++] & 0xF) + 2;
+              cod[__webkitAssign__decompositionLevelsCount] = data[j++];
+              cod[__webkitAssign__xcb] = (data[j++] & 0xF) + 2;
+              cod[__webkitAssign__ycb] = (data[j++] & 0xF) + 2;
               var blockStyle = data[j++];
-              cod.selectiveArithmeticCodingBypass = !!(blockStyle & 1);
-              cod.resetContextProbabilities = !!(blockStyle & 2);
-              cod.terminationOnEachCodingPass = !!(blockStyle & 4);
-              cod.verticalyStripe = !!(blockStyle & 8);
-              cod.predictableTermination = !!(blockStyle & 16);
-              cod.segmentationSymbolUsed = !!(blockStyle & 32);
-              cod.reversibleTransformation = data[j++];
+              cod[__webkitAssign__selectiveArithmeticCodingBypass] = !!(blockStyle & 1);
+              cod[__webkitAssign__resetContextProbabilities] = !!(blockStyle & 2);
+              cod[__webkitAssign__terminationOnEachCodingPass] = !!(blockStyle & 4);
+              cod[__webkitAssign__verticalyStripe] = !!(blockStyle & 8);
+              cod[__webkitAssign__predictableTermination] = !!(blockStyle & 16);
+              cod[__webkitAssign__segmentationSymbolUsed] = !!(blockStyle & 32);
+              cod[__webkitAssign__reversibleTransformation] = data[j++];
               if (cod.entropyCoderWithCustomPrecincts) {
                 var precinctsSizes = [];
                 while (j < length + position) {
@@ -43658,7 +43658,7 @@ var JpxImage = (function JpxImageClosure() {
                     PPy: precinctsSize >> 4
                   });
                 }
-                cod.precinctsSizes = precinctsSizes;
+                cod[__webkitAssign__precinctsSizes] = precinctsSizes;
               }
               var unsupported = [];
               if (cod.selectiveArithmeticCodingBypass) {
@@ -43682,30 +43682,30 @@ var JpxImage = (function JpxImageClosure() {
                                 unsupported.join(', ') + ')');
               }
               if (context.mainHeader) {
-                context.COD = cod;
+                context[__webkitAssign__COD] = cod;
               } else {
-                context.currentTile.COD = cod;
-                context.currentTile.COC = [];
+                context.currentTile[__webkitAssign__COD] = cod;
+                context.currentTile[__webkitAssign__COC] = [];
               }
               break;
             case 0xFF90: // Start of tile-part (SOT)
               length = readUint16(data, position);
               tile = {};
-              tile.index = readUint16(data, position + 2);
-              tile.length = readUint32(data, position + 4);
-              tile.dataEnd = tile.length + position - 2;
-              tile.partIndex = data[position + 8];
-              tile.partsCount = data[position + 9];
+              tile[__webkitAssign__index] = readUint16(data, position + 2);
+              tile[__webkitAssign__length] = readUint32(data, position + 4);
+              tile[__webkitAssign__dataEnd] = tile.length + position - 2;
+              tile[__webkitAssign__partIndex] = data[position + 8];
+              tile[__webkitAssign__partsCount] = data[position + 9];
 
-              context.mainHeader = false;
+              context[__webkitAssign__mainHeader] = false;
               if (tile.partIndex === 0) {
                 // reset component specific settings
-                tile.COD = context.COD;
-                tile.COC = context.COC.slice(0); // clone of the global COC
-                tile.QCD = context.QCD;
-                tile.QCC = context.QCC.slice(0); // clone of the global COC
+                tile[__webkitAssign__COD] = context.COD;
+                tile[__webkitAssign__COC] = context.COC.slice(0); // clone of the global COC
+                tile[__webkitAssign__QCD] = context.QCD;
+                tile[__webkitAssign__QCC] = context.QCC.slice(0); // clone of the global COC
               }
-              context.currentTile = tile;
+              context[__webkitAssign__currentTile] = tile;
               break;
             case 0xFF93: // Start of data (SOD)
               tile = context.currentTile;
@@ -43741,20 +43741,20 @@ var JpxImage = (function JpxImageClosure() {
           warn('Trying to recover from ' + e.message);
         }
       }
-      this.tiles = transformComponents(context);
-      this.width = context.SIZ.Xsiz - context.SIZ.XOsiz;
-      this.height = context.SIZ.Ysiz - context.SIZ.YOsiz;
-      this.componentsCount = context.SIZ.Csiz;
+      this[__webkitAssign__tiles] = transformComponents(context);
+      this[__webkitAssign__width] = context.SIZ.Xsiz - context.SIZ.XOsiz;
+      this[__webkitAssign__height] = context.SIZ.Ysiz - context.SIZ.YOsiz;
+      this[__webkitAssign__componentsCount] = context.SIZ.Csiz;
     }
   };
   function calculateComponentDimensions(component, siz) {
     // Section B.2 Component mapping
-    component.x0 = Math.ceil(siz.XOsiz / component.XRsiz);
-    component.x1 = Math.ceil(siz.Xsiz / component.XRsiz);
-    component.y0 = Math.ceil(siz.YOsiz / component.YRsiz);
-    component.y1 = Math.ceil(siz.Ysiz / component.YRsiz);
-    component.width = component.x1 - component.x0;
-    component.height = component.y1 - component.y0;
+    component[__webkitAssign__x0] = Math.ceil(siz.XOsiz / component.XRsiz);
+    component[__webkitAssign__x1] = Math.ceil(siz.Xsiz / component.XRsiz);
+    component[__webkitAssign__y0] = Math.ceil(siz.YOsiz / component.YRsiz);
+    component[__webkitAssign__y1] = Math.ceil(siz.Ysiz / component.YRsiz);
+    component[__webkitAssign__width] = component.x1 - component.x0;
+    component[__webkitAssign__height] = component.y1 - component.y0;
   }
   function calculateTileGrids(context, components) {
     var siz = context.SIZ;
@@ -43765,17 +43765,17 @@ var JpxImage = (function JpxImageClosure() {
     for (var q = 0; q < numYtiles; q++) {
       for (var p = 0; p < numXtiles; p++) {
         tile = {};
-        tile.tx0 = Math.max(siz.XTOsiz + p * siz.XTsiz, siz.XOsiz);
-        tile.ty0 = Math.max(siz.YTOsiz + q * siz.YTsiz, siz.YOsiz);
-        tile.tx1 = Math.min(siz.XTOsiz + (p + 1) * siz.XTsiz, siz.Xsiz);
-        tile.ty1 = Math.min(siz.YTOsiz + (q + 1) * siz.YTsiz, siz.Ysiz);
-        tile.width = tile.tx1 - tile.tx0;
-        tile.height = tile.ty1 - tile.ty0;
-        tile.components = [];
+        tile[__webkitAssign__tx0] = Math.max(siz.XTOsiz + p * siz.XTsiz, siz.XOsiz);
+        tile[__webkitAssign__ty0] = Math.max(siz.YTOsiz + q * siz.YTsiz, siz.YOsiz);
+        tile[__webkitAssign__tx1] = Math.min(siz.XTOsiz + (p + 1) * siz.XTsiz, siz.Xsiz);
+        tile[__webkitAssign__ty1] = Math.min(siz.YTOsiz + (q + 1) * siz.YTsiz, siz.Ysiz);
+        tile[__webkitAssign__width] = tile.tx1 - tile.tx0;
+        tile[__webkitAssign__height] = tile.ty1 - tile.ty0;
+        tile[__webkitAssign__components] = [];
         tiles.push(tile);
       }
     }
-    context.tiles = tiles;
+    context[__webkitAssign__tiles] = tiles;
 
     var componentsCount = siz.Csiz;
     for (var i = 0, ii = componentsCount; i < ii; i++) {
@@ -43783,12 +43783,12 @@ var JpxImage = (function JpxImageClosure() {
       for (var j = 0, jj = tiles.length; j < jj; j++) {
         var tileComponent = {};
         tile = tiles[j];
-        tileComponent.tcx0 = Math.ceil(tile.tx0 / component.XRsiz);
-        tileComponent.tcy0 = Math.ceil(tile.ty0 / component.YRsiz);
-        tileComponent.tcx1 = Math.ceil(tile.tx1 / component.XRsiz);
-        tileComponent.tcy1 = Math.ceil(tile.ty1 / component.YRsiz);
-        tileComponent.width = tileComponent.tcx1 - tileComponent.tcx0;
-        tileComponent.height = tileComponent.tcy1 - tileComponent.tcy0;
+        tileComponent[__webkitAssign__tcx0] = Math.ceil(tile.tx0 / component.XRsiz);
+        tileComponent[__webkitAssign__tcy0] = Math.ceil(tile.ty0 / component.YRsiz);
+        tileComponent[__webkitAssign__tcx1] = Math.ceil(tile.tx1 / component.XRsiz);
+        tileComponent[__webkitAssign__tcy1] = Math.ceil(tile.ty1 / component.YRsiz);
+        tileComponent[__webkitAssign__width] = tileComponent.tcx1 - tileComponent.tcx0;
+        tileComponent[__webkitAssign__height] = tileComponent.tcy1 - tileComponent.tcy0;
         tile.components[i] = tileComponent;
       }
     }
@@ -43797,16 +43797,16 @@ var JpxImage = (function JpxImageClosure() {
     var codOrCoc = component.codingStyleParameters;
     var result = {};
     if (!codOrCoc.entropyCoderWithCustomPrecincts) {
-      result.PPx = 15;
-      result.PPy = 15;
+      result[__webkitAssign__PPx] = 15;
+      result[__webkitAssign__PPy] = 15;
     } else {
-      result.PPx = codOrCoc.precinctsSizes[r].PPx;
-      result.PPy = codOrCoc.precinctsSizes[r].PPy;
+      result[__webkitAssign__PPx] = codOrCoc.precinctsSizes[r].PPx;
+      result[__webkitAssign__PPy] = codOrCoc.precinctsSizes[r].PPy;
     }
     // calculate codeblock size as described in section B.7
-    result.xcb_ = (r > 0 ? Math.min(codOrCoc.xcb, result.PPx - 1) :
+    result[__webkitAssign__xcb_] = (r > 0 ? Math.min(codOrCoc.xcb, result.PPx - 1) :
                    Math.min(codOrCoc.xcb, result.PPx));
-    result.ycb_ = (r > 0 ? Math.min(codOrCoc.ycb, result.PPy - 1) :
+    result[__webkitAssign__ycb_] = (r > 0 ? Math.min(codOrCoc.ycb, result.PPy - 1) :
                    Math.min(codOrCoc.ycb, result.PPy));
     return result;
   }
@@ -43839,7 +43839,7 @@ var JpxImage = (function JpxImageClosure() {
       Math.floor(resolution.try0 / precinctHeight) : 0);
     var numprecincts = numprecinctswide * numprecinctshigh;
 
-    resolution.precinctParameters = {
+    resolution[__webkitAssign__precinctParameters] = {
       precinctWidth: precinctWidth,
       precinctHeight: precinctHeight,
       numprecinctswide: numprecinctswide,
@@ -43874,10 +43874,10 @@ var JpxImage = (function JpxImageClosure() {
           tby1: codeblockHeight * (j + 1)
         };
 
-        codeblock.tbx0_ = Math.max(subband.tbx0, codeblock.tbx0);
-        codeblock.tby0_ = Math.max(subband.tby0, codeblock.tby0);
-        codeblock.tbx1_ = Math.min(subband.tbx1, codeblock.tbx1);
-        codeblock.tby1_ = Math.min(subband.tby1, codeblock.tby1);
+        codeblock[__webkitAssign__tbx0_] = Math.max(subband.tbx0, codeblock.tbx0);
+        codeblock[__webkitAssign__tby0_] = Math.max(subband.tby0, codeblock.tby0);
+        codeblock[__webkitAssign__tbx1_] = Math.min(subband.tbx1, codeblock.tbx1);
+        codeblock[__webkitAssign__tby1_] = Math.min(subband.tby1, codeblock.tby1);
 
         // Calculate precinct number for this codeblock, codeblock position
         // should be relative to its subband, use actual dimension and position
@@ -43888,9 +43888,9 @@ var JpxImage = (function JpxImageClosure() {
           precinctParameters.precinctHeightInSubband);
         precinctNumber = pi + (pj * precinctParameters.numprecinctswide);
 
-        codeblock.precinctNumber = precinctNumber;
-        codeblock.subbandType = subband.type;
-        codeblock.Lblock = 3;
+        codeblock[__webkitAssign__precinctNumber] = precinctNumber;
+        codeblock[__webkitAssign__subbandType] = subband.type;
+        codeblock[__webkitAssign__Lblock] = 3;
 
         if (codeblock.tbx1_ <= codeblock.tbx0_ ||
             codeblock.tby1_ <= codeblock.tby0_) {
@@ -43901,14 +43901,14 @@ var JpxImage = (function JpxImageClosure() {
         var precinct = precincts[precinctNumber];
         if (precinct !== undefined) {
           if (i < precinct.cbxMin) {
-            precinct.cbxMin = i;
+            precinct[__webkitAssign__cbxMin] = i;
           } else if (i > precinct.cbxMax) {
-            precinct.cbxMax = i;
+            precinct[__webkitAssign__cbxMax] = i;
           }
           if (j < precinct.cbyMin) {
-            precinct.cbxMin = j;
+            precinct[__webkitAssign__cbxMin] = j;
           } else if (j > precinct.cbyMax) {
-            precinct.cbyMax = j;
+            precinct[__webkitAssign__cbyMax] = j;
           }
         } else {
           precincts[precinctNumber] = precinct = {
@@ -43918,17 +43918,17 @@ var JpxImage = (function JpxImageClosure() {
             cbyMax: j
           };
         }
-        codeblock.precinct = precinct;
+        codeblock[__webkitAssign__precinct] = precinct;
       }
     }
-    subband.codeblockParameters = {
+    subband[__webkitAssign__codeblockParameters] = {
       codeblockWidth: xcb_,
       codeblockHeight: ycb_,
       numcodeblockwide: cbx1 - cbx0 + 1,
       numcodeblockhigh: cby1 - cby0 + 1
     };
-    subband.codeblocks = codeblocks;
-    subband.precincts = precincts;
+    subband[__webkitAssign__codeblocks] = codeblocks;
+    subband[__webkitAssign__precincts] = precincts;
   }
   function createPacket(resolution, precinctNumber, layerNumber) {
     var precinctCodeblocks = [];
@@ -43965,7 +43965,7 @@ var JpxImage = (function JpxImageClosure() {
 
     var l = 0, r = 0, i = 0, k = 0;
 
-    this.nextPacket = function JpxImage_nextPacket() {
+    this[__webkitAssign__nextPacket] = function JpxImage_nextPacket() {
       // Section B.12.1.1 Layer-resolution-component-position
       for (; l < layersCount; l++) {
         for (; r <= maxDecompositionLevelsCount; r++) {
@@ -44005,7 +44005,7 @@ var JpxImage = (function JpxImageClosure() {
 
     var r = 0, l = 0, i = 0, k = 0;
 
-    this.nextPacket = function JpxImage_nextPacket() {
+    this[__webkitAssign__nextPacket] = function JpxImage_nextPacket() {
       // Section B.12.1.2 Resolution-layer-component-position
       for (; r <= maxDecompositionLevelsCount; r++) {
         for (; l < layersCount; l++) {
@@ -44062,7 +44062,7 @@ var JpxImage = (function JpxImageClosure() {
     c = 0;
     p = 0;
 
-    this.nextPacket = function JpxImage_nextPacket() {
+    this[__webkitAssign__nextPacket] = function JpxImage_nextPacket() {
       // Section B.12.1.3 Resolution-position-component-layer
       for (; r <= maxDecompositionLevelsCount; r++) {
         for (; p < maxNumPrecinctsInLevel[r]; p++) {
@@ -44100,7 +44100,7 @@ var JpxImage = (function JpxImageClosure() {
     var precinctsIterationSizes = precinctsSizes;
     var l = 0, r = 0, c = 0, px = 0, py = 0;
 
-    this.nextPacket = function JpxImage_nextPacket() {
+    this[__webkitAssign__nextPacket] = function JpxImage_nextPacket() {
       // Section B.12.1.4 Position-component-resolution-layer
       for (; py < precinctsIterationSizes.maxNumHigh; py++) {
         for (; px < precinctsIterationSizes.maxNumWide; px++) {
@@ -44146,7 +44146,7 @@ var JpxImage = (function JpxImageClosure() {
     var precinctsSizes = getPrecinctSizesInImageScale(tile);
     var l = 0, r = 0, c = 0, px = 0, py = 0;
 
-    this.nextPacket = function JpxImage_nextPacket() {
+    this[__webkitAssign__nextPacket] = function JpxImage_nextPacket() {
       // Section B.12.1.5 Component-position-resolution-layer
       for (; c < componentsCount; ++c) {
         var component = tile.components[c];
@@ -44272,11 +44272,11 @@ var JpxImage = (function JpxImageClosure() {
         var blocksDimensions = getBlocksDimensions(context, component, r);
         var resolution = {};
         var scale = 1 << (decompositionLevelsCount - r);
-        resolution.trx0 = Math.ceil(component.tcx0 / scale);
-        resolution.try0 = Math.ceil(component.tcy0 / scale);
-        resolution.trx1 = Math.ceil(component.tcx1 / scale);
-        resolution.try1 = Math.ceil(component.tcy1 / scale);
-        resolution.resLevel = r;
+        resolution[__webkitAssign__trx0] = Math.ceil(component.tcx0 / scale);
+        resolution[__webkitAssign__try0] = Math.ceil(component.tcy0 / scale);
+        resolution[__webkitAssign__trx1] = Math.ceil(component.tcx1 / scale);
+        resolution[__webkitAssign__try1] = Math.ceil(component.tcy1 / scale);
+        resolution[__webkitAssign__resLevel] = r;
         buildPrecincts(context, resolution, blocksDimensions);
         resolutions.push(resolution);
 
@@ -44284,79 +44284,79 @@ var JpxImage = (function JpxImageClosure() {
         if (r === 0) {
           // one sub-band (LL) with last decomposition
           subband = {};
-          subband.type = 'LL';
-          subband.tbx0 = Math.ceil(component.tcx0 / scale);
-          subband.tby0 = Math.ceil(component.tcy0 / scale);
-          subband.tbx1 = Math.ceil(component.tcx1 / scale);
-          subband.tby1 = Math.ceil(component.tcy1 / scale);
-          subband.resolution = resolution;
+          subband[__webkitAssign__type] = 'LL';
+          subband[__webkitAssign__tbx0] = Math.ceil(component.tcx0 / scale);
+          subband[__webkitAssign__tby0] = Math.ceil(component.tcy0 / scale);
+          subband[__webkitAssign__tbx1] = Math.ceil(component.tcx1 / scale);
+          subband[__webkitAssign__tby1] = Math.ceil(component.tcy1 / scale);
+          subband[__webkitAssign__resolution] = resolution;
           buildCodeblocks(context, subband, blocksDimensions);
           subbands.push(subband);
-          resolution.subbands = [subband];
+          resolution[__webkitAssign__subbands] = [subband];
         } else {
           var bscale = 1 << (decompositionLevelsCount - r + 1);
           var resolutionSubbands = [];
           // three sub-bands (HL, LH and HH) with rest of decompositions
           subband = {};
-          subband.type = 'HL';
-          subband.tbx0 = Math.ceil(component.tcx0 / bscale - 0.5);
-          subband.tby0 = Math.ceil(component.tcy0 / bscale);
-          subband.tbx1 = Math.ceil(component.tcx1 / bscale - 0.5);
-          subband.tby1 = Math.ceil(component.tcy1 / bscale);
-          subband.resolution = resolution;
+          subband[__webkitAssign__type] = 'HL';
+          subband[__webkitAssign__tbx0] = Math.ceil(component.tcx0 / bscale - 0.5);
+          subband[__webkitAssign__tby0] = Math.ceil(component.tcy0 / bscale);
+          subband[__webkitAssign__tbx1] = Math.ceil(component.tcx1 / bscale - 0.5);
+          subband[__webkitAssign__tby1] = Math.ceil(component.tcy1 / bscale);
+          subband[__webkitAssign__resolution] = resolution;
           buildCodeblocks(context, subband, blocksDimensions);
           subbands.push(subband);
           resolutionSubbands.push(subband);
 
           subband = {};
-          subband.type = 'LH';
-          subband.tbx0 = Math.ceil(component.tcx0 / bscale);
-          subband.tby0 = Math.ceil(component.tcy0 / bscale - 0.5);
-          subband.tbx1 = Math.ceil(component.tcx1 / bscale);
-          subband.tby1 = Math.ceil(component.tcy1 / bscale - 0.5);
-          subband.resolution = resolution;
+          subband[__webkitAssign__type] = 'LH';
+          subband[__webkitAssign__tbx0] = Math.ceil(component.tcx0 / bscale);
+          subband[__webkitAssign__tby0] = Math.ceil(component.tcy0 / bscale - 0.5);
+          subband[__webkitAssign__tbx1] = Math.ceil(component.tcx1 / bscale);
+          subband[__webkitAssign__tby1] = Math.ceil(component.tcy1 / bscale - 0.5);
+          subband[__webkitAssign__resolution] = resolution;
           buildCodeblocks(context, subband, blocksDimensions);
           subbands.push(subband);
           resolutionSubbands.push(subband);
 
           subband = {};
-          subband.type = 'HH';
-          subband.tbx0 = Math.ceil(component.tcx0 / bscale - 0.5);
-          subband.tby0 = Math.ceil(component.tcy0 / bscale - 0.5);
-          subband.tbx1 = Math.ceil(component.tcx1 / bscale - 0.5);
-          subband.tby1 = Math.ceil(component.tcy1 / bscale - 0.5);
-          subband.resolution = resolution;
+          subband[__webkitAssign__type] = 'HH';
+          subband[__webkitAssign__tbx0] = Math.ceil(component.tcx0 / bscale - 0.5);
+          subband[__webkitAssign__tby0] = Math.ceil(component.tcy0 / bscale - 0.5);
+          subband[__webkitAssign__tbx1] = Math.ceil(component.tcx1 / bscale - 0.5);
+          subband[__webkitAssign__tby1] = Math.ceil(component.tcy1 / bscale - 0.5);
+          subband[__webkitAssign__resolution] = resolution;
           buildCodeblocks(context, subband, blocksDimensions);
           subbands.push(subband);
           resolutionSubbands.push(subband);
 
-          resolution.subbands = resolutionSubbands;
+          resolution[__webkitAssign__subbands] = resolutionSubbands;
         }
       }
-      component.resolutions = resolutions;
-      component.subbands = subbands;
+      component[__webkitAssign__resolutions] = resolutions;
+      component[__webkitAssign__subbands] = subbands;
     }
     // Generate the packets sequence
     var progressionOrder = tile.codingStyleDefaultParameters.progressionOrder;
     switch (progressionOrder) {
       case 0:
-        tile.packetsIterator =
+        tile[__webkitAssign__packetsIterator] =
           new LayerResolutionComponentPositionIterator(context);
         break;
       case 1:
-        tile.packetsIterator =
+        tile[__webkitAssign__packetsIterator] =
           new ResolutionLayerComponentPositionIterator(context);
         break;
       case 2:
-        tile.packetsIterator =
+        tile[__webkitAssign__packetsIterator] =
           new ResolutionPositionComponentLayerIterator(context);
         break;
       case 3:
-        tile.packetsIterator =
+        tile[__webkitAssign__packetsIterator] =
           new PositionComponentResolutionLayerIterator(context);
         break;
       case 4:
-        tile.packetsIterator =
+        tile[__webkitAssign__packetsIterator] =
           new ComponentPositionResolutionLayerIterator(context);
         break;
       default:
@@ -44465,8 +44465,8 @@ var JpxImage = (function JpxImageClosure() {
             var height = precinct.cbyMax - precinct.cbyMin + 1;
             inclusionTree = new InclusionTree(width, height, layerNumber);
             zeroBitPlanesTree = new TagTree(width, height);
-            precinct.inclusionTree = inclusionTree;
-            precinct.zeroBitPlanesTree = zeroBitPlanesTree;
+            precinct[__webkitAssign__inclusionTree] = inclusionTree;
+            precinct[__webkitAssign__zeroBitPlanesTree] = zeroBitPlanesTree;
           }
 
           if (inclusionTree.reset(codeblockColumn, codeblockRow, layerNumber)) {
@@ -44474,7 +44474,7 @@ var JpxImage = (function JpxImageClosure() {
               if (readBits(1)) {
                 valueReady = !inclusionTree.nextLevel();
                 if (valueReady) {
-                  codeblock.included = true;
+                  codeblock[__webkitAssign__included] = true;
                   codeblockIncluded = firstTimeInclusion = true;
                   break;
                 }
@@ -44501,7 +44501,7 @@ var JpxImage = (function JpxImageClosure() {
               zeroBitPlanesTree.incrementValue();
             }
           }
-          codeblock.zeroBitPlanes = zeroBitPlanesTree.value;
+          codeblock[__webkitAssign__zeroBitPlanes] = zeroBitPlanesTree.value;
         }
         var codingpasses = readCodingpasses();
         while (readBits(1)) {
@@ -44526,7 +44526,7 @@ var JpxImage = (function JpxImageClosure() {
         var packetItem = queue.shift();
         codeblock = packetItem.codeblock;
         if (codeblock['data'] === undefined) {
-          codeblock.data = [];
+          codeblock[__webkitAssign__data] = [];
         }
         codeblock.data.push({
           data: data,
@@ -44812,19 +44812,19 @@ var JpxImage = (function JpxImageClosure() {
       var component = tile.components[c];
       var qcdOrQcc = (context.currentTile.QCC[c] !== undefined ?
         context.currentTile.QCC[c] : context.currentTile.QCD);
-      component.quantizationParameters = qcdOrQcc;
+      component[__webkitAssign__quantizationParameters] = qcdOrQcc;
       var codOrCoc = (context.currentTile.COC[c] !== undefined  ?
         context.currentTile.COC[c] : context.currentTile.COD);
-      component.codingStyleParameters = codOrCoc;
+      component[__webkitAssign__codingStyleParameters] = codOrCoc;
     }
-    tile.codingStyleDefaultParameters = context.currentTile.COD;
+    tile[__webkitAssign__codingStyleDefaultParameters] = context.currentTile.COD;
   }
 
   // Section B.10.2 Tag trees
   var TagTree = (function TagTreeClosure() {
     function TagTree(width, height) {
       var levelsLength = log2(Math.max(width, height)) + 1;
-      this.levels = [];
+      this[__webkitAssign__levels] = [];
       for (var i = 0; i < levelsLength; i++) {
         var level = {
           width: width,
@@ -44836,7 +44836,7 @@ var JpxImage = (function JpxImageClosure() {
         height = Math.ceil(height / 2);
       }
     }
-    TagTree.prototype = {
+    TagTree[__webkitAssign__prototype] = {
       reset: function TagTree_reset(i, j) {
         var currentLevel = 0, value = 0, level;
         while (currentLevel < this.levels.length) {
@@ -44846,7 +44846,7 @@ var JpxImage = (function JpxImageClosure() {
             value = level.items[index];
             break;
           }
-          level.index = index;
+          level[__webkitAssign__index] = index;
           i >>= 1;
           j >>= 1;
           currentLevel++;
@@ -44854,7 +44854,7 @@ var JpxImage = (function JpxImageClosure() {
         currentLevel--;
         level = this.levels[currentLevel];
         level.items[level.index] = value;
-        this.currentLevel = currentLevel;
+        this[__webkitAssign__currentLevel] = currentLevel;
         delete this.value;
       },
       incrementValue: function TagTree_incrementValue() {
@@ -44867,11 +44867,11 @@ var JpxImage = (function JpxImageClosure() {
         var value = level.items[level.index];
         currentLevel--;
         if (currentLevel < 0) {
-          this.value = value;
+          this[__webkitAssign__value] = value;
           return false;
         }
 
-        this.currentLevel = currentLevel;
+        this[__webkitAssign__currentLevel] = currentLevel;
         level = this.levels[currentLevel];
         level.items[level.index] = value;
         return true;
@@ -44883,7 +44883,7 @@ var JpxImage = (function JpxImageClosure() {
   var InclusionTree = (function InclusionTreeClosure() {
     function InclusionTree(width, height,  defaultValue) {
       var levelsLength = log2(Math.max(width, height)) + 1;
-      this.levels = [];
+      this[__webkitAssign__levels] = [];
       for (var i = 0; i < levelsLength; i++) {
         var items = new Uint8Array(width * height);
         for (var j = 0, jj = items.length; j < jj; j++) {
@@ -44901,13 +44901,13 @@ var JpxImage = (function JpxImageClosure() {
         height = Math.ceil(height / 2);
       }
     }
-    InclusionTree.prototype = {
+    InclusionTree[__webkitAssign__prototype] = {
       reset: function InclusionTree_reset(i, j, stopValue) {
         var currentLevel = 0;
         while (currentLevel < this.levels.length) {
           var level = this.levels[currentLevel];
           var index = i + j * level.width;
-          level.index = index;
+          level[__webkitAssign__index] = index;
           var value = level.items[index];
 
           if (value === 0xFF) {
@@ -44915,7 +44915,7 @@ var JpxImage = (function JpxImageClosure() {
           }
 
           if (value > stopValue) {
-            this.currentLevel = currentLevel;
+            this[__webkitAssign__currentLevel] = currentLevel;
             // already know about this one, propagating the value to top levels
             this.propagateValues();
             return false;
@@ -44925,7 +44925,7 @@ var JpxImage = (function JpxImageClosure() {
           j >>= 1;
           currentLevel++;
         }
-        this.currentLevel = currentLevel - 1;
+        this[__webkitAssign__currentLevel] = currentLevel - 1;
         return true;
       },
       incrementValue: function InclusionTree_incrementValue(stopValue) {
@@ -44952,7 +44952,7 @@ var JpxImage = (function JpxImageClosure() {
           return false;
         }
 
-        this.currentLevel = currentLevel;
+        this[__webkitAssign__currentLevel] = currentLevel;
         level = this.levels[currentLevel];
         level.items[level.index] = value;
         return true;
@@ -44985,22 +44985,22 @@ var JpxImage = (function JpxImageClosure() {
     ]);
 
     function BitModel(width, height, subband, zeroBitPlanes, mb) {
-      this.width = width;
-      this.height = height;
+      this[__webkitAssign__width] = width;
+      this[__webkitAssign__height] = height;
 
-      this.contextLabelTable = (subband === 'HH' ? HHContextLabel :
+      this[__webkitAssign__contextLabelTable] = (subband === 'HH' ? HHContextLabel :
         (subband === 'HL' ? HLContextLabel : LLAndLHContextsLabel));
 
       var coefficientCount = width * height;
 
       // coefficients outside the encoding region treated as insignificant
       // add border state cells for significanceState
-      this.neighborsSignificance = new Uint8Array(coefficientCount);
-      this.coefficentsSign = new Uint8Array(coefficientCount);
-      this.coefficentsMagnitude = mb > 14 ? new Uint32Array(coefficientCount) :
+      this[__webkitAssign__neighborsSignificance] = new Uint8Array(coefficientCount);
+      this[__webkitAssign__coefficentsSign] = new Uint8Array(coefficientCount);
+      this[__webkitAssign__coefficentsMagnitude] = mb > 14 ? new Uint32Array(coefficientCount) :
                                   mb > 6 ? new Uint16Array(coefficientCount) :
                                   new Uint8Array(coefficientCount);
-      this.processingFlags = new Uint8Array(coefficientCount);
+      this[__webkitAssign__processingFlags] = new Uint8Array(coefficientCount);
 
       var bitsDecoded = new Uint8Array(coefficientCount);
       if (zeroBitPlanes !== 0) {
@@ -45008,19 +45008,19 @@ var JpxImage = (function JpxImageClosure() {
           bitsDecoded[i] = zeroBitPlanes;
         }
       }
-      this.bitsDecoded = bitsDecoded;
+      this[__webkitAssign__bitsDecoded] = bitsDecoded;
 
       this.reset();
     }
 
-    BitModel.prototype = {
+    BitModel[__webkitAssign__prototype] = {
       setDecoder: function BitModel_setDecoder(decoder) {
-        this.decoder = decoder;
+        this[__webkitAssign__decoder] = decoder;
       },
       reset: function BitModel_reset() {
         // We have 17 contexts that are accessed via context labels,
         // plus the uniform and runlength context.
-        this.contexts = new Int8Array(19);
+        this[__webkitAssign__contexts] = new Int8Array(19);
 
         // Contexts are packed into 1 byte:
         // highest 7 bits carry the index, lowest bit carries mps
@@ -45310,7 +45310,7 @@ var JpxImage = (function JpxImageClosure() {
   var Transform = (function TransformClosure() {
     function Transform() {}
 
-    Transform.prototype.calculate =
+    Transform.prototype[__webkitAssign__calculate] =
       function transformCalculate(subbands, u0, v0) {
       var ll = subbands[0];
       for (var i = 1, ii = subbands.length; i < ii; i++) {
@@ -45318,7 +45318,7 @@ var JpxImage = (function JpxImageClosure() {
       }
       return ll;
     };
-    Transform.prototype.extend = function extend(buffer, offset, size) {
+    Transform.prototype[__webkitAssign__extend] = function extend(buffer, offset, size) {
       // Section F.3.7 extending... using max extension of 4
       var i1 = offset - 1, j1 = offset + 1;
       var i2 = offset + size - 2, j2 = offset + size;
@@ -45331,7 +45331,7 @@ var JpxImage = (function JpxImageClosure() {
       buffer[i1] = buffer[j1];
       buffer[j2] = buffer[i2];
     };
-    Transform.prototype.iterate = function Transform_iterate(ll, hl_lh_hh,
+    Transform.prototype[__webkitAssign__iterate] = function Transform_iterate(ll, hl_lh_hh,
                                                              u0, v0) {
       var llWidth = ll.width, llHeight = ll.height, llItems = ll.items;
       var width = hl_lh_hh.width;
@@ -45347,7 +45347,7 @@ var JpxImage = (function JpxImageClosure() {
         }
       }
       // The LL band is not needed anymore.
-      llItems = ll.items = null;
+      llItems = ll[__webkitAssign__items] = null;
 
       var bufferPadding = 4;
       var rowBuffer = new Float32Array(width + 2 * bufferPadding);
@@ -45440,8 +45440,8 @@ var JpxImage = (function JpxImageClosure() {
       Transform.call(this);
     }
 
-    IrreversibleTransform.prototype = Object.create(Transform.prototype);
-    IrreversibleTransform.prototype.filter =
+    IrreversibleTransform[__webkitAssign__prototype] = Object.create(Transform.prototype);
+    IrreversibleTransform.prototype[__webkitAssign__filter] =
       function irreversibleTransformFilter(x, offset, length) {
       var len = length >> 1;
       offset = offset | 0;
@@ -45534,8 +45534,8 @@ var JpxImage = (function JpxImageClosure() {
       Transform.call(this);
     }
 
-    ReversibleTransform.prototype = Object.create(Transform.prototype);
-    ReversibleTransform.prototype.filter =
+    ReversibleTransform[__webkitAssign__prototype] = Object.create(Transform.prototype);
+    ReversibleTransform.prototype[__webkitAssign__filter] =
       function reversibleTransformFilter(x, offset, length) {
       var len = length >> 1;
       offset = offset | 0;
@@ -45561,7 +45561,7 @@ var Jbig2Image = (function Jbig2ImageClosure() {
   // Utility data structures
   function ContextCache() {}
 
-  ContextCache.prototype = {
+  ContextCache[__webkitAssign__prototype] = {
     getContexts: function(id) {
       if (id in this) {
         return this[id];
@@ -45571,12 +45571,12 @@ var Jbig2Image = (function Jbig2ImageClosure() {
   };
 
   function DecodingContext(data, start, end) {
-    this.data = data;
-    this.start = start;
-    this.end = end;
+    this[__webkitAssign__data] = data;
+    this[__webkitAssign__start] = start;
+    this[__webkitAssign__end] = end;
   }
 
-  DecodingContext.prototype = {
+  DecodingContext[__webkitAssign__prototype] = {
     get decoder() {
       var decoder = new ArithmeticDecoder(this.data, this.start, this.end);
       return shadow(this, 'decoder', decoder);
@@ -46147,15 +46147,15 @@ var Jbig2Image = (function Jbig2ImageClosure() {
 
   function readSegmentHeader(data, start) {
     var segmentHeader = {};
-    segmentHeader.number = readUint32(data, start);
+    segmentHeader[__webkitAssign__number] = readUint32(data, start);
     var flags = data[start + 4];
     var segmentType = flags & 0x3F;
     if (!SegmentTypes[segmentType]) {
       error('JBIG2 error: invalid segment type: ' + segmentType);
     }
-    segmentHeader.type = segmentType;
-    segmentHeader.typeName = SegmentTypes[segmentType];
-    segmentHeader.deferredNonRetain = !!(flags & 0x80);
+    segmentHeader[__webkitAssign__type] = segmentType;
+    segmentHeader[__webkitAssign__typeName] = SegmentTypes[segmentType];
+    segmentHeader[__webkitAssign__deferredNonRetain] = !!(flags & 0x80);
 
     var pageAssociationFieldSize = !!(flags & 0x40);
     var referredFlags = data[start + 5];
@@ -46174,7 +46174,7 @@ var Jbig2Image = (function Jbig2ImageClosure() {
       error('JBIG2 error: invalid referred-to flags');
     }
 
-    segmentHeader.retainBits = retainBits;
+    segmentHeader[__webkitAssign__retainBits] = retainBits;
     var referredToSegmentNumberSize = (segmentHeader.number <= 256 ? 1 :
       (segmentHeader.number <= 65536 ? 2 : 4));
     var referredTo = [];
@@ -46186,14 +46186,14 @@ var Jbig2Image = (function Jbig2ImageClosure() {
       referredTo.push(number);
       position += referredToSegmentNumberSize;
     }
-    segmentHeader.referredTo = referredTo;
+    segmentHeader[__webkitAssign__referredTo] = referredTo;
     if (!pageAssociationFieldSize) {
-      segmentHeader.pageAssociation = data[position++];
+      segmentHeader[__webkitAssign__pageAssociation] = data[position++];
     } else {
-      segmentHeader.pageAssociation = readUint32(data, position);
+      segmentHeader[__webkitAssign__pageAssociation] = readUint32(data, position);
       position += 4;
     }
-    segmentHeader.length = readUint32(data, position);
+    segmentHeader[__webkitAssign__length] = readUint32(data, position);
     position += 4;
 
     if (segmentHeader.length === 0xFFFFFFFF) {
@@ -46220,7 +46220,7 @@ var Jbig2Image = (function Jbig2ImageClosure() {
             j++;
           }
           if (j === searchPatternLength) {
-            segmentHeader.length = i + searchPatternLength;
+            segmentHeader[__webkitAssign__length] = i + searchPatternLength;
             break;
           }
         }
@@ -46231,7 +46231,7 @@ var Jbig2Image = (function Jbig2ImageClosure() {
         error('JBIG2 error: invalid unknown segment length');
       }
     }
-    segmentHeader.headerEnd = position;
+    segmentHeader[__webkitAssign__headerEnd] = position;
     return segmentHeader;
   }
 
@@ -46246,9 +46246,9 @@ var Jbig2Image = (function Jbig2ImageClosure() {
         data: data
       };
       if (!header.randomAccess) {
-        segment.start = position;
+        segment[__webkitAssign__start] = position;
         position += segmentHeader.length;
-        segment.end = position;
+        segment[__webkitAssign__end] = position;
       }
       segments.push(segment);
       if (segmentHeader.type === 51) {
@@ -46257,9 +46257,9 @@ var Jbig2Image = (function Jbig2ImageClosure() {
     }
     if (header.randomAccess) {
       for (var i = 0, ii = segments.length; i < ii; i++) {
-        segments[i].start = position;
+        segments[i][__webkitAssign__start] = position;
         position += segments[i].header.length;
-        segments[i].end = position;
+        segments[i][__webkitAssign__end] = position;
       }
     }
     return segments;
@@ -46287,16 +46287,16 @@ var Jbig2Image = (function Jbig2ImageClosure() {
         // 7.4.2 Symbol dictionary segment syntax
         var dictionary = {};
         var dictionaryFlags = readUint16(data, position); // 7.4.2.1.1
-        dictionary.huffman = !!(dictionaryFlags & 1);
-        dictionary.refinement = !!(dictionaryFlags & 2);
-        dictionary.huffmanDHSelector = (dictionaryFlags >> 2) & 3;
-        dictionary.huffmanDWSelector = (dictionaryFlags >> 4) & 3;
-        dictionary.bitmapSizeSelector = (dictionaryFlags >> 6) & 1;
-        dictionary.aggregationInstancesSelector = (dictionaryFlags >> 7) & 1;
-        dictionary.bitmapCodingContextUsed = !!(dictionaryFlags & 256);
-        dictionary.bitmapCodingContextRetained = !!(dictionaryFlags & 512);
-        dictionary.template = (dictionaryFlags >> 10) & 3;
-        dictionary.refinementTemplate = (dictionaryFlags >> 12) & 1;
+        dictionary[__webkitAssign__huffman] = !!(dictionaryFlags & 1);
+        dictionary[__webkitAssign__refinement] = !!(dictionaryFlags & 2);
+        dictionary[__webkitAssign__huffmanDHSelector] = (dictionaryFlags >> 2) & 3;
+        dictionary[__webkitAssign__huffmanDWSelector] = (dictionaryFlags >> 4) & 3;
+        dictionary[__webkitAssign__bitmapSizeSelector] = (dictionaryFlags >> 6) & 1;
+        dictionary[__webkitAssign__aggregationInstancesSelector] = (dictionaryFlags >> 7) & 1;
+        dictionary[__webkitAssign__bitmapCodingContextUsed] = !!(dictionaryFlags & 256);
+        dictionary[__webkitAssign__bitmapCodingContextRetained] = !!(dictionaryFlags & 512);
+        dictionary[__webkitAssign__template] = (dictionaryFlags >> 10) & 3;
+        dictionary[__webkitAssign__refinementTemplate] = (dictionaryFlags >> 12) & 1;
         position += 2;
         if (!dictionary.huffman) {
           atLength = dictionary.template === 0 ? 4 : 1;
@@ -46308,7 +46308,7 @@ var Jbig2Image = (function Jbig2ImageClosure() {
             });
             position += 2;
           }
-          dictionary.at = at;
+          dictionary[__webkitAssign__at] = at;
         }
         if (dictionary.refinement && !dictionary.refinementTemplate) {
           at = [];
@@ -46319,11 +46319,11 @@ var Jbig2Image = (function Jbig2ImageClosure() {
             });
             position += 2;
           }
-          dictionary.refinementAt = at;
+          dictionary[__webkitAssign__refinementAt] = at;
         }
-        dictionary.numberOfExportedSymbols = readUint32(data, position);
+        dictionary[__webkitAssign__numberOfExportedSymbols] = readUint32(data, position);
         position += 4;
-        dictionary.numberOfNewSymbols = readUint32(data, position);
+        dictionary[__webkitAssign__numberOfNewSymbols] = readUint32(data, position);
         position += 4;
         args = [dictionary, header.number, header.referredTo,
                 data, position, end];
@@ -46331,30 +46331,30 @@ var Jbig2Image = (function Jbig2ImageClosure() {
       case 6: // ImmediateTextRegion
       case 7: // ImmediateLosslessTextRegion
         var textRegion = {};
-        textRegion.info = readRegionSegmentInformation(data, position);
+        textRegion[__webkitAssign__info] = readRegionSegmentInformation(data, position);
         position += RegionSegmentInformationFieldLength;
         var textRegionSegmentFlags = readUint16(data, position);
         position += 2;
-        textRegion.huffman = !!(textRegionSegmentFlags & 1);
-        textRegion.refinement = !!(textRegionSegmentFlags & 2);
-        textRegion.stripSize = 1 << ((textRegionSegmentFlags >> 2) & 3);
-        textRegion.referenceCorner = (textRegionSegmentFlags >> 4) & 3;
-        textRegion.transposed = !!(textRegionSegmentFlags & 64);
-        textRegion.combinationOperator = (textRegionSegmentFlags >> 7) & 3;
-        textRegion.defaultPixelValue = (textRegionSegmentFlags >> 9) & 1;
-        textRegion.dsOffset = (textRegionSegmentFlags << 17) >> 27;
-        textRegion.refinementTemplate = (textRegionSegmentFlags >> 15) & 1;
+        textRegion[__webkitAssign__huffman] = !!(textRegionSegmentFlags & 1);
+        textRegion[__webkitAssign__refinement] = !!(textRegionSegmentFlags & 2);
+        textRegion[__webkitAssign__stripSize] = 1 << ((textRegionSegmentFlags >> 2) & 3);
+        textRegion[__webkitAssign__referenceCorner] = (textRegionSegmentFlags >> 4) & 3;
+        textRegion[__webkitAssign__transposed] = !!(textRegionSegmentFlags & 64);
+        textRegion[__webkitAssign__combinationOperator] = (textRegionSegmentFlags >> 7) & 3;
+        textRegion[__webkitAssign__defaultPixelValue] = (textRegionSegmentFlags >> 9) & 1;
+        textRegion[__webkitAssign__dsOffset] = (textRegionSegmentFlags << 17) >> 27;
+        textRegion[__webkitAssign__refinementTemplate] = (textRegionSegmentFlags >> 15) & 1;
         if (textRegion.huffman) {
           var textRegionHuffmanFlags = readUint16(data, position);
           position += 2;
-          textRegion.huffmanFS = (textRegionHuffmanFlags) & 3;
-          textRegion.huffmanDS = (textRegionHuffmanFlags >> 2) & 3;
-          textRegion.huffmanDT = (textRegionHuffmanFlags >> 4) & 3;
-          textRegion.huffmanRefinementDW = (textRegionHuffmanFlags >> 6) & 3;
-          textRegion.huffmanRefinementDH = (textRegionHuffmanFlags >> 8) & 3;
-          textRegion.huffmanRefinementDX = (textRegionHuffmanFlags >> 10) & 3;
-          textRegion.huffmanRefinementDY = (textRegionHuffmanFlags >> 12) & 3;
-          textRegion.huffmanRefinementSizeSelector =
+          textRegion[__webkitAssign__huffmanFS] = (textRegionHuffmanFlags) & 3;
+          textRegion[__webkitAssign__huffmanDS] = (textRegionHuffmanFlags >> 2) & 3;
+          textRegion[__webkitAssign__huffmanDT] = (textRegionHuffmanFlags >> 4) & 3;
+          textRegion[__webkitAssign__huffmanRefinementDW] = (textRegionHuffmanFlags >> 6) & 3;
+          textRegion[__webkitAssign__huffmanRefinementDH] = (textRegionHuffmanFlags >> 8) & 3;
+          textRegion[__webkitAssign__huffmanRefinementDX] = (textRegionHuffmanFlags >> 10) & 3;
+          textRegion[__webkitAssign__huffmanRefinementDY] = (textRegionHuffmanFlags >> 12) & 3;
+          textRegion[__webkitAssign__huffmanRefinementSizeSelector] =
             !!(textRegionHuffmanFlags & 14);
         }
         if (textRegion.refinement && !textRegion.refinementTemplate) {
@@ -46366,9 +46366,9 @@ var Jbig2Image = (function Jbig2ImageClosure() {
             });
             position += 2;
           }
-          textRegion.refinementAt = at;
+          textRegion[__webkitAssign__refinementAt] = at;
         }
-        textRegion.numberOfSymbolInstances = readUint32(data, position);
+        textRegion[__webkitAssign__numberOfSymbolInstances] = readUint32(data, position);
         position += 4;
         // TODO 7.4.3.1.7 Symbol ID Huffman table decoding
         if (textRegion.huffman) {
@@ -46379,12 +46379,12 @@ var Jbig2Image = (function Jbig2ImageClosure() {
       case 38: // ImmediateGenericRegion
       case 39: // ImmediateLosslessGenericRegion
         var genericRegion = {};
-        genericRegion.info = readRegionSegmentInformation(data, position);
+        genericRegion[__webkitAssign__info] = readRegionSegmentInformation(data, position);
         position += RegionSegmentInformationFieldLength;
         var genericRegionSegmentFlags = data[position++];
-        genericRegion.mmr = !!(genericRegionSegmentFlags & 1);
-        genericRegion.template = (genericRegionSegmentFlags >> 1) & 3;
-        genericRegion.prediction = !!(genericRegionSegmentFlags & 8);
+        genericRegion[__webkitAssign__mmr] = !!(genericRegionSegmentFlags & 1);
+        genericRegion[__webkitAssign__template] = (genericRegionSegmentFlags >> 1) & 3;
+        genericRegion[__webkitAssign__prediction] = !!(genericRegionSegmentFlags & 8);
         if (!genericRegion.mmr) {
           atLength = genericRegion.template === 0 ? 4 : 1;
           at = [];
@@ -46395,7 +46395,7 @@ var Jbig2Image = (function Jbig2ImageClosure() {
             });
             position += 2;
           }
-          genericRegion.at = at;
+          genericRegion[__webkitAssign__at] = at;
         }
         args = [genericRegion, data, position, end];
         break;
@@ -46411,12 +46411,12 @@ var Jbig2Image = (function Jbig2ImageClosure() {
         }
         var pageSegmentFlags = data[position + 16];
         var pageStripingInformatiom = readUint16(data, position + 17);
-        pageInfo.lossless = !!(pageSegmentFlags & 1);
-        pageInfo.refinement = !!(pageSegmentFlags & 2);
-        pageInfo.defaultPixelValue = (pageSegmentFlags >> 2) & 1;
-        pageInfo.combinationOperator = (pageSegmentFlags >> 3) & 3;
-        pageInfo.requiresBuffer = !!(pageSegmentFlags & 32);
-        pageInfo.combinationOperatorOverride = !!(pageSegmentFlags & 64);
+        pageInfo[__webkitAssign__lossless] = !!(pageSegmentFlags & 1);
+        pageInfo[__webkitAssign__refinement] = !!(pageSegmentFlags & 2);
+        pageInfo[__webkitAssign__defaultPixelValue] = (pageSegmentFlags >> 2) & 1;
+        pageInfo[__webkitAssign__combinationOperator] = (pageSegmentFlags >> 3) & 3;
+        pageInfo[__webkitAssign__requiresBuffer] = !!(pageSegmentFlags & 32);
+        pageInfo[__webkitAssign__combinationOperatorOverride] = !!(pageSegmentFlags & 64);
         args = [pageInfo];
         break;
       case 49: // EndOfPage
@@ -46455,9 +46455,9 @@ var Jbig2Image = (function Jbig2ImageClosure() {
     var header = {};
     position += 8;
     var flags = data[position++];
-    header.randomAccess = !(flags & 1);
+    header[__webkitAssign__randomAccess] = !(flags & 1);
     if (!(flags & 2)) {
-      header.numberOfPages = readUint32(data, position);
+      header[__webkitAssign__numberOfPages] = readUint32(data, position);
       position += 4;
     }
     var segments = readSegments(header, data, position, end);
@@ -46477,9 +46477,9 @@ var Jbig2Image = (function Jbig2ImageClosure() {
 
   function SimpleSegmentVisitor() {}
 
-  SimpleSegmentVisitor.prototype = {
+  SimpleSegmentVisitor[__webkitAssign__prototype] = {
     onPageInformation: function SimpleSegmentVisitor_onPageInformation(info) {
-      this.currentPageInfo = info;
+      this[__webkitAssign__currentPageInfo] = info;
       var rowSize = (info.width + 7) >> 3;
       var buffer = new Uint8Array(rowSize * info.height);
       // The contents of ArrayBuffers are initialized to 0.
@@ -46489,7 +46489,7 @@ var Jbig2Image = (function Jbig2ImageClosure() {
           buffer[i] = 0xFF;
         }
       }
-      this.buffer = buffer;
+      this[__webkitAssign__buffer] = buffer;
     },
     drawBitmap: function SimpleSegmentVisitor_drawBitmap(regionInfo, bitmap) {
       var pageInfo = this.currentPageInfo;
@@ -46568,7 +46568,7 @@ var Jbig2Image = (function Jbig2ImageClosure() {
       // Combines exported symbols from all referred segments
       var symbols = this.symbols;
       if (!symbols) {
-        this.symbols = symbols = {};
+        this[__webkitAssign__symbols] = symbols = {};
       }
 
       var inputSymbols = [];
@@ -46616,7 +46616,7 @@ var Jbig2Image = (function Jbig2ImageClosure() {
 
   function Jbig2Image() {}
 
-  Jbig2Image.prototype = {
+  Jbig2Image[__webkitAssign__prototype] = {
     parseChunks: function Jbig2Image_parseChunks(chunks) {
       return parseJbig2Chunks(chunks);
     }
@@ -46626,7 +46626,7 @@ var Jbig2Image = (function Jbig2ImageClosure() {
 })();
 
 
-var bidi = PDFJS.bidi = (function bidiClosure() {
+var bidi = PDFJS[__webkitAssign__bidi] = (function bidiClosure() {
   // Character types for symbols from 0000 to 00FF.
   var baseTypes = [
     'BN', 'BN', 'BN', 'BN', 'BN', 'BN', 'BN', 'BN', 'BN', 'S', 'B', 'S', 'WS',
@@ -46727,8 +46727,8 @@ var bidi = PDFJS.bidi = (function bidiClosure() {
     }
 
     // Get types and fill arrays
-    chars.length = strLength;
-    types.length = strLength;
+    chars[__webkitAssign__length] = strLength;
+    types[__webkitAssign__length] = strLength;
     var numBidi = 0;
 
     var i, ii;
@@ -47041,8 +47041,8 @@ var MurmurHash3_64 = (function MurmurHash3_64Closure (seed) {
 
   function MurmurHash3_64 (seed) {
     var SEED = 0xc3d2e1f0;
-    this.h1 = seed ? seed & 0xffffffff : SEED;
-    this.h2 = seed ? seed & 0xffffffff : SEED;
+    this[__webkitAssign__h1] = seed ? seed & 0xffffffff : SEED;
+    this[__webkitAssign__h2] = seed ? seed & 0xffffffff : SEED;
   }
 
   var alwaysUseUint32ArrayView = false;
@@ -47053,7 +47053,7 @@ var MurmurHash3_64 = (function MurmurHash3_64Closure (seed) {
     alwaysUseUint32ArrayView = true;
   }
 
-  MurmurHash3_64.prototype = {
+  MurmurHash3_64[__webkitAssign__prototype] = {
     update: function MurmurHash3_64_update(input) {
       var useUint32ArrayView = alwaysUseUint32ArrayView;
       var i;
@@ -47140,8 +47140,8 @@ var MurmurHash3_64 = (function MurmurHash3_64Closure (seed) {
         }
       }
 
-      this.h1 = h1;
-      this.h2 = h2;
+      this[__webkitAssign__h1] = h1;
+      this[__webkitAssign__h2] = h2;
       return this;
     },
 
@@ -47179,7 +47179,7 @@ var MurmurHash3_64 = (function MurmurHash3_64Closure (seed) {
 
 if (!PDFJS.workerSrc && typeof document !== 'undefined') {
   // workerSrc is not set -- using last script url to define default location
-  PDFJS.workerSrc = (function () {
+  PDFJS[__webkitAssign__workerSrc] = (function () {
     'use strict';
     var pdfJsSrc = document.currentScript.src;
     return pdfJsSrc && pdfJsSrc.replace(/\.js$/i, '.worker.js');
