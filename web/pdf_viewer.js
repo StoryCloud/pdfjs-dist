@@ -1276,7 +1276,7 @@ var PDFPageView = (function PDFPageViewClosure() {
         // sets renderTask._internalRenderTask.cancelled to true synchronously,
         // so we will fall back to checking that.
         if (error === 'cancelled' || renderTask._internalRenderTask.cancelled) {
-          rejectRenderPromise(error);
+          rejectRenderPromise('cancelled');
           return;
         }
 
