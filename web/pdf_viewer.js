@@ -673,11 +673,11 @@ var PDFLinkService = (function () {
           break;
 
         case 'NextPage':
-          this.page++;
+          this[__webkitAssign__page]++;
           break;
 
         case 'PrevPage':
-          this.page--;
+          this[__webkitAssign__page]--;
           break;
 
         case 'LastPage':
@@ -3041,7 +3041,7 @@ var PDFHistory = (function () {
       }
       this._pushOrReplaceState(this._stateObj(params),
         (overwrite || this.uid === 0));
-      this[__webkitAssign__currentUid] = this.uid++;
+      this[__webkitAssign__currentUid] = this[__webkitAssign__uid]++;
       this[__webkitAssign__current] = params;
       this[__webkitAssign__updatePreviousBookmark] = true;
     },
