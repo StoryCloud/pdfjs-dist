@@ -1264,7 +1264,18 @@ var PDFPageView = (function PDFPageViewClosure() {
           self[__webkitAssign__renderTask] = null;
         }
 
-        if (error === 'cancelled') {
+        // In Safari (and potentially other browsers), it seems to be possible
+        // for this callback to be called without the "cancelled" error, even
+        // after the renderTask was actually cancelled. If this ever happens
+        // after a call to PDFPageView.prototype.reset but before a call to
+        // PDFRenderingView.prototype.renderView, then this.renderingState will
+        // incorrectly be RenderingStates.FINISHED and a canvas won't be
+        // inserted into the DOM.
+        //
+        // However, PDFPageView.prototype.reset calls renderTask.cancel, which
+        // sets renderTask._internalRenderTask.cancelled to true synchronously,
+        // so we will fall back to checking that.
+        if (error === 'cancelled' || renderTask._internalRenderTask.cancelled) {
           rejectRenderPromise(error);
           return;
         }
